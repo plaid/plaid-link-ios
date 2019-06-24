@@ -16,12 +16,12 @@ Pod::Spec.new do |s|
   s.screenshot        = 'https://plaid.com/assets/img/docs/link-ios.jpg'
 
   s.homepage          = 'https://plaid.com/docs/api/#ios-bindings'
-  s.license           = { :type => 'MIT', :file => 'ios/LICENSE' }
+  s.license           = { :type => 'MIT', :file => 'LICENSE' }
   s.author            = 'Plaid Inc.'
 
   s.platform          = :ios, '8.0'
-  s.source            = { :git => 'https://github.com/plaid/link.git', :tag => "ios/#{s.version}" }
+  s.source            = { :git => 'https://github.com/plaid/plaid-link-ios.git', :tag => "#{s.version}" }
 
   s.ios.frameworks    = 'Foundation', 'UIKit', 'WebKit', 'SafariServices'
-  s.ios.vendored_frameworks = 'ios/LinkKit.framework'
+  s.ios.vendored_frameworks = 'LinkKit.framework'
 end
