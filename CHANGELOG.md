@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## 2019-06-25 — LinkKit 1.1.20
+### Changed
+- Fix displaying external links from within the privacy policy pane
+
+
+
 ## 2019-05-29 — LinkKit 1.1.19
 ### Added
 - Add new optional configuration property `language`, to specify the language in which the UI will be displayed.

@@ -48,7 +48,10 @@ typedef NS_OPTIONS(NSInteger, PLKProduct) {
     PLKProductHoldings = 1 << 6,
 
     /// Liabilities data to better serve users.
-    PLKProductLiabilities = 1 << 7
+    PLKProductLiabilities = 1 << 7,
+
+    /// Investments gives clients access to details of their users' investment accounts like holdings and buy/sell transactions
+    PLKProductInvestments = 1 << 8,
 };
 
 
