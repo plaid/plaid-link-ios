@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## 2019-07-22 — LinkKit 1.1.21
+### Changed
+- Fix crash during account select flow
+
+
+
 ## 2019-06-25 — LinkKit 1.1.20
 ### Changed
 - Fix displaying external links from within the privacy policy pane
