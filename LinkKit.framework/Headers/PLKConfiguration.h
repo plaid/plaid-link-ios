@@ -132,6 +132,9 @@ PLK_EXTERN NSString* const kPLKCustomizationExitButtonKey;
 /// A list of ISO 3166-1 alpha-2 country codes, used to select institutions available in the given countries.
 @property (copy,nonatomic) NSArray<NSString*>* _Nullable countryCodes;
 
+/// A map of account types and subtypes, used to select institutions with support for the requested subtypes
+@property (copy,nonatomic) NSDictionary<NSString*, NSArray<NSString*>*>* _Nullable accountSubtypes;
+
 /**
  Specify a Plaid-supported language to localize Link. English ('en') will be used by default.
  For details consult https://plaid.com/docs/#parameter-reference.

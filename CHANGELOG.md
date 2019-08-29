@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## 2019-08-28 — LinkKit 1.1.22
+### Changed
+- Improve account link flow for non-US institutions
+
+
+
 ## 2019-07-22 — LinkKit 1.1.21
 ### Changed
 - Fix crash during account select flow
