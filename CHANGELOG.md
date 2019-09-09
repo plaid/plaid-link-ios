@@ -4,6 +4,10 @@
 ### Changed
 - Improve account link flow for non-US institutions
 
+### Known issues
+The following issues currently exist in LinkKit and will be addressed with the next release planned for the mid-September 2019
+- Applications integrating LinkKit may get rejected by the App Store due to use of deprecated API (`UIWebView`) in third-party password manager integration code
+
 
 
 ## 2019-07-22 — LinkKit 1.1.21
