@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## 2019-09-12 — LinkKit 1.1.23
+### Changed
+- Fix AppStore validation errors by exchanging use of deprecated UIWebView with WKWebView in third-party password manager integration code
+
+
+
 ## 2019-08-28 — LinkKit 1.1.22
 ### Changed
 - Improve account link flow for non-US institutions
