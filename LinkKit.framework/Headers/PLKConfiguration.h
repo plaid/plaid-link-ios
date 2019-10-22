@@ -129,6 +129,9 @@ PLK_EXTERN NSString* const kPLKCustomizationExitButtonKey;
 /// The email address of the end-user, necessary for microdeposit support.
 @property (copy,nonatomic) NSString* _Nullable userEmailAddress;
 
+/// The phone number of the end-user, used for returning user experience.
+@property (copy,nonatomic) NSString* _Nullable userPhoneNumber;
+
 /// A list of ISO 3166-1 alpha-2 country codes, used to select institutions available in the given countries.
 @property (copy,nonatomic) NSArray<NSString*>* _Nullable countryCodes;
 
