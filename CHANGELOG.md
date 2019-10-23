@@ -1,5 +1,17 @@
 # CHANGELOG
 
+## 2019-10-23 — LinkKit 1.1.24
+### Added
+- Add external events `SUBMIT_CREDENTIALS` and `SUBMIT_MFA` (for details see https://plaid.com/docs/#onevent-callback)
+- Add balance localization support for the Select Account pane.
+
+### Changed
+- Fix issue with account linking in Europe after recaptcha validation
+- Fixes crash in some cases when the back button is tapped in quick succession.
+- Override LinkKit user interface style with light style until support dark mode is complete
+
+
+
 ## 2019-09-12 — LinkKit 1.1.23
 ### Changed
 - Fix AppStore validation errors by exchanging use of deprecated UIWebView with WKWebView in third-party password manager integration code
