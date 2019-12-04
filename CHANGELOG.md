@@ -1,5 +1,15 @@
 # CHANGELOG
 
+## 2019-12-04 — LinkKit 1.1.25
+### Added
+- Better user messaging for financial institutions experiencing connectivity issues.
+
+### Changed
+- Fix account select UI for Open Banking flows, where the available account options were not properly visible
+- Fix issues with account linking after recaptcha validation
+
+
+
 ## 2019-10-23 — LinkKit 1.1.24
 ### Added
 - Add external events `SUBMIT_CREDENTIALS` and `SUBMIT_MFA` (for details see https://plaid.com/docs/#onevent-callback)

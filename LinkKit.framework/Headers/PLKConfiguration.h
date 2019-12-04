@@ -135,8 +135,23 @@ PLK_EXTERN NSString* const kPLKCustomizationExitButtonKey;
 /// A list of ISO 3166-1 alpha-2 country codes, used to select institutions available in the given countries.
 @property (copy,nonatomic) NSArray<NSString*>* _Nullable countryCodes;
 
-/// A map of account types and subtypes, used to select institutions with support for the requested subtypes
+/// A map of account types and subtypes, used to select institutions with support for the requested subtypes.
 @property (copy,nonatomic) NSDictionary<NSString*, NSArray<NSString*>*>* _Nullable accountSubtypes;
+
+/**
+ An URL that has been registered with Plaid for OpenBanking App-to-App authentication
+ and is set up as an Apple universal link for your application.
+ */
+@property (copy,nonatomic) NSURL* _Nullable oauthRedirectUri;
+
+/// The name of the specific customization to initialize with. Will use 'default' if none is passed.
+@property (copy,nonatomic) NSString* _Nullable linkCustomizationName;
+
+/**
+ The oauthNonce must be uniquely generated per login, it must not be contained within the oauthRedirectUri,
+ and must be separate from any user identifiers you pass with the oauthRedirectUri.
+ */
+@property (copy,nonatomic) NSString* _Nullable oauthNonce;
 
 /**
  Specify a Plaid-supported language to localize Link. English ('en') will be used by default.

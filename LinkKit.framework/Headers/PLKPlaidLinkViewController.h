@@ -233,6 +233,31 @@ PLK_EMPTY_INIT_UNAVAILABLE;
                       configuration:(PLKConfiguration*)configuration
                            delegate:(id<PLKPlaidLinkViewDelegate>)delegate;
 
+
+/**
+ TODO:
+ Initializes and returns a newly created Plaid Link view controller in OAuth code mode using
+ the given custom configuration.
+
+ When a user links their account using federated authentication via the instituion's website or
+ mobile application the application needs to handle the browsing web activity for the configured oauthRedirectUri
+ and initialize Link with the oauth_state_id from that URL (see PLKOAuthStateIdFromURL()).
+
+ This will cause Link to finalize the account linking and return the public token to the application.
+
+ @param oauthStateId The value of the oauth_state_id query parameter from the URL passed via the browsing web activity.
+ @param configuration A custom configuration object to use.
+ @param delegate A delegate object that wishes to receive messages from the inquiry object.
+                 Delegate methods are listed under PLKPlaidLinkViewDelegate.
+  @return The initialized Plaid Link view controller object or throws an exception if there was a problem initializing the object.
+ */
+- (instancetype)initWithOAuthStateId:(NSString*)oauthStateId
+                       configuration:(PLKConfiguration*)configuration
+                            delegate:(id<PLKPlaidLinkViewDelegate>)delegate;
+
+/// Returns the value of the oauth_state_id query parameter from the given URL if present; nil otherwise.
+NSString* _Nullable PLKOAuthStateIdFromURL(NSURL* url);
+
 @end
 
 /**
