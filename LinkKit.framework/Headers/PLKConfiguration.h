@@ -144,14 +144,14 @@ PLK_EXTERN NSString* const kPLKCustomizationExitButtonKey;
  */
 @property (copy,nonatomic) NSURL* _Nullable oauthRedirectUri;
 
-/// The name of the specific customization to initialize with. Will use 'default' if none is passed.
-@property (copy,nonatomic) NSString* _Nullable linkCustomizationName;
-
 /**
  The oauthNonce must be uniquely generated per login, it must not be contained within the oauthRedirectUri,
  and must be separate from any user identifiers you pass with the oauthRedirectUri.
  */
 @property (copy,nonatomic) NSString* _Nullable oauthNonce;
+
+/// The name of the specific customization to initialize with. Will use 'default' if none is passed.
+@property (copy,nonatomic) NSString* _Nullable linkCustomizationName;
 
 /**
  Specify a Plaid-supported language to localize Link. English ('en') will be used by default.

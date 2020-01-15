@@ -1,5 +1,17 @@
 # CHANGELOG
 
+## 2020-01-15 — LinkKit 1.1.26
+### Added
+- Added CONSENT as a possible `view_name` metadata value for the `OPEN` event. Details here https://plaid.com/docs/#metadata-view_name
+
+### Changed
+- Fix issue with manual microdeposits, where the flow failed when users went back and changed the amount entered first
+- Fix account select UI for regular flow regression, where the available account options were not properly visible
+- Fix issue with OAuth flow when invoked using custom initializer, where the LinkKit would crash when federated authentication was cancelled and retried
+- Fix issue where the OPEN event would not be sent in some cases.
+
+
+
 ## 2019-12-04 — LinkKit 1.1.25
 ### Added
 - Better user messaging for financial institutions experiencing connectivity issues.
