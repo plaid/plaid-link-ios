@@ -1,5 +1,14 @@
 # CHANGELOG
 
+## 2020-02-12 — LinkKit 1.1.27
+### Added
+- When configured with a non-production environment Plaid Link for iOS will now show an alert and a log message when the SDK is considered to be outdated.
+
+### Changed
+- Fix cases where certain microdeposits would fail to verify.
+
+
+
 ## 2020-01-15 — LinkKit 1.1.26
 ### Added
 - Added CONSENT as a possible `view_name` metadata value for the `OPEN` event. Details here https://plaid.com/docs/#metadata-view_name
@@ -8,6 +17,8 @@
 - Fix issue with manual microdeposits, where the flow failed when users went back and changed the amount entered first
 - Fix account select UI for regular flow regression, where the available account options were not properly visible
 - Fix issue with OAuth flow when invoked using custom initializer, where the LinkKit would crash when federated authentication was cancelled and retried
+- Fix issue where the OPEN event would not be sent in some cases.
+- Added "warning" and "force" Alert for deprecated SDK versions. Also added a warning "log" for deprecation notices.
 - Fix issue where the OPEN event would not be sent in some cases.
 
 
