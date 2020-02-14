@@ -1,4 +1,4 @@
-# ISSUE - Carthage is broken for LinkKit
+# ISSUE - Cannot add LinkKit with Carthage
 
 ### Please fix
 
