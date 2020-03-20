@@ -1,5 +1,13 @@
 # CHANGELOG
 
+## 2020-03-19 — LinkKit 1.1.28
+### Changed
+- Fix for some institutions not showing up in non-english builds.
+- Updated links to privacy policies.
+- New text clarifying EU app-to-app flows.
+
+
+
 ## 2020-02-12 — LinkKit 1.1.27
 ### Added
 - When configured with a non-production environment Plaid Link for iOS will now show an alert and a log message when the SDK is considered to be outdated.
