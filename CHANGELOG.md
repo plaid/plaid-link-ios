@@ -1,5 +1,12 @@
 # CHANGELOG
 
+## 2020-03-26 — LinkKit 1.1.29
+### Changed
+- Fixed crash in some cases where a client name was not specified in the configuration.
+- The select account pane no longer erroneously shows up in credential update flows.
+
+
+
 ## 2020-03-19 — LinkKit 1.1.28
 ### Changed
 - Fix for some institutions not showing up in non-english builds.
