@@ -1,4 +1,4 @@
-# Plaid Link for iOS
+# Plaid Link for iOS [![version][link-sdk-version]][link-sdk-url]
 
 📚 Detailed instructions on how to integrate with Plaid Link for iOS can be found in our main documentation at [plaid.com/docs/link/ios][link-ios-docs].
 
@@ -140,3 +140,6 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+[link-sdk-version]: https://img.shields.io/cocoapods/v/Plaid
+[link-sdk-url]: https://cocoapods.org/pods/Plaid
