@@ -161,6 +161,21 @@ PLK_EMPTY_INIT_UNAVAILABLE;
 
 
 /**
+ Initializes and returns a newly created Plaid Link view controller using the given custom configuration
+ and item-add-token
+
+ @param itemAddToken An item-add token to launch Link.
+ @param configuration A custom configuration object to use.
+ @param delegate A delegate object that wishes to receive messages from the inquiry object.
+                 Delegate methods are listed under PLKPlaidLinkViewDelegate.
+  @return The initialized Plaid Link view controller object or throws an exception if there was a problem initializing the object.
+ */
+- (instancetype)initWithItemAddToken:(NSString*)itemAddToken
+                       configuration:(PLKConfiguration*)configuration
+                            delegate:(id<PLKPlaidLinkViewDelegate>)delegate;
+
+
+/**
  Initializes and returns a newly created Plaid Link view controller with an institution pre-selected using
  the shared configuration.
 
@@ -274,6 +289,7 @@ PLK_EMPTY_INIT_UNAVAILABLE;
                         oauthStateId:(NSString* _Nullable)oauthStateId
                        configuration:(PLKConfiguration*)configuration
                             delegate:(id<PLKPlaidLinkViewDelegate>)delegate;
+
 
 /// Returns the value of the oauth_state_id query parameter from the given URL if present; nil otherwise.
 NSString* _Nullable PLKOAuthStateIdFromURL(NSURL* url);

@@ -1,5 +1,8 @@
 # CHANGELOG
 
+## 2020-04-21 — LinkKit 1.1.30
+
+
 ## 2020-03-26 — LinkKit 1.1.29
 ### Changed
 - Fixed crash in some cases where a client name was not specified in the configuration.
