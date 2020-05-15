@@ -5,17 +5,11 @@
 //  Copyright © 2019 Plaid Inc. All rights reserved.
 //
 
-// <!-- SMARTDOWN_IMPORT_LINKKIT -->
-#import <LinkKit/LinkKit.h>
-// <!-- SMARTDOWN_IMPORT_LINKKIT -->
-
 #import "ViewController.h"
-
-    
-// <!-- SMARTDOWN_PROTOCOL -->
-@interface ViewController (PLKPlaidLinkViewDelegate) <PLKPlaidLinkViewDelegate>
-@end
-// <!-- SMARTDOWN_PROTOCOL -->
+#import "ViewController+PLKPlaidLinkViewDelegate.h"
+#import "ViewController+CustomConfiguration.h"
+#import "ViewController+SharedConfiguration.h"
+#import "ViewController+UpdateMode.h"
 
 @interface ViewController ()
 @property IBOutlet UIButton* button;
@@ -61,133 +55,26 @@
 }
 
 - (IBAction)didTapButton:(id)sender {
-#if USE_CUSTOM_CONFIG
-    [self presentPlaidLinkWithCustomConfiguration];
-#else
-    [self presentPlaidLinkWithSharedConfiguration];
-#endif
-}
-
-- (void)handleSuccessWithToken:(NSString*)publicToken metadata:(NSDictionary<NSString*,id>*)metadata {
-    NSString* message = [NSString stringWithFormat:@"token: %@\nmetadata: %@", publicToken, metadata];
-    [self presentAlertViewWithTitle:@"Success" message:message];
-}
-
-- (void)handleError:(NSError*)error metadata:(NSDictionary<NSString*,id>*)metadata {
-    NSString* message = [NSString stringWithFormat:@"error: %@\nmetadata: %@", [error localizedDescription], metadata];
-    [self presentAlertViewWithTitle:@"Failure" message:message];
-}
-
-- (void)handleExitWithMetadata:(NSDictionary<NSString*,id>*)metadata {
-    NSString* message = [NSString stringWithFormat:@"metadata: %@", metadata];
-    [self presentAlertViewWithTitle:@"Exit" message:message];
-}
-
-- (void)presentAlertViewWithTitle:(NSString*)title message:(NSString*)message {
-    UIAlertController* alert = [UIAlertController alertControllerWithTitle:title
-                                                                   message:message
-                                                            preferredStyle:UIAlertControllerStyleAlert];
-
-    UIAlertAction* defaultAction = [UIAlertAction actionWithTitle:@"OK"
-                                                            style:UIAlertActionStyleDefault
-                                                          handler:nil];
-
-    [alert addAction:defaultAction];
-    [self presentViewController:alert animated:YES completion:nil];
-}
-
-#pragma mark Start Plaid Link with shared configuration from Info.plist
-- (void)presentPlaidLinkWithSharedConfiguration {
-
-    // <!-- SMARTDOWN_PRESENT_SHARED -->
-    // With shared configuration from Info.plist
-    id<PLKPlaidLinkViewDelegate> linkViewDelegate  = self;
-    PLKPlaidLinkViewController* linkViewController = [[PLKPlaidLinkViewController alloc] initWithDelegate:linkViewDelegate];
-    if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad) {
-        linkViewController.modalPresentationStyle = UIModalPresentationFormSheet;
+    typedef enum : NSUInteger {
+        customConfiguration,
+        sharedConfiguration,
+        updateMode,
+    } PlaidLinkSampleFlow;
+    #warning Select your desired Plaid Link sample flow
+    PlaidLinkSampleFlow sampleFlow = customConfiguration;
+    switch (sampleFlow) {
+        case sharedConfiguration:
+            [self presentPlaidLinkWithSharedConfiguration];
+            break;
+        case updateMode:
+            [self presentPlaidLinkInUpdateMode];
+            break;
+        case customConfiguration:
+            // Intentionally fallthrough
+        default:
+            [self presentPlaidLinkWithCustomConfiguration];
+            break;
     }
-    [self presentViewController:linkViewController animated:YES completion:nil];
-    // <!-- SMARTDOWN_PRESENT_SHARED -->
-    
-}
-
-#pragma mark Start Plaid Link with custom instance configuration
-- (void)presentPlaidLinkWithCustomConfiguration {
-
-    // <!-- SMARTDOWN_PRESENT_CUSTOM -->
-    // With custom configuration
-    PLKConfiguration* linkConfiguration;
-    @try {
-        linkConfiguration = [[PLKConfiguration alloc] initWithKey:@"<#YOUR_PLAID_PUBLIC_KEY#>" env:PLKEnvironmentSandbox product:PLKProductAuth];
-        linkConfiguration.clientName = @"Link Demo";
-        id<PLKPlaidLinkViewDelegate> linkViewDelegate  = self;
-        PLKPlaidLinkViewController* linkViewController = [[PLKPlaidLinkViewController alloc] initWithConfiguration:linkConfiguration delegate:linkViewDelegate];
-        if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad) {
-            linkViewController.modalPresentationStyle = UIModalPresentationFormSheet;
-        }
-        [self presentViewController:linkViewController animated:YES completion:nil];
-    } @catch (NSException *exception) {
-        NSLog(@"Invalid configuration: %@", exception);
-    }
-    // <!-- SMARTDOWN_PRESENT_CUSTOM -->
-
-}
-
-#pragma mark Start Plaid Link in update mode
-- (void)presentPlaidLinkInUpdateMode {
-
-    // <!-- SMARTDOWN_UPDATE_MODE -->
-    id<PLKPlaidLinkViewDelegate> linkViewDelegate  = self;
-    PLKPlaidLinkViewController* linkViewController = [[PLKPlaidLinkViewController alloc] initWithPublicToken:@"<#GENERATED_PUBLIC_TOKEN#>" delegate:linkViewDelegate];
-    if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad) {
-        linkViewController.modalPresentationStyle = UIModalPresentationFormSheet;
-    }
-    [self presentViewController:linkViewController animated:YES completion:nil];
-    // <!-- SMARTDOWN_UPDATE_MODE -->
-
 }
 
 @end
-
-
-@implementation ViewController (PLKPlaidLinkViewDelegate)
-
-// <!-- SMARTDOWN_DELEGATE_SUCCESS -->
-- (void)linkViewController:(PLKPlaidLinkViewController*)linkViewController
- didSucceedWithPublicToken:(NSString*)publicToken
-                  metadata:(NSDictionary<NSString*,id>* _Nullable)metadata {
-    [self dismissViewControllerAnimated:YES completion:^{
-        // Handle success, e.g. by storing publicToken with your service
-        NSLog(@"Successfully linked account!\npublicToken: %@\nmetadata: %@", publicToken, metadata);
-        [self handleSuccessWithToken:publicToken metadata:metadata];
-    }];
-}
-// <!-- SMARTDOWN_DELEGATE_SUCCESS -->
-
-// <!-- SMARTDOWN_DELEGATE_EXIT -->
-- (void)linkViewController:(PLKPlaidLinkViewController*)linkViewController
-          didExitWithError:(NSError* _Nullable)error
-                  metadata:(NSDictionary<NSString*,id>* _Nullable)metadata {
-    [self dismissViewControllerAnimated:YES completion:^{
-        if (error) {
-            NSLog(@"Failed to link account due to: %@\nmetadata: %@", [error localizedDescription], metadata);
-            [self handleError:error metadata:metadata];
-        }
-        else {
-            NSLog(@"Plaid link exited with metadata: %@", metadata);
-            [self handleExitWithMetadata:metadata];
-        }
-    }];
-}
-// <!-- SMARTDOWN_DELEGATE_EXIT -->
-
-// <!-- SMARTDOWN_DELEGATE_EVENT -->
-- (void)linkViewController:(PLKPlaidLinkViewController*)linkViewController
-            didHandleEvent:(NSString*)event
-                  metadata:(NSDictionary<NSString*,id>* _Nullable)metadata {
-    NSLog(@"Link event: %@\nmetadata: %@", event, metadata);
-}
-// <!-- SMARTDOWN_DELEGATE_EVENT -->
-
-@end
-

@@ -14,6 +14,11 @@
 		910CAE2B1E3BC35C0089B9CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 910CAE291E3BC35C0089B9CC /* LaunchScreen.storyboard */; };
 		910CAE341E3BC5000089B9CC /* LinkKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 910CAE331E3BC5000089B9CC /* LinkKit.framework */; };
 		910CAE351E3BC5000089B9CC /* LinkKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 910CAE331E3BC5000089B9CC /* LinkKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		91BB7737246D2C7C00BFD0CE /* ViewController+UpdateMode.m in Sources */ = {isa = PBXBuildFile; fileRef = 91BB7736246D2C7C00BFD0CE /* ViewController+UpdateMode.m */; };
+		91BB773A246D2CA700BFD0CE /* ViewController+CustomConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 91BB7739246D2CA700BFD0CE /* ViewController+CustomConfiguration.m */; };
+		91BB773D246D2D0000BFD0CE /* ViewController+SharedConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 91BB773C246D2D0000BFD0CE /* ViewController+SharedConfiguration.m */; };
+		91BB7740246D2D6500BFD0CE /* ViewController+PLKPlaidLinkViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 91BB773F246D2D6500BFD0CE /* ViewController+PLKPlaidLinkViewDelegate.m */; };
+		91BB774F246D5F9D00BFD0CE /* AppDelegate+Preflight.m in Sources */ = {isa = PBXBuildFile; fileRef = 91BB774E246D5F9D00BFD0CE /* AppDelegate+Preflight.m */; };
 		91DA6D8D1E3F8EED00434C45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91DA6D8C1E3F8EED00434C45 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
@@ -42,6 +47,16 @@
 		910CAE2A1E3BC35C0089B9CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		910CAE2C1E3BC35C0089B9CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		910CAE331E3BC5000089B9CC /* LinkKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LinkKit.framework; path = ../LinkKit.framework; sourceTree = "<group>"; };
+		91BB7735246D2C7C00BFD0CE /* ViewController+UpdateMode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ViewController+UpdateMode.h"; sourceTree = "<group>"; };
+		91BB7736246D2C7C00BFD0CE /* ViewController+UpdateMode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ViewController+UpdateMode.m"; sourceTree = "<group>"; };
+		91BB7738246D2CA700BFD0CE /* ViewController+CustomConfiguration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ViewController+CustomConfiguration.h"; sourceTree = "<group>"; };
+		91BB7739246D2CA700BFD0CE /* ViewController+CustomConfiguration.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ViewController+CustomConfiguration.m"; sourceTree = "<group>"; };
+		91BB773B246D2D0000BFD0CE /* ViewController+SharedConfiguration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ViewController+SharedConfiguration.h"; sourceTree = "<group>"; };
+		91BB773C246D2D0000BFD0CE /* ViewController+SharedConfiguration.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ViewController+SharedConfiguration.m"; sourceTree = "<group>"; };
+		91BB773E246D2D6500BFD0CE /* ViewController+PLKPlaidLinkViewDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ViewController+PLKPlaidLinkViewDelegate.h"; sourceTree = "<group>"; };
+		91BB773F246D2D6500BFD0CE /* ViewController+PLKPlaidLinkViewDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ViewController+PLKPlaidLinkViewDelegate.m"; sourceTree = "<group>"; };
+		91BB774D246D5F9D00BFD0CE /* AppDelegate+Preflight.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+Preflight.h"; sourceTree = "<group>"; };
+		91BB774E246D5F9D00BFD0CE /* AppDelegate+Preflight.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+Preflight.m"; sourceTree = "<group>"; };
 		91DA6D8C1E3F8EED00434C45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -79,8 +94,18 @@
 			children = (
 				910CAE1E1E3BC35C0089B9CC /* AppDelegate.h */,
 				910CAE1F1E3BC35C0089B9CC /* AppDelegate.m */,
+				91BB774D246D5F9D00BFD0CE /* AppDelegate+Preflight.h */,
+				91BB774E246D5F9D00BFD0CE /* AppDelegate+Preflight.m */,
 				910CAE211E3BC35C0089B9CC /* ViewController.h */,
 				910CAE221E3BC35C0089B9CC /* ViewController.m */,
+				91BB773E246D2D6500BFD0CE /* ViewController+PLKPlaidLinkViewDelegate.h */,
+				91BB773F246D2D6500BFD0CE /* ViewController+PLKPlaidLinkViewDelegate.m */,
+				91BB7738246D2CA700BFD0CE /* ViewController+CustomConfiguration.h */,
+				91BB7739246D2CA700BFD0CE /* ViewController+CustomConfiguration.m */,
+				91BB773B246D2D0000BFD0CE /* ViewController+SharedConfiguration.h */,
+				91BB773C246D2D0000BFD0CE /* ViewController+SharedConfiguration.m */,
+				91BB7735246D2C7C00BFD0CE /* ViewController+UpdateMode.h */,
+				91BB7736246D2C7C00BFD0CE /* ViewController+UpdateMode.m */,
 				910CAE241E3BC35C0089B9CC /* Main.storyboard */,
 				910CAE291E3BC35C0089B9CC /* LaunchScreen.storyboard */,
 				91DA6D8C1E3F8EED00434C45 /* Assets.xcassets */,
@@ -126,7 +151,7 @@
 		910CAE101E3BC35C0089B9CC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1000;
+				LastUpgradeCheck = 1140;
 				ORGANIZATIONNAME = "Plaid Inc.";
 				TargetAttributes = {
 					910CAE171E3BC35C0089B9CC = {
@@ -138,9 +163,10 @@
 			};
 			buildConfigurationList = 910CAE131E3BC35C0089B9CC /* Build configuration list for PBXProject "LinkDemo-ObjC" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -190,9 +216,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91BB7737246D2C7C00BFD0CE /* ViewController+UpdateMode.m in Sources */,
+				91BB773A246D2CA700BFD0CE /* ViewController+CustomConfiguration.m in Sources */,
+				91BB773D246D2D0000BFD0CE /* ViewController+SharedConfiguration.m in Sources */,
 				910CAE231E3BC35C0089B9CC /* ViewController.m in Sources */,
 				910CAE201E3BC35C0089B9CC /* AppDelegate.m in Sources */,
 				910CAE1D1E3BC35C0089B9CC /* main.m in Sources */,
+				91BB774F246D5F9D00BFD0CE /* AppDelegate+Preflight.m in Sources */,
+				91BB7740246D2D6500BFD0CE /* ViewController+PLKPlaidLinkViewDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,6 +253,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -278,6 +310,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";

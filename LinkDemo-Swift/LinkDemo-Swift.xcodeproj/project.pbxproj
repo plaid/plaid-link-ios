@@ -14,6 +14,11 @@
 		91035E5D1E3CA7C000A97B26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91035E5B1E3CA7C000A97B26 /* LaunchScreen.storyboard */; };
 		91035E651E3CA93500A97B26 /* LinkKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91035E641E3CA93500A97B26 /* LinkKit.framework */; };
 		91035E661E3CA93500A97B26 /* LinkKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 91035E641E3CA93500A97B26 /* LinkKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		91BB772E246D2A3500BFD0CE /* ViewController+CustomConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91BB772D246D2A3500BFD0CE /* ViewController+CustomConfiguration.swift */; };
+		91BB7730246D2AC600BFD0CE /* ViewController+SharedConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91BB772F246D2AC600BFD0CE /* ViewController+SharedConfiguration.swift */; };
+		91BB7732246D2B0D00BFD0CE /* ViewController+UpdateMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91BB7731246D2B0D00BFD0CE /* ViewController+UpdateMode.swift */; };
+		91BB7734246D2B7F00BFD0CE /* ViewController+PLKPlaidLinkViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91BB7733246D2B7F00BFD0CE /* ViewController+PLKPlaidLinkViewDelegate.swift */; };
+		91BB774C246D5F6100BFD0CE /* AppDelegate+Preflight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91BB774B246D5F6100BFD0CE /* AppDelegate+Preflight.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -39,6 +44,11 @@
 		91035E5C1E3CA7C000A97B26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		91035E5E1E3CA7C000A97B26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		91035E641E3CA93500A97B26 /* LinkKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LinkKit.framework; path = ../LinkKit.framework; sourceTree = "<group>"; };
+		91BB772D246D2A3500BFD0CE /* ViewController+CustomConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+CustomConfiguration.swift"; sourceTree = "<group>"; };
+		91BB772F246D2AC600BFD0CE /* ViewController+SharedConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+SharedConfiguration.swift"; sourceTree = "<group>"; };
+		91BB7731246D2B0D00BFD0CE /* ViewController+UpdateMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+UpdateMode.swift"; sourceTree = "<group>"; };
+		91BB7733246D2B7F00BFD0CE /* ViewController+PLKPlaidLinkViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+PLKPlaidLinkViewDelegate.swift"; sourceTree = "<group>"; };
+		91BB774B246D5F6100BFD0CE /* AppDelegate+Preflight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppDelegate+Preflight.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +84,12 @@
 			isa = PBXGroup;
 			children = (
 				91035E521E3CA7C000A97B26 /* AppDelegate.swift */,
+				91BB774B246D5F6100BFD0CE /* AppDelegate+Preflight.swift */,
 				91035E541E3CA7C000A97B26 /* ViewController.swift */,
+				91BB7733246D2B7F00BFD0CE /* ViewController+PLKPlaidLinkViewDelegate.swift */,
+				91BB772D246D2A3500BFD0CE /* ViewController+CustomConfiguration.swift */,
+				91BB772F246D2AC600BFD0CE /* ViewController+SharedConfiguration.swift */,
+				91BB7731246D2B0D00BFD0CE /* ViewController+UpdateMode.swift */,
 				91035E561E3CA7C000A97B26 /* Main.storyboard */,
 				91035E5B1E3CA7C000A97B26 /* LaunchScreen.storyboard */,
 				91035E591E3CA7C000A97B26 /* Assets.xcassets */,
@@ -176,7 +191,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91BB7730246D2AC600BFD0CE /* ViewController+SharedConfiguration.swift in Sources */,
+				91BB774C246D5F6100BFD0CE /* AppDelegate+Preflight.swift in Sources */,
+				91BB7734246D2B7F00BFD0CE /* ViewController+PLKPlaidLinkViewDelegate.swift in Sources */,
 				91035E551E3CA7C000A97B26 /* ViewController.swift in Sources */,
+				91BB772E246D2A3500BFD0CE /* ViewController+CustomConfiguration.swift in Sources */,
+				91BB7732246D2B0D00BFD0CE /* ViewController+UpdateMode.swift in Sources */,
 				91035E531E3CA7C000A97B26 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -6,17 +6,24 @@
 
 ## About the LinkDemo Xcode projects
 
-ℹ️  In order to compile the source code that uses the [custom configuration](https://plaid.com/docs/link/ios#configure_custom) add `-DUSE_CUSTOM_CONFIG` to `OTHER_SWIFT_FLAGS` in the LinkDemo-Swift build settings and to `OTHER_CFLAGS` in the LinkDemo-ObjC build settings.
+Plaid Link can be used for different use-cases and the sample applications demonstrate how to use Plaid Link for iOS for each use-case.
+For clarity between the different use cases each use case specific example showing how to integrate Plaid Link for iOS is implemented in a Swift extension and Objective-C category.
 
-![Use Custom Config](/docs/images/use_custom_config.jpg)
+Before building and running the sample application replace any Xcode placeholder strings (like `<#GENERATED_PUBLIC_TOKEN#>`) in code with the appropriate value so that Plaid Link is configured properly. For convenience the Xcode placeholder strings are marked as compile-time warnings.
+
+Then select your desired use-case in [`ViewController.didTapButton`](/search?q=didTapButton+extension%3Am+extension%3Aswift&unscoped_q=didTapButton+extension%3Am+extension%3Aswift) and build and run the demo application to experience the particular Link flow for yourself.
 
 🤖 Throughout the source code there are HTML-like comments such as <code>&lt;!-- SMARTDOWN_PRESENT_CUSTOM --&gt;</code>, they are used to update the code examples in the [documentation][link-ios-docs] from the sample applicationsʼ code ensuring that the examples are up-to-date and working as intended.
 
 [link-ios-docs]: https://plaid.com/docs/link/ios
+[link-sdk-version]: https://img.shields.io/cocoapods/v/Plaid
+[link-sdk-url]: https://cocoapods.org/pods/Plaid
 
 ## Acknowledgements
 
-<!-- ACKNOWLEDGMENTS -->
+<details><summary>Portions of this software may utilize the following copyrighted material, the use of which is hereby acknowledged.</summary>
+
+<!-- ACKNOWLEDGEMENTS -->
 
 ### i18next
 
@@ -116,7 +123,6 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
 ### SimulatorStatusMagiciOS
 
 The MIT License (MIT)
@@ -141,5 +147,4 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-[link-sdk-version]: https://img.shields.io/cocoapods/v/Plaid
-[link-sdk-url]: https://cocoapods.org/pods/Plaid
+</details>
