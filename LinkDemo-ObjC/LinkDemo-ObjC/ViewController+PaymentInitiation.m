@@ -5,7 +5,10 @@
 //  Copyright © 2020 Plaid Inc. All rights reserved.
 //
 
+#import <LinkKit/LinkKit.h>
+
 #import "ViewController+PaymentInitiation.h"
+#import "ViewController+PLKPlaidLinkViewDelegate.h"
 
 @implementation ViewController (PaymentInitiation)
 

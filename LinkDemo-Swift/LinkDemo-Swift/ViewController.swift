@@ -24,7 +24,6 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        button.isEnabled = false
         let linkKitBundle  = Bundle(for: PLKPlaidLinkViewController.self)
         let linkKitVersion = linkKitBundle.object(forInfoDictionaryKey: "CFBundleShortVersionString")!
         let linkKitBuild   = linkKitBundle.object(forInfoDictionaryKey: kCFBundleVersionKey as String)!
@@ -49,6 +48,7 @@ class ViewController: UIViewController {
         enum PlaidLinkSampleFlow {
             case customConfiguration;
             case sharedConfiguration;
+            case itemAddToken;
             case updateMode;
             case oauthSupport;
             case paymentInitiation;
@@ -60,6 +60,8 @@ class ViewController: UIViewController {
             presentPlaidLinkWithSharedConfiguration()
         case .updateMode:
             presentPlaidLinkInUpdateMode()
+        case .itemAddToken:
+            presentPlaidLinkUsingItemAddToken()
         case .oauthSupport:
             presentPlaidLinkWithOAuthSupport()
         case .paymentInitiation:

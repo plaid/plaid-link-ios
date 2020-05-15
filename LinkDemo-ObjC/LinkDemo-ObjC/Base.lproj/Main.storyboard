@@ -32,7 +32,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&lt;LANGUAGE&gt; — &lt;VERSION&gt;" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zhc-NK-3UN" userLabel="Demo Info">
-                                <rect key="frame" x="32" y="184" width="327" height="14.333333333333343"/>
+                                <rect key="frame" x="32" y="184.66666666666666" width="327" height="14.333333333333343"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <color key="textColor" red="0.54509803921568623" green="0.65490196078431373" blue="0.74117647058823533" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -65,7 +65,7 @@
                         <color key="backgroundColor" red="0.96862745098039216" green="0.97647058823529409" blue="0.98431372549019602" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="Dm8-2S-KIb" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="16" id="3Hv-We-qBO"/>
-                            <constraint firstItem="zhc-NK-3UN" firstAttribute="top" secondItem="Dm8-2S-KIb" secondAttribute="bottom" constant="11.333333333333314" id="5pf-yh-1C8"/>
+                            <constraint firstItem="zhc-NK-3UN" firstAttribute="top" secondItem="Dm8-2S-KIb" secondAttribute="bottom" constant="12" id="5pf-yh-1C8"/>
                             <constraint firstItem="88W-lh-Zjh" firstAttribute="trailing" secondItem="Dm8-2S-KIb" secondAttribute="trailing" id="CFz-dZ-otc"/>
                             <constraint firstItem="zhc-NK-3UN" firstAttribute="trailing" secondItem="Dm8-2S-KIb" secondAttribute="trailing" id="afm-zy-JNY"/>
                             <constraint firstAttribute="trailing" secondItem="wpa-zw-kT3" secondAttribute="trailing" id="bDb-WZ-YxE"/>

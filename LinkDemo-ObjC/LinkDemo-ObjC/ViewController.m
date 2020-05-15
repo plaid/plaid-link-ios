@@ -9,8 +9,10 @@
 #import "ViewController+PLKPlaidLinkViewDelegate.h"
 #import "ViewController+CustomConfiguration.h"
 #import "ViewController+SharedConfiguration.h"
-#import "ViewController+OAuthSupport.h"
+#import "ViewController+PaymentInitiation.h"
 #import "ViewController+UpdateMode.h"
+#import "ViewController+ItemAddToken.h"
+#import "ViewController+OAuthSupport.h"
 
 @interface ViewController ()
 @property IBOutlet UIButton* button;
@@ -31,8 +33,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    self.button.enabled = NO;
 
     NSBundle* linkKitBundle = [NSBundle bundleForClass:[PLKPlaidLinkViewController class]];
     NSString* linkName      = [linkKitBundle objectForInfoDictionaryKey:(NSString*)kCFBundleNameKey];
@@ -60,6 +60,7 @@
         customConfiguration,
         sharedConfiguration,
         updateMode,
+        itemAddToken,
         oauthSupport,
         paymentInitiation,
     } PlaidLinkSampleFlow;
@@ -72,10 +73,15 @@
         case updateMode:
             [self presentPlaidLinkInUpdateMode];
             break;
+        case itemAddToken:
+            [self presentPlaidLinkUsingItemAddToken];
+            break;
         case oauthSupport:
             [self presentPlaidLinkWithOAuthSupport];
+            break;
         case paymentInitiation:
             [self presentPlaidLinkWithPaymentInitation];
+            break;
         case customConfiguration:
             // Intentionally fallthrough
         default:

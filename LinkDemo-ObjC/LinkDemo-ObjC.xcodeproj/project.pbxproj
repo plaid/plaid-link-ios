@@ -20,6 +20,7 @@
 		91BB773A246D2CA700BFD0CE /* ViewController+CustomConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 91BB7739246D2CA700BFD0CE /* ViewController+CustomConfiguration.m */; };
 		91BB773D246D2D0000BFD0CE /* ViewController+SharedConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 91BB773C246D2D0000BFD0CE /* ViewController+SharedConfiguration.m */; };
 		91BB7740246D2D6500BFD0CE /* ViewController+PLKPlaidLinkViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 91BB773F246D2D6500BFD0CE /* ViewController+PLKPlaidLinkViewDelegate.m */; };
+		91BB7743246D4ECB00BFD0CE /* ViewController+ItemAddToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 91BB7742246D4ECB00BFD0CE /* ViewController+ItemAddToken.m */; };
 		91BB7748246D54A500BFD0CE /* ViewController+OAuthSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 91BB7747246D54A500BFD0CE /* ViewController+OAuthSupport.m */; };
 		91BB774F246D5F9D00BFD0CE /* AppDelegate+Preflight.m in Sources */ = {isa = PBXBuildFile; fileRef = 91BB774E246D5F9D00BFD0CE /* AppDelegate+Preflight.m */; };
 		91DA6D8D1E3F8EED00434C45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91DA6D8C1E3F8EED00434C45 /* Assets.xcassets */; };
@@ -62,6 +63,8 @@
 		91BB773C246D2D0000BFD0CE /* ViewController+SharedConfiguration.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ViewController+SharedConfiguration.m"; sourceTree = "<group>"; };
 		91BB773E246D2D6500BFD0CE /* ViewController+PLKPlaidLinkViewDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ViewController+PLKPlaidLinkViewDelegate.h"; sourceTree = "<group>"; };
 		91BB773F246D2D6500BFD0CE /* ViewController+PLKPlaidLinkViewDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ViewController+PLKPlaidLinkViewDelegate.m"; sourceTree = "<group>"; };
+		91BB7741246D4ECB00BFD0CE /* ViewController+ItemAddToken.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ViewController+ItemAddToken.h"; sourceTree = "<group>"; };
+		91BB7742246D4ECB00BFD0CE /* ViewController+ItemAddToken.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ViewController+ItemAddToken.m"; sourceTree = "<group>"; };
 		91BB7746246D54A500BFD0CE /* ViewController+OAuthSupport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ViewController+OAuthSupport.h"; sourceTree = "<group>"; };
 		91BB7747246D54A500BFD0CE /* ViewController+OAuthSupport.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ViewController+OAuthSupport.m"; sourceTree = "<group>"; };
 		91BB774D246D5F9D00BFD0CE /* AppDelegate+Preflight.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+Preflight.h"; sourceTree = "<group>"; };
@@ -117,6 +120,8 @@
 				91BB773C246D2D0000BFD0CE /* ViewController+SharedConfiguration.m */,
 				91BB7735246D2C7C00BFD0CE /* ViewController+UpdateMode.h */,
 				91BB7736246D2C7C00BFD0CE /* ViewController+UpdateMode.m */,
+				91BB7741246D4ECB00BFD0CE /* ViewController+ItemAddToken.h */,
+				91BB7742246D4ECB00BFD0CE /* ViewController+ItemAddToken.m */,
 				91BB7746246D54A500BFD0CE /* ViewController+OAuthSupport.h */,
 				91BB7747246D54A500BFD0CE /* ViewController+OAuthSupport.m */,
 				91974B0C246D763800182D9B /* ViewController+PaymentInitiation.h */,
@@ -231,11 +236,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91BB7737246D2C7C00BFD0CE /* ViewController+UpdateMode.m in Sources */,
+				91BB773A246D2CA700BFD0CE /* ViewController+CustomConfiguration.m in Sources */,
+				91BB773D246D2D0000BFD0CE /* ViewController+SharedConfiguration.m in Sources */,
+				91BB7743246D4ECB00BFD0CE /* ViewController+ItemAddToken.m in Sources */,
 				91BB7748246D54A500BFD0CE /* ViewController+OAuthSupport.m in Sources */,
 				91BB7737246D2C7C00BFD0CE /* ViewController+UpdateMode.m in Sources */,
 				91974B09246D6B8800182D9B /* AppDelegate+OAuthSupport.m in Sources */,
-				91BB773A246D2CA700BFD0CE /* ViewController+CustomConfiguration.m in Sources */,
-				91BB773D246D2D0000BFD0CE /* ViewController+SharedConfiguration.m in Sources */,
 				91974B0E246D763800182D9B /* ViewController+PaymentInitiation.m in Sources */,
 				910CAE231E3BC35C0089B9CC /* ViewController.m in Sources */,
 				910CAE201E3BC35C0089B9CC /* AppDelegate.m in Sources */,
