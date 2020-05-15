@@ -9,6 +9,7 @@
 #import "ViewController+PLKPlaidLinkViewDelegate.h"
 #import "ViewController+CustomConfiguration.h"
 #import "ViewController+SharedConfiguration.h"
+#import "ViewController+OAuthSupport.h"
 #import "ViewController+UpdateMode.h"
 
 @interface ViewController ()
@@ -59,6 +60,7 @@
         customConfiguration,
         sharedConfiguration,
         updateMode,
+        oauthSupport,
     } PlaidLinkSampleFlow;
     #warning Select your desired Plaid Link sample flow
     PlaidLinkSampleFlow sampleFlow = customConfiguration;
@@ -69,6 +71,8 @@
         case updateMode:
             [self presentPlaidLinkInUpdateMode];
             break;
+        case oauthSupport:
+            [self presentPlaidLinkWithOAuthSupport];
         case customConfiguration:
             // Intentionally fallthrough
         default:

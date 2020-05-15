@@ -50,6 +50,7 @@ class ViewController: UIViewController {
             case customConfiguration;
             case sharedConfiguration;
             case updateMode;
+            case oauthSupport;
         }
         #warning("Select your desired Plaid Link sample flow")
         let sampleFlow : PlaidLinkSampleFlow = .customConfiguration
@@ -58,6 +59,8 @@ class ViewController: UIViewController {
             presentPlaidLinkWithSharedConfiguration()
         case .updateMode:
             presentPlaidLinkInUpdateMode()
+        case .oauthSupport:
+            presentPlaidLinkWithOAuthSupport()
         case .customConfiguration:
             fallthrough
         default:

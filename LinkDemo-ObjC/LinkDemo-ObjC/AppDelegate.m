@@ -9,6 +9,4 @@
 
 @implementation AppDelegate
 
-
-
 @end
