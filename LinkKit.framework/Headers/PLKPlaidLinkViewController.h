@@ -26,7 +26,10 @@ PLK_EXTERN NSString* const kPLKMetadataTypeKey;
 /// The corresponding value contains the subtype of the account.
 PLK_EXTERN NSString* const kPLKMetadataSubtypeKey;
 
-/// The corresponding value contains a NSDictionary with an account's name, identifier, mask, type, and subtype.
+/// The corresponding value contains the class type of the account.
+PLK_EXTERN NSString* const kPLKMetadataClassTypeKey;
+
+/// The corresponding value contains a NSDictionary with an account's name, identifier, mask, type, subtype, and class type.
 PLK_EXTERN NSString* const kPLKMetadataAccountKey;
 
 /// The corresponding value contains an NSArray with multiple NSDictionary for the selected accounts; the keys in the NSDictionary are the same as with the kPLKMetadataAccountKey.
