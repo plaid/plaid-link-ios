@@ -15,6 +15,7 @@
 		910CAE341E3BC5000089B9CC /* LinkKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 910CAE331E3BC5000089B9CC /* LinkKit.framework */; };
 		910CAE351E3BC5000089B9CC /* LinkKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 910CAE331E3BC5000089B9CC /* LinkKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		91974B09246D6B8800182D9B /* AppDelegate+OAuthSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 91974B08246D6B8800182D9B /* AppDelegate+OAuthSupport.m */; };
+		91974B0E246D763800182D9B /* ViewController+PaymentInitiation.m in Sources */ = {isa = PBXBuildFile; fileRef = 91974B0D246D763800182D9B /* ViewController+PaymentInitiation.m */; };
 		91BB7737246D2C7C00BFD0CE /* ViewController+UpdateMode.m in Sources */ = {isa = PBXBuildFile; fileRef = 91BB7736246D2C7C00BFD0CE /* ViewController+UpdateMode.m */; };
 		91BB773A246D2CA700BFD0CE /* ViewController+CustomConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 91BB7739246D2CA700BFD0CE /* ViewController+CustomConfiguration.m */; };
 		91BB773D246D2D0000BFD0CE /* ViewController+SharedConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 91BB773C246D2D0000BFD0CE /* ViewController+SharedConfiguration.m */; };
@@ -51,6 +52,8 @@
 		910CAE331E3BC5000089B9CC /* LinkKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LinkKit.framework; path = ../LinkKit.framework; sourceTree = "<group>"; };
 		91974B07246D6B8800182D9B /* AppDelegate+OAuthSupport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+OAuthSupport.h"; sourceTree = "<group>"; };
 		91974B08246D6B8800182D9B /* AppDelegate+OAuthSupport.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+OAuthSupport.m"; sourceTree = "<group>"; };
+		91974B0C246D763800182D9B /* ViewController+PaymentInitiation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ViewController+PaymentInitiation.h"; sourceTree = "<group>"; };
+		91974B0D246D763800182D9B /* ViewController+PaymentInitiation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ViewController+PaymentInitiation.m"; sourceTree = "<group>"; };
 		91BB7735246D2C7C00BFD0CE /* ViewController+UpdateMode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ViewController+UpdateMode.h"; sourceTree = "<group>"; };
 		91BB7736246D2C7C00BFD0CE /* ViewController+UpdateMode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ViewController+UpdateMode.m"; sourceTree = "<group>"; };
 		91BB7738246D2CA700BFD0CE /* ViewController+CustomConfiguration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ViewController+CustomConfiguration.h"; sourceTree = "<group>"; };
@@ -116,6 +119,8 @@
 				91BB7736246D2C7C00BFD0CE /* ViewController+UpdateMode.m */,
 				91BB7746246D54A500BFD0CE /* ViewController+OAuthSupport.h */,
 				91BB7747246D54A500BFD0CE /* ViewController+OAuthSupport.m */,
+				91974B0C246D763800182D9B /* ViewController+PaymentInitiation.h */,
+				91974B0D246D763800182D9B /* ViewController+PaymentInitiation.m */,
 				910CAE241E3BC35C0089B9CC /* Main.storyboard */,
 				910CAE291E3BC35C0089B9CC /* LaunchScreen.storyboard */,
 				91DA6D8C1E3F8EED00434C45 /* Assets.xcassets */,
@@ -231,6 +236,7 @@
 				91974B09246D6B8800182D9B /* AppDelegate+OAuthSupport.m in Sources */,
 				91BB773A246D2CA700BFD0CE /* ViewController+CustomConfiguration.m in Sources */,
 				91BB773D246D2D0000BFD0CE /* ViewController+SharedConfiguration.m in Sources */,
+				91974B0E246D763800182D9B /* ViewController+PaymentInitiation.m in Sources */,
 				910CAE231E3BC35C0089B9CC /* ViewController.m in Sources */,
 				910CAE201E3BC35C0089B9CC /* AppDelegate.m in Sources */,
 				910CAE1D1E3BC35C0089B9CC /* main.m in Sources */,

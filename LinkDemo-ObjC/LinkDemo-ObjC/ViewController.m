@@ -61,6 +61,7 @@
         sharedConfiguration,
         updateMode,
         oauthSupport,
+        paymentInitiation,
     } PlaidLinkSampleFlow;
     #warning Select your desired Plaid Link sample flow
     PlaidLinkSampleFlow sampleFlow = customConfiguration;
@@ -73,6 +74,8 @@
             break;
         case oauthSupport:
             [self presentPlaidLinkWithOAuthSupport];
+        case paymentInitiation:
+            [self presentPlaidLinkWithPaymentInitation];
         case customConfiguration:
             // Intentionally fallthrough
         default:
