@@ -1,12 +1,19 @@
 # CHANGELOG
 
-## 2020-05-18 — LinkKit 1.1.31
+## 2020-05-18 — LinkKit 1.1.32
+### Changed
+- Fix a critical issue for certain rare use cases
+
+
+
+## 2020-05-15 — LinkKit 1.1.31
 ### Added
 - Added a name pane after the introductory pane to prompt the user to enter their name in the manual microdeposit flow.
 - Added a class type pane after the name pane for the user to select the account class type in the manual microdeposit flow.
 - Added an authorization pane at the end of the manual microdeposits flow to present the legal policy for crediting and debiting an end-user's account asking to authorize these credits and debits.
 
 ### Changed
+- Fix crash when the `UINavigationController.topViewController` was accessed from a background thread.
 - Out-of-process webviews now open to https://secure.plaid.com rather than https://cdn.plaid.com.
 - Open institution's account setup url when necessary.
 - Updated the automated microdeposits workflow to now include the name pane and class type pane.
