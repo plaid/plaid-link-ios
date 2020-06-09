@@ -4,6 +4,35 @@
 
 📱 This repository contains sample applications in [Objective-C](LinkDemo-ObjC) and [Swift](LinkDemo-Swift) (requires Xcode 10.2) that demonstrate integration and use of Plaid Link for iOS.
 
+###### Sample custom Link configuration in Swift
+
+```swift
+func presentPlaidLinkWithCustomConfiguration() {
+        // <!-- SMARTDOWN_PRESENT_CUSTOM -->
+        // With custom configuration
+
+        let linkConfiguration = PLKConfiguration(key: "YOUR_PUBLIC_KEY", env: .sandbox, product: .auth)
+        linkConfiguration.clientName = "YOUR_CLIENT_NAME"
+
+        // optional parameters
+        linkConfiguration.webhook = URL(string: "YOUR_WEBHOOK_URL")
+        linkConfiguration.oauthRedirectUri = URL(string: "YOUR_WHITELISTED_REDIRECT_URI")
+        linkConfiguration.oauthNonce = "YOUR_OAUTHNONCE1"
+        linkConfiguration.countryCodes = ["COUNTRY_CODE"]
+        linkConfiguration.language = "YOUR_PREFERRED_LANGUAGE"
+        linkConfiguration.accountSubtypes = ["ACCOUNT_TYPE": ["ACCOUNT_SUBTYPE", "ACCOUNT_SUBTYPE"]]
+        linkConfiguration.linkCustomizationName = "LINK_CUSTOMIZATION_TO_BE_USED"
+
+        let linkViewDelegate = self
+        let linkViewController = PLKPlaidLinkViewController(configuration: linkConfiguration, delegate: linkViewDelegate)
+        if (UI_USER_INTERFACE_IDIOM() == .pad) {
+            linkViewController.modalPresentationStyle = .formSheet
+        }
+        present(linkViewController, animated: true)
+        // <!-- SMARTDOWN_PRESENT_CUSTOM -->
+    }
+```
+
 ## About the LinkDemo Xcode projects
 
 Plaid Link can be used for different use-cases and the sample applications demonstrate how to use Plaid Link for iOS for each use-case.
