@@ -4,7 +4,7 @@
 
 📱 This repository contains sample applications in [Objective-C](LinkDemo-ObjC) and [Swift](LinkDemo-Swift) (requires Xcode 10.2) that demonstrate integration and use of Plaid Link for iOS.
 
-###### Sample custom link configuration in swift
+###### Sample custom link configuration in Swift
 
 ```swift
 func presentPlaidLinkWithCustomConfiguration() {
