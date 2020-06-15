@@ -267,7 +267,7 @@ PLK_EMPTY_INIT_UNAVAILABLE;
                  Delegate methods are listed under PLKPlaidLinkViewDelegate.
   @return The initialized Plaid Link view controller object or throws an exception if there was a problem initializing the object.
  */
-- (instancetype)initWithOAuthStateId:(NSString*)oauthStateId
+- (instancetype)initWithOAuthStateId:(NSString* _Nullable)oauthStateId
                        configuration:(PLKConfiguration*)configuration
                             delegate:(id<PLKPlaidLinkViewDelegate>)delegate;
 
