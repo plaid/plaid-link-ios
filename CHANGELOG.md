@@ -1,5 +1,14 @@
 # CHANGELOG
 
+## 2020-06-15 — LinkKit 1.1.33
+### Changed
+- Improve Plaid Link flow event reporting for certain flows
+- Fix issue with institution search when using account filtering and only the auth product.
+- Fix crash when some users are presented with a recaptcha challenge
+- Fix issue with copy customizations for non-English languages
+
+
+
 ## 2020-05-18 — LinkKit 1.1.32
 ### Changed
 - Fix a critical issue for certain rare use cases
@@ -13,6 +22,7 @@
 - Added an authorization pane at the end of the manual microdeposits flow to present the legal policy for crediting and debiting an end-user's account asking to authorize these credits and debits.
 
 ### Changed
+- Fix crash when the `UINavigationController.topViewController` was accessed from a background thread.
 - Fix crash when the `UINavigationController.topViewController` was accessed from a background thread.
 - Out-of-process webviews now open to https://secure.plaid.com rather than https://cdn.plaid.com.
 - Open institution's account setup url when necessary.
