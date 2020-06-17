@@ -14,7 +14,7 @@
 
 // MARK: Using OAuth in Plaid Link
 // For details about OAuth support please see https://plaid.com/docs/link/ios/#oauth-support and https://plaid.com/docs/#oauth
-- (void)presentPlaidLinkWithOAuthSupport {
+- (void)presentPlaidLinkWithOAuthSupport ([string oauthStateId]){
 
     #warning Replace <#YOUR_PLAID_PUBLIC_KEY#> and <#COUNTRY_CODE#> below with your public_key and supported country codes
     // <!-- SMARTDOWN_PRESENT_OAUTH -->

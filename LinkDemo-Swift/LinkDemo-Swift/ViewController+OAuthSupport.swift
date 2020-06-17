@@ -11,9 +11,8 @@ extension ViewController {
 
     // MARK: Using OAuth in Plaid Link
     // For details about OAuth support please see https://plaid.com/docs/link/ios/#oauth-support and https://plaid.com/docs/#oauth
-    func presentPlaidLinkWithOAuthSupport() {
+    func presentPlaidLinkWithOAuthSupport(oauthStateId: String?) {
 
-        #warning("Replace <#YOUR_PLAID_PUBLIC_KEY#> and <#COUNTRY_CODE#> below with your public_key and supported country codes")
         // <!-- SMARTDOWN_PRESENT_OAUTH -->
         // With custom configuration using OAuth
 
@@ -23,28 +22,24 @@ extension ViewController {
 
         // When re-initializing Link to complete the authentication flow ensure that the same oauthNonce is used.
         let oauthNonce = UUID().uuidString
-
-        #warning("Replace the example oauthRedirectUri below with your oauthRedirectUri, which should be configured as a universal link and must be whitelisted through Plaid's developer dashboard")
-        let oauthRedirectUri = URL(string: "https://example.net/plaid-oauth")
-
-        // Replace the example userActivityWebpageURL below with code that takes the userActivity.webpageURL from
-        // UIApplicationDelegate.application:continueUserActivity:restorationHandler:
-        guard let userActivityWebpageURL = URL(string: "https://example.net/plaid-oauth?oauth_state_id=f81d4fae-7dec-11d0-a765-00a0c91e6bf6"),
-            let oauthStateId = PLKOAuthStateIdFromURL(userActivityWebpageURL) else {
-                return
+        
+        
+        if self.presentedViewController is PLKPlaidLinkViewController {
+            self.dismiss(animated: true, completion: nil)
         }
-
-        let linkConfiguration = PLKConfiguration(key: "<#YOUR_PLAID_PUBLIC_KEY#>", env: .sandbox, product: .auth)
+        
+        let linkConfiguration = PLKConfiguration(key: PlaidConfiguration.PublicKey, env: .sandbox, product: .auth)
         linkConfiguration.clientName = "Link Demo"
-        linkConfiguration.countryCodes = ["<#COUNTRY_CODE#>"]
+        linkConfiguration.countryCodes = PlaidConfiguration.CountryCodes
         linkConfiguration.oauthNonce = oauthNonce
-        linkConfiguration.oauthRedirectUri = oauthRedirectUri
+        linkConfiguration.oauthRedirectUri = URL(string: PlaidConfiguration.OAuthRedirectUri)
+        
         let linkViewDelegate = self
-        let linkViewController = PLKPlaidLinkViewController(oAuthStateId: oauthStateId, configuration: linkConfiguration, delegate: linkViewDelegate)
+        let linkViewController = PLKPlaidLinkViewController(oAuthStateId: oauth, configuration: configuration, delegate: linkViewDelegate)
         if (UI_USER_INTERFACE_IDIOM() == .pad) {
             linkViewController.modalPresentationStyle = .formSheet
         }
-        present(linkViewController, animated: true)
+        self.present(linkViewController, animated: true)
         // <!-- SMARTDOWN_PRESENT_OAUTH -->
 
     }
