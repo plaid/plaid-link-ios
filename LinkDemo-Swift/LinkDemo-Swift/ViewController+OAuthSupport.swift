@@ -7,6 +7,9 @@
 
 import LinkKit
 
+// TODO: better way to manage state?
+var oauthNonce: String? = nil
+
 extension ViewController {
 
     // MARK: Using OAuth in Plaid Link
@@ -17,13 +20,20 @@ extension ViewController {
         // With custom configuration using OAuth
 
         // Plaid Link OAuth works in two steps, the first step is to initiate the OAuth authentication flow,
-        // the second to complete the OAuth authentication flow. On each step Plaid Link must be initialized
-        // as follows:
-
-        // When re-initializing Link to complete the authentication flow ensure that the same oauthNonce is used.
-        let oauthNonce = UUID().uuidString
+        // the second to complete the OAuth authentication flow.
+        //
+        // On the second step, we will expect for oauthStateId to be non-null. We must
+        // ensure the same oauthNonce is used.
         
+        if oauthStateId == nil {
+            // We are starting a new oauth session, generate a new nonce.
+            oauthNonce = UUID().uuidString
+        } else {
+            
+            assert(oauthNonce != nil, "unexpected condition - expected non-nil oauthNonce")
+        }
         
+        // If Link is already presented, dismiss it before we attempt to reinitialize.
         if self.presentedViewController is PLKPlaidLinkViewController {
             self.dismiss(animated: true, completion: nil)
         }
@@ -35,7 +45,7 @@ extension ViewController {
         linkConfiguration.oauthRedirectUri = URL(string: PlaidConfiguration.OAuthRedirectUri)
         
         let linkViewDelegate = self
-        let linkViewController = PLKPlaidLinkViewController(oAuthStateId: oauth, configuration: configuration, delegate: linkViewDelegate)
+        let linkViewController = PLKPlaidLinkViewController(oAuthStateId: oauthStateId, configuration: linkConfiguration, delegate: linkViewDelegate)
         if (UI_USER_INTERFACE_IDIOM() == .pad) {
             linkViewController.modalPresentationStyle = .formSheet
         }

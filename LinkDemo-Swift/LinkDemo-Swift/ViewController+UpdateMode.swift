@@ -18,7 +18,7 @@ extension ViewController {
         let linkConfiguration = PLKConfiguration(key: PlaidConfiguration.PublicKey, env: .sandbox, product: .auth)
         linkConfiguration.clientName = "Link Demo"
         let linkViewDelegate = self
-        let linkViewController = PLKPlaidLinkViewController(publicToken: PlaidConfiguration.PublicToken, configuration: linkConfiguration, delegate: linkViewDelegate)
+        let linkViewController = PLKPlaidLinkViewController(publicToken: PlaidConfiguration.GeneratedPublicToken, configuration: linkConfiguration, delegate: linkViewDelegate)
         if (UI_USER_INTERFACE_IDIOM() == .pad) {
             linkViewController.modalPresentationStyle = .formSheet
         }

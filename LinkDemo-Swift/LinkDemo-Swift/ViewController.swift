@@ -63,7 +63,7 @@ class ViewController: UIViewController {
         case .itemAddToken:
             presentPlaidLinkUsingItemAddToken()
         case .oauthSupport:
-            presentPlaidLinkWithOAuthSupport()
+            presentPlaidLinkWithOAuthSupport(oauthStateId: nil)
         case .paymentInitiation:
             presentPlaidLinkWithPaymentInitation()
         case .customConfiguration:
