@@ -5,6 +5,11 @@
 //  Copyright © 2020 Plaid Inc. All rights reserved.
 //
 
+#import <LinkKit/LinkKit.h>
+#import "ViewController.h"
+#import "ViewController+PaymentInitiation.h"
+#import "ViewController+OAuthSupport.h"
+
 #import "AppDelegate+OAuthSupport.h"
 
 @implementation AppDelegate (OAuthSupport)
@@ -17,14 +22,32 @@ continueUserActivity:(NSUserActivity *)userActivity
     if (![userActivity.activityType isEqualToString:NSUserActivityTypeBrowsingWeb]) {
         return NO;
     }
+    NSURL* webpageURL = userActivity.webpageURL;
 
-    #warning Replace the example oauthRedirectUri below with your oauthRedirectUri, which should be configured as a universal link and must be whitelisted through Plaid's developer dashboard
-    NSURL* oauthRedirectUri = [NSURL URLWithString:@"https://example.net/plaid-oauth"];
-    // Perform checks that work best for your oauthRedirectUri to determine whether the userActivity is related to Plaid Link OAuth
-    if ([[userActivity.webpageURL host] isEqualToString:[oauthRedirectUri host]]
-        && [[userActivity.webpageURL path] isEqualToString:[oauthRedirectUri path]]) {
-        // Pass the userActivity.webpageURL to your code responsible for re-initalizing Plaid Link for iOS
+    if (![self.window.rootViewController isKindOfClass:[ViewController class]]) {
+        return NO;
     }
+    ViewController* viewController = (ViewController*)self.window.rootViewController;
+
+    // Check that the userActivity.webpageURL is the oauthRedirectUri that we have 
+    // configured in the Plaid dashboard. 
+    if (!(viewController.oauthRedirectUri
+        && [webpageURL.host isEqualToString:viewController.oauthRedirectUri.host]
+        && [webpageURL.path isEqualToString:viewController.oauthRedirectUri.path]
+          )) {
+        return NO;
+    }
+
+    // Extract oauthStateId from userActivity.webpageURL
+    NSString* oauthStateId = PLKOAuthStateIdFromURL(webpageURL);
+    if (!oauthStateId) {
+        NSLog(@"Unable to extract oauthStateId from URL: %@", webpageURL);
+        return NO;
+    }
+
+    [viewController presentPlaidLinkWithOAuthSupport:oauthStateId];
+    // for the payment initiation flow use:
+    //[viewController presentPlaidLinkWithPaymentInitation:oauthStateId];
 
     return YES;
 }

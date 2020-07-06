@@ -51,6 +51,7 @@
 		910CAE2A1E3BC35C0089B9CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		910CAE2C1E3BC35C0089B9CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		910CAE331E3BC5000089B9CC /* LinkKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LinkKit.framework; path = ../LinkKit.framework; sourceTree = "<group>"; };
+		91648DDE24A49F75002BED1F /* LinkDemo-ObjC.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "LinkDemo-ObjC.entitlements"; sourceTree = "<group>"; };
 		91974B07246D6B8800182D9B /* AppDelegate+OAuthSupport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+OAuthSupport.h"; sourceTree = "<group>"; };
 		91974B08246D6B8800182D9B /* AppDelegate+OAuthSupport.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+OAuthSupport.m"; sourceTree = "<group>"; };
 		91974B0C246D763800182D9B /* ViewController+PaymentInitiation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ViewController+PaymentInitiation.h"; sourceTree = "<group>"; };
@@ -104,6 +105,7 @@
 		910CAE1A1E3BC35C0089B9CC /* LinkDemo-ObjC */ = {
 			isa = PBXGroup;
 			children = (
+				91648DDE24A49F75002BED1F /* LinkDemo-ObjC.entitlements */,
 				910CAE1E1E3BC35C0089B9CC /* AppDelegate.h */,
 				910CAE1F1E3BC35C0089B9CC /* AppDelegate.m */,
 				91974B07246D6B8800182D9B /* AppDelegate+OAuthSupport.h */,
@@ -386,6 +388,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "LinkDemo-ObjC/LinkDemo-ObjC.entitlements";
 				DEVELOPMENT_TEAM = Z2P2MSMY87;
 				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/../";
 				INFOPLIST_FILE = "LinkDemo-ObjC/Info.plist";
@@ -402,6 +405,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "LinkDemo-ObjC/LinkDemo-ObjC.entitlements";
 				DEVELOPMENT_TEAM = Z2P2MSMY87;
 				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/../";
 				INFOPLIST_FILE = "LinkDemo-ObjC/Info.plist";

@@ -9,6 +9,8 @@
 
 @interface ViewController : UIViewController
 
+@property (readonly) NSURL* oauthRedirectUri;
+@property (readonly) NSString* oauthNonce;
 
 @end
 

@@ -17,6 +17,15 @@ class ViewController: UIViewController {
     @IBOutlet var label: UILabel!
     @IBOutlet var buttonContainerView: UIView!
 
+    // When re-initializing Link to complete the OAuth flows ensure that the same oauthNonce is used per session.
+    // This is a simplified example for demonstaration purposes only.
+    let oauthNonce: String = { return UUID().uuidString }()
+
+    #warning("Replace <#YOUR_OAUTH_REDIRECT_URI#> below with your oauthRedirectUri, which should be a universal link and must be configured in the Plaid developer dashboard")
+    #warning("Ensure to also replace YOUR_OAUTH_REDIRECT_URI in the Associated Domains Capability or in the LinkDemo-Swift.entitlements")
+    #warning("Remember to change the application Bundle Identifier to match one you have configured for universal links")
+    let oauthRedirectUri = URL(string: "<#YOUR_OAUTH_REDIRECT_URI#>")
+
     override func awakeFromNib() {
         super.awakeFromNib()
         NotificationCenter.default.addObserver(self, selector: #selector(ViewController.didReceiveNotification(_:)), name: NSNotification.Name(rawValue: "PLDPlaidLinkSetupFinished"), object: nil)
@@ -63,9 +72,9 @@ class ViewController: UIViewController {
         case .itemAddToken:
             presentPlaidLinkUsingItemAddToken()
         case .oauthSupport:
-            presentPlaidLinkWithOAuthSupport()
+            presentPlaidLinkWithOAuthSupport(oauthStateId: nil)
         case .paymentInitiation:
-            presentPlaidLinkWithPaymentInitation()
+            presentPlaidLinkWithPaymentInitation(oauthStateId: nil)
         case .customConfiguration:
             fallthrough
         default:

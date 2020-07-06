@@ -47,6 +47,7 @@
 		91035E5C1E3CA7C000A97B26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		91035E5E1E3CA7C000A97B26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		91035E641E3CA93500A97B26 /* LinkKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LinkKit.framework; path = ../LinkKit.framework; sourceTree = "<group>"; };
+		91648DDD24A47EF3002BED1F /* LinkDemo-Swift.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "LinkDemo-Swift.entitlements"; sourceTree = "<group>"; };
 		91974B0A246D6D4200182D9B /* AppDelegate+OAuthSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppDelegate+OAuthSupport.swift"; sourceTree = "<group>"; };
 		91974B0F246D764A00182D9B /* ViewController+PaymentInitiation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+PaymentInitiation.swift"; sourceTree = "<group>"; };
 		91BB772D246D2A3500BFD0CE /* ViewController+CustomConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+CustomConfiguration.swift"; sourceTree = "<group>"; };
@@ -89,9 +90,9 @@
 		91035E511E3CA7C000A97B26 /* LinkDemo-Swift */ = {
 			isa = PBXGroup;
 			children = (
+				91648DDD24A47EF3002BED1F /* LinkDemo-Swift.entitlements */,
 				91035E521E3CA7C000A97B26 /* AppDelegate.swift */,
 				91974B0A246D6D4200182D9B /* AppDelegate+OAuthSupport.swift */,
-				91BB774B246D5F6100BFD0CE /* AppDelegate+Preflight.swift */,
 				91035E541E3CA7C000A97B26 /* ViewController.swift */,
 				91BB7733246D2B7F00BFD0CE /* ViewController+PLKPlaidLinkViewDelegate.swift */,
 				91BB772D246D2A3500BFD0CE /* ViewController+CustomConfiguration.swift */,
@@ -202,7 +203,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				91BB7730246D2AC600BFD0CE /* ViewController+SharedConfiguration.swift in Sources */,
-				91BB774C246D5F6100BFD0CE /* AppDelegate+Preflight.swift in Sources */,
 				91BB7734246D2B7F00BFD0CE /* ViewController+PLKPlaidLinkViewDelegate.swift in Sources */,
 				91974B10246D764A00182D9B /* ViewController+PaymentInitiation.swift in Sources */,
 				91035E551E3CA7C000A97B26 /* ViewController.swift in Sources */,
@@ -350,6 +350,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "LinkDemo-Swift/LinkDemo-Swift.entitlements";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/../";
@@ -368,6 +369,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "LinkDemo-Swift/LinkDemo-Swift.entitlements";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/../";

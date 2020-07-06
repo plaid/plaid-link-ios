@@ -10,7 +10,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface ViewController (PaymentInitiation)
-- (void)presentPlaidLinkWithPaymentInitation;
+- (void)presentPlaidLinkWithPaymentInitation:(NSString* _Nullable)oauthStateId;
 @end
 
 NS_ASSUME_NONNULL_END

@@ -21,6 +21,7 @@
 @end
 
 @implementation ViewController
+@synthesize oauthNonce = _oauthNonce;
 
 - (void)awakeFromNib {
     [super awakeFromNib];
@@ -55,6 +56,22 @@
     }
 }
 
+- (NSURL*)oauthRedirectUri {
+    #warning Replace <#YOUR_OAUTH_REDIRECT_URI#> below with your oauthRedirectUri, which should be a universal link and must be configured in the Plaid developer dashboard
+    # warning Ensure to also replace YOUR_OAUTH_REDIRECT_URI in the Associated Domains Capability or in the LinkDemo-ObjC.entitlements
+    # warning Remember to change the application Bundle Identifier to match one you have configured for universal links
+    return [NSURL URLWithString:@"<#YOUR_OAUTH_REDIRECT_URI#>"];
+}
+
+- (NSString*)oauthNonce {
+    // When re-initializing Link to complete the OAuth flows ensure that the same oauthNonce is used per session.
+    // This is a simplified example for demonstaration purposes only.
+    if (_oauthNonce == nil) {
+        _oauthNonce = [[NSUUID UUID] UUIDString];
+    }
+    return _oauthNonce;
+}
+
 - (IBAction)didTapButton:(id)sender {
     typedef enum : NSUInteger {
         customConfiguration,
@@ -77,10 +94,10 @@
             [self presentPlaidLinkUsingItemAddToken];
             break;
         case oauthSupport:
-            [self presentPlaidLinkWithOAuthSupport];
+            [self presentPlaidLinkWithOAuthSupport:nil];
             break;
         case paymentInitiation:
-            [self presentPlaidLinkWithPaymentInitation];
+            [self presentPlaidLinkWithPaymentInitation:nil];
             break;
         case customConfiguration:
             // Intentionally fallthrough
