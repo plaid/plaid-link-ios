@@ -1,5 +1,16 @@
 # CHANGELOG
 
+## 2020-07-17 — LinkKit 1.1.34
+### Added
+- Add events for OAuth flow
+
+### Changed
+- Update language used in the manual microdeposit flow
+- Fix issue with the OAuth flow when re-using the same PLKConfiguration instance
+- Improve Link Token flow
+
+
+
 ## 2020-06-15 — LinkKit 1.1.33
 ### Changed
 - Improve Plaid Link flow event reporting for certain flows
@@ -22,7 +33,6 @@
 - Added an authorization pane at the end of the manual microdeposits flow to present the legal policy for crediting and debiting an end-user's account asking to authorize these credits and debits.
 
 ### Changed
-- Fix crash when the `UINavigationController.topViewController` was accessed from a background thread.
 - Fix crash when the `UINavigationController.topViewController` was accessed from a background thread.
 - Out-of-process webviews now open to https://secure.plaid.com rather than https://cdn.plaid.com.
 - Open institution's account setup url when necessary.

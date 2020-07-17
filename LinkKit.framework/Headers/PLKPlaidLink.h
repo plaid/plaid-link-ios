@@ -106,6 +106,21 @@ typedef void(^PLKPlaidLinkSetupCompletionHandler)(BOOL success,  NSError* _Nulla
                   completion:(PLKPlaidLinkSetupCompletionHandler)completion;
 
 /**
+ Prepares Plaid Link for the update mode using the shared configuration from Info.plist
+ The method verifies that the given publicToken is valid.
+
+ @param publicToken An existing user's public token to setup Link in update mode.
+ @param linkToken A link token replacing the configured public_key.
+ @param completion A block object to be executed when the Plaid Link setup finishes.
+                   This block has no return value and takes two arguments:
+                   a Boolean arguments that indicates whether or not the setup finished successfully,
+                   and an NSError object
+ */
++ (void)setupWithPublicToken:(NSString*)publicToken
+                   linkToken:(NSString*)linkToken
+                  completion:(PLKPlaidLinkSetupCompletionHandler)completion;
+
+/**
  Prepares Plaid Link for the update mode using the given custom configuration.
  The method verifies that the given publicToken is valid.
 
@@ -137,5 +152,21 @@ typedef void(^PLKPlaidLinkSetupCompletionHandler)(BOOL success,  NSError* _Nulla
                configuration:(PLKConfiguration*)configuration
                   completion:(PLKPlaidLinkSetupCompletionHandler)completion;
 
+/**
+ Prepares Plaid Link for the update mode using the given custom configuration.
+ The method verifies that the given publicToken is valid.
+
+ @param publicToken An existing user's public token to setup Link in update mode.
+ @param linkToken A link token replacing the configured public_key.
+ @param configuration A custom configuration object to use.
+ @param completion A block object to be executed when the Plaid Link setup finishes.
+                   This block has no return value and takes two arguments:
+                   a Boolean arguments that indicates whether or not the setup finished successfully,
+                   and an NSError object
+ */
++ (void)setupWithPublicToken:(NSString*)publicToken
+                linkToken:(NSString* _Nullable)linkToken
+               configuration:(PLKConfiguration*)configuration
+                  completion:(PLKPlaidLinkSetupCompletionHandler)completion;
 @end
 NS_ASSUME_NONNULL_END
