@@ -11,7 +11,7 @@ func presentPlaidLinkWithCustomConfiguration() {
         // <!-- SMARTDOWN_PRESENT_CUSTOM -->
         // With custom configuration
 
-        let linkConfiguration = PLKConfiguration(linkToken: <#GENERATED_LINK_TOKEN#>)
+        let linkConfiguration = PLKConfiguration(linkToken: "<#GENERATED_LINK_TOKEN#>")
 
         // optional parameters
         linkConfiguration.oauthRedirectUri = URL(string: "YOUR_WHITELISTED_REDIRECT_URI")
