@@ -19,14 +19,7 @@ extension ViewController {
         // https://plaid.com/docs/#create-link-token/
         let linkToken = "<#GENERATED_LINK_TOKEN#>"
 
-        // <!-- SMARTDOWN_PRESENT_ITEMADD -->
-        // With custom configuration using a link_token
-        let linkConfiguration = PLKConfiguration(linkToken: linkToken)
-        // from your backend server which in turn retrieves it securely from Plaid, for details please refer to
-        // https://plaid.com/docs/#create-link-token/
-        let linkToken = "link-sandbox-b41200fd-ca02-469e-9668-874cfd54d0b9"
-
-        // <!-- SMARTDOWN_PRESENT_ITEMADD -->
+        // <!-- SMARTDOWN_PRESENT_LINKTOKEN -->
         // With custom configuration using a link_token
         let linkConfiguration = PLKConfiguration(linkToken: linkToken)
 
@@ -36,7 +29,7 @@ extension ViewController {
             linkViewController.modalPresentationStyle = .formSheet
         }
         present(linkViewController, animated: true)
-        // <!-- SMARTDOWN_PRESENT_ITEMADD -->
+        // <!-- SMARTDOWN_PRESENT_LINKTOKEN -->
     }
 
 }
