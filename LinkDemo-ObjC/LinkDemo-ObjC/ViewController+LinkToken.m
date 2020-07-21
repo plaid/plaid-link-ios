@@ -22,7 +22,7 @@
     // https://plaid.com/docs/#create-link-token/
     NSString* linkToken = @"<#GENERATED_LINK_TOKEN#>";
 
-    // <!-- SMARTDOWN_PRESENT_ITEMADD -->
+    // <!-- SMARTDOWN_PRESENT_LINKTOKEN -->
     // With custom configuration using a link_token
     PLKConfiguration* linkConfiguration;
     @try {
