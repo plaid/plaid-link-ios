@@ -57,20 +57,20 @@ class ViewController: UIViewController {
         enum PlaidLinkSampleFlow {
             case customConfiguration;
             case sharedConfiguration;
-            case itemAddToken;
+            case linkToken;
             case updateMode;
             case oauthSupport;
             case paymentInitiation;
         }
         #warning("Select your desired Plaid Link sample flow")
-        let sampleFlow : PlaidLinkSampleFlow = .customConfiguration
+        let sampleFlow : PlaidLinkSampleFlow = .linkToken
         switch sampleFlow {
         case .sharedConfiguration:
             presentPlaidLinkWithSharedConfiguration()
         case .updateMode:
             presentPlaidLinkInUpdateMode()
-        case .itemAddToken:
-            presentPlaidLinkUsingItemAddToken()
+        case .linkToken:
+            presentPlaidLinkUsingLinkToken()
         case .oauthSupport:
             presentPlaidLinkWithOAuthSupport(oauthStateId: nil)
         case .paymentInitiation:
