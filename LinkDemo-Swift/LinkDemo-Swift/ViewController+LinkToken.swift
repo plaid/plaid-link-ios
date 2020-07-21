@@ -17,7 +17,7 @@ extension ViewController {
         // In your production application replace the hardcoded linkToken below with code that fetches an link_token
         // from your backend server which in turn retrieves it securely from Plaid, for details please refer to
         // https://plaid.com/docs/#create-link-token/
-        let linkToken = "link-sandbox-b41200fd-ca02-469e-9668-874cfd54d0b9"
+        let linkToken = "<#GENERATED_LINK_TOKEN#>"
 
         // <!-- SMARTDOWN_PRESENT_ITEMADD -->
         // With custom configuration using a link_token
