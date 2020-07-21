@@ -38,7 +38,7 @@
         linkViewController.modalPresentationStyle = UIModalPresentationFormSheet;
     }
     [self presentViewController:linkViewController animated:YES completion:nil];
-    // <!-- SMARTDOWN_PRESENT_ITEMADD -->
+    // <!-- SMARTDOWN_PRESENT_LINKTOKEN -->
 
 }
 
