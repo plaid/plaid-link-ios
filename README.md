@@ -19,7 +19,7 @@ func presentPlaidLinkWithCustomConfiguration() {
 
         let linkViewDelegate = self
 
-        let linkViewController = PLKPlaidLinkViewController(linkToken: <#GENERATED_LINK_TOKEN#>, configuration: linkConfiguration, delegate: linkViewDelegate)
+        let linkViewController = PLKPlaidLinkViewController(linkToken: "<#GENERATED_LINK_TOKEN#>", configuration: linkConfiguration, delegate: linkViewDelegate)
          if (UI_USER_INTERFACE_IDIOM() == .pad) {
              linkViewController.modalPresentationStyle = .formSheet
          }
