@@ -11,7 +11,7 @@
 #import "ViewController+SharedConfiguration.h"
 #import "ViewController+PaymentInitiation.h"
 #import "ViewController+UpdateMode.h"
-#import "ViewController+ItemAddToken.h"
+#import "ViewController+LinkToken.h"
 #import "ViewController+OAuthSupport.h"
 
 @interface ViewController ()
@@ -77,12 +77,12 @@
         customConfiguration,
         sharedConfiguration,
         updateMode,
-        itemAddToken,
+        linkToken,
         oauthSupport,
         paymentInitiation,
     } PlaidLinkSampleFlow;
     #warning Select your desired Plaid Link sample flow
-    PlaidLinkSampleFlow sampleFlow = customConfiguration;
+    PlaidLinkSampleFlow sampleFlow = linkToken;
     switch (sampleFlow) {
         case sharedConfiguration:
             [self presentPlaidLinkWithSharedConfiguration];
@@ -90,8 +90,8 @@
         case updateMode:
             [self presentPlaidLinkInUpdateMode];
             break;
-        case itemAddToken:
-            [self presentPlaidLinkUsingItemAddToken];
+        case linkToken:
+            [self presentPlaidLinkUsingLinkToken];
             break;
         case oauthSupport:
             [self presentPlaidLinkWithOAuthSupport:nil];

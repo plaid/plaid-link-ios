@@ -11,23 +11,18 @@ func presentPlaidLinkWithCustomConfiguration() {
         // <!-- SMARTDOWN_PRESENT_CUSTOM -->
         // With custom configuration
 
-        let linkConfiguration = PLKConfiguration(key: "YOUR_PUBLIC_KEY", env: .sandbox, product: .auth)
-        linkConfiguration.clientName = "YOUR_CLIENT_NAME"
+        let linkConfiguration = PLKConfiguration(linkToken: "<#GENERATED_LINK_TOKEN#>")
 
         // optional parameters
-        linkConfiguration.webhook = URL(string: "YOUR_WEBHOOK_URL")
         linkConfiguration.oauthRedirectUri = URL(string: "YOUR_WHITELISTED_REDIRECT_URI")
         linkConfiguration.oauthNonce = "YOUR_OAUTHNONCE1"
-        linkConfiguration.countryCodes = ["COUNTRY_CODE"]
-        linkConfiguration.language = "YOUR_PREFERRED_LANGUAGE"
-        linkConfiguration.accountSubtypes = ["ACCOUNT_TYPE": ["ACCOUNT_SUBTYPE", "ACCOUNT_SUBTYPE"]]
-        linkConfiguration.linkCustomizationName = "LINK_CUSTOMIZATION_TO_BE_USED"
 
         let linkViewDelegate = self
-        let linkViewController = PLKPlaidLinkViewController(configuration: linkConfiguration, delegate: linkViewDelegate)
-        if (UI_USER_INTERFACE_IDIOM() == .pad) {
-            linkViewController.modalPresentationStyle = .formSheet
-        }
+
+        let linkViewController = PLKPlaidLinkViewController(linkToken: "<#GENERATED_LINK_TOKEN#>", configuration: linkConfiguration, delegate: linkViewDelegate)
+         if (UI_USER_INTERFACE_IDIOM() == .pad) {
+             linkViewController.modalPresentationStyle = .formSheet
+         }
         present(linkViewController, animated: true)
         // <!-- SMARTDOWN_PRESENT_CUSTOM -->
     }
@@ -38,7 +33,7 @@ func presentPlaidLinkWithCustomConfiguration() {
 Plaid Link can be used for different use-cases and the sample applications demonstrate how to use Plaid Link for iOS for each use-case.
 For clarity between the different use cases each use case specific example showing how to integrate Plaid Link for iOS is implemented in a Swift extension and Objective-C category.
 
-Before building and running the sample application replace any Xcode placeholder strings (like `<#GENERATED_PUBLIC_TOKEN#>`) in code with the appropriate value so that Plaid Link is configured properly. For convenience the Xcode placeholder strings are marked as compile-time warnings.
+Before building and running the sample application replace any Xcode placeholder strings (like `<#GENERATED_LINK_TOKEN#>`) in code with the appropriate value so that Plaid Link is configured properly. For convenience the Xcode placeholder strings are marked as compile-time warnings.
 
 Then select your desired use-case in [`ViewController.didTapButton`](/search?q=didTapButton+extension%3Am+extension%3Aswift&unscoped_q=didTapButton+extension%3Am+extension%3Aswift) and build and run the demo application to experience the particular Link flow for yourself.
 
