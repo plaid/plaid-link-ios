@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## 2020-08-21 — LinkKit 1.1.35
+### Changed
+- Bug fixes and stability.
+
+
+
 ## 2020-07-17 — LinkKit 1.1.34
 ### Added
 - Add events for OAuth flow

@@ -59,6 +59,9 @@ typedef NS_OPTIONS(NSInteger, PLKProduct) {
 
     /// Liabilities Report: Metadata about loans for refinance opportunities
     PLKProductLiabilitiesReport = 1 << 10,
+
+    /// Deposit switch helps users update their direct deposit to point to a new bank account.
+    PLKProductDepositSwitch = 1 << 11,
 };
 
 
