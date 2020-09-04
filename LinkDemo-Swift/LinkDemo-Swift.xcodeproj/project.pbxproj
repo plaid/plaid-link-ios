@@ -18,7 +18,7 @@
 		91974B10246D764A00182D9B /* ViewController+PaymentInitiation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91974B0F246D764A00182D9B /* ViewController+PaymentInitiation.swift */; };
 		91BB772E246D2A3500BFD0CE /* ViewController+CustomConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91BB772D246D2A3500BFD0CE /* ViewController+CustomConfiguration.swift */; };
 		91BB7730246D2AC600BFD0CE /* ViewController+SharedConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91BB772F246D2AC600BFD0CE /* ViewController+SharedConfiguration.swift */; };
-		91BB7732246D2B0D00BFD0CE /* ViewController+UpdateMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91BB7731246D2B0D00BFD0CE /* ViewController+UpdateMode.swift */; };
+		91BB7732246D2B0D00BFD0CE /* ViewController+LegacyPublicKeyUpdateMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91BB7731246D2B0D00BFD0CE /* ViewController+LegacyPublicKeyUpdateMode.swift */; };
 		91BB7734246D2B7F00BFD0CE /* ViewController+PLKPlaidLinkViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91BB7733246D2B7F00BFD0CE /* ViewController+PLKPlaidLinkViewDelegate.swift */; };
 		91BB7745246D50C800BFD0CE /* ViewController+LinkToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91BB7744246D50C800BFD0CE /* ViewController+LinkToken.swift */; };
 		91BB774A246D54B400BFD0CE /* ViewController+OAuthSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91BB7749246D54B400BFD0CE /* ViewController+OAuthSupport.swift */; };
@@ -52,7 +52,7 @@
 		91974B0F246D764A00182D9B /* ViewController+PaymentInitiation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+PaymentInitiation.swift"; sourceTree = "<group>"; };
 		91BB772D246D2A3500BFD0CE /* ViewController+CustomConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+CustomConfiguration.swift"; sourceTree = "<group>"; };
 		91BB772F246D2AC600BFD0CE /* ViewController+SharedConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+SharedConfiguration.swift"; sourceTree = "<group>"; };
-		91BB7731246D2B0D00BFD0CE /* ViewController+UpdateMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+UpdateMode.swift"; sourceTree = "<group>"; };
+		91BB7731246D2B0D00BFD0CE /* ViewController+LegacyPublicKeyUpdateMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+LegacyPublicKeyUpdateMode.swift"; sourceTree = "<group>"; };
 		91BB7733246D2B7F00BFD0CE /* ViewController+PLKPlaidLinkViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+PLKPlaidLinkViewDelegate.swift"; sourceTree = "<group>"; };
 		91BB7744246D50C800BFD0CE /* ViewController+LinkToken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+LinkToken.swift"; sourceTree = "<group>"; };
 		91BB7749246D54B400BFD0CE /* ViewController+OAuthSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+OAuthSupport.swift"; sourceTree = "<group>"; };
@@ -97,7 +97,7 @@
 				91BB7733246D2B7F00BFD0CE /* ViewController+PLKPlaidLinkViewDelegate.swift */,
 				91BB772D246D2A3500BFD0CE /* ViewController+CustomConfiguration.swift */,
 				91BB772F246D2AC600BFD0CE /* ViewController+SharedConfiguration.swift */,
-				91BB7731246D2B0D00BFD0CE /* ViewController+UpdateMode.swift */,
+				91BB7731246D2B0D00BFD0CE /* ViewController+LegacyPublicKeyUpdateMode.swift */,
 				91BB7744246D50C800BFD0CE /* ViewController+LinkToken.swift */,
 				91BB7749246D54B400BFD0CE /* ViewController+OAuthSupport.swift */,
 				91974B0F246D764A00182D9B /* ViewController+PaymentInitiation.swift */,
@@ -209,7 +209,7 @@
 				91974B0B246D6D4200182D9B /* AppDelegate+OAuthSupport.swift in Sources */,
 				91BB772E246D2A3500BFD0CE /* ViewController+CustomConfiguration.swift in Sources */,
 				91BB774A246D54B400BFD0CE /* ViewController+OAuthSupport.swift in Sources */,
-				91BB7732246D2B0D00BFD0CE /* ViewController+UpdateMode.swift in Sources */,
+				91BB7732246D2B0D00BFD0CE /* ViewController+LegacyPublicKeyUpdateMode.swift in Sources */,
 				91035E531E3CA7C000A97B26 /* AppDelegate.swift in Sources */,
 				91BB7745246D50C800BFD0CE /* ViewController+LinkToken.swift in Sources */,
 			);

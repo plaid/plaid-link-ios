@@ -10,9 +10,9 @@
 #import "ViewController+CustomConfiguration.h"
 #import "ViewController+SharedConfiguration.h"
 #import "ViewController+PaymentInitiation.h"
-#import "ViewController+UpdateMode.h"
 #import "ViewController+LinkToken.h"
 #import "ViewController+OAuthSupport.h"
+#import "ViewController+LegacyPublicKeyUpdateMode.h"
 
 @interface ViewController ()
 @property IBOutlet UIButton* button;
@@ -76,19 +76,16 @@
     typedef enum : NSUInteger {
         customConfiguration,
         sharedConfiguration,
-        updateMode,
         linkToken,
         oauthSupport,
         paymentInitiation,
+        legacyUpdateMode,
     } PlaidLinkSampleFlow;
     #warning Select your desired Plaid Link sample flow
     PlaidLinkSampleFlow sampleFlow = linkToken;
     switch (sampleFlow) {
         case sharedConfiguration:
             [self presentPlaidLinkWithSharedConfiguration];
-            break;
-        case updateMode:
-            [self presentPlaidLinkInUpdateMode];
             break;
         case linkToken:
             [self presentPlaidLinkUsingLinkToken];
@@ -98,6 +95,9 @@
             break;
         case paymentInitiation:
             [self presentPlaidLinkWithPaymentInitation:nil];
+            break;
+        case legacyUpdateMode:
+            [self presentPlaidLinkInLegacyPublicKeyUpdateMode];
             break;
         case customConfiguration:
             // Intentionally fallthrough

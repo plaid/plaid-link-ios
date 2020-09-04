@@ -1,5 +1,5 @@
 //
-//  ViewController+UpdateMode.swift
+//  ViewController+LegacyPublicKeyUpdateMode.swift
 //  LinkDemo-Swift
 //
 //  Copyright © 2020 Plaid Inc. All rights reserved.
@@ -10,8 +10,9 @@ import LinkKit
 extension ViewController {
 
     // MARK: Start Plaid Link in update mode
-    // For details about update mode please see https://plaid.com/docs/link/ios/#update-mode
-    func presentPlaidLinkInUpdateMode() {
+    // Link update mode using public_key has been superseded by Link Token,
+    // for details please see https://plaid.com/docs/link/ios/#update-mode.
+    func presentPlaidLinkInLegacyPublicKeyUpdateMode() {
 
         #warning("Replace <#YOUR_PLAID_PUBLIC_KEY#> and <#GENERATED_PUBLIC_TOKEN#> below with your public_key and public_token")
         // <!-- SMARTDOWN_UPDATE_MODE -->

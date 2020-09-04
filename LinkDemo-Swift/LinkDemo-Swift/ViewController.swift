@@ -55,26 +55,26 @@ class ViewController: UIViewController {
 
     @IBAction func didTapButton(_ sender: Any?) {
         enum PlaidLinkSampleFlow {
-            case customConfiguration;
-            case sharedConfiguration;
-            case linkToken;
-            case updateMode;
-            case oauthSupport;
-            case paymentInitiation;
+            case customConfiguration
+            case sharedConfiguration
+            case linkToken
+            case oauthSupport
+            case paymentInitiation
+            case legacyUpdateMode
         }
         #warning("Select your desired Plaid Link sample flow")
         let sampleFlow : PlaidLinkSampleFlow = .linkToken
         switch sampleFlow {
         case .sharedConfiguration:
             presentPlaidLinkWithSharedConfiguration()
-        case .updateMode:
-            presentPlaidLinkInUpdateMode()
         case .linkToken:
             presentPlaidLinkUsingLinkToken()
         case .oauthSupport:
             presentPlaidLinkWithOAuthSupport(oauthStateId: nil)
         case .paymentInitiation:
             presentPlaidLinkWithPaymentInitation(oauthStateId: nil)
+        case .legacyUpdateMode:
+            presentPlaidLinkInLegacyPublicKeyUpdateMode()
         case .customConfiguration:
             fallthrough
         default:

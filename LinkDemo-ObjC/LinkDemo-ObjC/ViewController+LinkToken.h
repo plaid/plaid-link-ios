@@ -9,8 +9,8 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface ViewController (ItemAddToken)
-- (void)presentPlaidLinkUsingItemAddToken;
+@interface ViewController (LinkToken)
+- (void)presentPlaidLinkUsingLinkToken;
 @end
 
 NS_ASSUME_NONNULL_END
