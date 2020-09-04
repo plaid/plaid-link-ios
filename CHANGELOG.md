@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## 2020-09-04 — LinkKit 1.1.36
+### Changed
+- Bug fix to allow using institutionId and oauth together when initializing Link with a Link token.
+
+
+
 ## 2020-08-21 — LinkKit 1.1.35
 ### Changed
 - Bug fixes and stability.
