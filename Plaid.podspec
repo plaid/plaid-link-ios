@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name              = 'Plaid'
   s.module_name       = 'LinkKit'
-  s.version           = '1.1.36'
+  s.version           = '2.0.0'
 
   s.summary           = 'The official Plaid Link SDK for iOS.'
 
@@ -23,5 +23,5 @@ Pod::Spec.new do |s|
   s.source            = { :git => 'https://github.com/plaid/plaid-link-ios.git', :tag => "ios/#{s.version}" }
 
   s.ios.frameworks    = 'Foundation', 'UIKit', 'WebKit', 'SafariServices'
-  s.ios.vendored_frameworks = 'LinkKit.framework'
+  s.ios.vendored_frameworks = 'LinkKit.xcframework'
 end

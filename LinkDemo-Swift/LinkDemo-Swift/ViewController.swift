@@ -11,11 +11,17 @@ import UIKit
 import LinkKit
 // <!-- SMARTDOWN_IMPORT_LINKKIT -->
 
-class ViewController: UIViewController {
+protocol LinkOAuthHandling {
+    var linkHandler: Handler? { get }
+    var oauthRedirectUri: URL? { get }
+}
+
+class ViewController: UIViewController, LinkOAuthHandling {
 
     @IBOutlet var button: UIButton!
     @IBOutlet var label: UILabel!
     @IBOutlet var buttonContainerView: UIView!
+    var linkHandler: Handler?
 
     // When re-initializing Link to complete the OAuth flows ensure that the same oauthNonce is used per session.
     // This is a simplified example for demonstaration purposes only.
@@ -24,16 +30,11 @@ class ViewController: UIViewController {
     #warning("Replace <#YOUR_OAUTH_REDIRECT_URI#> below with your oauthRedirectUri, which should be a universal link and must be configured in the Plaid developer dashboard")
     #warning("Ensure to also replace YOUR_OAUTH_REDIRECT_URI in the Associated Domains Capability or in the LinkDemo-Swift.entitlements")
     #warning("Remember to change the application Bundle Identifier to match one you have configured for universal links")
-    let oauthRedirectUri = URL(string: "<#YOUR_OAUTH_REDIRECT_URI#>")
-
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        NotificationCenter.default.addObserver(self, selector: #selector(ViewController.didReceiveNotification(_:)), name: NSNotification.Name(rawValue: "PLDPlaidLinkSetupFinished"), object: nil)
-    }
+    var oauthRedirectUri: URL? = { URL(string: "<#YOUR_OAUTH_REDIRECT_URI#>") }()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        let linkKitBundle  = Bundle(for: PLKPlaidLinkViewController.self)
+        let linkKitBundle  = Bundle(for: PLKPlaid.self)
         let linkKitVersion = linkKitBundle.object(forInfoDictionaryKey: "CFBundleShortVersionString")!
         let linkKitBuild   = linkKitBundle.object(forInfoDictionaryKey: kCFBundleVersionKey as String)!
         let linkKitName    = linkKitBundle.object(forInfoDictionaryKey: kCFBundleNameKey as String)!
@@ -46,39 +47,18 @@ class ViewController: UIViewController {
         buttonContainerView.layer.shadowOpacity = 1
     }
 
-    @objc func didReceiveNotification(_ notification: NSNotification) {
-        if notification.name.rawValue == "PLDPlaidLinkSetupFinished" {
-            NotificationCenter.default.removeObserver(self, name: notification.name, object: nil)
-            button.isEnabled = true
-        }
-    }
-
     @IBAction func didTapButton(_ sender: Any?) {
         enum PlaidLinkSampleFlow {
-            case customConfiguration
-            case sharedConfiguration
             case linkToken
-            case oauthSupport
-            case paymentInitiation
-            case legacyUpdateMode
+            case linkPublicKey // for compatability with LinkKit v1
         }
         #warning("Select your desired Plaid Link sample flow")
         let sampleFlow : PlaidLinkSampleFlow = .linkToken
         switch sampleFlow {
-        case .sharedConfiguration:
-            presentPlaidLinkWithSharedConfiguration()
-        case .linkToken:
+            case .linkToken:
             presentPlaidLinkUsingLinkToken()
-        case .oauthSupport:
-            presentPlaidLinkWithOAuthSupport(oauthStateId: nil)
-        case .paymentInitiation:
-            presentPlaidLinkWithPaymentInitation(oauthStateId: nil)
-        case .legacyUpdateMode:
-            presentPlaidLinkInLegacyPublicKeyUpdateMode()
-        case .customConfiguration:
-            fallthrough
-        default:
-            presentPlaidLinkWithCustomConfiguration()
+        case .linkPublicKey:
+            presentPlaidLinkUsingPublicKey()
         }
     }
 
