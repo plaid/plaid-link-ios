@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## 2020-09-24 — LinkKit 1.1.37
+### Changed
+- Fix issue with OAuth redirect during the patch flow
+
+
+
 ## 2020-09-04 — LinkKit 1.1.36
 ### Changed
 - Bug fix to allow using institutionId and oauth together when initializing Link with a Link token.
