@@ -52,15 +52,14 @@ typedef NS_ENUM(NSInteger, PLKEventNameValue) {
 };
 
 
-typedef NS_ENUM(NSInteger, PLKExitStatus) {
-    PLKExitStatusNone = -1,
-    PLKExitStatusRequiresQuestions,
-    PLKExitStatusRequiresSelections,
-    PLKExitStatusRequiresCode,
-    PLKExitStatusChooseDevice,
-    PLKExitStatusRequiresCredentials,
-    PLKExitStatusInstitutionNotFound,
-    PLKExitStatusUnknown,
+typedef NS_ENUM(NSInteger, PLKExitStatusValue) {
+    PLKExitStatusValueNone = -1,
+    PLKExitStatusValueRequiresQuestions,
+    PLKExitStatusValueRequiresSelections,
+    PLKExitStatusValueRequiresCode,
+    PLKExitStatusValueChooseDevice,
+    PLKExitStatusValueRequiresCredentials,
+    PLKExitStatusValueInstitutionNotFound,
 };
 
 typedef NS_ENUM(NSInteger, PLKMFAType) {
@@ -302,6 +301,14 @@ static NSString *const kPLKDefaultErrorDomain = @"com.plaid.link";
 
 @end
 
+@interface PLKExitStatus : NSObject
+
+/// If the server returned an event name value the SDK is not aware of, unknownStringValue will be non-nil
+@property(nonatomic, readonly, nullable, copy) NSString *unknownStringValue;
+@property(nonatomic, readonly) PLKExitStatusValue value;
+
+@end
+
 @protocol PLKAccountSubtype <NSObject>
 
 @property(nonatomic, readonly, nullable, copy) NSString *rawStringValue;
@@ -405,7 +412,7 @@ static NSString *const kPLKDefaultErrorDomain = @"com.plaid.link";
 
 @interface PLKExitMetadata : NSObject
 
-@property(nonatomic, readonly) PLKExitStatus status;
+@property(nonatomic, readonly, nullable) PLKExitStatus *status;
 @property(nonatomic, readonly, nullable) PLKInstitution *institution;
 @property(nonatomic, readonly, copy) NSString *requestID;
 @property(nonatomic, readonly, copy) NSString *linkSessionID;
@@ -429,7 +436,7 @@ static NSString *const kPLKDefaultErrorDomain = @"com.plaid.link";
 @interface PLKEventMetadata : NSObject
 
 @property(nonatomic, readonly, nullable) PLKExitError *error;
-@property(nonatomic, readonly) PLKExitStatus exitStatus;
+@property(nonatomic, readonly, nullable) PLKExitStatus *exitStatus;
 @property(nonatomic, readonly, nullable, copy) NSString *institutionID;
 @property(nonatomic, readonly, nullable, copy) NSString *institutionName;
 @property(nonatomic, readonly, nullable, copy) NSString *institutionSearchQuery;
@@ -487,9 +494,14 @@ typedef void(^PLKOnEventHandler)(PLKLinkEvent *);
 
 @property(nonatomic, readonly, copy) NSString *publicKey;
 @property(nonatomic, readonly, nullable, copy) NSString *paymentToken;
+@property(nonatomic, readonly, nullable, copy) NSString *publicToken;
 
 + (instancetype)createWithPaymentToken:(NSString *)paymentToken
                              publicKey:(NSString *)publicKey;
+
++ (instancetype)createWithPublicToken:(NSString *)publicToken
+                            publicKey:(NSString *)publicKey;
+
 + (instancetype)createWithPublicKey:(NSString *)publicKey;
 
 @end

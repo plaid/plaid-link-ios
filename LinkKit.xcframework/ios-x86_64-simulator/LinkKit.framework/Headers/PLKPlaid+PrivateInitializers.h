@@ -29,6 +29,13 @@ NS_ASSUME_NONNULL_BEGIN
 
 @end
 
+@interface PLKExitStatus (PrivateInitializers)
+
++ (instancetype)createWithValue:(PLKExitStatusValue)value;
++ (instancetype)createWithUnknownStringValue:(NSString *)unknownStringValue;
+
+@end
+
 @interface PLKAccount (PrivateInitializers)
 
 - (instancetype)initWithAccountID:(NSString *)ID
@@ -49,7 +56,7 @@ NS_ASSUME_NONNULL_BEGIN
 @interface PLKEventMetadata (PrivateInitializers)
 
 - (instancetype)initWithError:(PLKExitError * __nullable)error
-                   exitStatus:(PLKExitStatus)exitStatus
+                   exitStatus:(PLKExitStatus * __nullable)exitStatus
                 institutionID:(NSString * __nullable)institutionID
               institutionName:(NSString * __nullable)institutionName
        institutionSearchQuery:(NSString * __nullable)institutionSearchQuery
@@ -71,7 +78,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface PLKExitMetadata (PrivateInitializers)
 
-- (instancetype)initWithStatus:(PLKExitStatus)status
+- (instancetype)initWithStatus:(PLKExitStatus * __nullable)status
                    institution:(PLKInstitution * __nullable)institution
                      requestID:(NSString * __nullable)requestID
                  linkSessionID:(NSString * __nullable)linkSessionID
