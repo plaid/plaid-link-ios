@@ -22,7 +22,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		f2Z25xTFhCaV8D2sjb7RmowRPMk=
+		gcA1h6UhLAvhwP+RpSE7dsmvSwg=
 		</data>
 		<key>Modules/LinkKit.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Modules/LinkKit.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		ZkjirjMEFmp/mwIWyERnRwD43iA=
+		u+8bG0F5oj7Zhr7mrwkrLhxZjyw=
 		</data>
 		<key>Modules/LinkKit.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -46,7 +46,7 @@
 		</data>
 		<key>Modules/LinkKit.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		ZkjirjMEFmp/mwIWyERnRwD43iA=
+		u+8bG0F5oj7Zhr7mrwkrLhxZjyw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -101,7 +101,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			pi21XWNJTablKg30Av1RV6biPhyJnNrCi9I6F6jH3rI=
+			ZghQ6Qf/RvB9XxhN4WXXR75uJ/BsYGJ49ePzNnnfOBE=
 			</data>
 		</dict>
 		<key>Modules/LinkKit.swiftmodule/arm64.swiftdoc</key>
@@ -122,7 +122,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			pi21XWNJTablKg30Av1RV6biPhyJnNrCi9I6F6jH3rI=
+			ZghQ6Qf/RvB9XxhN4WXXR75uJ/BsYGJ49ePzNnnfOBE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
