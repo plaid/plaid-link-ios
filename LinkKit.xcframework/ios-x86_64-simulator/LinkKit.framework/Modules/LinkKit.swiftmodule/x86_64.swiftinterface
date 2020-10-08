@@ -477,6 +477,9 @@ public enum APIError : Swift.Error {
 @_inheritsConvenienceInitializers @objc public class PLKPlaid : ObjectiveC.NSObject {
   @objc public static func createWithLinkTokenConfiguration(_ linkTokenConfiguration: LinkKit.PLKLinkTokenConfiguration, error: Foundation.NSErrorPointer) -> LinkKit.PLKHandler?
   @objc public static func createWithLinkPublicKeyConfiguration(_ linkPublicKeyConfiguration: LinkKit.PLKLinkPublicKeyConfiguration, error: Foundation.NSErrorPointer) -> LinkKit.PLKHandler?
+  @objc public static var sdkVersion: Swift.String {
+    @objc get
+  }
   @objc deinit
   @objc override dynamic public init()
 }

@@ -219,6 +219,9 @@ SWIFT_CLASS("_TtC7LinkKit8PLKPlaid")
 @interface PLKPlaid : NSObject
 + (id <PLKHandler> _Nullable)createWithLinkTokenConfiguration:(PLKLinkTokenConfiguration * _Nonnull)linkTokenConfiguration error:(NSError * _Nullable * _Nullable)error SWIFT_WARN_UNUSED_RESULT;
 + (id <PLKHandler> _Nullable)createWithLinkPublicKeyConfiguration:(PLKLinkPublicKeyConfiguration * _Nonnull)linkPublicKeyConfiguration error:(NSError * _Nullable * _Nullable)error SWIFT_WARN_UNUSED_RESULT;
+/// The version of the Plaid Link iOS SDK.
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull sdkVersion;)
++ (NSString * _Nonnull)sdkVersion SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
