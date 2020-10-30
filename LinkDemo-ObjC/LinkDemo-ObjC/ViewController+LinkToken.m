@@ -8,37 +8,40 @@
 #import <LinkKit/LinkKit.h>
 
 #import "ViewController+LinkToken.h"
-#import "ViewController+PLKPlaidLinkViewDelegate.h"
+
+@interface ViewController ()
+@property (readwrite) id<PLKHandler> linkHandler;
+@end
 
 @implementation ViewController (LinkToken)
 
-// MARK: Start Plaid Link with custom configuration using a Link token
+// MARK: Start Plaid Link using a Link token
 // For details please see https://plaid.com/docs/#create-link-token
 - (void)presentPlaidLinkUsingLinkToken {
 
     #warning Replace <#GENERATED_LINK_TOKEN#> below with your link_token
-    // In your production application replace the hardcoded linkToken below with code that fetches an link_token
-    // from your backend server which in turn retrieves it securely from Plaid, for details please refer to
-    // https://plaid.com/docs/#create-link-token
-    NSString* linkToken = @"<#GENERATED_LINK_TOKEN#>";
 
-    // <!-- SMARTDOWN_PRESENT_LINKTOKEN -->
-    // With custom configuration using a link_token
-    PLKConfiguration* linkConfiguration;
-    @try {
-        linkConfiguration = [[PLKConfiguration alloc] initWithLinkToken: linkToken];
-    } @catch (NSException *exception) {
-        NSLog(@"Invalid configuration: %@", exception);
-        return;
-    }
+    PLKLinkTokenConfiguration* linkConfiguration = [PLKLinkTokenConfiguration createWithToken:@"<#GENERATED_LINK_TOKEN#>"
+                                                                                    onSuccess:^(PLKLinkSuccess *success) {
+        NSLog(@"public-token: %@ metadata: %@", success.publicToken, success.metadata);
+    }];
+    linkConfiguration.onExit = ^(PLKLinkExit * exit) {
+        if (exit.error) {
+            NSLog(@"exit with %@\n%@", exit.error, exit.metadata);
+        } else {
+            NSLog(@"exit with %@", exit.metadata);
+        }
+    };
 
-    id<PLKPlaidLinkViewDelegate> linkViewDelegate  = self;
-    PLKPlaidLinkViewController* linkViewController = [[PLKPlaidLinkViewController alloc] initWithLinkToken:linkToken configuration:linkConfiguration delegate:linkViewDelegate];
-    if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad) {
-        linkViewController.modalPresentationStyle = UIModalPresentationFormSheet;
+    NSError *createError = nil;
+    id<PLKHandler> handler = [PLKPlaid createWithLinkTokenConfiguration:linkConfiguration
+                                                                  error:&createError];
+    if (handler) {
+        self.linkHandler = handler;
+        [handler openWithContextViewController:self];
+    } else if (createError) {
+        NSLog(@"Unable to create PLKHandler due to: %@", createError);
     }
-    [self presentViewController:linkViewController animated:YES completion:nil];
-    // <!-- SMARTDOWN_PRESENT_LINKTOKEN -->
 
 }
 

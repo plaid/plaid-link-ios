@@ -10,36 +10,30 @@ import LinkKit
 
 extension AppDelegate {
 
-    // MARK: Re-initialize Plaid Link for iOS to complete OAuth authentication flow
+    // MARK: Continue Plaid Link for iOS to complete an OAuth authentication flow
     // <!-- SMARTDOWN_OAUTH_SUPPORT -->
-    func application(_ application: UIApplication, continue userActivity: NSUserActivity, restorationHandler: @escaping ([UIUserActivityRestoring]?) -> Void) -> Bool {
-
+    func application(_ application: UIApplication,
+                     continue userActivity: NSUserActivity,
+                     restorationHandler: @escaping ([UIUserActivityRestoring]?) -> Void
+    ) -> Bool {
         guard userActivity.activityType == NSUserActivityTypeBrowsingWeb, let webpageURL = userActivity.webpageURL else {
             return false
         }
 
-        guard let viewController = window?.rootViewController as? ViewController else {
-            return false
-        }
-
-        // Check that the userActivity.webpageURL is the oauthRedirectUri we have
+        // Check that the userActivity.webpageURL is the oauthRedirectUri
         // configured in the Plaid dashboard.
-        guard let oauthRedirectUri = viewController.oauthRedirectUri,
-            webpageURL.host == oauthRedirectUri.host, webpageURL.path == oauthRedirectUri.path
-            else {
+        guard let linkOAuthHandler = window?.rootViewController as? LinkOAuthHandling,
+            let handler = linkOAuthHandler.linkHandler,
+            webpageURL.host == linkOAuthHandler.oauthRedirectUri?.host &&
+            webpageURL.path == linkOAuthHandler.oauthRedirectUri?.path
+        else {
             return false
         }
 
-        // Extract oauthStateId from userActivity.webpageURL
-        guard let oauthStateId = PLKOAuthStateIdFromURL(webpageURL) else {
-            NSLog("Unable to extract oauthStateId from URL: \(webpageURL)")
-            return false
+        // Continue the Link flow
+        if let error = handler.continueFrom(redirectUri: webpageURL) {
+            print("Unable to continue from redirect due to: \(error)")
         }
-
-        // Re-initialize Link with the oauthStateId
-        viewController.presentPlaidLinkWithOAuthSupport(oauthStateId: oauthStateId)
-        // for the payment initiation flow use:
-        //viewController.presentPlaidLinkWithPaymentInitation(oauthStateId: oauthStateId)
 
         return true
     }

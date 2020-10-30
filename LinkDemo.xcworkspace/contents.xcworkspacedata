@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:LinkDemo-ObjC/LinkDemo-ObjC.xcodeproj">
+      location = "group:LinkDemo-Swift/../LinkDemo-ObjC/LinkDemo-ObjC.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:LinkDemo-Swift/LinkDemo-Swift.xcodeproj">

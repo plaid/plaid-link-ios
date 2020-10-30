@@ -6,13 +6,10 @@
 //
 
 #import "ViewController.h"
-#import "ViewController+PLKPlaidLinkViewDelegate.h"
-#import "ViewController+CustomConfiguration.h"
-#import "ViewController+SharedConfiguration.h"
-#import "ViewController+PaymentInitiation.h"
+
 #import "ViewController+LinkToken.h"
-#import "ViewController+OAuthSupport.h"
-#import "ViewController+LegacyPublicKeyUpdateMode.h"
+#import "ViewController+PublicKey.h"
+//#import "ViewController+OAuthSupport.h"
 
 @interface ViewController ()
 @property IBOutlet UIButton* button;
@@ -21,24 +18,19 @@
 @end
 
 @implementation ViewController
+@synthesize linkHandler = _linkHandler;
+@synthesize oauthRedirectUri = _oauthRedirectUri;
 @synthesize oauthNonce = _oauthNonce;
-
-- (void)awakeFromNib {
-    [super awakeFromNib];
-
-    [[NSNotificationCenter defaultCenter] addObserver:self
-                                             selector:@selector(didReceiveNotification:)
-                                                 name:@"PLDPlaidLinkSetupFinished"
-                                               object:nil];
-}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    NSBundle* linkKitBundle = [NSBundle bundleForClass:[PLKPlaidLinkViewController class]];
+    NSBundle* linkKitBundle = [NSBundle bundleForClass:[PLKPlaid class]];
     NSString* linkName      = [linkKitBundle objectForInfoDictionaryKey:(NSString*)kCFBundleNameKey];
-    self.label.text         = [NSString stringWithFormat:@"Objective-C — %@ %s+%.0f"
-                                 , linkName, LinkKitVersionString, LinkKitVersionNumber];
+    self.label.text         = [NSString stringWithFormat:@"Objective-C — %@ %@+%@"
+                                 , linkName
+                                 , [linkKitBundle objectForInfoDictionaryKey:@"CFBundleShortVersionString"]
+                                 , [linkKitBundle objectForInfoDictionaryKey:(NSString*)kCFBundleVersionKey]];
 
     UIColor* shadowColor = [UIColor colorWithRed:3/255.0 green:49/255.0 blue:86/255.0 alpha:0.1];
     self.buttonContainerView.layer.shadowColor   = [shadowColor CGColor];
@@ -47,25 +39,16 @@
     self.buttonContainerView.layer.shadowOpacity = 1;
 }
 
-- (void)didReceiveNotification:(NSNotification*)notification {
-    if ([@"PLDPlaidLinkSetupFinished" isEqualToString:notification.name]) {
-        [[NSNotificationCenter defaultCenter] removeObserver:self
-                                                        name:notification.name
-                                                      object:self];
-        self.button.enabled = YES;
-    }
-}
-
 - (NSURL*)oauthRedirectUri {
     #warning Replace <#YOUR_OAUTH_REDIRECT_URI#> below with your oauthRedirectUri, which should be a universal link and must be configured in the Plaid developer dashboard
-    # warning Ensure to also replace YOUR_OAUTH_REDIRECT_URI in the Associated Domains Capability or in the LinkDemo-ObjC.entitlements
-    # warning Remember to change the application Bundle Identifier to match one you have configured for universal links
+    #warning Replace YOUR_OAUTH_REDIRECT_URI in the Associated Domains Capability or in the LinkDemo-ObjC.entitlements
+    #warning Remember to change the application Bundle Identifier to match one you have configured for universal links
     return [NSURL URLWithString:@"<#YOUR_OAUTH_REDIRECT_URI#>"];
 }
 
 - (NSString*)oauthNonce {
-    // When re-initializing Link to complete the OAuth flows ensure that the same oauthNonce is used per session.
-    // This is a simplified example for demonstaration purposes only.
+    // To complete the OAuth flows ensure that the same oauthNonce is used per session.
+    // This handling of oauthNonce is a simplified example for demonstaration purposes only.
     if (_oauthNonce == nil) {
         _oauthNonce = [[NSUUID UUID] UUIDString];
     }
@@ -74,35 +57,17 @@
 
 - (IBAction)didTapButton:(id)sender {
     typedef enum : NSUInteger {
-        customConfiguration,
-        sharedConfiguration,
         linkToken,
-        oauthSupport,
-        paymentInitiation,
-        legacyUpdateMode,
+        linkPublicKey // for compatability with LinkKit v1
     } PlaidLinkSampleFlow;
     #warning Select your desired Plaid Link sample flow
     PlaidLinkSampleFlow sampleFlow = linkToken;
     switch (sampleFlow) {
-        case sharedConfiguration:
-            [self presentPlaidLinkWithSharedConfiguration];
-            break;
         case linkToken:
             [self presentPlaidLinkUsingLinkToken];
             break;
-        case oauthSupport:
-            [self presentPlaidLinkWithOAuthSupport:nil];
-            break;
-        case paymentInitiation:
-            [self presentPlaidLinkWithPaymentInitation:nil];
-            break;
-        case legacyUpdateMode:
-            [self presentPlaidLinkInLegacyPublicKeyUpdateMode];
-            break;
-        case customConfiguration:
-            // Intentionally fallthrough
-        default:
-            [self presentPlaidLinkWithCustomConfiguration];
+        case linkPublicKey:
+            [self presentPlaidLinkUsingPublicKey];
             break;
     }
 }

@@ -7,47 +7,42 @@
 
 #import <LinkKit/LinkKit.h>
 #import "ViewController.h"
-#import "ViewController+PaymentInitiation.h"
-#import "ViewController+OAuthSupport.h"
 
 #import "AppDelegate+OAuthSupport.h"
 
 @implementation AppDelegate (OAuthSupport)
 
-// MARK: Re-initialize Plaid Link for iOS to complete OAuth authentication flow
+// MARK: Continue Plaid Link for iOS to complete an OAuth authentication flow
 // <!-- SMARTDOWN_OAUTH_SUPPORT -->
 - (BOOL)application:(UIApplication *)application
 continueUserActivity:(NSUserActivity *)userActivity
  restorationHandler:(void (^)(NSArray<id<UIUserActivityRestoring>> * _Nullable))restorationHandler {
-    if (![userActivity.activityType isEqualToString:NSUserActivityTypeBrowsingWeb]) {
-        return NO;
-    }
     NSURL* webpageURL = userActivity.webpageURL;
-
-    if (![self.window.rootViewController isKindOfClass:[ViewController class]]) {
+    if (!([userActivity.activityType isEqualToString:NSUserActivityTypeBrowsingWeb] && webpageURL != nil)) {
         return NO;
     }
-    ViewController* viewController = (ViewController*)self.window.rootViewController;
 
-    // Check that the userActivity.webpageURL is the oauthRedirectUri that we have 
+    UIViewController* rootViewController = self.window.rootViewController;
+    if (![rootViewController conformsToProtocol:@protocol(LinkOAuthHandling)]) {
+        return NO;
+    }
+    id<LinkOAuthHandling> linkOAuthHandler = (id<LinkOAuthHandling>)rootViewController;
+    id<PLKHandler> handler = linkOAuthHandler.linkHandler;
+
+    // Check that the userActivity.webpageURL matches the oauthRedirectUri that we have 
     // configured in the Plaid dashboard. 
-    if (!(viewController.oauthRedirectUri
-        && [webpageURL.host isEqualToString:viewController.oauthRedirectUri.host]
-        && [webpageURL.path isEqualToString:viewController.oauthRedirectUri.path]
+    if (!(handler
+        && linkOAuthHandler.oauthRedirectUri
+        && [webpageURL.host isEqualToString:linkOAuthHandler.oauthRedirectUri.host]
+        && [webpageURL.path isEqualToString:linkOAuthHandler.oauthRedirectUri.path]
           )) {
         return NO;
     }
 
-    // Extract oauthStateId from userActivity.webpageURL
-    NSString* oauthStateId = PLKOAuthStateIdFromURL(webpageURL);
-    if (!oauthStateId) {
-        NSLog(@"Unable to extract oauthStateId from URL: %@", webpageURL);
-        return NO;
+    NSError* error = [handler continueFromRedirectUri:webpageURL];
+    if (error) {
+        NSLog(@"Unable to continue from redirect due to: %@", [error localizedDescription]);
     }
-
-    [viewController presentPlaidLinkWithOAuthSupport:oauthStateId];
-    // for the payment initiation flow use:
-    //[viewController presentPlaidLinkWithPaymentInitation:oauthStateId];
 
     return YES;
 }

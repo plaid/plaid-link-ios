@@ -1,5 +1,5 @@
 //
-//  ViewController+ItemAddToken.h
+//  ViewController+LinkToken.h
 //  LinkDemo-ObjC
 //
 //  Copyright © 2020 Plaid Inc. All rights reserved.
