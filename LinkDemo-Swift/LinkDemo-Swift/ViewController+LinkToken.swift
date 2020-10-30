@@ -9,7 +9,7 @@ import LinkKit
 
 extension ViewController {
 
-    // MARK: Start Plaid Link with custom configuration using a Link token
+    // MARK: Start Plaid Link using a Link token
     // For details please see https://plaid.com/docs/#create-link-token
     func presentPlaidLinkUsingLinkToken() {
 

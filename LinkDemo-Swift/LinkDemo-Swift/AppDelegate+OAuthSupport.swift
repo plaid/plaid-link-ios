@@ -12,8 +12,10 @@ extension AppDelegate {
 
     // MARK: Continue Plaid Link for iOS to complete an OAuth authentication flow
     // <!-- SMARTDOWN_OAUTH_SUPPORT -->
-    func application(_ application: UIApplication, continue userActivity: NSUserActivity, restorationHandler: @escaping ([UIUserActivityRestoring]?) -> Void) -> Bool {
-
+    func application(_ application: UIApplication,
+                     continue userActivity: NSUserActivity,
+                     restorationHandler: @escaping ([UIUserActivityRestoring]?) -> Void
+    ) -> Bool {
         guard userActivity.activityType == NSUserActivityTypeBrowsingWeb, let webpageURL = userActivity.webpageURL else {
             return false
         }
