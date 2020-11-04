@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)
+// swift-compiler-version: Apple Swift version 5.3 (swiftlang-1200.0.29.2 clang-1200.0.30.1)
 // swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Osize -module-name LinkKit
 import AuthenticationServices
 import Foundation
@@ -13,7 +13,7 @@ public struct Plaid {
   public enum CreateError : Swift.Error {
     case configurationError(LinkKit.ConfigurationError)
   }
-  public static func create(_ LinkPublicKeyConfiguration: LinkKit.LinkPublicKeyConfiguration) -> Swift.Result<LinkKit.Handler, LinkKit.Plaid.CreateError>
+  public static func create(_ linkPublicKeyConfiguration: LinkKit.LinkPublicKeyConfiguration) -> Swift.Result<LinkKit.Handler, LinkKit.Plaid.CreateError>
   public static func create(_ linkTokenConfiguration: LinkKit.LinkTokenConfiguration) -> Swift.Result<LinkKit.Handler, LinkKit.Plaid.CreateError>
   public static var version: Swift.String
 }
@@ -30,8 +30,8 @@ public protocol Handler {
 public struct LinkTokenConfiguration {
   public let token: Swift.String
   public var onSuccess: LinkKit.OnSuccessHandler
-  public var onExit: LinkKit.OnExitHandler
-  public var onEvent: LinkKit.OnEventHandler
+  public var onExit: (LinkKit.LinkExit) -> Swift.Void
+  public var onEvent: (LinkKit.LinkEvent) -> Swift.Void
   public init(token: Swift.String, onSuccess: @escaping LinkKit.OnSuccessHandler)
 }
 public struct OAuthNonceConfiguration {
@@ -54,8 +54,8 @@ public struct LinkPublicKeyConfiguration {
   public var countryCodes: [LinkKit.CountryCode]
   public var token: LinkKit.LinkPublicKeyConfiguration.Token
   public var onSuccess: LinkKit.OnSuccessHandler
-  public var onExit: LinkKit.OnExitHandler
-  public var onEvent: LinkKit.OnEventHandler
+  public var onExit: (LinkKit.LinkExit) -> Swift.Void
+  public var onEvent: (LinkKit.LinkEvent) -> Swift.Void
   public var webhook: Foundation.URL?
   public var userLegalName: Swift.String?
   public var userEmailAddress: Swift.String?
