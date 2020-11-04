@@ -1,5 +1,18 @@
 # RELEASES
 
+## LinkKit 2.0.6 - 2020-11-04
+### Requirements
+
+| Name | Version |
+|------|---------|
+| Xcode | 11.5 |
+| iOS | 11.0 |
+
+### Changes
+
+- Correctly handle redirect URIs with no path component
+- Improve error messaging on configuration validation
+
 ## LinkKit 2.0.5 — 2020-10-20
 ### Requirements
 

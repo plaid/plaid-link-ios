@@ -1,8 +1,6 @@
 #ifndef PLKPlaid_PrivateInitializers_h
 #define PLKPlaid_PrivateInitializers_h
 
-#import "PLKPlaid.h"
-
 /// NOTE: The initializers exposed through this header are meant for use only by internal LinkKit code and are
 /// subject to change without notice, or a corresponding semantic version bump. If there is a use case that requires
 /// the use of these initializers, please let Plaid know so a path forward can be found using the public, stable API.
