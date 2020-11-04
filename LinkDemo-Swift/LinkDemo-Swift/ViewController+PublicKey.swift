@@ -19,8 +19,8 @@ extension ViewController {
         // With custom configuration using a link_token
         var linkConfiguration = LinkPublicKeyConfiguration(
             clientName: "<#APPLICATION_NAME#>",
-            environment: <#.sandbox#>,
-            products: [<#.transactions#>],
+            environment: .sandbox,
+            products: [.transactions],
             language: "en",
             // For public key Link flows use:
             token: .publicKey("<#PUBLIC_KEY#>"),
