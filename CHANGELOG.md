@@ -10,8 +10,8 @@
 
 ### Changes
 
-- Correctly handle redirect URIs with no path component
-- Improve error messaging on configuration validation
+- Correctly handle redirect URIs with no path component.
+- Improve error messaging on configuration validation.
 
 ## LinkKit 2.0.5 — 2020-10-20
 ### Requirements
