@@ -18,5 +18,5 @@ Select your desired use-case in [`ViewController.didTapButton`](/search?q=didTap
 [link-ios-docs]: https://plaid.com/docs/link/ios
 [link-sdk-version]: https://img.shields.io/cocoapods/v/Plaid
 [link-sdk-url]: https://cocoapods.org/pods/Plaid
-[link-1-2-migration]: https://plaid.com/docs/link/ios/ios-v2-migrationl
+[link-1-2-migration]: https://plaid.com/docs/link/ios/ios-v2-migration
 [link-main-v1]: https://github.com/plaid/plaid-link-ios/tree/main-v1
