@@ -1,5 +1,12 @@
 # CHANGELOG
 
+
+## 2020-11-13 — LinkKit 1.1.38
+### Changed
+- Fix issue with null account_id in returned metadata
+
+
+
 ## 2020-09-24 — LinkKit 1.1.37
 ### Changed
 - Fix issue with OAuth redirect during the patch flow
