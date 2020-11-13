@@ -1,6 +1,6 @@
 # RELEASES
 
-## LinkKit 2.0.6 - 2020-11-04
+## LinkKit 2.0.6 — 2020-11-04
 ### Requirements
 
 | Name | Version |
@@ -10,8 +10,9 @@
 
 ### Changes
 
-- Correctly handle redirect URIs with no path component.
-- Improve error messaging on configuration validation.
+- Correctly handle redirect URIs with no path component
+- Improve error messaging on configuration validation
+
 
 ## LinkKit 2.0.5 — 2020-10-20
 ### Requirements
@@ -105,7 +106,15 @@ For details about migrating from LinkKit 1.x to 2.x please see [the migration gu
 ### Notes
 
 
-Please see known issues below and use version 2.0.1 instead.
+LinkKit 2.x marks the next generation of the Plaid Link for iOS SDK. It brings support for new features such as Link token based Payment Initation and unifies the Plaid Link mobile APIs across platforms while taking advantage of features available to iOS 11 and up.
+
+Please see known issues below and use version 2.0.6 instead.
+
+
+## LinkKit 1.1.38 — 2020-11-13
+### Changes
+
+- Fix issue with null account_id in returned metadata
 
 
 ## LinkKit 1.1.37 — 2020-09-24
