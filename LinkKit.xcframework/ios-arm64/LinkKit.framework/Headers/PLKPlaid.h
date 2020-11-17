@@ -18,6 +18,7 @@ typedef NSError PLKExitError;
 typedef NS_ENUM(NSInteger, PLKProduct) {
     PLKProductAssets,
     PLKProductAuth,
+    PLKProductDepositSwitch,
     PLKProductIdentity,
     PLKProductIncome,
     PLKProductInvestments,
@@ -262,6 +263,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 static NSString *const kPLKExitErrorMessageKey = @"PLKExitErrorMessageKey";
 static NSString *const kPLKExitErrorDisplayMessageKey = @"PLKExitErrorDisplayMessageKey";
+static NSString *const kPLKExitErrorRawJSONKey = @"PLKExitErrorRawJSONKey";
 static NSString *const kPLKExitErrorUnknownTypeKey = @"kPLKExitErrorUnknownTypeKey";
 static NSString *const kPLKExitErrorCodeKey = @"kPLKExitErrorCodeKey";
 

@@ -211,6 +211,7 @@ public enum Environment : Swift.CustomStringConvertible {
 public enum Product : Swift.CustomStringConvertible, Swift.CaseIterable {
   case assets
   case auth
+  case depositSwitch
   case identity
   case income
   case investments
@@ -269,6 +270,7 @@ public struct ExitError : Swift.Error {
   public var errorCode: LinkKit.ExitErrorCode
   public var errorMessage: Swift.String
   public var displayMessage: Swift.String?
+  public var errorJSON: LinkKit.RawJSONMetadata?
 }
 public struct Institution {
   public var id: LinkKit.InstitutionID
