@@ -5,8 +5,8 @@
 
 | Name | Version |
 |------|---------|
-| Xcode | 11.5 |
-| iOS | 11.0 |
+| Xcode | >= 11.5 |
+| iOS | >= 11.0 |
 
 ### Changes
 
@@ -19,8 +19,8 @@
 
 | Name | Version |
 |------|---------|
-| Xcode | 11.5 |
-| iOS | 11.0 |
+| Xcode | >= 11.5 |
+| iOS | >= 11.0 |
 
 ### Changes
 
@@ -33,8 +33,8 @@
 
 | Name | Version |
 |------|---------|
-| Xcode | 11.5 |
-| iOS | 11.0 |
+| Xcode | >= 11.5 |
+| iOS | >= 11.0 |
 
 ### Changes
 
@@ -47,8 +47,8 @@
 
 | Name | Version |
 |------|---------|
-| Xcode | 11.5 |
-| iOS | 11.0 |
+| Xcode | >= 11.5 |
+| iOS | >= 11.0 |
 
 ### Changes
 
@@ -68,8 +68,8 @@
 
 | Name | Version |
 |------|---------|
-| Xcode | 11.5 |
-| iOS | 11.0 |
+| Xcode | >= 11.5 |
+| iOS | >= 11.0 |
 
 
 ## LinkKit 2.0.1 — 2020-10-01
@@ -86,8 +86,8 @@
 
 | Name | Version |
 |------|---------|
-| Xcode | 11.5 |
-| iOS | 11.0 |
+| Xcode | >= 11.5 |
+| iOS | >= 11.0 |
 
 ### Notes
 
