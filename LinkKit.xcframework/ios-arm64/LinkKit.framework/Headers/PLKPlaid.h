@@ -497,12 +497,16 @@ typedef void(^PLKOnEventHandler)(PLKLinkEvent *);
 @property(nonatomic, readonly, copy) NSString *publicKey;
 @property(nonatomic, readonly, nullable, copy) NSString *paymentToken;
 @property(nonatomic, readonly, nullable, copy) NSString *publicToken;
+@property(nonatomic, readonly, nullable, copy) NSString *depositSwitchToken;
 
 + (instancetype)createWithPaymentToken:(NSString *)paymentToken
                              publicKey:(NSString *)publicKey;
 
 + (instancetype)createWithPublicToken:(NSString *)publicToken
                             publicKey:(NSString *)publicKey;
+
++ (instancetype)createWithDepositSwitchToken:(NSString *)depositSwitchToken
+                                   publicKey:(NSString *)publicKey;
 
 + (instancetype)createWithPublicKey:(NSString *)publicKey;
 
