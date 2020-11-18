@@ -41,7 +41,10 @@ public struct OAuthNonceConfiguration {
 }
 public struct LinkPublicKeyConfiguration {
   public enum Token {
+    @available(*, deprecated, message: "publicKey is deprecated in favor of link-token, for details see https://plaid.com/docs/link-token-migration-guide/")
     case payment(LinkKit.PaymentToken, LinkKit.PublicKey)
+    @available(*, deprecated, message: "publicToken is deprecated in favor of link-token, for details see https://plaid.com/docs/link-token-migration-guide/")
+    case depositSwitchToken(LinkKit.DepositSwitchToken, LinkKit.PublicKey)
     @available(*, deprecated, message: "publicKey is deprecated in favor of link-token, for details see https://plaid.com/docs/link-token-migration-guide/")
     case publicKey(LinkKit.PublicKey)
     @available(*, deprecated, message: "publicToken is deprecated in favor of link-token, for details see https://plaid.com/docs/link-token-migration-guide/")
@@ -68,6 +71,7 @@ public struct LinkPublicKeyConfiguration {
 public typealias PublicKey = Swift.String
 public typealias PublicToken = Swift.String
 public typealias PaymentToken = Swift.String
+public typealias DepositSwitchToken = Swift.String
 public typealias Language = Swift.String
 public typealias CountryCode = Swift.String
 public typealias OAuthNonce = Swift.String
