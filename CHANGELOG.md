@@ -1,5 +1,28 @@
 # RELEASES
 
+## LinkKit 2.0.8 — 2020-11-18
+### Requirements
+
+| Name | Version |
+|------|---------|
+| Xcode | >= 11.5 |
+| iOS | >= 11.0 |
+
+### Changes
+- Add deposit switch product
+
+## LinkKit 2.0.7 — 2020-11-17
+### Requirements
+
+| Name | Version |
+|------|---------|
+| Xcode | >= 11.5 |
+| iOS | >= 11.0 |
+
+### Changes
+
+- Provide both error_json and metadata_json in onExit
+
 ## LinkKit 2.0.6 — 2020-11-04
 ### Requirements
 
