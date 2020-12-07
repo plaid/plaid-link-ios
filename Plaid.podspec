@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name              = 'Plaid'
   s.module_name       = 'LinkKit'
-  s.version           = '1.1.38'
+  s.version           = '1.1.39'
 
   s.summary           = 'The official Plaid Link SDK for iOS.'
 
@@ -24,4 +24,6 @@ Pod::Spec.new do |s|
 
   s.ios.frameworks    = 'Foundation', 'UIKit', 'WebKit', 'SafariServices'
   s.ios.vendored_frameworks = 'LinkKit.framework'
+  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 end

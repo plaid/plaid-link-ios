@@ -1,5 +1,12 @@
 # CHANGELOG
 
+## 2020-12-07 — LinkKit 1.1.39
+### Changed
+- Fix issue where the request id in handoff metadata did was null
+- Fix issue with null account data in returned metadata when linking with account numbers
+- Fix issue with null error info in returned metadata
+
+
 
 ## 2020-11-13 — LinkKit 1.1.38
 ### Changed
