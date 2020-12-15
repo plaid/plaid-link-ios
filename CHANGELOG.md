@@ -1,5 +1,16 @@
 # RELEASES
 
+## LinkKit 2.0.9 — 2020-12-15
+### Requirements
+
+| Name | Version |
+|------|---------|
+| Xcode | >= 11.5 |
+| iOS | >= 11.0 |
+
+### Changes
+- Rename static SwiftProto dependency to avoid conflicting symbols at run time
+
 ## LinkKit 2.0.8 — 2020-11-18
 ### Requirements
 
