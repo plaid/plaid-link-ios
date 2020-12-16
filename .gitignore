@@ -20,3 +20,6 @@ xcuserdata
 
 ## requirejs ##
 /examples/requirejs/public/vendor/*
+
+## ##
+vendor/*
