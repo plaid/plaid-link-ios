@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
                         DESC
   s.screenshot        = 'https://plaid.com/assets/img/docs/link-ios.png'
 
-  s.homepage          = 'https://plaid.com/docs/api/#ios-bindings'
+  s.homepage          = 'https://plaid.com/docs/link/ios/'
   s.license           = { :type => 'MIT', :file => 'LICENSE' }
   s.author            = 'Plaid Inc.'
 
