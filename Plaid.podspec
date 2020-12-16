@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
                         that Plaid supports — all while keeping credentials from
                         ever hitting your infrastructure.
                         DESC
-  s.screenshot        = 'https://plaid.com/assets/img/docs/link-ios.jpg'
+  s.screenshot        = 'https://plaid.com/assets/img/docs/link-ios.png'
 
   s.homepage          = 'https://plaid.com/docs/api/#ios-bindings'
   s.license           = { :type => 'MIT', :file => 'LICENSE' }
