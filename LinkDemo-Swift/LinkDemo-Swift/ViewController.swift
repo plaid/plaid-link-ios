@@ -51,14 +51,17 @@ class ViewController: UIViewController, LinkOAuthHandling {
         enum PlaidLinkSampleFlow {
             case linkToken
             case linkPublicKey // for compatability with LinkKit v1
+            case swiftUILinkToken
         }
         #warning("Select your desired Plaid Link sample flow")
-        let sampleFlow : PlaidLinkSampleFlow = .linkToken
+        let sampleFlow : PlaidLinkSampleFlow = .swiftUILinkToken
         switch sampleFlow {
             case .linkToken:
             presentPlaidLinkUsingLinkToken()
         case .linkPublicKey:
             presentPlaidLinkUsingPublicKey()
+        case .swiftUILinkToken:
+            presentSwiftUILinkToken()
         }
     }
 
