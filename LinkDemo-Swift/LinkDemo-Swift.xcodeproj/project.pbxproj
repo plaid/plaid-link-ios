@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A92F55A25BF3CF800009CFD /* LinkKitSwiftUISupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A92F55925BF3CF800009CFD /* LinkKitSwiftUISupport.swift */; };
+		7A92F55E25BF40FB00009CFD /* ViewController+SwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A92F55D25BF40FB00009CFD /* ViewController+SwiftUI.swift */; };
 		91035E531E3CA7C000A97B26 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91035E521E3CA7C000A97B26 /* AppDelegate.swift */; };
 		91035E551E3CA7C000A97B26 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91035E541E3CA7C000A97B26 /* ViewController.swift */; };
 		91035E581E3CA7C000A97B26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91035E561E3CA7C000A97B26 /* Main.storyboard */; };
@@ -34,6 +36,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		7A92F55925BF3CF800009CFD /* LinkKitSwiftUISupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkKitSwiftUISupport.swift; sourceTree = "<group>"; };
+		7A92F55D25BF40FB00009CFD /* ViewController+SwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+SwiftUI.swift"; sourceTree = "<group>"; };
 		91035E4F1E3CA7C000A97B26 /* LinkDemo-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LinkDemo-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		91035E521E3CA7C000A97B26 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		91035E541E3CA7C000A97B26 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -85,7 +89,9 @@
 				91974B0A246D6D4200182D9B /* AppDelegate+OAuthSupport.swift */,
 				91035E541E3CA7C000A97B26 /* ViewController.swift */,
 				91BB7744246D50C800BFD0CE /* ViewController+LinkToken.swift */,
+				7A92F55D25BF40FB00009CFD /* ViewController+SwiftUI.swift */,
 				913AF7C9251D3C04007CC064 /* ViewController+PublicKey.swift */,
+				7A92F55925BF3CF800009CFD /* LinkKitSwiftUISupport.swift */,
 				91035E561E3CA7C000A97B26 /* Main.storyboard */,
 				91035E5B1E3CA7C000A97B26 /* LaunchScreen.storyboard */,
 				91035E591E3CA7C000A97B26 /* Assets.xcassets */,
@@ -179,6 +185,8 @@
 				91035E551E3CA7C000A97B26 /* ViewController.swift in Sources */,
 				913AF7CA251D3C04007CC064 /* ViewController+PublicKey.swift in Sources */,
 				91974B0B246D6D4200182D9B /* AppDelegate+OAuthSupport.swift in Sources */,
+				7A92F55E25BF40FB00009CFD /* ViewController+SwiftUI.swift in Sources */,
+				7A92F55A25BF3CF800009CFD /* LinkKitSwiftUISupport.swift in Sources */,
 				91035E531E3CA7C000A97B26 /* AppDelegate.swift in Sources */,
 				91BB7745246D50C800BFD0CE /* ViewController+LinkToken.swift in Sources */,
 			);
@@ -254,7 +262,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -306,7 +314,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -325,7 +333,7 @@
 				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/../";
 				INFOPLIST_FILE = "LinkDemo-Swift/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -347,7 +355,7 @@
 				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/../";
 				INFOPLIST_FILE = "LinkDemo-Swift/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
