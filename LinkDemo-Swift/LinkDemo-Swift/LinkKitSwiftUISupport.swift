@@ -1,14 +1,22 @@
 import LinkKit
 import SwiftUI
 
+// The Controller that bridges from SwiftUI to UIKit
 struct LinkController: UIViewControllerRepresentable {
+    
+    // A wrapper enum for either a public key or link token based configuration
     enum LinkConfigurationType {
         case publicKey(LinkPublicKeyConfiguration)
         case linkToken(LinkTokenConfiguration)
     }
     
+    // The `configuration` to start Link with
     let configuration: LinkConfigurationType
+    
+    // The `openOptions` passed to LinkKit.Plaid.Handler.open
     let openOptions: LinkKit.OpenOptions
+    
+    // The closure to invoke if there is an error creating the LinkKit.Plaid.Handler
     let onCreateError: ((LinkKit.Plaid.CreateError) -> Void)?
     init(configuration: LinkConfigurationType, openOptions: LinkKit.OpenOptions = [:], onCreateError: ((LinkKit.Plaid.CreateError) -> Void)? = nil) {
         self.configuration = configuration
