@@ -1,0 +1,4 @@
+module Threads {
+    header "/Users/tests/jenkins/workspace/link-ios-pull-request_PR-1312/lib/threads/apple/Threads/build/x86_64-apple-macosx/debug/Threads.build/Threads-Swift.h"
+    requires objc
+}
