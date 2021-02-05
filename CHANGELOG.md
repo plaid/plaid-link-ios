@@ -1,5 +1,16 @@
 # RELEASES
 
+## LinkKit 2.0.10 — 2021-02-05
+### Requirements
+
+| Name | Version |
+|------|---------|
+| Xcode | >= 11.5 |
+| iOS | >= 11.0 |
+
+### Changes
+- Fix the Objective-C -> Swift bridge's handling of PLKLinkPublicKeyConfiguration
+
 ## LinkKit 2.0.9 — 2020-12-15
 ### Requirements
 

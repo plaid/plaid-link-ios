@@ -9,10 +9,6 @@
 
 #import "ViewController+LinkToken.h"
 
-@interface ViewController ()
-@property (readwrite) id<PLKHandler> linkHandler;
-@end
-
 @implementation ViewController (LinkToken)
 
 // MARK: Start Plaid Link using a Link token

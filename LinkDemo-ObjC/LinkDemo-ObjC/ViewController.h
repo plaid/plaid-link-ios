@@ -16,6 +16,7 @@
 @interface ViewController : UIViewController <LinkOAuthHandling>
 
 @property (readonly) NSString* oauthNonce;
+@property (readwrite) id<PLKHandler> linkHandler;
 
 @end
 
