@@ -9,10 +9,6 @@
 
 #import "ViewController+PublicKey.h"
 
-@interface ViewController ()
-@property (readwrite) id<PLKHandler> linkHandler;
-@end
-
 @implementation ViewController (PublicKey)
 
 // MARK: Start Plaid Link using a public key for compatibility with previous version of LinkKit

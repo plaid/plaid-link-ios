@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/LinkKit-Swift.h</key>
 		<data>
-		abBL1jO4ZZ2HogKZWPqCq32UlEo=
+		EeSXFzrnUI4s1HgReiw20tIrxfo=
 		</data>
 		<key>Headers/LinkKit.h</key>
 		<data>
@@ -18,15 +18,15 @@
 		</data>
 		<key>Headers/PLKPlaid.h</key>
 		<data>
-		FsyomBZMGm/rWCUjWH2K3Ucfa/I=
+		v8KaIG93QyLtTo6iOprh88KJKFA=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		wmix0kUIFLlRMo3NCd4eG0uxoMs=
+		8eO1E68X0Qp6kKYqO7ltPBcbMbs=
 		</data>
 		<key>Modules/LinkKit.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		WhBt1jAqrp9EZXXPzvBzn0ZozYM=
+		Ov4myTEvkYziwzOe+X3J9Lh+vGk=
 		</data>
 		<key>Modules/LinkKit.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/LinkKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		xlOwAeVPmAYUJtZOa2EO3Xsuvx4=
+		j6tMb3foPdK4SmgtushUKr9qHFo=
 		</data>
 		<key>Modules/LinkKit.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		WhBt1jAqrp9EZXXPzvBzn0ZozYM=
+		Ov4myTEvkYziwzOe+X3J9Lh+vGk=
 		</data>
 		<key>Modules/LinkKit.swiftmodule/arm64.swiftinterface</key>
 		<data>
@@ -46,11 +46,11 @@
 		</data>
 		<key>Modules/LinkKit.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		xlOwAeVPmAYUJtZOa2EO3Xsuvx4=
+		j6tMb3foPdK4SmgtushUKr9qHFo=
 		</data>
 		<key>Modules/LinkKit.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		FwI3TxpCx8rKbtBeDBeK1yjvOiU=
+		oG+Mxk8VCTkMPE7bWrqrMcgh0ms=
 		</data>
 		<key>Modules/LinkKit.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
@@ -58,11 +58,11 @@
 		</data>
 		<key>Modules/LinkKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		EAnN3dbjdDJ+TPEsW0u1XBev5pI=
+		jIGuiOZzuTDmlCUzCb7A6+8n6Dg=
 		</data>
 		<key>Modules/LinkKit.swiftmodule/x86_64.swiftdoc</key>
 		<data>
-		FwI3TxpCx8rKbtBeDBeK1yjvOiU=
+		oG+Mxk8VCTkMPE7bWrqrMcgh0ms=
 		</data>
 		<key>Modules/LinkKit.swiftmodule/x86_64.swiftinterface</key>
 		<data>
@@ -70,7 +70,7 @@
 		</data>
 		<key>Modules/LinkKit.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		EAnN3dbjdDJ+TPEsW0u1XBev5pI=
+		jIGuiOZzuTDmlCUzCb7A6+8n6Dg=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -83,7 +83,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			A/yg1pKvpQ1aNIeuUnCvwpS8tyvwrXO9RsNrqb2aqNo=
+			nMVAd1baN/4CQOfx0ks9q3StcNe/Dd0W6MAZuByMwZ8=
 			</data>
 		</dict>
 		<key>Headers/LinkKit.h</key>
@@ -104,14 +104,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			NEGtay+v91j618P/sSkx0JwBWji8HqrzMXtXousBemU=
+			pgWFmoMXHPp/u+JtM75vBxVjZjfXVovbMgXF8suEHjU=
 			</data>
 		</dict>
 		<key>Modules/LinkKit.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6wSzKdOw1R1jkrjnzsEb21wM1QpqKMkiKCQRecwSO+8=
+			BuTeKJ/cKjFeJ2Rf1Bu9uqG0gBe6yOSBunifFMoIeLg=
 			</data>
 		</dict>
 		<key>Modules/LinkKit.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
@@ -125,14 +125,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6tYNnsJC4p1e/EiyrSu//HafoJ8Il1sRMRecU3bILvs=
+			UYsWN9YiyIs7oCdFQv25fmC4X3CB5U16D4B1jpeTqn8=
 			</data>
 		</dict>
 		<key>Modules/LinkKit.swiftmodule/arm64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6wSzKdOw1R1jkrjnzsEb21wM1QpqKMkiKCQRecwSO+8=
+			BuTeKJ/cKjFeJ2Rf1Bu9uqG0gBe6yOSBunifFMoIeLg=
 			</data>
 		</dict>
 		<key>Modules/LinkKit.swiftmodule/arm64.swiftinterface</key>
@@ -146,14 +146,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6tYNnsJC4p1e/EiyrSu//HafoJ8Il1sRMRecU3bILvs=
+			UYsWN9YiyIs7oCdFQv25fmC4X3CB5U16D4B1jpeTqn8=
 			</data>
 		</dict>
 		<key>Modules/LinkKit.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			GRJKbRFALija+uRzMa0QOXkJJqyFmt/pFJeFIozmxm0=
+			OIP1ldlneIsLuRpS62T15xXF8Ip9fmR9xjiFPNwCNac=
 			</data>
 		</dict>
 		<key>Modules/LinkKit.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
@@ -167,14 +167,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			9oR/ualk2sWMUMhS503oCK9QITcqKOltF1gsa9Bnk90=
+			jajKN0r+eYxshI18SsvXCrenA7I39gk7V62JWPMul9g=
 			</data>
 		</dict>
 		<key>Modules/LinkKit.swiftmodule/x86_64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			GRJKbRFALija+uRzMa0QOXkJJqyFmt/pFJeFIozmxm0=
+			OIP1ldlneIsLuRpS62T15xXF8Ip9fmR9xjiFPNwCNac=
 			</data>
 		</dict>
 		<key>Modules/LinkKit.swiftmodule/x86_64.swiftinterface</key>
@@ -188,7 +188,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			9oR/ualk2sWMUMhS503oCK9QITcqKOltF1gsa9Bnk90=
+			jajKN0r+eYxshI18SsvXCrenA7I39gk7V62JWPMul9g=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

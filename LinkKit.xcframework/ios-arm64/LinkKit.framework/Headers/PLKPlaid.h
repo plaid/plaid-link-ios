@@ -533,15 +533,15 @@ typedef NS_ENUM(NSInteger, PLKEnvironment) {
 
 @property(nonatomic, copy) NSArray<id<PLKAccountSubtype>> *accountSubtypes;
 
-@property(nonatomic) NSURL *webhook;
+@property(nonatomic, nullable) NSURL *webhook;
 
 @property(nonatomic, nullable) PLKOAuthNonceConfiguration *oauthConfiguration;
 
-@property(nonatomic, copy) NSString *userLegalName;
-@property(nonatomic, copy) NSString *userEmailAddress;
-@property(nonatomic, copy) NSString *userPhoneNumber;
+@property(nonatomic, nullable, copy) NSString *userLegalName;
+@property(nonatomic, nullable, copy) NSString *userEmailAddress;
+@property(nonatomic, nullable, copy) NSString *userPhoneNumber;
 
-@property(nonatomic, copy) NSString *linkCustomizationName;
+@property(nonatomic, nullable, copy) NSString *linkCustomizationName;
 
 /// An array of PLKProduct enum cases wrapped in an NSNumber.
 @property(nonatomic, readwrite, copy) NSArray<NSNumber *> *products;
