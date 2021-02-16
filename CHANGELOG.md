@@ -1,5 +1,16 @@
 # RELEASES
 
+## LinkKit 2.0.11 — 2021-02-16
+### Requirements
+
+| Name | Version |
+|------|---------|
+| Xcode | >= 11.5 |
+| iOS | >= 11.0 |
+
+### Changes
+- Fix spelling of PLKSuccessMetadata.institution
+
 ## LinkKit 2.0.10 — 2021-02-05
 ### Requirements
 
