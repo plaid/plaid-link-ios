@@ -479,6 +479,7 @@ public enum APIError : Swift.Error {
   case unencodableBody
   case undecodableResponse
   case invalidResponse(Swift.Error?)
+  case invalidClientAuthorization
 }
 @_inheritsConvenienceInitializers @objc public class PLKPlaid : ObjectiveC.NSObject {
   @objc public static func createWithLinkTokenConfiguration(_ linkTokenConfiguration: LinkKit.PLKLinkTokenConfiguration, error: Foundation.NSErrorPointer) -> LinkKit.PLKHandler?

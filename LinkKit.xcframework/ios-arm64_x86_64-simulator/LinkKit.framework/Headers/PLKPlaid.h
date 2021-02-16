@@ -393,7 +393,7 @@ static NSString *const kPLKDefaultErrorDomain = @"com.plaid.link";
 @interface PLKSuccessMetadata : NSObject
 
 @property(nonatomic, readonly, copy) NSString *linkSessionID;
-@property(nonatomic, readonly) PLKInstitution *insitution;
+@property(nonatomic, readonly) PLKInstitution *institution;
 @property(nonatomic, readonly, copy) NSArray<PLKAccount *> *accounts;
 @property(nonatomic, readonly, nullable, copy) PLKRawJSONMetadata *metadataJSON;
 
