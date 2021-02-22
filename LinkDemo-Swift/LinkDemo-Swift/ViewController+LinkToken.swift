@@ -9,7 +9,7 @@ import LinkKit
 
 extension ViewController {
 
-    class func createLinkTokenConfiguration() -> LinkTokenConfiguration {
+    func createLinkTokenConfiguration() -> LinkTokenConfiguration {
         #warning("Replace <#GENERATED_LINK_TOKEN#> below with your link_token")
         // In your production application replace the hardcoded linkToken below with code that fetches an link_token
         // from your backend server which in turn retrieves it securely from Plaid, for details please refer to
@@ -17,7 +17,6 @@ extension ViewController {
 
         let linkToken = "<#GENERATED_LINK_TOKEN#>"
 
-        // <!-- SMARTDOWN_PRESENT_LINKTOKEN -->
         // With custom configuration using a link_token
         var linkConfiguration = LinkTokenConfiguration(token: linkToken) { success in
             print("public-token: \(success.publicToken) metadata: \(success.metadata)")
@@ -35,8 +34,7 @@ extension ViewController {
     // MARK: Start Plaid Link using a Link token
     // For details please see https://plaid.com/docs/#create-link-token
     func presentPlaidLinkUsingLinkToken() {
-        let linkConfiguration = ViewController.createLinkTokenConfiguration()
-
+        let linkConfiguration = createLinkTokenConfiguration()
         let result = Plaid.create(linkConfiguration)
         switch result {
         case .failure(let error):
@@ -45,8 +43,5 @@ extension ViewController {
             handler.open(presentUsing: .viewController(self))
             linkHandler = handler
         }
-
-        // <!-- SMARTDOWN_PRESENT_LINKTOKEN -->
     }
-
 }

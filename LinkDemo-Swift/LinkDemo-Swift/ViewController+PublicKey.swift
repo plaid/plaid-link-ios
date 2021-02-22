@@ -9,7 +9,8 @@ import LinkKit
 
 extension ViewController {
     
-    static func createPublicKeyConfiguration() -> LinkPublicKeyConfiguration {
+    func createPublicKeyConfiguration() -> LinkPublicKeyConfiguration {
+        #warning("Replace <#PUBLIC_KEY#> below with your public_key")
         // With custom configuration using a public_key
         var linkConfiguration = LinkPublicKeyConfiguration(
             clientName: "<#APPLICATION_NAME#>",
@@ -37,11 +38,7 @@ extension ViewController {
     // MARK: Start Plaid Link using a public key for compatibility with previous version of LinkKit
     // For details please see https://plaid.com/docs/
     func presentPlaidLinkUsingPublicKey() {
-
-        #warning("Replace <#PUBLIC_KEY#> below with your public_key")
-
-        // <!-- SMARTDOWN_PRESENT_PUBLICKEY -->
-        let linkConfiguration = Self.createPublicKeyConfiguration()
+        let linkConfiguration = createPublicKeyConfiguration()
         let result = Plaid.create(linkConfiguration)
         switch result {
         case .failure(let error):
@@ -50,8 +47,5 @@ extension ViewController {
             linkHandler = handler
             handler.open(presentUsing: .viewController(self))
         }
-
-        // <!-- SMARTDOWN_PRESENT_PUBLICKEY -->
     }
-
 }

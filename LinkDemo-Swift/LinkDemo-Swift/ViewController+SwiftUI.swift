@@ -3,18 +3,19 @@ import SwiftUI
 
 extension ViewController {
     func presentSwiftUILinkToken() {
-        let configuration = Self.createLinkTokenConfiguration()
-        presentLinkConfiguration(.linkToken(configuration))
+        let configuration = createLinkTokenConfiguration()
+        presentLink(with: .linkToken(configuration))
     }
     
     func presentSwiftUIPublicKey() {
-        let configuration = Self.createPublicKeyConfiguration()
-        presentLinkConfiguration(.publicKey(configuration))
+        let configuration = createPublicKeyConfiguration()
+        presentLink(with: .publicKey(configuration))
     }
     
-    private func presentLinkConfiguration(_ linkConfiguration: LinkController.LinkConfigurationType) {
+    private func presentLink(with linkConfiguration: LinkController.LinkConfigurationType) {
         let contentView = LinkController(configuration: linkConfiguration, openOptions: [:]) { (error) in
-            print("Handle error: \(error)!") }
+            print("Handle error: \(error)!")
+        }
         let vc = UIHostingController(rootView: contentView)
         present(vc, animated: true, completion: nil)
     }
