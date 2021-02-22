@@ -9,7 +9,9 @@
 | iOS | >= 11.0 |
 
 ### Changes
+
 - Fix spelling of PLKSuccessMetadata.institution
+
 
 ## LinkKit 2.0.10 — 2021-02-05
 ### Requirements
@@ -20,7 +22,9 @@
 | iOS | >= 11.0 |
 
 ### Changes
+
 - Fix the Objective-C -> Swift bridge's handling of PLKLinkPublicKeyConfiguration
+
 
 ## LinkKit 2.0.9 — 2020-12-15
 ### Requirements
@@ -31,7 +35,9 @@
 | iOS | >= 11.0 |
 
 ### Changes
+
 - Rename static SwiftProto dependency to avoid conflicting symbols at run time
+
 
 ## LinkKit 2.0.8 — 2020-11-18
 ### Requirements
@@ -42,7 +48,9 @@
 | iOS | >= 11.0 |
 
 ### Changes
+
 - Add deposit switch product
+
 
 ## LinkKit 2.0.7 — 2020-11-17
 ### Requirements
@@ -54,7 +62,8 @@
 
 ### Changes
 
-- Provide both error_json and metadata_json in onExit
+- Provide full raw json error metadata in onExit
+
 
 ## LinkKit 2.0.6 — 2020-11-04
 ### Requirements
@@ -165,6 +174,13 @@ For details about migrating from LinkKit 1.x to 2.x please see [the migration gu
 LinkKit 2.x marks the next generation of the Plaid Link for iOS SDK. It brings support for new features such as Link token based Payment Initation and unifies the Plaid Link mobile APIs across platforms while taking advantage of features available to iOS 11 and up.
 
 Please see known issues below and use version 2.0.6 instead.
+
+
+## LinkKit 1.1.39 — 2020-12-07
+### Changes
+
+- Fix issue with null account data in handoff metadata when linking with account numbers
+- Fix issue with null error info and `request_id` in handoff metadata
 
 
 ## LinkKit 1.1.38 — 2020-11-13
