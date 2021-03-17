@@ -1,5 +1,21 @@
 # RELEASES
 
+## LinkKit 2.1.0 — 2021-03-16
+### Requirements
+
+| Name | Version |
+|------|---------|
+| Xcode | >= 11.5 |
+| iOS | >= 11.0 |
+
+### Changes
+
+- Improve performance of `LinkKit.Handler.open(...)`
+- Replace `continueFrom(redirectUri:)` with `continue(from:)`, and deprecate the former
+- Fix issue where the accounts array could sometimes be missing accounts
+- Add ability to control the dismissal of Link
+
+
 ## LinkKit 2.0.11 — 2021-02-16
 ### Requirements
 

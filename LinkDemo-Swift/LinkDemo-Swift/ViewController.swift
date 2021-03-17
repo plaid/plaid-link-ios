@@ -57,7 +57,7 @@ class ViewController: UIViewController, LinkOAuthHandling {
             case linkPublicKey // for compatability with LinkKit v1
         }
         #warning("Select your desired Plaid Link sample flow and UI layer")
-        let tuple: (PlaidLinkSampleFlow, PlaidLinkUILayer) = (flow: .linkToken, ui: .swiftUI)
+        let tuple: (PlaidLinkSampleFlow, PlaidLinkUILayer) = (flow: .linkToken, ui: .UIKit)
         switch tuple {
             case (.linkToken, .UIKit):
                 presentPlaidLinkUsingLinkToken()
