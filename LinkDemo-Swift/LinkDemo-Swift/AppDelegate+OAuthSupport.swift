@@ -31,10 +31,7 @@ extension AppDelegate {
         }
 
         // Continue the Link flow
-        if let error = handler.continueFrom(redirectUri: webpageURL) {
-            print("Unable to continue from redirect due to: \(error)")
-        }
-
+        handler.continue(from: webpageURL)
         return true
     }
     // <!-- SMARTDOWN_OAUTH_SUPPORT -->

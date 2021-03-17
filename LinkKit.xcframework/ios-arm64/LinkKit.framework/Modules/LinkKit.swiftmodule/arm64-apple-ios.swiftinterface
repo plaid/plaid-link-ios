@@ -25,7 +25,9 @@ public protocol Handler {
   func open(presentUsing method: LinkKit.PresentationMethod)
   @available(*, deprecated, message: "open with options is deprecated")
   func open(presentUsing method: LinkKit.PresentationMethod, _ options: LinkKit.OpenOptions)
+  @available(*, deprecated, message: "`continueFrom(redirectUri:) -> HandlerContinueError?` is deprecated. Use `continue(from:) -> Void`")
   func continueFrom(redirectUri: Foundation.URL) -> LinkKit.HandlerContinueError?
+  func `continue`(from redirectUri: Foundation.URL)
 }
 public struct LinkTokenConfiguration {
   public let token: Swift.String
@@ -76,6 +78,7 @@ public typealias Language = Swift.String
 public typealias CountryCode = Swift.String
 public typealias OAuthNonce = Swift.String
 public typealias PresentationHandler = (UIKit.UIViewController) -> Swift.Void
+public typealias DismissalHandler = (UIKit.UIViewController) -> Swift.Void
 public typealias OnSuccessHandler = (LinkKit.LinkSuccess) -> Swift.Void
 public typealias OnExitHandler = (LinkKit.LinkExit) -> Swift.Void
 public typealias OnEventHandler = (LinkKit.LinkEvent) -> Swift.Void
@@ -293,6 +296,8 @@ public enum EventName : Swift.CustomStringConvertible {
   case exit
   case failOAuth
   case handoff
+  case matchedSelectInstitution
+  case matchedSelectVerifyMethod
   case open
   case openMyPlaid
   case openOAuth
@@ -313,6 +318,9 @@ public enum ViewName : Swift.CustomStringConvertible {
   case error
   case exit
   case loading
+  case matchedConsent
+  case matchedCredential
+  case matchedMFA
   case mfa
   case numbers
   case recaptcha
@@ -353,7 +361,7 @@ public enum MFAType : Swift.CustomStringConvertible {
 }
 public enum PresentationMethod {
   case viewController(UIKit.UIViewController)
-  case custom(LinkKit.PresentationHandler)
+  case custom(LinkKit.PresentationHandler, _: LinkKit.DismissalHandler = { $0.presentingViewController?.dismiss(animated: true, completion: nil) })
 }
 public enum ExitErrorCode {
   case apiError(LinkKit.ApiErrorCode)
