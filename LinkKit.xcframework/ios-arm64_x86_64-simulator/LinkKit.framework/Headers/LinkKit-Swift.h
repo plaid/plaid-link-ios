@@ -216,6 +216,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @protocol PLKHandler;
 @class PLKLinkPublicKeyConfiguration;
 
+/// Plaid is the main entrypoint for the Plaid Link iOS SDK.
 SWIFT_CLASS("_TtC7LinkKit8PLKPlaid")
 @interface PLKPlaid : NSObject
 + (id <PLKHandler> _Nullable)createWithLinkTokenConfiguration:(PLKLinkTokenConfiguration * _Nonnull)linkTokenConfiguration error:(NSError * _Nullable * _Nullable)error SWIFT_WARN_UNUSED_RESULT;
@@ -451,6 +452,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @protocol PLKHandler;
 @class PLKLinkPublicKeyConfiguration;
 
+/// Plaid is the main entrypoint for the Plaid Link iOS SDK.
 SWIFT_CLASS("_TtC7LinkKit8PLKPlaid")
 @interface PLKPlaid : NSObject
 + (id <PLKHandler> _Nullable)createWithLinkTokenConfiguration:(PLKLinkTokenConfiguration * _Nonnull)linkTokenConfiguration error:(NSError * _Nullable * _Nullable)error SWIFT_WARN_UNUSED_RESULT;

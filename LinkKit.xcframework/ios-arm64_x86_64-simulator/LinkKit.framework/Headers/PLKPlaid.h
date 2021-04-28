@@ -593,7 +593,8 @@ options:(NSDictionary<NSString *, NSString *> *)options  DEPRECATED_MSG_ATTRIBUT
                    dismissalHandler:(PLKDismissalHandler)dismissalHandler
                             options:(NSDictionary<NSString *, NSString *> *)options;
 
-- (NSError * __nullable)continueFromRedirectUri:(NSURL *)redirectUri;
+- (NSError * __nullable)continueFromRedirectUri:(NSURL *)redirectUri DEPRECATED_MSG_ATTRIBUTE("continueFromRedirectUri: is deprecated in favor continueWithRedirectUri:");
+- (void)continueWithRedirectUri:(NSURL *)redirectUri;
 
 @end
 
