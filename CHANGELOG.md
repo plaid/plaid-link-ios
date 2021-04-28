@@ -1,5 +1,17 @@
 # RELEASES
 
+## LinkKit 2.1.1 — 2021-04-28
+### Requirements
+
+| Name | Version |
+|------|---------|
+| Xcode | >= 11.5 |
+| iOS | >= 11.0 |
+
+### Changes
+- Fix issue where item-no-error was not returned from the SDK
+- Fix issue where opening Link using a `.viewController` presentation method did not support dismissing UINavigationControllers correctly
+
 ## LinkKit 2.1.0 — 2021-03-16
 ### Requirements
 

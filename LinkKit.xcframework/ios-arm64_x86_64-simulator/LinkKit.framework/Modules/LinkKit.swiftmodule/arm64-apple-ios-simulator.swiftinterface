@@ -17,6 +17,7 @@ public struct Plaid {
   public static func create(_ linkTokenConfiguration: LinkKit.LinkTokenConfiguration) -> Swift.Result<LinkKit.Handler, LinkKit.Plaid.CreateError>
   public static var version: Swift.String
 }
+@available(*, deprecated, message: "HandlerContinueError is deprecated, use Handler.continue(from:) instead of Handler.continueFrom(redirectUri:)")
 public enum HandlerContinueError : Swift.Error {
   case invalidRedirect(Swift.String)
   case `internal`
@@ -482,6 +483,8 @@ public enum InstitutionErrorCode : Swift.Error, Swift.CustomStringConvertible {
   public var description: Swift.String {
     get
   }
+}
+extension Environment {
 }
 public enum APIError : Swift.Error {
   case unencodableBody
