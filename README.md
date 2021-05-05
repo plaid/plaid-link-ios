@@ -13,7 +13,7 @@ For clarity between the different use cases each use case specific example showi
 
 Before building and running the sample application replace any Xcode placeholder strings (like `<#GENERATED_LINK_TOKEN#>`) in the code with the appropriate value so that Plaid Link is configured properly. For convenience the Xcode placeholder strings are also marked as compile-time warnings.
 
-Select your desired use-case in [`ViewController.didTapButton`](/search?q=didTapButton+extension%3Am+extension%3Aswift&unscoped_q=didTapButton+extension%3Am+extension%3Aswift) then build and run the demo application to experience the particular Link flow for yourself.
+Select your desired use-case in [`ViewController.didTapButton`](https://github.com/plaid/plaid-link-ios/search?q=didtapbutton) then build and run the demo application to experience the particular Link flow for yourself.
 
 [link-ios-docs]: https://plaid.com/docs/link/ios
 [link-sdk-version]: https://img.shields.io/cocoapods/v/Plaid
