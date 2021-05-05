@@ -15,7 +15,7 @@ extension ViewController {
         // from your backend server which in turn retrieves it securely from Plaid, for details please refer to
         // https://plaid.com/docs/#create-link-token
 
-        let linkToken = "link-production-55207340-2670-4404-89c0-de564237eb64"
+        let linkToken = "<#GENERATED_LINK_TOKEN#>"
 
         // With custom configuration using a link_token
         var linkConfiguration = LinkTokenConfiguration(token: linkToken) { success in
