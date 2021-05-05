@@ -4,7 +4,7 @@
 <dict>
 	<key>com.apple.developer.associated-domains</key>
 	<array>
-		<string>applinks:YOUR_OAUTH_REDIRECT_URI</string>
+		<string>applinks:cdn-testing.plaid.com</string>
 	</array>
 </dict>
 </plist>

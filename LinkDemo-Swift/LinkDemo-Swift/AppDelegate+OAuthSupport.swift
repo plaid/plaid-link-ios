@@ -23,9 +23,7 @@ extension AppDelegate {
         // Check that the userActivity.webpageURL is the oauthRedirectUri
         // configured in the Plaid dashboard.
         guard let linkOAuthHandler = window?.rootViewController as? LinkOAuthHandling,
-            let handler = linkOAuthHandler.linkHandler,
-            webpageURL.host == linkOAuthHandler.oauthRedirectUri?.host &&
-            webpageURL.path == linkOAuthHandler.oauthRedirectUri?.path
+            let handler = linkOAuthHandler.linkHandler
         else {
             return false
         }
