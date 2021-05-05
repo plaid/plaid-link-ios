@@ -1,5 +1,18 @@
 # RELEASES
 
+## LinkKit 2.1.2 — 2021-05-05
+### Requirements
+
+| Name | Version |
+|------|---------|
+| Xcode | >= 11.5 |
+| iOS | >= 11.0 |
+
+### Changes
+NOTE: If you are using OAuth and LinkKit 2.1.1 or 2.1.0, update to 2.1.2 immediately to avoid the below issue.
+- Addresses an issue present in 2.1.1 and 2.1.0 where using OAuth with a financial institution that does not support App-to-App OAuth, or when the user does not have that institution's app installed, LinkKit will open the OAuth flow in the user's default browser as opposed to a webview internal to the SDK.
+
+
 ## LinkKit 2.1.1 — 2021-04-28
 ### Requirements
 
