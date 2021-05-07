@@ -30,6 +30,8 @@ class ViewController: UIViewController, LinkOAuthHandling {
     #warning("Replace <#YOUR_OAUTH_REDIRECT_URI#> below with your oauthRedirectUri, which should be a universal link and must be configured in the Plaid developer dashboard")
     #warning("Ensure to also replace YOUR_OAUTH_REDIRECT_URI in the Associated Domains Capability or in the LinkDemo-Swift.entitlements")
     #warning("Remember to change the application Bundle Identifier to match one you have configured for universal links")
+    #warning("For more information on configuring your oauthRedirectUri, see https://plaid.com/docs/link/oauth")
+
     var oauthRedirectUri: URL? = { URL(string: "<#YOUR_OAUTH_REDIRECT_URI#>") }()
 
     override func viewDidLoad() {
