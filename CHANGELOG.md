@@ -1,5 +1,16 @@
 # RELEASES
 
+## LinkKit 2.1.3 — 2021-06-16
+### Requirements
+
+| Name | Version |
+|------|---------|
+| Xcode | >= 11.5 |
+| iOS | >= 11.0 |
+
+### Changes
+- Fixes issue where onSuccess and onExit would be invoked before the presented View Controller was dismissed
+
 ## LinkKit 2.1.2 — 2021-05-05
 ### Requirements
 
