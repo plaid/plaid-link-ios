@@ -14,14 +14,14 @@ extension ViewController {
         // With custom configuration using a public_key
         var linkConfiguration = LinkPublicKeyConfiguration(
             clientName: "<#APPLICATION_NAME#>",
-            environment: .sandbox,
-            products: [.transactions],
-            language: "en",
+            environment: /*@START_MENU_TOKEN@*/.sandbox/*[[".sandbox",".development",".production"],[[[-1,0],[-1,1],[-1,2]]],[0]]@END_MENU_TOKEN@*/,
+            products: [/*@START_MENU_TOKEN@*/.transactions/*[[".transactions",".auth",".identity",".income",".paymentInitation",".assets",".investments",".liabilities",".liabilitesReport"],[[[-1,0],[-1,1],[-1,2],[-1,3],[-1,4],[-1,5],[-1,6],[-1,7],[-1,8]]],[0]]@END_MENU_TOKEN@*/],
+            language:  /*@START_MENU_TOKEN@*/"en"/*[["\"en\"","\"es\"","\"fr\"","\"nl\""],[[[-1,0],[-1,1],[-1,2],[-1,3]]],[0]]@END_MENU_TOKEN@*/,
             // For public key Link flows use:
             token: .publicKey("<#PUBLIC_KEY#>"),
             // For payment initiation Link flows replace the line above with the following line:
             //token: .payment("<#PAYMENT_TOKEN#>", "<#PUBLIC_KEY#>")
-            countryCodes: ["US"]
+            countryCodes: [/*@START_MENU_TOKEN@*/"US"/*[["\"US\"","\"CA\"","\"GB\"","\"NL\""],[[[-1,0],[-1,1],[-1,2],[-1,3]]],[0]]@END_MENU_TOKEN@*/]
         ) { success in
             print("public-token: \(success.publicToken) metadata: \(success.metadata)")
         }

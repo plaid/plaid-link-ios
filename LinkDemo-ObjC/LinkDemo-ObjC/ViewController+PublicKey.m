@@ -21,12 +21,12 @@
     // For payment initiation Link flows replace the line above with the following line:
     //PLKLinkPublicKeyConfigurationToken* token = [PLKLinkPublicKeyConfigurationToken createWithPaymentToken:@"<#PAYMENT_TOKEN#>" publicKey:@"<#PUBLIC_KEY#>"];
     PLKLinkPublicKeyConfiguration *linkConfiguration = [[PLKLinkPublicKeyConfiguration alloc] initWithClientName:@"<#APPLICATION_NAME#>"
-                                                                                                     environment:<#PLKEnvironmentSandbox#>
-                                                                                                        products:@[@(<#PLKProductTransactions#>)]
-                                                                                                    language:@"en"
-                                                                                                       token:token
-                                                                                                countryCodes:@[@"US"]
-                                                                                                   onSuccess:^(PLKLinkSuccess *success) {
+                                                                                                     environment:/*@START_MENU_TOKEN@*/PLKEnvironmentSandbox/*[["PLKEnvironmentSandbox","PLKEnvironmentDevelopment","PLKEnvironmentProduction"],[[[-1,0],[-1,1],[-1,2]]],[0]]@END_MENU_TOKEN@*/
+                                                                                                        products:@[@(/*@START_MENU_TOKEN@*/PLKProductTransactions/*[["PLKProductTransactions","PLKProductAuth","PLKProductIdentity","PLKProductIncome","PLKProductPaymentInitation","PLKProductAssets","PLKProductInvestments","PLKProductLiabilities","PLKProductLiabilitesReport"],[[[-1,0],[-1,1],[-1,2],[-1,3],[-1,4],[-1,5],[-1,6],[-1,7],[-1,8]]],[0]]@END_MENU_TOKEN@*/)]
+                                                                                                        language:/*@START_MENU_TOKEN@*/@"en"/*[["@\"en\"","@\"es\"","@\"fr\"","@\"nl\""],[[[-1,0],[-1,1],[-1,2],[-1,3]]],[0]]@END_MENU_TOKEN@*/
+                                                                                                           token:token
+                                                                                                    countryCodes:@[/*@START_MENU_TOKEN@*/@"US"/*[["@\"US\"","@\"CA\"","@\"GB\"","@\"NL\""],[[[-1,0],[-1,1],[-1,2],[-1,3]]],[0]]@END_MENU_TOKEN@*/]
+                                                                                                       onSuccess:^(PLKLinkSuccess *success) {
         NSLog(@"public-token: %@ metadata: %@", success.publicToken, success.metadata);
     }];
     linkConfiguration.onExit = ^(PLKLinkExit * exit) {

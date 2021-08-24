@@ -91,7 +91,7 @@ extension LinkController: UIViewControllerRepresentable {
             return handler
         }
         let handleError: (Plaid.CreateError) -> Plaid.CreateError = { error in
-            onCreateError?(error)
+            self.onCreateError?(error)
             return error
         }
         

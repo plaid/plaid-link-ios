@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.3 (swiftlang-1200.0.29.2 clang-1200.0.30.1)
+// swift-compiler-version: Apple Swift version 5.4.2 (swiftlang-1205.0.28.2 clang-1205.0.19.57)
 // swift-module-flags: -target x86_64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Osize -module-name LinkKit
 import AuthenticationServices
 import Foundation
@@ -9,6 +9,11 @@ import Swift
 import UIKit
 import WebKit
 import os
+extension UUID {
+  public var linkuuidString: Swift.String {
+    get
+  }
+}
 public struct Plaid {
   public enum CreateError : Swift.Error {
     case configurationError(LinkKit.ConfigurationError)
@@ -211,10 +216,10 @@ public enum Environment : Swift.CustomStringConvertible {
     get
   }
   public static func == (a: LinkKit.Environment, b: LinkKit.Environment) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
     get
   }
-  public func hash(into hasher: inout Swift.Hasher)
 }
 public enum Product : Swift.CustomStringConvertible, Swift.CaseIterable {
   case assets
@@ -231,12 +236,12 @@ public enum Product : Swift.CustomStringConvertible, Swift.CaseIterable {
     get
   }
   public static func == (a: LinkKit.Product, b: LinkKit.Product) -> Swift.Bool
-  public var hashValue: Swift.Int {
-    get
-  }
   public func hash(into hasher: inout Swift.Hasher)
   public typealias AllCases = [LinkKit.Product]
   public static var allCases: [LinkKit.Product] {
+    get
+  }
+  public var hashValue: Swift.Int {
     get
   }
 }
@@ -355,10 +360,10 @@ public enum MFAType : Swift.CustomStringConvertible {
     get
   }
   public static func == (a: LinkKit.MFAType, b: LinkKit.MFAType) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
     get
   }
-  public func hash(into hasher: inout Swift.Hasher)
 }
 public enum PresentationMethod {
   case viewController(UIKit.UIViewController)
@@ -498,8 +503,8 @@ public enum APIError : Swift.Error {
   @objc public static var sdkVersion: Swift.String {
     @objc get
   }
-  @objc deinit
   @objc override dynamic public init()
+  @objc deinit
 }
 extension AccountSubtype {
   public var description: Swift.String {

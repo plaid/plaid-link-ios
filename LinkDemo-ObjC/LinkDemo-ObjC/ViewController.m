@@ -62,7 +62,7 @@
         linkPublicKey // for compatability with LinkKit v1
     } PlaidLinkSampleFlow;
     #warning Select your desired Plaid Link sample flow
-    PlaidLinkSampleFlow sampleFlow = linkToken;
+    PlaidLinkSampleFlow sampleFlow = /*@START_MENU_TOKEN@*/linkToken/*[["linkToken","linkPublicKey"],[[[-1,0],[-1,1]]],[0]]@END_MENU_TOKEN@*/;
     switch (sampleFlow) {
         case linkToken:
             [self presentPlaidLinkUsingLinkToken];
