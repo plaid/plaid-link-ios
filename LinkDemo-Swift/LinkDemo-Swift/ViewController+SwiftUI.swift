@@ -1,6 +1,7 @@
 import UIKit
 import SwiftUI
 
+@available(iOS 13.0, *)
 extension ViewController {
     func presentSwiftUILinkToken() {
         let configuration = createLinkTokenConfiguration()

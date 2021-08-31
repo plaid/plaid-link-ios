@@ -339,6 +339,7 @@
 		910CAE301E3BC35C0089B9CC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "LinkDemo-ObjC/LinkDemo-ObjC.entitlements";
 				DEVELOPMENT_TEAM = Z2P2MSMY87;
@@ -359,6 +360,7 @@
 		910CAE311E3BC35C0089B9CC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "LinkDemo-ObjC/LinkDemo-ObjC.entitlements";
 				DEVELOPMENT_TEAM = Z2P2MSMY87;

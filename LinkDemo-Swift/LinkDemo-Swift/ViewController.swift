@@ -52,6 +52,7 @@ class ViewController: UIViewController, LinkOAuthHandling {
     @IBAction func didTapButton(_ sender: Any?) {
         enum PlaidLinkUILayer {
             case UIKit
+            @available(iOS 13.0, *)
             case swiftUI
         }
         enum PlaidLinkSampleFlow {
@@ -59,16 +60,24 @@ class ViewController: UIViewController, LinkOAuthHandling {
             case linkPublicKey // for compatability with LinkKit v1
         }
         #warning("Select your desired Plaid Link sample flow and UI layer")
-        let tuple: (PlaidLinkSampleFlow, PlaidLinkUILayer) = (flow: /*@START_MENU_TOKEN@*/.linkToken/*[[".linkToken",".linkPublicKey"],[[[-1,0],[-1,1]]],[0]]@END_MENU_TOKEN@*/, ui: /*@START_MENU_TOKEN@*/.UIKit/*[[".UIKit",".swiftUI"],[[[-1,0],[-1,1]]],[0]]@END_MENU_TOKEN@*/)
+        let tuple: (PlaidLinkSampleFlow, PlaidLinkUILayer) = (flow: /*@START_MENU_TOKEN@*/.linkToken/*[[".linkToken",".linkPublicKey"],[[[-1,0],[-1,1]]],[0]]@END_MENU_TOKEN@*/, ui: /*@START_MENU_TOKEN@*/.UIKit/*[[".swiftUI",".UIKit"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/)
         switch tuple {
             case (.linkToken, .UIKit):
                 presentPlaidLinkUsingLinkToken()
             case (.linkToken, .swiftUI):
-                presentSwiftUILinkToken()
+                if #available(iOS 13.0, *) {
+                    presentSwiftUILinkToken()
+                } else {
+                    assertionFailure("SwiftUI requires iOS 13 or above")
+                }
             case (.linkPublicKey, .UIKit):
                 presentPlaidLinkUsingPublicKey()
             case (.linkPublicKey, .swiftUI):
-                presentSwiftUIPublicKey()
+                if #available(iOS 13.0, *) {
+                    presentSwiftUIPublicKey()
+                } else {
+                    assertionFailure("SwiftUI requires iOS 13 or above")
+                }
         }
     }
 }
