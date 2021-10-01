@@ -1,6 +1,19 @@
 # RELEASES
 
+## LinkKit 2.2.1 — 2021-09-30
+### Additions
+
+- Add `UPLOAD_DOCUMENTS` view name for onEvent metadata
+
+
 ## LinkKit 2.2.0 — 2021-08-24
+### :warning: Known Issues
+
+
+:information_source: The following issues exist in this version and will be addressed with the next release.
+
+- Custom Initializers do not work with 2.2.0. This has been resolved in 2.2.1.
+
 ### Changes
 
 - LinkKit will now show an error to the end-user when there are network communication issues.
@@ -42,15 +55,18 @@
 
 - When using OAuth with a financial institution that does not support App-to-App OAuth, or when the user does not have that institution's app installed, LinkKit will open the OAuth flow in the user's default browser as opposed to a webview internal to the SDK.
 
-### Addition
+### Additions
 
 - Add `DismissalHandler` closure to `custom` `PresentationMethod` to control dismissing Plaid Link.
 
 ### Changes
 
+- Replace `continueFrom(redirectUri:)` with `continue(from:)`, and deprecate the former
+- Fix issue where the accounts array could sometimes be missing accounts
 - The navigation links on top of the End User Privacy Policy now jump to the respective sections instead of opening in Mobile Safari.
 - Tapping email address links in the End User Privacy now opens the default mail application.
 - When an action is required on the account the user taken to the institution's appropriate page in the configured default browser instead of within Link.
+- Improve performance of `LinkKit.Handler.open(...)`
 - Fix issue with symbols lookup in lldb
 
 
@@ -262,7 +278,7 @@ Please see known issues below and use version 2.0.6 instead.
 
 
 ## LinkKit 1.1.34 — 2020-07-17
-### Addition
+### Additions
 
 - Add events for OAuth flow
 
@@ -289,7 +305,7 @@ Please see known issues below and use version 2.0.6 instead.
 
 
 ## LinkKit 1.1.31 — 2020-05-15
-### Addition
+### Additions
 
 - Added a name pane after the introductory pane to prompt the user to enter their name in the manual microdeposit flow.
 - Added a class type pane after the name pane for the user to select the account class type in the manual microdeposit flow.
@@ -331,7 +347,7 @@ Please see known issues below and use version 2.0.6 instead.
 
 
 ## LinkKit 1.1.27 — 2020-02-12
-### Addition
+### Additions
 
 - When configured with a non-production environment Plaid Link for iOS will now show an alert and a log message when the SDK is considered to be outdated.
 
@@ -341,7 +357,7 @@ Please see known issues below and use version 2.0.6 instead.
 
 
 ## LinkKit 1.1.26 — 2020-01-15
-### Addition
+### Additions
 
 - Added CONSENT as a possible `view_name` metadata value for the `OPEN` event. Details here https://plaid.com/docs/#metadata-view_name
 
@@ -361,7 +377,7 @@ Please see known issues below and use version 2.0.6 instead.
 
 :information_source: As of this version LinkKit requires Xcode 11
 
-### Addition
+### Additions
 
 - Better user messaging for financial institutions experiencing connectivity issues.
 
@@ -372,7 +388,7 @@ Please see known issues below and use version 2.0.6 instead.
 
 
 ## LinkKit 1.1.24 — 2019-10-23
-### Addition
+### Additions
 
 - Add external events `SUBMIT_CREDENTIALS` and `SUBMIT_MFA` (for details see https://plaid.com/docs/#onevent-callback)
 - Add balance localization support for the Select Account pane.
@@ -416,7 +432,7 @@ Please see known issues below and use version 2.0.6 instead.
 
 
 ## LinkKit 1.1.19 — 2019-05-29
-### Addition
+### Additions
 
 - Add new optional configuration property `language`, to specify the language in which the UI will be displayed.
 
@@ -438,7 +454,7 @@ Please see known issues below and use version 2.0.6 instead.
 
 
 ## LinkKit 1.1.17 — 2019-03-15
-### Addition
+### Additions
 
 - Add new optional configuration property `countryCodes` to limit selectable institutions and institution search results to institutions available in the given countries
 
@@ -464,7 +480,7 @@ Please see known issues below and use version 2.0.6 instead.
 
 - When verifying an account via manual microdeposits Plaid Link for iOS stalls after confirming the account number
 
-### Addition
+### Additions
 
 - Add support for the latest [Auth features](https://blog.plaid.com/new-auth). Read the [blog post](https://blog.plaid.com/new-auth), and reach out to integrations@plaid.com to enable your account and begin testing
 - Add haptic feedback for selection changes and validation errors
@@ -503,7 +519,7 @@ Please see known issues below and use version 2.0.6 instead.
 
 - If the Reset password button on the credentials pane is tapped at the same time that the application goes into the background, the blur effect, which hides sensitive information from views, is not removed once the application becomes active again.
 
-### Addition
+### Additions
 
 - Add support for iOS 12 security code auto-fill
 
@@ -522,7 +538,7 @@ Please see known issues below and use version 2.0.6 instead.
 
 - When customizing the copy of button on the consent pane the copy of the text below is not updated accordingly
 
-### Addition
+### Additions
 
 - Add support for customization of the headline, submit button, and highlight color on the initial consentPane
 - Add support for alphanumeric MFA codes
@@ -544,7 +560,7 @@ Please see known issues below and use version 2.0.6 instead.
 
 - LinkKit can crash during device based mfa. For further details see [#252](https://github.com/plaid/link/issues/252).
 
-### Addition
+### Additions
 
 - Plaid Link for iOS now asks end users for their consent to Plaid's privacy policy
 
@@ -578,7 +594,7 @@ Please see known issues below and use version 2.0.6 instead.
 
 
 ## LinkKit 1.1.7 — 2018-03-20
-### Addition
+### Additions
 
 - Add customizable exit button below search results (addresses [#228](https://github.com/plaid/link/issues/228)).
 - For the select account flow the account mask, type, and subtype are now returned in the metadata of the `linkViewController:didSucceedWithPublicToken:metadata` handler.
@@ -593,7 +609,7 @@ Please see known issues below and use version 2.0.6 instead.
 
 
 ## LinkKit 1.1.6 — 2018-03-01
-### Addition
+### Additions
 
 - Add warning log message when third-party password manager support is not setup properly
 
@@ -614,7 +630,7 @@ Please see known issues below and use version 2.0.6 instead.
 
 - LinkKit crashes when using custom initializers and navigating back from the development mode info pane to the credentials pane and then submitting credentials. This is a sandbox / development only related issue and cannot occur in production context where the development mode info page is not available. For further details see [`plaid/link#234`](https://github.com/plaid/link/issues/234)
 
-### Addition
+### Additions
 
 - Improve error handling when initializing LinkKit
 - When retrying a login the previously entered username will remain in the username input field.
@@ -626,7 +642,7 @@ Please see known issues below and use version 2.0.6 instead.
 
 
 ## LinkKit 1.1.4 — 2018-01-11
-### Addition
+### Additions
 
 - Add support for password managers to allow users to use application extensions provided by password manager applications to fill in the account credentials. Please note that the application integrating LinkKit must add `org-appextension-feature-password-management` to `LSApplicationQueriesSchemes` in its `Info.plist`
 
@@ -637,7 +653,7 @@ Please see known issues below and use version 2.0.6 instead.
 
 
 ## LinkKit 1.1.3 — 2017-12-11
-### Addition
+### Additions
 
 - Allow customization of "top" institutions if the corresponding option is enabled in the [Dashboard](https://dashboard.plaid.com/link/institution-select)
 
@@ -662,7 +678,7 @@ Please see known issues below and use version 2.0.6 instead.
 
 
 ## LinkKit 1.1.0 — 2017-10-02
-### Addition
+### Additions
 
 - Add support for iPhone X
 - Allow selecting multiple accounts if the corresponding option is enabled in the [Dashboard](https://dashboard.plaid.com/)
@@ -694,7 +710,7 @@ Please see known issues below and use version 2.0.6 instead.
 
 
 ## LinkKit 1.0.8 — 2017-08-18
-### Addition
+### Additions
 
 - Add support for three or more MFA selection options
 - Tapping on sample credentials in the development mode view copies them to the pasteboard
@@ -720,7 +736,7 @@ Please see known issues below and use version 2.0.6 instead.
 
 
 ## LinkKit 1.0.6 — 2017-07-11
-### Addition
+### Additions
 
 - Add [copy customization](https://blog.plaid.com/link-copy-customization/) which allows to change the text of certain user interface elements in the Link flow
 - Add exit button when searching for an institution yielded no results so people can directly exit out of Link iOS
@@ -732,7 +748,7 @@ Please see known issues below and use version 2.0.6 instead.
 
 
 ## LinkKit 1.0.5 — 2017-06-12
-### Addition
+### Additions
 
 - Add phone MFA type
 
@@ -749,20 +765,20 @@ Please see known issues below and use version 2.0.6 instead.
 
 
 ## LinkKit 1.0.4 — 2017-04-14
-### Addition
+### Additions
 
-- [`LICENSE`](LICENSE)
+- [`LICENSE`](https://github.com/plaid/plaid-link-ios/blob/ios/1.0.4/ios/LICENSE)
 
 ### Changes
 
 - Call exit handler `linkViewController:didExitWithError:metadata:` instead of success handler `linkViewController:didSucceedWithPublicToken:metadata` when exiting update mode from the credentials view ([#148](https://github.com/plaid/link/issues/148)).
 - Correct header documentation regarding pre-selecting an institution; `initWithInstitution:delegate:` and `initWithInstitution:configuration:delegate` ([#154](https://github.com/plaid/link/issues/154)).
 - Show alphanumeric keyboard for PIN entry when in development mode.
-- Improve wording of `NSInvalidArgumentException` which is thrown when an `env` incompatible with the `apiVersion` is configured (see [README.md](README.md#environment--api-version-compatibility) for details).
+- Improve wording of `NSInvalidArgumentException` which is thrown when an `env` incompatible with the `apiVersion` is configured (see [README.md](https://github.com/plaid/plaid-link-ios/blob/ios/1.0.4/ios/README.md#environment--api-version-compatibility) for details).
 
 
 ## LinkKit 1.0.3 — 2017-03-31
-### Addition
+### Additions
 
 - Institution `huntington`
 
@@ -774,7 +790,7 @@ Please see known issues below and use version 2.0.6 instead.
 
 
 ## LinkKit 1.0.2 — 2017-03-17
-### Addition
+### Additions
 
 - Institutions `citizens` and `regions`
 - Sandbox environment for APIv2
@@ -783,7 +799,7 @@ Please see known issues below and use version 2.0.6 instead.
 
 ### Changes
 
-- Update documentation regarding environments (see [README.md](README.md#environment--api-version-compatibility) for details)
+- Update documentation regarding environments (see [README.md](https://github.com/plaid/plaid-link-ios/blob/ios/1.0.2/ios/README.md#environment--api-version-compatibility) for details)
 - Update development mode information regarding selections MFA
 - `LINK_ENV` build settings in Xcode demo projects
 - Redesign demo application welcome view
@@ -802,8 +818,9 @@ Please see known issues below and use version 2.0.6 instead.
 
 
 ## LinkKit 1.0.0 — 2017-03-09
-### Addition
+### Additions
 
 - LinkKit.framework
-- Xcode demo projects ([LinkDemo-ObjC](LinkDemo-ObjC), [LinkDemo-Swift](LinkDemo-Swift), [LinkDemo-Swift2](LinkDemo-Swift2))
+- Xcode demo projects ([LinkDemo-ObjC](https://github.com/plaid/plaid-link-ios/tree/ios/1.0.0/ios/LinkDemo-ObjC), [LinkDemo-Swift](https://github.com/plaid/plaid-link-ios/tree/ios/1.0.0/ios/LinkDemo-Swift), [LinkDemo-Swift2](https://github.com/plaid/plaid-link-ios/tree/ios/1.0.0/ios/LinkDemo-Swift2))
  
+ception` which is thrown when an `env` incompatible with the `apiVersion` is configured (see [README.md](https://github.com/plaid/plaid-link-ios/blob/ios/1.0.4/ios/README.md#environment--api-version-compatibility) for details).
