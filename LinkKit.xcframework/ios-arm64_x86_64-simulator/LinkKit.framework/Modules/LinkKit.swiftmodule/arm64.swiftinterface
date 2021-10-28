@@ -20,7 +20,7 @@ public struct Plaid {
   }
   public static func create(_ linkPublicKeyConfiguration: LinkKit.LinkPublicKeyConfiguration) -> Swift.Result<LinkKit.Handler, LinkKit.Plaid.CreateError>
   public static func create(_ linkTokenConfiguration: LinkKit.LinkTokenConfiguration) -> Swift.Result<LinkKit.Handler, LinkKit.Plaid.CreateError>
-  public static var version: Swift.String
+  public static let version: Swift.String
 }
 @available(*, deprecated, message: "HandlerContinueError is deprecated, use Handler.continue(from:) instead of Handler.continueFrom(redirectUri:)")
 public enum HandlerContinueError : Swift.Error {
@@ -332,6 +332,7 @@ public enum ViewName : Swift.CustomStringConvertible {
   case recaptcha
   case selectAccount
   case selectInstitution
+  case uploadDocuments
   case unknown(Swift.String)
   public var description: Swift.String {
     get
@@ -490,12 +491,6 @@ public enum InstitutionErrorCode : Swift.Error, Swift.CustomStringConvertible {
   }
 }
 extension Environment {
-}
-public enum APIError : Swift.Error {
-  case unencodableBody
-  case undecodableResponse
-  case invalidResponse(Swift.Error?)
-  case invalidClientAuthorization
 }
 @_inheritsConvenienceInitializers @objc public class PLKPlaid : ObjectiveC.NSObject {
   @objc public static func createWithLinkTokenConfiguration(_ linkTokenConfiguration: LinkKit.PLKLinkTokenConfiguration, error: Foundation.NSErrorPointer) -> LinkKit.PLKHandler?

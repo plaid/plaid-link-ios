@@ -26,6 +26,7 @@ typedef NS_ENUM(NSInteger, PLKProduct) {
     PLKProductLiabilitiesReport,
     PLKProductPaymentInitiation,
     PLKProductTransactions,
+    // Add new enum cases directly above this line to avoid breaking API changes
 };
 
 typedef NS_ENUM(NSInteger, PLKVerificationStatusValue) {
@@ -33,6 +34,7 @@ typedef NS_ENUM(NSInteger, PLKVerificationStatusValue) {
     PLKVerificationStatusValuePendingAutomaticVerification,
     PLKVerificationStatusValuePendingManualVerification,
     PLKVerificationStatusValueManuallyVerified,
+    // Add new enum cases directly above this line to avoid breaking API changes
 };
 
 typedef NS_ENUM(NSInteger, PLKEventNameValue) {
@@ -52,6 +54,7 @@ typedef NS_ENUM(NSInteger, PLKEventNameValue) {
     PLKEventNameValueTransitionView,
     PLKEventNameValueMatchedSelectInstitution,
     PLKEventNameValueMatchedSelectVerifyMethod,
+    // Add new enum cases directly above this line to avoid breaking API changes
 };
 
 
@@ -63,6 +66,7 @@ typedef NS_ENUM(NSInteger, PLKExitStatusValue) {
     PLKExitStatusValueChooseDevice,
     PLKExitStatusValueRequiresCredentials,
     PLKExitStatusValueInstitutionNotFound,
+    // Add new enum cases directly above this line to avoid breaking API changes
 };
 
 typedef NS_ENUM(NSInteger, PLKMFAType) {
@@ -71,6 +75,7 @@ typedef NS_ENUM(NSInteger, PLKMFAType) {
     PLKMFATypeDevice,
     PLKMFATypeQuestions,
     PLKMFATypeSelections,
+    // Add new enum cases directly above this line to avoid breaking API changes
 };
 
 typedef NS_ENUM(NSInteger, PLKViewNameValue) {
@@ -89,12 +94,15 @@ typedef NS_ENUM(NSInteger, PLKViewNameValue) {
     PLKViewNameValueMatchedConsent,
     PLKViewNameValueMatchedCredential,
     PLKViewNameValueMatchedMFA,
+    PLKViewNameValueUploadDocuments,
+    // Add new enum cases directly above this line to avoid breaking API changes
 };
 
 typedef NS_ENUM(NSInteger, PLKAccountSubtypeValueOther) {
     PLKAccountSubtypeValueOtherNone = -1,
     PLKAccountSubtypeValueOtherAll,
     PLKAccountSubtypeValueOtherOther,
+    // Add new enum cases directly above this line to avoid breaking API changes
 };
 
 typedef NS_ENUM(NSInteger, PLKAccountSubtypeValueCredit) {
@@ -102,6 +110,7 @@ typedef NS_ENUM(NSInteger, PLKAccountSubtypeValueCredit) {
     PLKAccountSubtypeValueCreditAll,
     PLKAccountSubtypeValueCreditCreditCard,
     PLKAccountSubtypeValueCreditPaypal,
+    // Add new enum cases directly above this line to avoid breaking API changes
 };
 
 typedef NS_ENUM(NSInteger, PLKAccountSubtypeValueLoan) {
@@ -118,6 +127,7 @@ typedef NS_ENUM(NSInteger, PLKAccountSubtypeValueLoan) {
     PLKAccountSubtypeValueLoanMortgage,
     PLKAccountSubtypeValueLoanOverdraft,
     PLKAccountSubtypeValueLoanStudent,
+    // Add new enum cases directly above this line to avoid breaking API changes
 };
 
 typedef NS_ENUM(NSInteger, PLKAccountSubtypeValueDepository) {
@@ -132,6 +142,7 @@ typedef NS_ENUM(NSInteger, PLKAccountSubtypeValueDepository) {
     PLKAccountSubtypeValueDepositoryPaypal,
     PLKAccountSubtypeValueDepositoryPrepaid,
     PLKAccountSubtypeValueDepositorySavings,
+    // Add new enum cases directly above this line to avoid breaking API changes
 };
 
 typedef NS_ENUM(NSInteger, PLKAccountSubtypeValueInvestment) {
@@ -181,11 +192,13 @@ typedef NS_ENUM(NSInteger, PLKAccountSubtypeValueInvestment) {
     PLKAccountSubtypeValueInvestmentUgma,
     PLKAccountSubtypeValueInvestmentUtma,
     PLKAccountSubtypeValueInvestmentVariableAnnuity,
+    // Add new enum cases directly above this line to avoid breaking API changes
 };
 
 typedef NS_ENUM(NSInteger, PLKApiErrorCode) {
     PLKApiErrorCodeInternalServerError,
     PLKApiErrorCodePlannedMaintenance
+    // Add new enum cases directly above this line to avoid breaking API changes
 };
 
 typedef NS_ENUM(NSInteger, PLKInvalidRequestErrorCode) {
@@ -196,6 +209,7 @@ typedef NS_ENUM(NSInteger, PLKInvalidRequestErrorCode) {
     PLKInvalidRequestErrorCodeInvalidAddress,
     PLKInvalidRequestErrorCodeNotFound,
     PLKInvalidRequestErrorCodeSandboxOnly,
+    // Add new enum cases directly above this line to avoid breaking API changes
 };
 
 typedef NS_ENUM(NSInteger, PLKInvalidInputErrorCode) {
@@ -207,6 +221,7 @@ typedef NS_ENUM(NSInteger, PLKInvalidInputErrorCode) {
     PLKInvalidInputErrorCodeInvalidAccountId,
     PLKInvalidInputErrorCodeInvalidInstitution,
     PLKInvalidInputErrorCodeTooManyVerificationAttempts,
+    // Add new enum cases directly above this line to avoid breaking API changes
 };
 
 typedef NS_ENUM(NSInteger, PLKInstitutionErrorCode) {
@@ -214,6 +229,7 @@ typedef NS_ENUM(NSInteger, PLKInstitutionErrorCode) {
     PLKInstitutionErrorCodeInstitutionNotResponding,
     PLKInstitutionErrorCodeInstitutionNotAvailable,
     PLKInstitutionErrorCodeInstitutionNoLongerSupported,
+    // Add new enum cases directly above this line to avoid breaking API changes
 };
 
 typedef NS_ENUM(NSInteger, PLKRateLimitErrorCode) {
@@ -225,6 +241,7 @@ typedef NS_ENUM(NSInteger, PLKRateLimitErrorCode) {
     PLKRateLimitErrorCodeItemGetLimit,
     PLKRateLimitErrorCodeRateLimit,
     PLKRateLimitErrorCodeTransactionsLimit,
+    // Add new enum cases directly above this line to avoid breaking API changes
 };
 
 typedef NS_ENUM(NSInteger, PLKItemErrorCode) {
@@ -247,11 +264,13 @@ typedef NS_ENUM(NSInteger, PLKItemErrorCode) {
     PLKItemErrorCodeProductNotReady,
     PLKItemErrorCodeProductsNotSupported,
     PLKItemErrorCodeInstantMatchFailed,
+    // Add new enum cases directly above this line to avoid breaking API changes
 };
 
 typedef NS_ENUM(NSInteger, PLKAuthErrorCode) {
     PLKAuthErrorCodeProductNotReady,
     PLKAuthErrorCodeVerificationExpired,
+    // Add new enum cases directly above this line to avoid breaking API changes
 };
 
 typedef NS_ENUM(NSInteger, PLKAssetReportErrorCode) {
@@ -262,6 +281,7 @@ typedef NS_ENUM(NSInteger, PLKAssetReportErrorCode) {
     PLKAssetReportErrorCodeInvalidParent,
     PLKAssetReportErrorCodeInsightsNotEnabled,
     PLKAssetReportErrorCodeInsightsPreviouslyNotEnabled,
+    // Add new enum cases directly above this line to avoid breaking API changes
 };
 
 NS_ASSUME_NONNULL_BEGIN

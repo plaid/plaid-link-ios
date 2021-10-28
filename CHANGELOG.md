@@ -1,9 +1,38 @@
 # RELEASES
 
+## LinkKit 2.2.2 — 2021-10-28
+### Changes
+
+- Fix issue where LinkKit always returned an error when LinkKit was
+included in an application, that was distributed with Xcode 13 and the new
+**Manage Version and Build Number** App Store Connect distribution option selected.
+
+- Fix issue where 2 back buttons could be displayed erroneously during
+recaptcha verification or federated authentication.
+
+- Improve handling of OAuth redirect URIs
+
+
 ## LinkKit 2.2.1 — 2021-09-30
+### :warning: Known Issues
+
+
+:information_source: The following issues exist in this version and will be addressed with the next release.
+
+- LinkKit will always show an error when the new Xcode 13 **Manage Version and Build Number**
+App Store Connect distribution option was used. To mitigate the issue please avoid
+use of said option or use Xcode 12 for app distribution.
+
+
 ### Additions
 
 - Add `UPLOAD_DOCUMENTS` view name for onEvent metadata
+
+### Changes
+
+- Fix account filter and custom initializer regression for public key based integrations
+introduced in 2.2.0
+
 
 
 ## LinkKit 2.2.0 — 2021-08-24
@@ -822,5 +851,3 @@ Please see known issues below and use version 2.0.6 instead.
 
 - LinkKit.framework
 - Xcode demo projects ([LinkDemo-ObjC](https://github.com/plaid/plaid-link-ios/tree/ios/1.0.0/ios/LinkDemo-ObjC), [LinkDemo-Swift](https://github.com/plaid/plaid-link-ios/tree/ios/1.0.0/ios/LinkDemo-Swift), [LinkDemo-Swift2](https://github.com/plaid/plaid-link-ios/tree/ios/1.0.0/ios/LinkDemo-Swift2))
- 
-ception` which is thrown when an `env` incompatible with the `apiVersion` is configured (see [README.md](https://github.com/plaid/plaid-link-ios/blob/ios/1.0.4/ios/README.md#environment--api-version-compatibility) for details).
