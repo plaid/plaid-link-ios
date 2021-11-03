@@ -20,8 +20,11 @@ extension AppDelegate {
             return false
         }
 
-        // Check that the userActivity.webpageURL is the oauthRedirectUri
-        // configured in the Plaid dashboard.
+        // The Plaid Link SDK will ignore unexpected URLs passed to `continue(from:)` as
+        // per Apple’s recommendations, so there is no need to filter out unrelated URLs.
+        // Doing so may prevent a valid URL from being passed to `continue(from:)` and
+        // OAuth may not continue as expected.
+        // https://plaid.com/docs/link/ios/#set-up-universal-links
         guard let linkOAuthHandler = window?.rootViewController as? LinkOAuthHandling,
             let handler = linkOAuthHandler.linkHandler
         else {
