@@ -22,14 +22,20 @@ class ViewController: UIViewController, LinkOAuthHandling {
     @IBOutlet var buttonContainerView: UIView!
     var linkHandler: Handler?
 
+    // MARK: - PublicKey Configuration (Deprecated)
+    // See `ViewController+PublicKey.swift` for usage of `oauthRedirectUri` & `oauthNonce`.
+    // Integrating LinkKit using public key has been deprecated in favor of Link Tokens
+    // hence the public key related oauthNonce and oauthRedirect properties are deprecated as well.
+    // For more information on how to migrate to Link Tokens see https://plaid.com/docs/link/link-token-migration-guide/
+
     // When re-initializing Link to complete the OAuth flows ensure that the same oauthNonce is used per session.
     // This is a simplified example for demonstaration purposes only.
-    let oauthNonce: String = { return UUID().uuidString }()
+    let oauthNonce = UUID().uuidString
 
-    #warning("Ensure your oauthRedirectUri is a valid universal link and is configured in the Plaid developer dashboard")
-    #warning("Ensure to also replace YOUR_OAUTH_REDIRECT_URI in the Associated Domains Capability or in the LinkDemo-Swift.entitlements")
-    #warning("Remember to change the application Bundle Identifier to match one you have configured for universal links")
-    #warning("For more information on configuring your oauthRedirectUri, see https://plaid.com/docs/link/oauth")
+    #warning("Replace <#YOUR_OAUTH_REDIRECT_URI#> below with your oauthRedirectUri, which should be a universal link and must be configured in the Plaid developer dashboard")
+    let oauthRedirectURI =  URL(string: "<#YOUR_OAUTH_REDIRECT_URI#>")
+
+    // MARK: - Implementation
 
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -32,6 +32,15 @@ extension ViewController {
                 print("exit with \(exit.metadata)")
             }
         }
+
+        if let oauthRedirectURI = self.oauthRedirectURI {
+            linkConfiguration.oauthConfiguration = OAuthNonceConfiguration(
+                nonce: self.oauthNonce,
+                redirectUri: oauthRedirectURI
+            )
+        }
+
+
         return linkConfiguration
     }
 

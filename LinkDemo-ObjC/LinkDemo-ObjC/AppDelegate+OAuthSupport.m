@@ -12,6 +12,11 @@
 
 @implementation AppDelegate (OAuthSupport)
 
+#warning Ensure your oauthRedirectUri is a valid universal link and is configured in the Plaid developer dashboard
+#warning Replace YOUR_OAUTH_REDIRECT_URI in the Associated Domains Capability or in the LinkDemo-ObjC.entitlements
+#warning Remember to change the application Bundle Identifier to match a URI you have configured for universal links
+#warning For more information on configuring your oauthRedirectUri, see https://plaid.com/docs/link/oauth
+
 // MARK: Continue Plaid Link for iOS to complete an OAuth authentication flow
 // <!-- SMARTDOWN_OAUTH_SUPPORT -->
 - (BOOL)application:(UIApplication *)application
@@ -29,21 +34,17 @@ continueUserActivity:(NSUserActivity *)userActivity
     id<LinkOAuthHandling> linkOAuthHandler = (id<LinkOAuthHandling>)rootViewController;
     id<PLKHandler> handler = linkOAuthHandler.linkHandler;
 
-    // Check that the userActivity.webpageURL matches the oauthRedirectUri that we have 
-    // configured in the Plaid dashboard. 
-    if (!(handler
-        && linkOAuthHandler.oauthRedirectUri
-        && [webpageURL.host isEqualToString:linkOAuthHandler.oauthRedirectUri.host]
-        && [webpageURL.path isEqualToString:linkOAuthHandler.oauthRedirectUri.path]
-          )) {
+    // The Plaid Link SDK ignores unexpected URLs passed to `- (void)continueWithRedirectUri:(NSURL *)redirectUri`
+    // as per Apple’s recommendations, so there is no need to filter out unrelated URLs.
+    // Doing so may prevent a valid URL from being passed to `continue(from:)` and
+    // OAuth may not continue as expected.
+    // For details see https://plaid.com/docs/link/ios/#set-up-universal-links
+    if (!handler) {
         return NO;
     }
 
-    NSError* error = [handler continueFromRedirectUri:webpageURL];
-    if (error) {
-        NSLog(@"Unable to continue from redirect due to: %@", [error localizedDescription]);
-    }
-
+    // Continue the Link flow
+    [handler continueWithRedirectUri:webpageURL];
     return YES;
 }
 // <!-- SMARTDOWN_OAUTH_SUPPORT -->

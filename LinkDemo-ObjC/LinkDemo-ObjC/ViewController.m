@@ -19,8 +19,28 @@
 
 @implementation ViewController
 @synthesize linkHandler = _linkHandler;
+
+#pragma mark - PublicKey Configuration (Deprecated)
+// See `ViewController+PublicKey.m` for usage of `oauthRedirectUri` & `oauthNonce`.
+
 @synthesize oauthRedirectUri = _oauthRedirectUri;
 @synthesize oauthNonce = _oauthNonce;
+
+- (NSURL*)oauthRedirectUri {
+    #warning Replace <#YOUR_OAUTH_REDIRECT_URI#> below with your oauthRedirectUri, which should be a universal link and must be configured in the Plaid developer dashboard
+    return [NSURL URLWithString:@"<#YOUR_OAUTH_REDIRECT_URI#>"];
+}
+
+- (NSString*)oauthNonce {
+    // To complete the OAuth flows ensure that the same oauthNonce is used per session.
+    // This handling of oauthNonce is a simplified example for demonstaration purposes only.
+    if (_oauthNonce == nil) {
+        _oauthNonce = [[NSUUID UUID] UUIDString];
+    }
+    return _oauthNonce;
+}
+
+#pragma mark - Implementation
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -37,23 +57,6 @@
     self.buttonContainerView.layer.shadowOffset  = CGSizeMake(0, -1);
     self.buttonContainerView.layer.shadowRadius  = 2;
     self.buttonContainerView.layer.shadowOpacity = 1;
-}
-
-- (NSURL*)oauthRedirectUri {
-    #warning Replace <#YOUR_OAUTH_REDIRECT_URI#> below with your oauthRedirectUri, which should be a universal link and must be configured in the Plaid developer dashboard
-    #warning Replace YOUR_OAUTH_REDIRECT_URI in the Associated Domains Capability or in the LinkDemo-ObjC.entitlements
-    #warning Remember to change the application Bundle Identifier to match one you have configured for universal links
-    #warning For more information on configuring your oauthRedirectUri, see https://plaid.com/docs/link/oauth
-    return [NSURL URLWithString:@"<#YOUR_OAUTH_REDIRECT_URI#>"];
-}
-
-- (NSString*)oauthNonce {
-    // To complete the OAuth flows ensure that the same oauthNonce is used per session.
-    // This handling of oauthNonce is a simplified example for demonstaration purposes only.
-    if (_oauthNonce == nil) {
-        _oauthNonce = [[NSUUID UUID] UUIDString];
-    }
-    return _oauthNonce;
 }
 
 - (IBAction)didTapButton:(id)sender {
