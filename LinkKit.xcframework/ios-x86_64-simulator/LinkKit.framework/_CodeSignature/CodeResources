@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/LinkKit-Swift.h</key>
 		<data>
-		wBYNXye8WmvSPpxW+1wCzX242PI=
+		vn2+09Vxl13KEPIIFLKRDD3Hvls=
 		</data>
 		<key>Headers/LinkKit.h</key>
 		<data>
@@ -22,31 +22,31 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		AhBh0Td+6RBm29/okKg4i8GkfuM=
+		M3Gq2uYjq8MqBSmAyHzmQ9mBAqw=
 		</data>
 		<key>Modules/LinkKit.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		WT7mlPiTSdpQfsbJ0P7XuB2xfOw=
+		oVe6BZwNQDL3QZCA879fehTjl3k=
 		</data>
 		<key>Modules/LinkKit.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		cruGhwpfehZeiXppZndxx3qQFrQ=
+		yKQeDEhMMwdzA+BlkAO5bSz+If0=
 		</data>
 		<key>Modules/LinkKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		KsivQwQ4tubOyPmyoX1F90g1qbE=
+		Jjd8kLGAXFRjd3gvgIgoYEccDI4=
 		</data>
 		<key>Modules/LinkKit.swiftmodule/x86_64.swiftdoc</key>
 		<data>
-		WT7mlPiTSdpQfsbJ0P7XuB2xfOw=
+		oVe6BZwNQDL3QZCA879fehTjl3k=
 		</data>
 		<key>Modules/LinkKit.swiftmodule/x86_64.swiftinterface</key>
 		<data>
-		cruGhwpfehZeiXppZndxx3qQFrQ=
+		yKQeDEhMMwdzA+BlkAO5bSz+If0=
 		</data>
 		<key>Modules/LinkKit.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		KsivQwQ4tubOyPmyoX1F90g1qbE=
+		Jjd8kLGAXFRjd3gvgIgoYEccDI4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -59,7 +59,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			rfrNmNK+wpXDkTamUQwL0eu4HvjhZbPL9Cv1sS1e42s=
+			L24V0QSHuCI5kh4vQ7zLOrpt9Th3Vt3OKHLAp2sAJk8=
 			</data>
 		</dict>
 		<key>Headers/LinkKit.h</key>
@@ -87,42 +87,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			2mfusEOI2eo2gEiHmpQpp6a878Kb/ip6nYEOk+RJ0t0=
+			GkmPSHEV1qS89I7FrRboM3/cNYqny1Jzqaq9GU2BaGg=
 			</data>
 		</dict>
 		<key>Modules/LinkKit.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/JjMkKuHci6/LjS/wTKc8qAvkCMiKU4giwnHlGyfmDQ=
+			RK4HdezSzAyggeoFRSsjUzAzkLXKqijhNcoxQZRuvjU=
 			</data>
 		</dict>
 		<key>Modules/LinkKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ft5v6MxB7fuqsTgku0qQW35GEh9tvTrtdQ8wnZDJdjM=
+			Ro+msBR8ZGxOhN6lsCamsB1o2O4BKO5wIPGe6uK08Pg=
 			</data>
 		</dict>
 		<key>Modules/LinkKit.swiftmodule/x86_64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2mfusEOI2eo2gEiHmpQpp6a878Kb/ip6nYEOk+RJ0t0=
+			GkmPSHEV1qS89I7FrRboM3/cNYqny1Jzqaq9GU2BaGg=
 			</data>
 		</dict>
 		<key>Modules/LinkKit.swiftmodule/x86_64.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/JjMkKuHci6/LjS/wTKc8qAvkCMiKU4giwnHlGyfmDQ=
+			RK4HdezSzAyggeoFRSsjUzAzkLXKqijhNcoxQZRuvjU=
 			</data>
 		</dict>
 		<key>Modules/LinkKit.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ft5v6MxB7fuqsTgku0qQW35GEh9tvTrtdQ8wnZDJdjM=
+			Ro+msBR8ZGxOhN6lsCamsB1o2O4BKO5wIPGe6uK08Pg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
