@@ -1,5 +1,20 @@
 # RELEASES
 
+## LinkKit 2.3.0 — 2021-11-17
+### Additions
+
+- Add optional `noLoadingState` parameter to `LinkTokenConfiguration` to enable
+integrating applications to display a custom activity indicator until LinkKit
+is ready to present UI.
+
+
+### Changes
+
+- Fix `+` appearing instead of blank space in onEvent metadata fields, e.g.
+account and institution name.
+
+
+
 ## LinkKit 2.2.2 — 2021-10-28
 ### Changes
 
@@ -10,7 +25,7 @@ included in an application, that was distributed with Xcode 13 and the new
 - Fix issue where 2 back buttons could be displayed erroneously during
 recaptcha verification or federated authentication.
 
-- Improve handling of OAuth redirect URIs
+- Improve handling of OAuth redirect URIs.
 
 
 ## LinkKit 2.2.1 — 2021-09-30
@@ -31,7 +46,7 @@ use of said option or use Xcode 12 for app distribution.
 ### Changes
 
 - Fix account filter and custom initializer regression for public key based integrations
-introduced in 2.2.0
+introduced in 2.2.0.
 
 
 

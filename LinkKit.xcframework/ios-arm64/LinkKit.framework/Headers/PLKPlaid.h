@@ -494,6 +494,13 @@ typedef void(^PLKOnEventHandler)(PLKLinkEvent *);
 @interface PLKLinkTokenConfiguration : NSObject
 
 @property(nonatomic, copy, readonly) NSString *token;
+/// A BOOL indicating that Link should skip displaying a loading animation and Link UI will be presented once it is fully loaded.
+/// This can be used to display custom loading UI while Link content is loading (and will skip any initial loading UI in Link).
+/// Note: Dismiss custom loading UI on the OPEN & EXIT events.
+///
+/// Note: This should be set to `YES` when setting the `eu_config.headless` field in /link/token/create requests to `true`.
+/// For reference, see https://plaid.com/docs/api/tokens/#link-token-create-request-eu-config-headless
+@property(nonatomic) BOOL noLoadingState;
 @property(nonatomic) PLKOnSuccessHandler onSuccess;
 @property(nonatomic, strong) PLKOnExitHandler onExit;
 @property(nonatomic, strong) PLKOnEventHandler onEvent;

@@ -40,6 +40,7 @@ public struct LinkTokenConfiguration {
   public var onSuccess: LinkKit.OnSuccessHandler
   public var onExit: (LinkKit.LinkExit) -> Swift.Void
   public var onEvent: (LinkKit.LinkEvent) -> Swift.Void
+  public var noLoadingState: Swift.Bool
   public init(token: Swift.String, onSuccess: @escaping LinkKit.OnSuccessHandler)
 }
 public struct OAuthNonceConfiguration {
