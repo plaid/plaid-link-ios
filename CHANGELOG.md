@@ -1,5 +1,12 @@
 # RELEASES
 
+## LinkKit 2.3.1 — 2021-11-23
+### Changes
+
+- Fix issue where `noLoadingState` flag was not properly bridged for Objective-C integrations.
+
+
+
 ## LinkKit 2.3.0 — 2021-11-17
 ### Additions
 
