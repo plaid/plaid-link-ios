@@ -11,7 +11,7 @@ import LinkKit
 extension AppDelegate {
 
 #warning("Ensure your oauthRedirectUri is a valid universal link and is configured in the Plaid developer dashboard")
-#warning("Ensure to also replace YOUR_OAUTH_REDIRECT_URI in the Associated Domains Capability or in the LinkDemo-Swift.entitlements")
+#warning("Ensure to also replace YOUR_OAUTH_REDIRECT_URI_DOMAIN_NAME in the Associated Domains Capability or in the LinkDemo-Swift.entitlements")
 #warning("Remember to change the application Bundle Identifier to match a URI you have configured for universal links")
 #warning("For more information on configuring your oauthRedirectUri, see https://plaid.com/docs/link/oauth")
 
