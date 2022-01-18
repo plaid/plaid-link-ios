@@ -1,5 +1,22 @@
 # RELEASES
 
+## LinkKit 2.3.2 — 2022-01-18
+### Additions
+
+- Add support for the `BANK_INCOME_INSIGHTS_COMPLETED` event, which indicates the user
+has completed the Assets + Bank Income Insights flow.
+
+- Add support for [integrating LinkKit via Swift Package Manager](https://plaid.com/docs/link/ios/#installation)
+
+### Changes
+
+- Fix issue where account linking could get stuck on the institution's setup page
+for `USER_SETUP_REQUIRED` and `ITEM_LOCKED` errors.
+
+- Fix issue where webview popup is displayed when a link is opened externally in a browser.
+- Improve handling of external links and webview popup navigation.
+
+
 ## LinkKit 2.3.1 — 2021-11-23
 ### Changes
 

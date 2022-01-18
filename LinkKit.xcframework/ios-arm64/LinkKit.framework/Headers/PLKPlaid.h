@@ -54,6 +54,7 @@ typedef NS_ENUM(NSInteger, PLKEventNameValue) {
     PLKEventNameValueTransitionView,
     PLKEventNameValueMatchedSelectInstitution,
     PLKEventNameValueMatchedSelectVerifyMethod,
+    PLKEventNameValueBankIncomeInsightsCompleted,
     // Add new enum cases directly above this line to avoid breaking API changes
 };
 

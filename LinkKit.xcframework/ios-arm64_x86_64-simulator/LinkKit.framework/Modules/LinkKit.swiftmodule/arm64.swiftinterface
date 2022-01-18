@@ -298,6 +298,7 @@ public struct ExitMetadata {
   public var metadataJSON: LinkKit.RawJSONMetadata?
 }
 public enum EventName : Swift.CustomStringConvertible {
+  case bankIncomeInsightsCompleted
   case closeOAuth
   case error
   case exit
