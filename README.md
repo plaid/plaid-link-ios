@@ -1,4 +1,4 @@
-# Plaid Link for iOS [![version][link-sdk-version]][link-sdk-url]
+# Plaid Link for iOS [![version][link-sdk-version]][link-sdk-pod-url] [![swift compatibility][link-sdk-swift-compat]][link-sdk-spi-url]
 
 📱 This repository contains a sample application for [Swift](LinkDemo-Swift) (requiring Xcode 11) that demonstrates integration and use of Plaid Link for iOS.
 
@@ -17,6 +17,8 @@ Select your desired use-case in [`ViewController.didTapButton`](https://github.c
 
 [link-ios-docs]: https://plaid.com/docs/link/ios
 [link-sdk-version]: https://img.shields.io/cocoapods/v/Plaid
-[link-sdk-url]: https://cocoapods.org/pods/Plaid
+[link-sdk-pod-url]: https://cocoapods.org/pods/Plaid
+[link-sdk-spi-url]: https://swiftpackageindex.com/plaid/plaid-link-ios
+[link-sdk-swift-compat]: https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fplaid%2Fplaid-link-ios%2Fbadge%3Ftype%3Dswift-versions
 [link-1-2-migration]: https://plaid.com/docs/link/ios/ios-v2-migration
 [link-main-v1]: https://github.com/plaid/plaid-link-ios/tree/main-v1
