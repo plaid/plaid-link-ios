@@ -2,7 +2,9 @@
 
 📱 This repository contains a sample application for [Swift](LinkDemo-Swift) (requiring Xcode 11) that demonstrates integration and use of Plaid Link for iOS.
 
-📚 Detailed instructions on how to integrate with Plaid Link for iOS can be found in our main documentation at [plaid.com/docs/link/ios][link-ios-docs]. For details on how to migrate from LinkKit 1.x to LinkKit 2.x please review the [Link Migration Guide][link-1-2-migration].
+📚 Detailed instructions on how to integrate with Plaid Link for iOS can be found in our main documentation at [plaid.com/docs/link/ios][link-ios-docs]. 
+
+⚠️ iOS Link SDK versions prior to 2.2.2 (released October 2021) will no longer work with the Plaid API as of November 1, 2022. If you are using a version of the iOS Link SDK earlier than 2.2.2, you **must** upgrade to version 2.2.2 or later before November 1, 2022. For details on how to migrate from LinkKit 1.x to LinkKit 2.x please review the [Link Migration Guide][link-1-2-migration].
 
 1️⃣  The previous major version of LinkKit can be found on the [main-v1][link-main-v1] branch.
 
