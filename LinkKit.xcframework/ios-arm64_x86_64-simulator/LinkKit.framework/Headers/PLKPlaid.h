@@ -96,6 +96,9 @@ typedef NS_ENUM(NSInteger, PLKViewNameValue) {
     PLKViewNameValueMatchedCredential,
     PLKViewNameValueMatchedMFA,
     PLKViewNameValueUploadDocuments,
+    PLKViewNameValueSubmitDocuments,
+    PLKViewNameValueSubmitDocumentsSuccess,
+    PLKViewNameValueSubmitDocumentsError,
     // Add new enum cases directly above this line to avoid breaking API changes
 };
 

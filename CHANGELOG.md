@@ -1,5 +1,18 @@
 # RELEASES
 
+## LinkKit 2.4.0 — 2022-02-22
+### Additions
+
+- Add `SUBMIT_DOCUMENTS`, `SUBMIT_DOCUMENTS_SUCCESS`, and `SUBMIT_DOCUMENTS_ERROR` view name for onEvent metadata
+
+### Changes
+
+- Improve resilience of OAuth based Link flows. LinkKit will attempt to mitigate
+faulty LinkKit integrations in regards to OAuth continuation or universal link
+handling in order to guide users through a succesful Link flow.
+
+
+
 ## LinkKit 2.3.2 — 2022-01-18
 ### Additions
 

@@ -335,6 +335,9 @@ public enum ViewName : Swift.CustomStringConvertible {
   case selectAccount
   case selectInstitution
   case uploadDocuments
+  case submitDocuments
+  case submitDocumentsSuccess
+  case submitDocumentsError
   case unknown(Swift.String)
   public var description: Swift.String {
     get
