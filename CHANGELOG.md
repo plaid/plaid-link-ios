@@ -1,5 +1,15 @@
 # RELEASES
 
+## LinkKit 2.5.0 — 2022-03-18
+### Additions
+
+- Add support for `SELECT_DEGRADED_INSTITUTION` and `SELECT_DOWN_INSTITUTION` events, which indicate the user
+has selected an institution with a connection health status of `degraded` or `down`, and encountered a
+corresponding warning modal.
+
+- Add new onExit status code `requires_account_selection` that is sent when Link is exited from the Account Select pane
+
+
 ## LinkKit 2.4.0 — 2022-02-22
 ### Additions
 
@@ -9,7 +19,7 @@
 
 - Improve resilience of OAuth based Link flows. LinkKit will attempt to mitigate
 faulty LinkKit integrations in regards to OAuth continuation or universal link
-handling in order to guide users through a succesful Link flow.
+handling in order to guide users through a successful Link flow.
 
 
 

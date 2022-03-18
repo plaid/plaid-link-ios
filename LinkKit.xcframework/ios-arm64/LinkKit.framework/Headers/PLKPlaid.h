@@ -55,6 +55,8 @@ typedef NS_ENUM(NSInteger, PLKEventNameValue) {
     PLKEventNameValueMatchedSelectInstitution,
     PLKEventNameValueMatchedSelectVerifyMethod,
     PLKEventNameValueBankIncomeInsightsCompleted,
+    PLKEventNameValueSelectDegradedInstitution,
+    PLKEventNameValueSelectDownInstitution,
     // Add new enum cases directly above this line to avoid breaking API changes
 };
 
@@ -67,6 +69,7 @@ typedef NS_ENUM(NSInteger, PLKExitStatusValue) {
     PLKExitStatusValueChooseDevice,
     PLKExitStatusValueRequiresCredentials,
     PLKExitStatusValueInstitutionNotFound,
+    PLKExitStatusValueRequiresAccountSelection,
     // Add new enum cases directly above this line to avoid breaking API changes
 };
 

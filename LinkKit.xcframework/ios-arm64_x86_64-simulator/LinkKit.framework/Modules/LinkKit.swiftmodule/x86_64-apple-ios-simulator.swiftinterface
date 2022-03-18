@@ -275,6 +275,7 @@ public enum ExitStatus : Swift.CustomStringConvertible {
   case chooseDevice
   case requiresCredentials
   case institutionNotFound
+  case requiresAccountSelection
   case unknown(Swift.String)
   public var description: Swift.String {
     get
@@ -310,6 +311,8 @@ public enum EventName : Swift.CustomStringConvertible {
   case openMyPlaid
   case openOAuth
   case searchInstitution
+  case selectDegradedInstitution
+  case selectDownInstitution
   case selectInstitution
   case submitCredentials
   case submitMFA
