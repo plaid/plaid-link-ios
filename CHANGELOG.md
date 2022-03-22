@@ -1,5 +1,11 @@
 # RELEASES
 
+## LinkKit 2.5.1 — 2022-03-22
+### Changes
+
+- Fixes issue where parsing of `requires_account_selection` onExit status code was not performed correctly.
+
+
 ## LinkKit 2.5.0 — 2022-03-18
 ### Additions
 
