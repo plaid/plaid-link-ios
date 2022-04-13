@@ -1,5 +1,15 @@
 # RELEASES
 
+## LinkKit 2.5.2 — 2022-04-08
+### Additions
+
+- An addition!
+
+### Changes
+
+- Test the release-cli
+
+
 ## LinkKit 2.5.1 — 2022-03-22
 ### Changes
 
