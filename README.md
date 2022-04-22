@@ -1,6 +1,9 @@
 # Plaid Link for iOS [![version][link-sdk-version]][link-sdk-pod-url] [![swift compatibility][link-sdk-swift-compat]][link-sdk-spi-url]
 
-📱 This repository contains a sample application for [Swift](LinkDemo-Swift) (requiring Xcode 11) that demonstrates integration and use of Plaid Link for iOS.
+📱 This repository contains multiple sample applications for (requiring Xcode 11) that demonstrates integration and use of Plaid Link for iOS.
+* [Swift+UIKit](LinkDemo-Swift/LinkDemo-Swift-UIKit)
+* [Swift+SwiftUI](LinkDemo-Swift/LinkDemo-Swift-SwiftUI)
+* [Objective-C](LinkDemo-ObjC)
 
 📚 Detailed instructions on how to integrate with Plaid Link for iOS can be found in our main documentation at [plaid.com/docs/link/ios][link-ios-docs]. 
 
