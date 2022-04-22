@@ -25,12 +25,17 @@ extension ViewController {
         ) { success in
             print("public-token: \(success.publicToken) metadata: \(success.metadata)")
         }
+        
         linkConfiguration.onExit = { exit in
             if let error = exit.error {
                 print("exit with \(error)\n\(exit.metadata)")
             } else {
                 print("exit with \(exit.metadata)")
             }
+        }
+
+        linkConfiguration.onEvent = { event in
+            print("Link Event: \(event)")
         }
 
         if let oauthRedirectURI = self.oauthRedirectURI {

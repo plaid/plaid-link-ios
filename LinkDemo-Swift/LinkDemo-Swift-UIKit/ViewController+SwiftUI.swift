@@ -14,8 +14,8 @@ extension ViewController {
     }
     
     private func presentLink(with linkConfiguration: LinkController.LinkConfigurationType) {
-        let contentView = LinkController(configuration: linkConfiguration, openOptions: [:]) { (error) in
-            print("Handle error: \(error)!")
+        let contentView = LinkController(configuration: linkConfiguration) { error in
+            print("Handle link creation error: \(error)!")
         }
         let vc = UIHostingController(rootView: contentView)
         present(vc, animated: true, completion: nil)

@@ -8,45 +8,43 @@ import LinkKit
 import SwiftUI
 
 // The Controller that bridges from SwiftUI to UIKit
-struct LinkController {
+final class LinkController {
     // A wrapper enum for either a public key or link token based configuration
     enum LinkConfigurationType {
         case publicKey(LinkPublicKeyConfiguration)
         case linkToken(LinkTokenConfiguration)
     }
-    
+
     // The `configuration` to start Link with
     let configuration: LinkConfigurationType
-    
-    // The `openOptions` passed to Handler.open
-    let openOptions: OpenOptions
-    
+
     // The closure to invoke if there is an error creating the Handler
     let onCreateError: ((Plaid.CreateError) -> Void)?
 
+    // A reference to the `Handler`, if one has been created.
+    private(set) var linkHandler: Handler?
+
     init(
         configuration: LinkConfigurationType,
-        openOptions: OpenOptions = [:],
         onCreateError: ((Plaid.CreateError) -> Void)? = nil
     ) {
         self.configuration = configuration
-        self.openOptions = openOptions
         self.onCreateError = onCreateError
     }
 }
 
 // MARK: LinkController SwiftUI <-> UIKit bridge
 extension LinkController: UIViewControllerRepresentable {
-    
-    class Coordinator: NSObject {
-        var parent: LinkController
-        var handler: Handler?
-        
-        init(_ parent: LinkController) {
+
+    final class Coordinator: NSObject {
+        private(set) var parent: LinkController
+        private(set) var handler: Handler?
+
+        fileprivate init(_ parent: LinkController) {
             self.parent = parent
         }
-        
-        func createHandler() -> Result<Handler, Plaid.CreateError> {
+
+        fileprivate func createHandler() -> Result<Handler, Plaid.CreateError> {
             switch parent.configuration {
             case .publicKey(let configuration):
                 return Plaid.create(configuration)
@@ -54,8 +52,8 @@ extension LinkController: UIViewControllerRepresentable {
                 return Plaid.create(configuration)
             }
         }
-        
-        func present(_ handler: Handler, in viewController: UIViewController) -> Void {
+
+        fileprivate func present(_ handler: Handler, in viewController: UIViewController) -> Void {
             guard self.handler == nil else {
                 // Already presented a handler!
                 return
@@ -74,34 +72,31 @@ extension LinkController: UIViewControllerRepresentable {
                     linkViewController.view.heightAnchor.constraint(equalTo: viewController.view.heightAnchor),
                 ])
                 linkViewController.didMove(toParent: viewController)
-            }), parent.openOptions)
+            }))
         }
     }
-    
+
     func makeCoordinator() -> Coordinator {
         return Coordinator(self)
     }
-    
+
     func makeUIViewController(context: Context) -> UIViewController {
-        let viewController = UIViewController(nibName: nil, bundle: nil)
-        
-        let handler = context.coordinator.createHandler()
-        let present: (Handler) -> Handler = { handler in
+        let viewController = UIViewController()
+
+        let handlerResult = context.coordinator.createHandler()
+        switch handlerResult {
+        case .success(let handler):
             context.coordinator.present(handler, in: viewController)
-            return handler
+            linkHandler = handler
+        case .failure(let createError):
+            onCreateError?(createError)
         }
-        let handleError: (Plaid.CreateError) -> Plaid.CreateError = { error in
-            self.onCreateError?(error)
-            return error
-        }
-        
-        _ = handler.map(present)
-        _ = handler.mapError(handleError)
-        
+
         return viewController
     }
-    
+
     func updateUIViewController(_ uiViewController: UIViewController, context: Context) {
-        
+        // Empty implementation
     }
 }
+

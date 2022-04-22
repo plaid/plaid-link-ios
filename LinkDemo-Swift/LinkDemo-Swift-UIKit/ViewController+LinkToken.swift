@@ -21,6 +21,7 @@ extension ViewController {
         var linkConfiguration = LinkTokenConfiguration(token: linkToken) { success in
             print("public-token: \(success.publicToken) metadata: \(success.metadata)")
         }
+        
         linkConfiguration.onExit = { exit in
             if let error = exit.error {
                 print("exit with \(error)\n\(exit.metadata)")
@@ -28,6 +29,11 @@ extension ViewController {
                 print("exit with \(exit.metadata)")
             }
         }
+
+        linkConfiguration.onEvent = { event in
+            print("Link Event: \(event)")
+        }
+
         return linkConfiguration
     }
 

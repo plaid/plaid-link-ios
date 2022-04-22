@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "91035E4E1E3CA7C000A97B26"
-               BuildableName = "LinkDemo-Swift.app"
-               BlueprintName = "LinkDemo-Swift"
+               BuildableName = "LinkDemo-Swift-UIKit.app"
+               BlueprintName = "LinkDemo-Swift-UIKit"
                ReferencedContainer = "container:LinkDemo-Swift.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -31,8 +31,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "91035E4E1E3CA7C000A97B26"
-            BuildableName = "LinkDemo-Swift.app"
-            BlueprintName = "LinkDemo-Swift"
+            BuildableName = "LinkDemo-Swift-UIKit.app"
+            BlueprintName = "LinkDemo-Swift-UIKit"
             ReferencedContainer = "container:LinkDemo-Swift.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -54,8 +54,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "91035E4E1E3CA7C000A97B26"
-            BuildableName = "LinkDemo-Swift.app"
-            BlueprintName = "LinkDemo-Swift"
+            BuildableName = "LinkDemo-Swift-UIKit.app"
+            BlueprintName = "LinkDemo-Swift-UIKit"
             ReferencedContainer = "container:LinkDemo-Swift.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -71,8 +71,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "91035E4E1E3CA7C000A97B26"
-            BuildableName = "LinkDemo-Swift.app"
-            BlueprintName = "LinkDemo-Swift"
+            BuildableName = "LinkDemo-Swift-UIKit.app"
+            BlueprintName = "LinkDemo-Swift-UIKit"
             ReferencedContainer = "container:LinkDemo-Swift.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
