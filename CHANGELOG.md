@@ -1,5 +1,18 @@
 # RELEASES
 
+## LinkKit 3.0.0 — 2022-05-02
+### Requirements
+
+| Name | Version |
+|------|---------|
+| Xcode | >= 13.0 |
+| iOS | >= 11.0 |
+
+### Changes
+
+- This version of LinkKit was built & validated on an Xcode 13 toolchain
+
+
 ## LinkKit 2.5.1 — 2022-03-22
 ### Changes
 

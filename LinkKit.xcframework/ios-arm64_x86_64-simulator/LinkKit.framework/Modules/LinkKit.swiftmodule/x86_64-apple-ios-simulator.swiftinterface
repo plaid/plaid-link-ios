@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.4.2 (swiftlang-1205.0.28.2 clang-1205.0.19.57)
+// swift-compiler-version: Apple Swift version 5.6 (swiftlang-5.6.0.323.62 clang-1316.0.20.8)
 // swift-module-flags: -target x86_64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Osize -module-name LinkKit
 import AuthenticationServices
 import Foundation
@@ -8,8 +8,9 @@ import SafariServices
 import Swift
 import UIKit
 import WebKit
+import _Concurrency
 import os
-extension UUID {
+extension Foundation.UUID {
   public var linkuuidString: Swift.String {
     get
   }
@@ -498,8 +499,6 @@ public enum InstitutionErrorCode : Swift.Error, Swift.CustomStringConvertible {
     get
   }
 }
-extension Environment {
-}
 @_inheritsConvenienceInitializers @objc public class PLKPlaid : ObjectiveC.NSObject {
   @objc public static func createWithLinkTokenConfiguration(_ linkTokenConfiguration: LinkKit.PLKLinkTokenConfiguration, error: Foundation.NSErrorPointer) -> LinkKit.PLKHandler?
   @objc public static func createWithLinkPublicKeyConfiguration(_ linkPublicKeyConfiguration: LinkKit.PLKLinkPublicKeyConfiguration, error: Foundation.NSErrorPointer) -> LinkKit.PLKHandler?
@@ -509,32 +508,32 @@ extension Environment {
   @objc override dynamic public init()
   @objc deinit
 }
-extension AccountSubtype {
+extension LinkKit.AccountSubtype {
   public var description: Swift.String {
     get
   }
 }
-extension AccountSubtype.Other {
+extension LinkKit.AccountSubtype.Other {
   public var description: Swift.String {
     get
   }
 }
-extension AccountSubtype.Credit {
+extension LinkKit.AccountSubtype.Credit {
   public var description: Swift.String {
     get
   }
 }
-extension AccountSubtype.Loan {
+extension LinkKit.AccountSubtype.Loan {
   public var description: Swift.String {
     get
   }
 }
-extension AccountSubtype.Depository {
+extension LinkKit.AccountSubtype.Depository {
   public var description: Swift.String {
     get
   }
 }
-extension AccountSubtype.Investment {
+extension LinkKit.AccountSubtype.Investment {
   public var description: Swift.String {
     get
   }
