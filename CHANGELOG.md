@@ -1,5 +1,20 @@
 # RELEASES
 
+## LinkKit 3.1.0 — 2022-06-08
+### Requirements
+
+| Name | Version |
+|------|---------|
+| Xcode | >= 13.0 |
+| iOS | >= 11.0 |
+
+### Additions
+
+- Added camera support for Identity Verification. If using this product, applications must add a `NSCameraUsageDescription` entry to their plist.
+- Added events for Identity Verification. See https://plaid.com/docs/link/ios/#link-ios-onevent-linkEvent-eventName
+- Added `oauth` event type.
+
+
 ## LinkKit 3.0.0 — 2022-05-02
 ### Requirements
 

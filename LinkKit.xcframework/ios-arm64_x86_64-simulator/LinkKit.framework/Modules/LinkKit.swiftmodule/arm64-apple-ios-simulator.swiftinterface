@@ -306,6 +306,17 @@ public enum EventName : Swift.CustomStringConvertible {
   case exit
   case failOAuth
   case handoff
+  case identityVerificationStartStep
+  case identityVerificationPassStep
+  case identityVerificationFailStep
+  case identityVerificationPendingReviewStep
+  case identityVerificationCreateSession
+  case identityVerificationResumeSession
+  case identityVerificationPassSession
+  case identityVerificationFailSession
+  case identityVerificationOpenUI
+  case identityVerificationResumeUI
+  case identityVerificationCloseUI
   case matchedSelectInstitution
   case matchedSelectVerifyMethod
   case open
@@ -324,24 +335,32 @@ public enum EventName : Swift.CustomStringConvertible {
   }
 }
 public enum ViewName : Swift.CustomStringConvertible {
+  case acceptTOS
   case connected
   case consent
   case credential
+  case documentaryVerification
   case error
   case exit
+  case kycCheck
   case loading
   case matchedConsent
   case matchedCredential
   case matchedMFA
   case mfa
   case numbers
+  case oauth
   case recaptcha
+  case riskCheck
+  case screening
   case selectAccount
   case selectInstitution
-  case uploadDocuments
+  case selfieCheck
   case submitDocuments
   case submitDocumentsSuccess
   case submitDocumentsError
+  case uploadDocuments
+  case verifySMS
   case unknown(Swift.String)
   public var description: Swift.String {
     get
