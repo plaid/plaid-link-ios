@@ -1,5 +1,18 @@
 # RELEASES
 
+## LinkKit 3.1.1 — 2022-10-11
+### Requirements
+
+| Name | Version |
+|------|---------|
+| Xcode | >= 13.0 |
+| iOS | >= 11.0 |
+
+### Additions
+
+- Bug fixes and performance tuning.
+
+
 ## LinkKit 3.1.0 — 2022-06-08
 ### Requirements
 
@@ -10,8 +23,8 @@
 
 ### Additions
 
-- Added camera support for Identity Verification. If using this product, applications must add a `NSCameraUsageDescription` entry to their plist.
 - Added events for Identity Verification. See https://plaid.com/docs/link/ios/#link-ios-onevent-linkEvent-eventName
+- Added camera support for Identity Verification. If using this product, applications must add a `NSCameraUsageDescription` entry to their plist.
 - Added `oauth` event type.
 
 
@@ -865,7 +878,6 @@ Please see known issues below and use version 2.0.6 instead.
 
 - Add [copy customization](https://blog.plaid.com/link-copy-customization/) which allows to change the text of certain user interface elements in the Link flow
 - Add exit button when searching for an institution yielded no results so people can directly exit out of Link iOS
-- Add time-out message when searching for an institution takes too long
 
 ### Changes
 
@@ -947,3 +959,4 @@ Please see known issues below and use version 2.0.6 instead.
 
 - LinkKit.framework
 - Xcode demo projects ([LinkDemo-ObjC](https://github.com/plaid/plaid-link-ios/tree/ios/1.0.0/ios/LinkDemo-ObjC), [LinkDemo-Swift](https://github.com/plaid/plaid-link-ios/tree/ios/1.0.0/ios/LinkDemo-Swift), [LinkDemo-Swift2](https://github.com/plaid/plaid-link-ios/tree/ios/1.0.0/ios/LinkDemo-Swift2))
+ 
