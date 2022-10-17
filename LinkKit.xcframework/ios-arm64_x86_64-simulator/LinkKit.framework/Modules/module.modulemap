@@ -6,6 +6,6 @@ framework module LinkKit {
 }
 
 module LinkKit.Swift {
-    header "LinkKit-Swift.h"
-    requires objc
+  header "LinkKit-Swift.h"
+  requires objc
 }

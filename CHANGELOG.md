@@ -1,5 +1,19 @@
 # RELEASES
 
+## LinkKit 4.0.0 — 2022-10-17
+### Requirements
+
+| Name | Version |
+|------|---------|
+| Xcode | >= 14.0 |
+| iOS | >= 11.0 |
+
+### Changes
+
+- This version of LinkKit was built & validated on an Xcode 14 toolchain
+- LinkKit now supports Mac Catalyst
+
+
 ## LinkKit 3.1.1 — 2022-10-11
 ### Requirements
 
@@ -959,4 +973,4 @@ Please see known issues below and use version 2.0.6 instead.
 
 - LinkKit.framework
 - Xcode demo projects ([LinkDemo-ObjC](https://github.com/plaid/plaid-link-ios/tree/ios/1.0.0/ios/LinkDemo-ObjC), [LinkDemo-Swift](https://github.com/plaid/plaid-link-ios/tree/ios/1.0.0/ios/LinkDemo-Swift), [LinkDemo-Swift2](https://github.com/plaid/plaid-link-ios/tree/ios/1.0.0/ios/LinkDemo-Swift2))
- 
+
