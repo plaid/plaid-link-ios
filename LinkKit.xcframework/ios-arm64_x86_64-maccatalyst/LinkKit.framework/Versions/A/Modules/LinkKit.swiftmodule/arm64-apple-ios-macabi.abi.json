@@ -50559,2191 +50559,2191 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/ViewControllers\/PlaidLinkViewController.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/ViewControllers\/PlaidLinkViewController.swift",
       "kind": "StringLiteral",
       "offset": 379,
       "length": 23,
       "value": "\"LinkKit.PlaidLinkViewController\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/ViewControllers\/Panes\/SearchAndSelectViewController.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/ViewControllers\/Panes\/SearchAndSelectViewController.swift",
       "kind": "StringLiteral",
       "offset": 1993,
       "length": 12,
       "value": "\"selectCell\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/ViewControllers\/Panes\/SearchAndSelectViewController.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/ViewControllers\/Panes\/SearchAndSelectViewController.swift",
       "kind": "StringLiteral",
       "offset": 72,
       "length": 29,
       "value": "\"LinkKit.SearchAndSelectViewController\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/ViewControllers\/Panes\/SearchAndSelectViewController.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/ViewControllers\/Panes\/SearchAndSelectViewController.swift",
       "kind": "StringLiteral",
       "offset": 72,
       "length": 29,
       "value": "\"LinkKit.SearchAndSelectViewController\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Services\/SegmentService.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Services\/SegmentService.swift",
       "kind": "StringLiteral",
       "offset": 413,
       "length": 18,
       "value": "\"LinkKit.SegmentHTTPService\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Services\/SegmentService.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Services\/SegmentService.swift",
       "kind": "StringLiteral",
       "offset": 3645,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Services\/SegmentService.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Services\/SegmentService.swift",
       "kind": "StringLiteral",
       "offset": 3675,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Services\/SegmentService.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Services\/SegmentService.swift",
       "kind": "StringLiteral",
       "offset": 3712,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Services\/SegmentService.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Services\/SegmentService.swift",
       "kind": "StringLiteral",
       "offset": 3751,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Services\/SegmentService.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Services\/SegmentService.swift",
       "kind": "StringLiteral",
       "offset": 3787,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Services\/SegmentService.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Services\/SegmentService.swift",
       "kind": "StringLiteral",
       "offset": 3825,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Services\/SegmentService.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Services\/SegmentService.swift",
       "kind": "StringLiteral",
       "offset": 3862,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Services\/SegmentService.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Services\/SegmentService.swift",
       "kind": "StringLiteral",
       "offset": 5366,
       "length": 18,
       "value": "\"MinimumOSVersion\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Services\/SegmentService.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Services\/SegmentService.swift",
       "kind": "StringLiteral",
       "offset": 5605,
       "length": 10,
       "value": "\"link-ios\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Services\/SegmentService.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Services\/SegmentService.swift",
       "kind": "StringLiteral",
       "offset": 5685,
       "length": 7,
       "value": "\"Apple\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Services\/SegmentService.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Services\/SegmentService.swift",
       "kind": "StringLiteral",
       "offset": 6000,
       "length": 4,
       "value": "\"v2\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Services\/SegmentService.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Services\/SegmentService.swift",
       "kind": "BooleanLiteral",
       "offset": 7779,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Services\/SegmentService.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Services\/SegmentService.swift",
       "kind": "BooleanLiteral",
       "offset": 7832,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Services\/SegmentService.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Services\/SegmentService.swift",
       "kind": "BooleanLiteral",
       "offset": 7880,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Services\/SegmentService.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Services\/SegmentService.swift",
       "kind": "BooleanLiteral",
       "offset": 7934,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Services\/SegmentService.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Services\/SegmentService.swift",
       "kind": "StringLiteral",
       "offset": 8729,
       "length": 15,
       "value": "\"$manufacturer\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Services\/SegmentService.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Services\/SegmentService.swift",
       "kind": "StringLiteral",
       "offset": 8767,
       "length": 5,
       "value": "\"$os\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Services\/SegmentService.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Services\/SegmentService.swift",
       "kind": "StringLiteral",
       "offset": 8802,
       "length": 13,
       "value": "\"$os_version\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Services\/SegmentService.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Services\/SegmentService.swift",
       "kind": "StringLiteral",
       "offset": 8847,
       "length": 14,
       "value": "\"$screenWidth\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Services\/SegmentService.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Services\/SegmentService.swift",
       "kind": "StringLiteral",
       "offset": 8894,
       "length": 15,
       "value": "\"$screenHeight\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Services\/SegmentService.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Services\/SegmentService.swift",
       "kind": "StringLiteral",
       "offset": 8935,
       "length": 8,
       "value": "\"$model\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Services\/SegmentService.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Services\/SegmentService.swift",
       "kind": "StringLiteral",
       "offset": 8729,
       "length": 15,
       "value": "\"$manufacturer\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Services\/SegmentService.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Services\/SegmentService.swift",
       "kind": "StringLiteral",
       "offset": 8767,
       "length": 5,
       "value": "\"$os\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Services\/SegmentService.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Services\/SegmentService.swift",
       "kind": "StringLiteral",
       "offset": 8802,
       "length": 13,
       "value": "\"$os_version\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Services\/SegmentService.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Services\/SegmentService.swift",
       "kind": "StringLiteral",
       "offset": 8847,
       "length": 14,
       "value": "\"$screenWidth\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Services\/SegmentService.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Services\/SegmentService.swift",
       "kind": "StringLiteral",
       "offset": 8894,
       "length": 15,
       "value": "\"$screenHeight\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Services\/SegmentService.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Services\/SegmentService.swift",
       "kind": "StringLiteral",
       "offset": 8935,
       "length": 8,
       "value": "\"$model\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/ViewControllers\/Panes\/ComponentLayoutPaneViewController.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/ViewControllers\/Panes\/ComponentLayoutPaneViewController.swift",
       "kind": "Array",
       "offset": 4967,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/ViewControllers\/Panes\/ComponentLayoutPaneViewController.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/ViewControllers\/Panes\/ComponentLayoutPaneViewController.swift",
       "kind": "StringLiteral",
       "offset": 494,
       "length": 27,
       "value": "\"LinkKit.ComponentPaneViewController\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "BooleanLiteral",
       "offset": 7156,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "Array",
       "offset": 13446,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 26173,
       "length": 8,
       "value": "\"assets\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 26219,
       "length": 6,
       "value": "\"auth\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 26272,
       "length": 16,
       "value": "\"deposit_switch\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 26330,
       "length": 10,
       "value": "\"identity\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 26380,
       "length": 8,
       "value": "\"income\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 26433,
       "length": 13,
       "value": "\"investments\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 26491,
       "length": 13,
       "value": "\"liabilities\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 26555,
       "length": 20,
       "value": "\"liabilities_report\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 26626,
       "length": 20,
       "value": "\"payment_initiation\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 26692,
       "length": 14,
       "value": "\"transactions\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 28213,
       "length": 32,
       "value": "\"pending_automatic_verification\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 28303,
       "length": 29,
       "value": "\"pending_manual_verification\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 28381,
       "length": 19,
       "value": "\"manually_verified\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 28440,
       "length": 9,
       "value": "\"unknown\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 32882,
       "length": 20,
       "value": "\"requires_questions\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 32953,
       "length": 21,
       "value": "\"requires_selections\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 33019,
       "length": 15,
       "value": "\"requires_code\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 33079,
       "length": 15,
       "value": "\"choose_device\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 33146,
       "length": 22,
       "value": "\"requires_credentials\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 33220,
       "length": 23,
       "value": "\"institution_not_found\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 33300,
       "length": 28,
       "value": "\"requires_account_selection\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 43241,
       "length": 32,
       "value": "\"BANK_INCOME_INSIGHTS_COMPLETED\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 43316,
       "length": 13,
       "value": "\"CLOSE_OAUTH\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 43367,
       "length": 7,
       "value": "\"ERROR\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 43411,
       "length": 6,
       "value": "\"EXIT\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 43459,
       "length": 12,
       "value": "\"FAIL_OAUTH\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 43511,
       "length": 9,
       "value": "\"HANDOFF\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 43582,
       "length": 34,
       "value": "\"IDENTITY_VERIFICATION_START_STEP\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 43669,
       "length": 33,
       "value": "\"IDENTITY_VERIFICATION_PASS_STEP\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 43763,
       "length": 33,
       "value": "\"IDENTITY_VERIFICATION_FAIL_STEP\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 43866,
       "length": 43,
       "value": "\"IDENTITY_VERIFICATION_PENDING_REVIEW_STEP\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 43975,
       "length": 38,
       "value": "\"IDENTITY_VERIFICATION_CREATE_SESSION\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 44079,
       "length": 38,
       "value": "\"IDENTITY_VERIFICATION_RESUME_SESSION\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 44181,
       "length": 36,
       "value": "\"IDENTITY_VERIFICATION_PASS_SESSION\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 44281,
       "length": 36,
       "value": "\"IDENTITY_VERIFICATION_FAIL_SESSION\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 44376,
       "length": 31,
       "value": "\"IDENTITY_VERIFICATION_OPEN_UI\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 44468,
       "length": 33,
       "value": "\"IDENTITY_VERIFICATION_RESUME_UI\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 44561,
       "length": 32,
       "value": "\"IDENTITY_VERIFICATION_CLOSE_UI\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 44650,
       "length": 28,
       "value": "\"MATCHED_SELECT_INSTITUTION\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 44736,
       "length": 30,
       "value": "\"MATCHED_SELECT_VERIFY_METHOD\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 44803,
       "length": 6,
       "value": "\"OPEN\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 44853,
       "length": 15,
       "value": "\"OPEN_MY_PLAID\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 44910,
       "length": 12,
       "value": "\"OPEN_OAUTH\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 44972,
       "length": 20,
       "value": "\"SEARCH_INSTITUTION\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 45050,
       "length": 29,
       "value": "\"SELECT_DEGRADED_INSTITUTION\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 45133,
       "length": 25,
       "value": "\"SELECT_DOWN_INSTITUTION\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 45208,
       "length": 20,
       "value": "\"SELECT_INSTITUTION\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 45278,
       "length": 20,
       "value": "\"SUBMIT_CREDENTIALS\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 45340,
       "length": 12,
       "value": "\"SUBMIT_MFA\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 45399,
       "length": 17,
       "value": "\"TRANSITION_VIEW\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 51451,
       "length": 12,
       "value": "\"ACCEPT_TOS\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 51505,
       "length": 11,
       "value": "\"CONNECTED\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 51556,
       "length": 9,
       "value": "\"CONSENT\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 51608,
       "length": 12,
       "value": "\"CREDENTIAL\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 51676,
       "length": 26,
       "value": "\"DOCUMENTARY_VERIFICATION\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 51740,
       "length": 7,
       "value": "\"ERROR\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 51784,
       "length": 6,
       "value": "\"EXIT\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 51831,
       "length": 11,
       "value": "\"KYC_CHECK\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 51886,
       "length": 14,
       "value": "\"SELFIE_CHECK\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 51940,
       "length": 9,
       "value": "\"LOADING\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 51996,
       "length": 17,
       "value": "\"MATCHED_CONSENT\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 52063,
       "length": 20,
       "value": "\"MATCHED_CREDENTIAL\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 52126,
       "length": 13,
       "value": "\"MATCHED_MFA\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 52175,
       "length": 5,
       "value": "\"MFA\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 52220,
       "length": 9,
       "value": "\"NUMBERS\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 52267,
       "length": 7,
       "value": "\"OAUTH\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 52316,
       "length": 11,
       "value": "\"RECAPTCHA\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 52369,
       "length": 12,
       "value": "\"RISK_CHECK\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 52423,
       "length": 11,
       "value": "\"SCREENING\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 52480,
       "length": 16,
       "value": "\"SELECT_ACCOUNT\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 52546,
       "length": 20,
       "value": "\"SELECT_INSTITUTION\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 52614,
       "length": 18,
       "value": "\"SUBMIT_DOCUMENTS\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 52687,
       "length": 26,
       "value": "\"SUBMIT_DOCUMENTS_SUCCESS\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 52766,
       "length": 24,
       "value": "\"SUBMIT_DOCUMENTS_ERROR\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 52838,
       "length": 18,
       "value": "\"UPLOAD_DOCUMENTS\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 52898,
       "length": 12,
       "value": "\"VERIFY_SMS\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 55538,
       "length": 6,
       "value": "\"code\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 55584,
       "length": 8,
       "value": "\"device\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 55635,
       "length": 11,
       "value": "\"questions\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 55690,
       "length": 12,
       "value": "\"selections\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "BooleanLiteral",
       "offset": 56210,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 59760,
       "length": 17,
       "value": "\"INVALID_REQUEST\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 59823,
       "length": 15,
       "value": "\"INVALID_INPUT\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 59888,
       "length": 19,
       "value": "\"INSTITUTION_ERROR\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 59958,
       "length": 21,
       "value": "\"RATE_LIMIT_EXCEEDED\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 60021,
       "length": 11,
       "value": "\"API_ERROR\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 60075,
       "length": 12,
       "value": "\"ITEM_ERROR\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 60130,
       "length": 12,
       "value": "\"AUTH_ERROR\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 60192,
       "length": 20,
       "value": "\"ASSET_REPORT_ERROR\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 60254,
       "length": 10,
       "value": "\"INTERNAL\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 62244,
       "length": 16,
       "value": "\"MISSING_FIELDS\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 62307,
       "length": 16,
       "value": "\"UNKNOWN_FIELDS\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 62369,
       "length": 15,
       "value": "\"INVALID_FIELD\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 62429,
       "length": 14,
       "value": "\"INVALID_BODY\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 62491,
       "length": 17,
       "value": "\"INVALID_HEADERS\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 62550,
       "length": 11,
       "value": "\"NOT_FOUND\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 62606,
       "length": 14,
       "value": "\"SANDBOX_ONLY\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 65625,
       "length": 18,
       "value": "\"INVALID_API_KEYS\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 65700,
       "length": 26,
       "value": "\"UNAUTHORIZED_ENVIRONMENT\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 65778,
       "length": 22,
       "value": "\"INVALID_ACCESS_TOKEN\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 65852,
       "length": 22,
       "value": "\"INVALID_PUBLIC_TOKEN\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 65922,
       "length": 17,
       "value": "\"INVALID_PRODUCT\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 65989,
       "length": 20,
       "value": "\"INVALID_ACCOUNT_ID\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 66061,
       "length": 21,
       "value": "\"INVALID_INSTITUTION\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 66143,
       "length": 32,
       "value": "\"TOO_MANY_VERIFICATION_ATTEMPTS\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 68250,
       "length": 16,
       "value": "\"ACCOUNTS_LIMIT\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 68313,
       "length": 16,
       "value": "\"ADDITION_LIMIT\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 68372,
       "length": 12,
       "value": "\"AUTH_LIMIT\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 68431,
       "length": 16,
       "value": "\"IDENTITY_LIMIT\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 68492,
       "length": 14,
       "value": "\"INCOME_LIMIT\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 68552,
       "length": 16,
       "value": "\"ITEM_GET_LIMIT\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 68611,
       "length": 12,
       "value": "\"RATE_LIMIT\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 68674,
       "length": 20,
       "value": "\"TRANSACTIONS_LIMIT\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 69757,
       "length": 23,
       "value": "\"INTERNAL_SERVER_ERROR\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 69832,
       "length": 21,
       "value": "\"PLANNED_MAINTENANCE\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 75936,
       "length": 26,
       "value": "\"INSUFFICIENT_CREDENTIALS\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 76014,
       "length": 21,
       "value": "\"INVALID_CREDENTIALS\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 76079,
       "length": 13,
       "value": "\"INVALID_MFA\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 76143,
       "length": 21,
       "value": "\"INVALID_SEND_METHOD\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 76220,
       "length": 26,
       "value": "\"INVALID_UPDATED_USERNAME\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 76290,
       "length": 13,
       "value": "\"ITEM_LOCKED\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 76354,
       "length": 21,
       "value": "\"ITEM_LOGIN_REQUIRED\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 76420,
       "length": 15,
       "value": "\"ITEM_NO_ERROR\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 76485,
       "length": 20,
       "value": "\"ITEM_NOT_SUPPORTED\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 76562,
       "length": 27,
       "value": "\"INCORRECT_DEPOSIT_AMOUNTS\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 76640,
       "length": 21,
       "value": "\"USER_SETUP_REQUIRED\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 76710,
       "length": 19,
       "value": "\"MFA_NOT_SUPPORTED\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 76773,
       "length": 13,
       "value": "\"NO_ACCOUNTS\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 76834,
       "length": 18,
       "value": "\"NO_AUTH_ACCOUNTS\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 76906,
       "length": 24,
       "value": "\"NO_INVESTMENT_ACCOUNTS\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 76983,
       "length": 23,
       "value": "\"NO_LIABILITY_ACCOUNTS\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 77055,
       "length": 19,
       "value": "\"PRODUCT_NOT_READY\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 77128,
       "length": 24,
       "value": "\"PRODUCTS_NOT_SUPPORTED\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 77204,
       "length": 22,
       "value": "\"INSTANT_MATCH_FAILED\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 78230,
       "length": 19,
       "value": "\"PRODUCT_NOT_READY\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 78302,
       "length": 22,
       "value": "\"VERIFICATION_EXPIRED\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 81218,
       "length": 21,
       "value": "\"PRODUCT_NOT_ENABLED\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 81288,
       "length": 18,
       "value": "\"DATA_UNAVAILABLE\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 81355,
       "length": 19,
       "value": "\"PRODUCT_NOT_READY\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 81435,
       "length": 32,
       "value": "\"ASSET_REPORT_GENERATION_FAILED\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 81514,
       "length": 16,
       "value": "\"INVALID_PARENT\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 81582,
       "length": 22,
       "value": "\"INSIGHTS_NOT_ENABLED\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 81666,
       "length": 33,
       "value": "\"INSIGHTS_PREVIOUSLY_NOT_ENABLED\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 83238,
       "length": 18,
       "value": "\"INSTITUTION_DOWN\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 83314,
       "length": 28,
       "value": "\"INSTITUTION_NOT_RESPONDING\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 83399,
       "length": 27,
       "value": "\"INSTITUTION_NOT_AVAILABLE\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Plaid.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Plaid.swift",
       "kind": "StringLiteral",
       "offset": 83488,
       "length": 33,
       "value": "\"INSTITUTION_NO_LONGER_SUPPORTED\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Services\/LinkHTTPServiceUserAgentProvider.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Services\/LinkHTTPServiceUserAgentProvider.swift",
       "kind": "StringLiteral",
       "offset": 304,
       "length": 7,
       "value": "\"Plaid\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Services\/LinkHTTPServiceUserAgentProvider.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Services\/LinkHTTPServiceUserAgentProvider.swift",
       "kind": "StringLiteral",
       "offset": 342,
       "length": 9,
       "value": "\"LinkKit\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Services\/LinkHTTPServiceUserAgentProvider.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Services\/LinkHTTPServiceUserAgentProvider.swift",
       "kind": "StringLiteral",
       "offset": 510,
       "length": 20,
       "value": "\"ReactNativeLinkSdk\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Services\/LinkHTTPServiceUserAgentProvider.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Services\/LinkHTTPServiceUserAgentProvider.swift",
       "kind": "StringLiteral",
       "offset": 830,
       "length": 8,
       "value": "\"%@\/%@ \""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Services\/LinkHTTPServiceUserAgentProvider.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Services\/LinkHTTPServiceUserAgentProvider.swift",
       "kind": "StringLiteral",
       "offset": 989,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Services\/LinkHTTPServiceUserAgentProvider.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Services\/LinkHTTPServiceUserAgentProvider.swift",
       "kind": "StringLiteral",
       "offset": 1045,
       "length": 29,
       "value": "\"%@%@%@\/%@(%@) %@-%@ (%@ %@)\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Services\/LinkHTTPServiceUserAgentProvider.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Services\/LinkHTTPServiceUserAgentProvider.swift",
       "kind": "StringLiteral",
       "offset": 1293,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Services\/LinkHTTPServiceUserAgentProvider.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Services\/LinkHTTPServiceUserAgentProvider.swift",
       "kind": "StringLiteral",
       "offset": 1357,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/ViewControllers\/Panes\/TodoPaneViewController.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/ViewControllers\/Panes\/TodoPaneViewController.swift",
       "kind": "StringLiteral",
       "offset": 356,
       "length": 22,
       "value": "\"LinkKit.TodoPaneViewController\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/ReactNativeLinkKit.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/ReactNativeLinkKit.swift",
       "kind": "StringLiteral",
       "offset": 376,
       "length": 11,
       "value": "\"RNLinksdk\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/ReactNativeLinkKit.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/ReactNativeLinkKit.swift",
       "kind": "StringLiteral",
       "offset": 536,
       "length": 12,
       "value": "\"sdkVersion\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/ReactNativeLinkKit.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/ReactNativeLinkKit.swift",
       "kind": "StringLiteral",
       "offset": 965,
       "length": 15,
       "value": "\"0.0.0-unknown\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/WorkflowBridge\/TextInputViewModel+Workflow.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/WorkflowBridge\/TextInputViewModel+Workflow.swift",
       "kind": "Dictionary",
       "offset": 483,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/ViewControllers\/Panes\/LoadingPaneViewController.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/ViewControllers\/Panes\/LoadingPaneViewController.swift",
       "kind": "StringLiteral",
       "offset": 72,
       "length": 25,
       "value": "\"LinkKit.LoadingPaneViewController\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/LinkHandler.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/LinkHandler.swift",
       "kind": "Dictionary",
       "offset": 3171,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/LinkHandler.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/LinkHandler.swift",
       "kind": "Dictionary",
       "offset": 4712,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/LinkHandler.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/LinkHandler.swift",
       "kind": "StringLiteral",
       "offset": 9217,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/LinkHandler.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/LinkHandler.swift",
       "kind": "StringLiteral",
       "offset": 9261,
       "length": 16,
       "value": "\"institution_id\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/LinkHandler.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/LinkHandler.swift",
       "kind": "BooleanLiteral",
       "offset": 9427,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/LinkHandler.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/LinkHandler.swift",
       "kind": "StringLiteral",
       "offset": 9474,
       "length": 16,
       "value": "\"select_account\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Services\/KeyValueService.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Services\/KeyValueService.swift",
       "kind": "StringLiteral",
       "offset": 148,
       "length": 30,
       "value": "\"com.plaid.link.persistent-id\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Services\/KeyValueService.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Services\/KeyValueService.swift",
       "kind": "StringLiteral",
       "offset": 148,
       "length": 30,
       "value": "\"com.plaid.link.persistent-id\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/LinkPublicKeyConfiguration+Workflow.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/LinkPublicKeyConfiguration+Workflow.swift",
       "kind": "StringLiteral",
       "offset": 1921,
       "length": 31,
       "value": "\"com.plaid.com.workflow-bridge\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Constants.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 90,
       "length": 11,
       "value": "\"plaidlink\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Constants.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 90,
       "length": 11,
       "value": "\"plaidlink\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/ObjCBridge\/PlaidObjCBridge.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/ObjCBridge\/PlaidObjCBridge.swift",
       "kind": "IntegerLiteral",
       "offset": 1532,
       "length": 20,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/ObjCBridge\/PlaidObjCBridge.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/ObjCBridge\/PlaidObjCBridge.swift",
       "kind": "IntegerLiteral",
       "offset": 1562,
       "length": 9,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/ObjCBridge\/PlaidObjCBridge.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/ObjCBridge\/PlaidObjCBridge.swift",
       "kind": "IntegerLiteral",
       "offset": 1581,
       "length": 18,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/ObjCBridge\/PlaidObjCBridge.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/ObjCBridge\/PlaidObjCBridge.swift",
       "kind": "IntegerLiteral",
       "offset": 1609,
       "length": 24,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/ObjCBridge\/PlaidObjCBridge.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/ObjCBridge\/PlaidObjCBridge.swift",
       "kind": "IntegerLiteral",
       "offset": 1643,
       "length": 23,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/ObjCBridge\/PlaidObjCBridge.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/ObjCBridge\/PlaidObjCBridge.swift",
       "kind": "IntegerLiteral",
       "offset": 1676,
       "length": 12,
       "value": "6"
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/ObjCBridge\/PlaidObjCBridge.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/ObjCBridge\/PlaidObjCBridge.swift",
       "kind": "IntegerLiteral",
       "offset": 1532,
       "length": 20,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/ObjCBridge\/PlaidObjCBridge.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/ObjCBridge\/PlaidObjCBridge.swift",
       "kind": "IntegerLiteral",
       "offset": 1562,
       "length": 9,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/ObjCBridge\/PlaidObjCBridge.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/ObjCBridge\/PlaidObjCBridge.swift",
       "kind": "IntegerLiteral",
       "offset": 1581,
       "length": 18,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/ObjCBridge\/PlaidObjCBridge.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/ObjCBridge\/PlaidObjCBridge.swift",
       "kind": "IntegerLiteral",
       "offset": 1609,
       "length": 24,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/ObjCBridge\/PlaidObjCBridge.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/ObjCBridge\/PlaidObjCBridge.swift",
       "kind": "IntegerLiteral",
       "offset": 1643,
       "length": 23,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/ObjCBridge\/PlaidObjCBridge.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/ObjCBridge\/PlaidObjCBridge.swift",
       "kind": "IntegerLiteral",
       "offset": 1676,
       "length": 12,
       "value": "6"
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/ObjCBridge\/PlaidObjCBridge.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/ObjCBridge\/PlaidObjCBridge.swift",
       "kind": "Dictionary",
       "offset": 3299,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/ObjCBridge\/PlaidObjCBridge.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/ObjCBridge\/PlaidObjCBridge.swift",
       "kind": "Dictionary",
       "offset": 3558,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/ObjCBridge\/PlaidObjCBridge.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/ObjCBridge\/PlaidObjCBridge.swift",
       "kind": "Dictionary",
       "offset": 3771,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/ObjCBridge\/PlaidObjCBridge.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/ObjCBridge\/PlaidObjCBridge.swift",
       "kind": "StringLiteral",
       "offset": 2567,
       "length": 14,
       "value": "\"LinkKit.PLKHandlerShim\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/ObjCBridge\/PlaidObjCBridge.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/ObjCBridge\/PlaidObjCBridge.swift",
       "kind": "IntegerLiteral",
       "offset": 4274,
       "length": 15,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/ObjCBridge\/PlaidObjCBridge.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/ObjCBridge\/PlaidObjCBridge.swift",
       "kind": "IntegerLiteral",
       "offset": 4274,
       "length": 15,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/AccountTypeSubtype.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/AccountTypeSubtype.swift",
       "kind": "StringLiteral",
       "offset": 2642,
       "length": 9,
       "value": "\"unknown\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/AccountTypeSubtype.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/AccountTypeSubtype.swift",
       "kind": "StringLiteral",
       "offset": 2690,
       "length": 7,
       "value": "\"other\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/AccountTypeSubtype.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/AccountTypeSubtype.swift",
       "kind": "StringLiteral",
       "offset": 2737,
       "length": 8,
       "value": "\"credit\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/AccountTypeSubtype.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/AccountTypeSubtype.swift",
       "kind": "StringLiteral",
       "offset": 2783,
       "length": 6,
       "value": "\"loan\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/AccountTypeSubtype.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/AccountTypeSubtype.swift",
       "kind": "StringLiteral",
       "offset": 2833,
       "length": 12,
       "value": "\"depository\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/AccountTypeSubtype.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/AccountTypeSubtype.swift",
       "kind": "StringLiteral",
       "offset": 2889,
       "length": 12,
       "value": "\"investment\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/AccountTypeSubtype.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/AccountTypeSubtype.swift",
       "kind": "StringLiteral",
       "offset": 2938,
       "length": 5,
       "value": "\"all\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/AccountTypeSubtype.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/AccountTypeSubtype.swift",
       "kind": "StringLiteral",
       "offset": 3542,
       "length": 7,
       "value": "\"other\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/AccountTypeSubtype.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/AccountTypeSubtype.swift",
       "kind": "StringLiteral",
       "offset": 4269,
       "length": 13,
       "value": "\"credit card\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/AccountTypeSubtype.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/AccountTypeSubtype.swift",
       "kind": "StringLiteral",
       "offset": 4322,
       "length": 8,
       "value": "\"paypal\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/AccountTypeSubtype.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/AccountTypeSubtype.swift",
       "kind": "StringLiteral",
       "offset": 5975,
       "length": 6,
       "value": "\"auto\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/AccountTypeSubtype.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/AccountTypeSubtype.swift",
       "kind": "StringLiteral",
       "offset": 6023,
       "length": 10,
       "value": "\"business\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/AccountTypeSubtype.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/AccountTypeSubtype.swift",
       "kind": "StringLiteral",
       "offset": 6077,
       "length": 12,
       "value": "\"commercial\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/AccountTypeSubtype.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/AccountTypeSubtype.swift",
       "kind": "StringLiteral",
       "offset": 6135,
       "length": 14,
       "value": "\"construction\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/AccountTypeSubtype.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/AccountTypeSubtype.swift",
       "kind": "StringLiteral",
       "offset": 6191,
       "length": 10,
       "value": "\"consumer\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/AccountTypeSubtype.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/AccountTypeSubtype.swift",
       "kind": "StringLiteral",
       "offset": 6245,
       "length": 13,
       "value": "\"home equity\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/AccountTypeSubtype.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/AccountTypeSubtype.swift",
       "kind": "StringLiteral",
       "offset": 6304,
       "length": 16,
       "value": "\"line of credit\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/AccountTypeSubtype.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/AccountTypeSubtype.swift",
       "kind": "StringLiteral",
       "offset": 6358,
       "length": 6,
       "value": "\"loan\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/AccountTypeSubtype.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/AccountTypeSubtype.swift",
       "kind": "StringLiteral",
       "offset": 6406,
       "length": 10,
       "value": "\"mortgage\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/AccountTypeSubtype.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/AccountTypeSubtype.swift",
       "kind": "StringLiteral",
       "offset": 6459,
       "length": 11,
       "value": "\"overdraft\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/AccountTypeSubtype.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/AccountTypeSubtype.swift",
       "kind": "StringLiteral",
       "offset": 6511,
       "length": 9,
       "value": "\"student\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/AccountTypeSubtype.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/AccountTypeSubtype.swift",
       "kind": "StringLiteral",
       "offset": 7917,
       "length": 17,
       "value": "\"cash management\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/AccountTypeSubtype.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/AccountTypeSubtype.swift",
       "kind": "StringLiteral",
       "offset": 7970,
       "length": 4,
       "value": "\"cd\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/AccountTypeSubtype.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/AccountTypeSubtype.swift",
       "kind": "StringLiteral",
       "offset": 8016,
       "length": 10,
       "value": "\"checking\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/AccountTypeSubtype.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/AccountTypeSubtype.swift",
       "kind": "StringLiteral",
       "offset": 8063,
       "length": 5,
       "value": "\"ebt\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/AccountTypeSubtype.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/AccountTypeSubtype.swift",
       "kind": "StringLiteral",
       "offset": 8105,
       "length": 5,
       "value": "\"hsa\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/AccountTypeSubtype.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/AccountTypeSubtype.swift",
       "kind": "StringLiteral",
       "offset": 8155,
       "length": 14,
       "value": "\"money market\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/AccountTypeSubtype.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/AccountTypeSubtype.swift",
       "kind": "StringLiteral",
       "offset": 8209,
       "length": 8,
       "value": "\"paypal\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/AccountTypeSubtype.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/AccountTypeSubtype.swift",
       "kind": "StringLiteral",
       "offset": 8258,
       "length": 9,
       "value": "\"prepaid\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/AccountTypeSubtype.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/AccountTypeSubtype.swift",
       "kind": "StringLiteral",
       "offset": 8308,
       "length": 9,
       "value": "\"savings\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/AccountTypeSubtype.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/AccountTypeSubtype.swift",
       "kind": "StringLiteral",
       "offset": 13420,
       "length": 6,
       "value": "\"401a\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/AccountTypeSubtype.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/AccountTypeSubtype.swift",
       "kind": "StringLiteral",
       "offset": 13474,
       "length": 6,
       "value": "\"401k\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/AccountTypeSubtype.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/AccountTypeSubtype.swift",
       "kind": "StringLiteral",
       "offset": 13528,
       "length": 6,
       "value": "\"403B\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/AccountTypeSubtype.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/AccountTypeSubtype.swift",
       "kind": "StringLiteral",
       "offset": 13582,
       "length": 6,
       "value": "\"457b\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/AccountTypeSubtype.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/AccountTypeSubtype.swift",
       "kind": "StringLiteral",
       "offset": 13635,
       "length": 5,
       "value": "\"529\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/AccountTypeSubtype.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/AccountTypeSubtype.swift",
       "kind": "StringLiteral",
       "offset": 13683,
       "length": 11,
       "value": "\"brokerage\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/AccountTypeSubtype.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/AccountTypeSubtype.swift",
       "kind": "StringLiteral",
       "offset": 13735,
       "length": 10,
       "value": "\"cash isa\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/AccountTypeSubtype.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/AccountTypeSubtype.swift",
       "kind": "StringLiteral",
       "offset": 13802,
       "length": 27,
       "value": "\"education savings account\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/AccountTypeSubtype.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/AccountTypeSubtype.swift",
       "kind": "StringLiteral",
       "offset": 13875,
       "length": 15,
       "value": "\"fixed annuity\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/AccountTypeSubtype.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/AccountTypeSubtype.swift",
       "kind": "StringLiteral",
       "offset": 13927,
       "length": 5,
       "value": "\"gic\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/AccountTypeSubtype.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/AccountTypeSubtype.swift",
       "kind": "StringLiteral",
       "offset": 13996,
       "length": 34,
       "value": "\"health reimbursement arrangement\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/AccountTypeSubtype.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/AccountTypeSubtype.swift",
       "kind": "StringLiteral",
       "offset": 14067,
       "length": 5,
       "value": "\"hsa\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/AccountTypeSubtype.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/AccountTypeSubtype.swift",
       "kind": "StringLiteral",
       "offset": 14109,
       "length": 5,
       "value": "\"ira\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/AccountTypeSubtype.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/AccountTypeSubtype.swift",
       "kind": "StringLiteral",
       "offset": 14151,
       "length": 5,
       "value": "\"isa\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/AccountTypeSubtype.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/AccountTypeSubtype.swift",
       "kind": "StringLiteral",
       "offset": 14195,
       "length": 7,
       "value": "\"keogh\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/AccountTypeSubtype.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/AccountTypeSubtype.swift",
       "kind": "StringLiteral",
       "offset": 14239,
       "length": 5,
       "value": "\"lif\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/AccountTypeSubtype.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/AccountTypeSubtype.swift",
       "kind": "StringLiteral",
       "offset": 14282,
       "length": 6,
       "value": "\"lira\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/AccountTypeSubtype.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/AccountTypeSubtype.swift",
       "kind": "StringLiteral",
       "offset": 14326,
       "length": 6,
       "value": "\"lrif\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/AccountTypeSubtype.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/AccountTypeSubtype.swift",
       "kind": "StringLiteral",
       "offset": 14370,
       "length": 6,
       "value": "\"lrsp\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/AccountTypeSubtype.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/AccountTypeSubtype.swift",
       "kind": "StringLiteral",
       "offset": 14420,
       "length": 13,
       "value": "\"mutual fund\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/AccountTypeSubtype.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/AccountTypeSubtype.swift",
       "kind": "StringLiteral",
       "offset": 14493,
       "length": 31,
       "value": "\"non-taxable brokerage account\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/AccountTypeSubtype.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/AccountTypeSubtype.swift",
       "kind": "StringLiteral",
       "offset": 14565,
       "length": 9,
       "value": "\"pension\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/AccountTypeSubtype.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/AccountTypeSubtype.swift",
       "kind": "StringLiteral",
       "offset": 14612,
       "length": 6,
       "value": "\"plan\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/AccountTypeSubtype.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/AccountTypeSubtype.swift",
       "kind": "StringLiteral",
       "offset": 14656,
       "length": 6,
       "value": "\"prif\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/AccountTypeSubtype.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/AccountTypeSubtype.swift",
       "kind": "StringLiteral",
       "offset": 14713,
       "length": 21,
       "value": "\"profit sharing plan\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/AccountTypeSubtype.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/AccountTypeSubtype.swift",
       "kind": "StringLiteral",
       "offset": 14772,
       "length": 6,
       "value": "\"rdsp\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/AccountTypeSubtype.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/AccountTypeSubtype.swift",
       "kind": "StringLiteral",
       "offset": 14816,
       "length": 6,
       "value": "\"resp\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/AccountTypeSubtype.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/AccountTypeSubtype.swift",
       "kind": "StringLiteral",
       "offset": 14866,
       "length": 12,
       "value": "\"retirement\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/AccountTypeSubtype.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/AccountTypeSubtype.swift",
       "kind": "StringLiteral",
       "offset": 14916,
       "length": 6,
       "value": "\"rlif\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/AccountTypeSubtype.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/AccountTypeSubtype.swift",
       "kind": "StringLiteral",
       "offset": 14964,
       "length": 11,
       "value": "\"roth 401k\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/AccountTypeSubtype.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/AccountTypeSubtype.swift",
       "kind": "StringLiteral",
       "offset": 15013,
       "length": 6,
       "value": "\"roth\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/AccountTypeSubtype.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/AccountTypeSubtype.swift",
       "kind": "StringLiteral",
       "offset": 15057,
       "length": 6,
       "value": "\"rrif\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/AccountTypeSubtype.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/AccountTypeSubtype.swift",
       "kind": "StringLiteral",
       "offset": 15101,
       "length": 6,
       "value": "\"rrsp\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/AccountTypeSubtype.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/AccountTypeSubtype.swift",
       "kind": "StringLiteral",
       "offset": 15147,
       "length": 8,
       "value": "\"sarsep\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/AccountTypeSubtype.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/AccountTypeSubtype.swift",
       "kind": "StringLiteral",
       "offset": 15195,
       "length": 9,
       "value": "\"sep ira\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/AccountTypeSubtype.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/AccountTypeSubtype.swift",
       "kind": "StringLiteral",
       "offset": 15247,
       "length": 12,
       "value": "\"simple ira\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/AccountTypeSubtype.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/AccountTypeSubtype.swift",
       "kind": "StringLiteral",
       "offset": 15297,
       "length": 6,
       "value": "\"sipp\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/AccountTypeSubtype.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/AccountTypeSubtype.swift",
       "kind": "StringLiteral",
       "offset": 15346,
       "length": 12,
       "value": "\"stock plan\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/AccountTypeSubtype.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/AccountTypeSubtype.swift",
       "kind": "StringLiteral",
       "offset": 15396,
       "length": 6,
       "value": "\"tfsa\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/AccountTypeSubtype.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/AccountTypeSubtype.swift",
       "kind": "StringLiteral",
       "offset": 15453,
       "length": 21,
       "value": "\"thrift savings plan\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/AccountTypeSubtype.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/AccountTypeSubtype.swift",
       "kind": "StringLiteral",
       "offset": 15513,
       "length": 7,
       "value": "\"trust\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/AccountTypeSubtype.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/AccountTypeSubtype.swift",
       "kind": "StringLiteral",
       "offset": 15558,
       "length": 6,
       "value": "\"ugma\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/AccountTypeSubtype.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/AccountTypeSubtype.swift",
       "kind": "StringLiteral",
       "offset": 15602,
       "length": 6,
       "value": "\"utma\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/AccountTypeSubtype.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/AccountTypeSubtype.swift",
       "kind": "StringLiteral",
       "offset": 15657,
       "length": 18,
       "value": "\"variable annuity\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Component.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Component.swift",
       "kind": "IntegerLiteral",
       "offset": 2448,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/Component.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/Component.swift",
       "kind": "IntegerLiteral",
       "offset": 2461,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/ViewControllers\/Panes\/ConsentPaneViewController.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/ViewControllers\/Panes\/ConsentPaneViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 6999,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/ViewControllers\/Panes\/ConsentPaneViewController.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/ViewControllers\/Panes\/ConsentPaneViewController.swift",
       "kind": "StringLiteral",
       "offset": 245,
       "length": 25,
       "value": "\"LinkKit.ConsentPaneViewController\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/InfoProviding.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/InfoProviding.swift",
       "kind": "StringLiteral",
       "offset": 585,
       "length": 12,
       "value": "\"hw.machine\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/InfoProviding.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/InfoProviding.swift",
       "kind": "IntegerLiteral",
       "offset": 617,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/InfoProviding.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/InfoProviding.swift",
       "kind": "IntegerLiteral",
       "offset": 672,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/InfoProviding.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/InfoProviding.swift",
       "kind": "IntegerLiteral",
       "offset": 716,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/InfoProviding.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/InfoProviding.swift",
       "kind": "IntegerLiteral",
       "offset": 790,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/InfoProviding.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/InfoProviding.swift",
       "kind": "StringLiteral",
       "offset": 1643,
       "length": 9,
       "value": "\"LinkKit\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/ViewControllers\/InProcessWebviewFallbackController.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/ViewControllers\/InProcessWebviewFallbackController.swift",
       "kind": "BooleanLiteral",
       "offset": 3482,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/ViewControllers\/InProcessWebviewFallbackController.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/ViewControllers\/InProcessWebviewFallbackController.swift",
       "kind": "StringLiteral",
       "offset": 328,
       "length": 34,
       "value": "\"LinkKit.InProcessWebviewFallbackController\""
     },
     {
-      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2634\/link\/apple\/Sources\/LinkUIController.swift",
+      "filePath": "\/Users\/tests\/jenkins\/workspace\/link-ios-pull-request_PR-2636\/link\/apple\/Sources\/LinkUIController.swift",
       "kind": "BooleanLiteral",
       "offset": 920,
       "length": 5,

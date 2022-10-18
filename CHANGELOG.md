@@ -1,5 +1,18 @@
 # RELEASES
 
+## LinkKit 4.0.1 — 2022-10-18
+### Requirements
+
+| Name | Version |
+|------|---------|
+| Xcode | >= 14.0 |
+| iOS | >= 11.0 |
+
+### Changes
+
+- Fixes missing symbolic links within the Mac Catalyst framework.
+
+
 ## LinkKit 4.0.0 — 2022-10-17
 ### Requirements
 
@@ -892,6 +905,7 @@ Please see known issues below and use version 2.0.6 instead.
 
 - Add [copy customization](https://blog.plaid.com/link-copy-customization/) which allows to change the text of certain user interface elements in the Link flow
 - Add exit button when searching for an institution yielded no results so people can directly exit out of Link iOS
+- Add time-out message when searching for an institution takes too long
 
 ### Changes
 
