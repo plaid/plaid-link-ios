@@ -16,6 +16,11 @@ For clarity between the different use cases, each use case specific example show
 
 Before building and running the sample application replace any Xcode placeholder strings (like `<#GENERATED_LINK_TOKEN#>`) in the code with the appropriate value so that Plaid Link is configured properly. For convenience the Xcode placeholder strings are also marked as compile-time warnings.
 
+### Steps to acquire a Link token
+
+- [Sign up for a Plaid account](https://dashboard.plaid.com/signup) to get an API key.
+- Make a request to [our API](https://plaid.com/docs/quickstart/#introduction) using your API key.
+
 Select your desired use-case in [`ViewController.didTapButton`](https://github.com/plaid/plaid-link-ios/search?q=didtapbutton) then build and run the demo application to experience the particular Link flow for yourself.
 
 [link-ios-docs]: https://plaid.com/docs/link/ios
