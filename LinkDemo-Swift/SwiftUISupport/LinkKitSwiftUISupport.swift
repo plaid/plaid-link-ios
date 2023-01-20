@@ -8,7 +8,8 @@ import LinkKit
 import SwiftUI
 
 // The Controller that bridges from SwiftUI to UIKit
-final class LinkController {
+@available(iOS 13, *)
+struct LinkController {
     // A wrapper enum for either a public key or link token based configuration
     enum LinkConfigurationType {
         case publicKey(LinkPublicKeyConfiguration)
@@ -22,7 +23,7 @@ final class LinkController {
     let onCreateError: ((Plaid.CreateError) -> Void)?
 
     // A reference to the `Handler`, if one has been created.
-    private(set) var linkHandler: Handler?
+    @State private(set) var linkHandler: Handler?
 
     init(
         configuration: LinkConfigurationType,
@@ -34,6 +35,7 @@ final class LinkController {
 }
 
 // MARK: LinkController SwiftUI <-> UIKit bridge
+@available(iOS 13, *)
 extension LinkController: UIViewControllerRepresentable {
 
     final class Coordinator: NSObject {
