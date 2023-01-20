@@ -1,5 +1,18 @@
 # RELEASES
 
+## LinkKit 4.1.0 — 2023-01-20
+### Requirements
+
+| Name | Version |
+|------|---------|
+| Xcode | >= 14.0 |
+| iOS | >= 11.0 |
+
+### Changes
+
+- Support for using ASWebAuthenticationSession for non-app2app OAuth flows.
+
+
 ## LinkKit 4.0.1 — 2022-10-18
 ### Requirements
 
@@ -987,4 +1000,4 @@ Please see known issues below and use version 2.0.6 instead.
 
 - LinkKit.framework
 - Xcode demo projects ([LinkDemo-ObjC](https://github.com/plaid/plaid-link-ios/tree/ios/1.0.0/ios/LinkDemo-ObjC), [LinkDemo-Swift](https://github.com/plaid/plaid-link-ios/tree/ios/1.0.0/ios/LinkDemo-Swift), [LinkDemo-Swift2](https://github.com/plaid/plaid-link-ios/tree/ios/1.0.0/ios/LinkDemo-Swift2))
-
+ 
