@@ -9,6 +9,8 @@
 
 1️⃣  The previous major version of LinkKit can be found on the [main-v1][link-main-v1] branch.
 
+:warning: All integrations must upgrade to version 4.1.0 of the SDK (released January 2023) by June 30, 2023, to maintain support for Chase OAuth connections.
+
 ## About the LinkDemo Xcode projects
 
 Plaid Link can be used for different use cases and the sample applications demonstrate how to use Plaid Link for iOS for each use case.
