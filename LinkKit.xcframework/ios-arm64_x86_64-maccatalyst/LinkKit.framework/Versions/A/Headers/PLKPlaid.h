@@ -647,7 +647,9 @@ options:(NSDictionary<NSString *, NSString *> *)options  DEPRECATED_MSG_ATTRIBUT
                             options:(NSDictionary<NSString *, NSString *> *)options;
 
 - (NSError * __nullable)continueFromRedirectUri:(NSURL *)redirectUri DEPRECATED_MSG_ATTRIBUTE("continueFromRedirectUri: is deprecated in favor continueWithRedirectUri:");
-- (void)continueWithRedirectUri:(NSURL *)redirectUri;
+- (void)continueWithRedirectUri:(NSURL *)redirectUri DEPRECATED_MSG_ATTRIBUTE("This function will be removed in LinkKit V5.0.0. This function should only be used if your app crashed or was killed during an out-of-process OAuth flow. Use `resumeAfterTermination(from redirectUri: URL)`");
+
+- (void)resumeAfterTermination:(NSURL *)redirectUri;
 
 @end
 

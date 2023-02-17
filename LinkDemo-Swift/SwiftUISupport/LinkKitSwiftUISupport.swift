@@ -7,7 +7,7 @@
 import LinkKit
 import SwiftUI
 
-// The Controller that bridges from SwiftUI to UIKit
+// The Controller that bridges from SwiftUI to UIKit.
 @available(iOS 13, *)
 struct LinkController {
     // A wrapper enum for either a public key or link token based configuration
