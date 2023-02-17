@@ -1,5 +1,19 @@
 # RELEASES
 
+## LinkKit 4.1.1 — 2023-02-16
+### Requirements
+
+| Name | Version |
+|------|---------|
+| Xcode | >= 14.0 |
+| iOS | >= 11.0 |
+
+### Changes
+
+- Deprecate continue(from:).
+- Fix SWiftUI Example App Crash.
+
+
 ## LinkKit 4.1.0 — 2023-01-20
 ### Requirements
 
@@ -915,6 +929,93 @@ Please see known issues below and use version 2.0.6 instead.
 
 ## LinkKit 1.0.6 — 2017-07-11
 ### Additions
+
+- Add [copy customization](https://blog.plaid.com/link-copy-customization/) which allows to change the text of certain user interface elements in the Link flow
+- Add exit button when searching for an institution yielded no results so people can directly exit out of Link iOS
+- Add time-out message when searching for an institution takes too long
+
+### Changes
+
+- Fix issue with configured webhook when using APIv2
+
+
+## LinkKit 1.0.5 — 2017-06-12
+### Additions
+
+- Add phone MFA type
+
+### Changes
+
+- Fix APIv1 select account flow in which users were incorrectly asked to select their account ([#169](https://github.com/plaid/link/issues/169))
+- Gracefully handle Link internal issues that previously could lead to crashes ([#169](https://github.com/plaid/link/issues/169))
+- Return `institution_id` in metadata when using APIv2 ([#172](https://github.com/plaid/link/issues/172))
+- Show institution name in title bar ([#173](https://github.com/plaid/link/issues/173))
+- Improve iOS 9 compatibility ([#169](https://github.com/plaid/link/issues/169))
+- Show placeholders in the select account view when additional account information is unavailable
+- Return to the institution select view when an instituion's mfa method is not supported
+- Improve positioning of institution logo
+
+
+## LinkKit 1.0.4 — 2017-04-14
+### Additions
+
+- [`LICENSE`](https://github.com/plaid/plaid-link-ios/blob/ios/1.0.4/ios/LICENSE)
+
+### Changes
+
+- Call exit handler `linkViewController:didExitWithError:metadata:` instead of success handler `linkViewController:didSucceedWithPublicToken:metadata` when exiting update mode from the credentials view ([#148](https://github.com/plaid/link/issues/148)).
+- Correct header documentation regarding pre-selecting an institution; `initWithInstitution:delegate:` and `initWithInstitution:configuration:delegate` ([#154](https://github.com/plaid/link/issues/154)).
+- Show alphanumeric keyboard for PIN entry when in development mode.
+- Improve wording of `NSInvalidArgumentException` which is thrown when an `env` incompatible with the `apiVersion` is configured (see [README.md](https://github.com/plaid/plaid-link-ios/blob/ios/1.0.4/ios/README.md#environment--api-version-compatibility) for details).
+
+
+## LinkKit 1.0.3 — 2017-03-31
+### Additions
+
+- Institution `huntington`
+
+### Changes
+
+- Fix issue with credentials authentication when an institution requires a PIN
+- Use default api version when none specified
+- Fix compiler warnings in LinkDemo-Swift project
+
+
+## LinkKit 1.0.2 — 2017-03-17
+### Additions
+
+- Institutions `citizens` and `regions`
+- Sandbox environment for APIv2
+- Tartan environment for APIv1
+- CHANGELOG.md
+
+### Changes
+
+- Update documentation regarding environments (see [README.md](https://github.com/plaid/plaid-link-ios/blob/ios/1.0.2/ios/README.md#environment--api-version-compatibility) for details)
+- Update development mode information regarding selections MFA
+- `LINK_ENV` build settings in Xcode demo projects
+- Redesign demo application welcome view
+- User interface font size
+
+### Removals
+
+- Testing environment for APIv1 and APIv2
+- Development environment for APIv1 (NOTE: configuring the `Development` environment for `APIv1` will result in an exception)
+
+
+## LinkKit 1.0.1 — 2017-03-10
+### Changes
+
+- Development mode information
+
+
+## LinkKit 1.0.0 — 2017-03-09
+### Additions
+
+- LinkKit.framework
+- Xcode demo projects ([LinkDemo-ObjC](https://github.com/plaid/plaid-link-ios/tree/ios/1.0.0/ios/LinkDemo-ObjC), [LinkDemo-Swift](https://github.com/plaid/plaid-link-ios/tree/ios/1.0.0/ios/LinkDemo-Swift), [LinkDemo-Swift2](https://github.com/plaid/plaid-link-ios/tree/ios/1.0.0/ios/LinkDemo-Swift2))
+ 
+s
 
 - Add [copy customization](https://blog.plaid.com/link-copy-customization/) which allows to change the text of certain user interface elements in the Link flow
 - Add exit button when searching for an institution yielded no results so people can directly exit out of Link iOS

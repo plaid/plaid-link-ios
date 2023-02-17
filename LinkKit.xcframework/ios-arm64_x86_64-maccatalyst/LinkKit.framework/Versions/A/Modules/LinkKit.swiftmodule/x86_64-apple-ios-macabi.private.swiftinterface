@@ -35,7 +35,9 @@ public protocol Handler {
   func open(presentUsing method: LinkKit.PresentationMethod, _ options: LinkKit.OpenOptions)
   @available(*, deprecated, message: "`continueFrom(redirectUri:) -> HandlerContinueError?` is deprecated. Use `continue(from:) -> Void`")
   func continueFrom(redirectUri: Foundation.URL) -> LinkKit.HandlerContinueError?
+  @available(*, deprecated, message: "This function will be removed in LinkKit V5.0.0. This function should only be used if your app crashed or was killed during an out-of-process OAuth flow. Use `resumeAfterTermination(from redirectUri: URL)`")
   func `continue`(from redirectUri: Foundation.URL)
+  func resumeAfterTermination(from redirectUri: Foundation.URL)
 }
 public struct LinkTokenConfiguration {
   public let token: Swift.String
@@ -96,23 +98,25 @@ public typealias RawJSONMetadata = Swift.String
 public typealias InstitutionID = Swift.String
 public typealias AccountID = Swift.String
 public typealias AccountMask = Swift.String
-public enum AccountSubtype {
+public enum AccountSubtype : Swift.Codable {
   case unknown(type: Swift.String, subtype: Swift.String)
   case other(LinkKit.AccountSubtype.Other)
-  public enum Other {
+  public enum Other : Swift.Codable {
     case all
     case other
     case unknown(Swift.String)
+    public init(from decoder: Swift.Decoder) throws
   }
   case credit(LinkKit.AccountSubtype.Credit)
-  public enum Credit {
+  public enum Credit : Swift.Codable {
     case all
     case creditCard
     case paypal
     case unknown(Swift.String)
+    public init(from decoder: Swift.Decoder) throws
   }
   case loan(LinkKit.AccountSubtype.Loan)
-  public enum Loan {
+  public enum Loan : Swift.Codable {
     case all
     case auto
     case business
@@ -126,9 +130,10 @@ public enum AccountSubtype {
     case overdraft
     case student
     case unknown(Swift.String)
+    public init(from decoder: Swift.Decoder) throws
   }
   case depository(LinkKit.AccountSubtype.Depository)
-  public enum Depository {
+  public enum Depository : Swift.Codable {
     case all
     case cashManagement
     case cd
@@ -140,9 +145,10 @@ public enum AccountSubtype {
     case prepaid
     case savings
     case unknown(Swift.String)
+    public init(from decoder: Swift.Decoder) throws
   }
   case investment(LinkKit.AccountSubtype.Investment)
-  public enum Investment {
+  public enum Investment : Swift.Codable {
     case all
     case brokerage
     case cashIsa
@@ -189,19 +195,28 @@ public enum AccountSubtype {
     case unknown(Swift.String)
     case utma
     case variableAnnuity
+    public init(from decoder: Swift.Decoder) throws
   }
+  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
 }
-public struct LinkSuccess {
+public struct LinkSuccess : Swift.Codable {
   public var publicToken: Swift.String
   public var metadata: LinkKit.SuccessMetadata
+  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: Swift.Decoder) throws
 }
-public struct LinkExit {
+public struct LinkExit : Swift.Codable {
   public var error: LinkKit.ExitError?
   public var metadata: LinkKit.ExitMetadata
+  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: Swift.Decoder) throws
 }
-public struct LinkEvent {
+public struct LinkEvent : Swift.Codable {
   public var eventName: LinkKit.EventName
   public var metadata: LinkKit.EventMetadata
+  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
 }
 public enum ConfigurationError : Swift.Error {
   case malformedClientID(message: Swift.String)
@@ -248,29 +263,35 @@ public enum Product : Swift.CustomStringConvertible, Swift.CaseIterable {
     get
   }
 }
-public enum VerificationStatus : Swift.CustomStringConvertible {
+public enum VerificationStatus : Swift.CustomStringConvertible, Swift.Codable {
   case pendingAutomaticVerification
   case pendingManualVerification
   case manuallyVerified
   case unknown(Swift.String)
+  public init(from decoder: Swift.Decoder) throws
   public var description: Swift.String {
     get
   }
+  public func encode(to encoder: Swift.Encoder) throws
 }
-public struct Account {
+public struct Account : Swift.Codable {
   public let id: LinkKit.AccountID
   public let name: Swift.String
   public let mask: LinkKit.AccountMask?
   public let subtype: LinkKit.AccountSubtype
   public let verificationStatus: LinkKit.VerificationStatus?
+  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: Swift.Decoder) throws
 }
-public struct SuccessMetadata {
+public struct SuccessMetadata : Swift.Codable {
   public var institution: LinkKit.Institution
   public var accounts: [LinkKit.Account]
   public var linkSessionID: Swift.String
   public var metadataJSON: LinkKit.RawJSONMetadata?
+  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: Swift.Decoder) throws
 }
-public enum ExitStatus : Swift.CustomStringConvertible {
+public enum ExitStatus : Swift.CustomStringConvertible, Swift.Codable {
   case requiresQuestions
   case requiresSelections
   case requiresCode
@@ -279,28 +300,36 @@ public enum ExitStatus : Swift.CustomStringConvertible {
   case institutionNotFound
   case requiresAccountSelection
   case unknown(Swift.String)
+  public init(from decoder: Swift.Decoder) throws
   public var description: Swift.String {
     get
   }
+  public func encode(to encoder: Swift.Encoder) throws
 }
-public struct ExitError : Swift.Error {
+public struct ExitError : Swift.Error, Swift.Codable {
   public var errorCode: LinkKit.ExitErrorCode
   public var errorMessage: Swift.String
   public var displayMessage: Swift.String?
   public var errorJSON: LinkKit.RawJSONMetadata?
+  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: Swift.Decoder) throws
 }
-public struct Institution {
+public struct Institution : Swift.Codable {
   public var id: LinkKit.InstitutionID
   public var name: Swift.String
+  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: Swift.Decoder) throws
 }
-public struct ExitMetadata {
+public struct ExitMetadata : Swift.Codable {
   public var status: LinkKit.ExitStatus?
   public var institution: LinkKit.Institution?
   public var linkSessionID: Swift.String?
   public var requestID: Swift.String?
   public var metadataJSON: LinkKit.RawJSONMetadata?
+  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: Swift.Decoder) throws
 }
-public enum EventName : Swift.CustomStringConvertible {
+public enum EventName : Swift.CustomStringConvertible, Swift.Codable {
   case bankIncomeInsightsCompleted
   case closeOAuth
   case error
@@ -331,11 +360,13 @@ public enum EventName : Swift.CustomStringConvertible {
   case submitMFA
   case transitionView
   case unknown(Swift.String)
+  public init(from decoder: Swift.Decoder) throws
   public var description: Swift.String {
     get
   }
+  public func encode(to encoder: Swift.Encoder) throws
 }
-public enum ViewName : Swift.CustomStringConvertible {
+public enum ViewName : Swift.CustomStringConvertible, Swift.Codable {
   case acceptTOS
   case connected
   case consent
@@ -363,11 +394,13 @@ public enum ViewName : Swift.CustomStringConvertible {
   case uploadDocuments
   case verifySMS
   case unknown(Swift.String)
+  public init(from decoder: Swift.Decoder) throws
   public var description: Swift.String {
     get
   }
+  public func encode(to encoder: Swift.Encoder) throws
 }
-public struct EventMetadata {
+public struct EventMetadata : Swift.Codable {
   public var errorCode: LinkKit.ExitErrorCode?
   public var errorMessage: Swift.String?
   public var exitStatus: LinkKit.ExitStatus?
@@ -380,15 +413,19 @@ public struct EventMetadata {
   public var timestamp: Foundation.Date
   public var viewName: LinkKit.ViewName?
   public var metadataJSON: LinkKit.RawJSONMetadata?
+  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: Swift.Decoder) throws
 }
-public enum MFAType : Swift.CustomStringConvertible {
+public enum MFAType : Swift.CustomStringConvertible, Swift.Codable {
   case code
   case device
   case questions
   case selections
+  public init(from decoder: Swift.Decoder) throws
   public var description: Swift.String {
     get
   }
+  public func encode(to encoder: Swift.Encoder) throws
   public static func == (a: LinkKit.MFAType, b: LinkKit.MFAType) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
@@ -399,7 +436,7 @@ public enum PresentationMethod {
   case viewController(UIKit.UIViewController)
   case custom(LinkKit.PresentationHandler, _: LinkKit.DismissalHandler = { $0.presentingViewController?.dismiss(animated: true, completion: nil) })
 }
-public enum ExitErrorCode {
+public enum ExitErrorCode : Swift.Codable {
   case apiError(LinkKit.ApiErrorCode)
   case authError(LinkKit.AuthErrorCode)
   case assetReportError(LinkKit.AssetReportErrorCode)
@@ -410,9 +447,11 @@ public enum ExitErrorCode {
   case invalidRequest(LinkKit.InvalidRequestErrorCode)
   case rateLimitExceeded(LinkKit.RateLimitErrorCode)
   case unknown(type: Swift.String, code: Swift.String)
+  public init(from decoder: Swift.Decoder) throws
   public var description: Swift.String {
     get
   }
+  public func encode(to encoder: Swift.Encoder) throws
 }
 public enum InvalidRequestErrorCode : Swift.Error, Swift.CustomStringConvertible {
   case missingFields
