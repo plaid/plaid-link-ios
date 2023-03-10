@@ -1,6 +1,6 @@
 # RELEASES
 
-## LinkKit 4.1.1 — 2023-02-16
+## LinkKit 4.2.0 — 2023-03-10
 ### Requirements
 
 | Name | Version |
