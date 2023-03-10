@@ -5,6 +5,7 @@
 import AuthenticationServices
 import Foundation
 @_exported import LinkKit
+import MachO
 import SafariServices
 import Swift
 import UIKit
