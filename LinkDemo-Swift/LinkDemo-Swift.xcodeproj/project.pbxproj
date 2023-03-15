@@ -25,7 +25,6 @@
 		913AF7C6251D2344007CC064 /* LinkKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 913AF7C5251D2344007CC064 /* LinkKit.xcframework */; };
 		913AF7C7251D2344007CC064 /* LinkKit.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 913AF7C5251D2344007CC064 /* LinkKit.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		913AF7CA251D3C04007CC064 /* ViewController+PublicKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 913AF7C9251D3C04007CC064 /* ViewController+PublicKey.swift */; };
-		91974B0B246D6D4200182D9B /* AppDelegate+OAuthSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91974B0A246D6D4200182D9B /* AppDelegate+OAuthSupport.swift */; };
 		91BB7745246D50C800BFD0CE /* ViewController+LinkToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91BB7744246D50C800BFD0CE /* ViewController+LinkToken.swift */; };
 /* End PBXBuildFile section */
 
@@ -74,7 +73,6 @@
 		913AF7C5251D2344007CC064 /* LinkKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = LinkKit.xcframework; path = ../LinkKit.xcframework; sourceTree = "<group>"; };
 		913AF7C9251D3C04007CC064 /* ViewController+PublicKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+PublicKey.swift"; sourceTree = "<group>"; };
 		91648DDD24A47EF3002BED1F /* LinkDemo-Swift.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "LinkDemo-Swift.entitlements"; sourceTree = "<group>"; };
-		91974B0A246D6D4200182D9B /* AppDelegate+OAuthSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppDelegate+OAuthSupport.swift"; sourceTree = "<group>"; };
 		91BB7744246D50C800BFD0CE /* ViewController+LinkToken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+LinkToken.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -152,7 +150,6 @@
 			children = (
 				91648DDD24A47EF3002BED1F /* LinkDemo-Swift.entitlements */,
 				91035E521E3CA7C000A97B26 /* AppDelegate.swift */,
-				91974B0A246D6D4200182D9B /* AppDelegate+OAuthSupport.swift */,
 				91035E541E3CA7C000A97B26 /* ViewController.swift */,
 				91BB7744246D50C800BFD0CE /* ViewController+LinkToken.swift */,
 				913AF7C9251D3C04007CC064 /* ViewController+PublicKey.swift */,
@@ -292,7 +289,6 @@
 			files = (
 				91035E551E3CA7C000A97B26 /* ViewController.swift in Sources */,
 				913AF7CA251D3C04007CC064 /* ViewController+PublicKey.swift in Sources */,
-				91974B0B246D6D4200182D9B /* AppDelegate+OAuthSupport.swift in Sources */,
 				7A92F55E25BF40FB00009CFD /* ViewController+SwiftUI.swift in Sources */,
 				91035E531E3CA7C000A97B26 /* AppDelegate.swift in Sources */,
 				91BB7745246D50C800BFD0CE /* ViewController+LinkToken.swift in Sources */,
