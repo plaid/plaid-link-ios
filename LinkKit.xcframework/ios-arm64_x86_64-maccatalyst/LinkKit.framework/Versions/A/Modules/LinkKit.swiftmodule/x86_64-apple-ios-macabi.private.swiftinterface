@@ -598,14 +598,14 @@ extension LinkKit.AccountSubtype.Investment {
     get
   }
 }
-extension LinkKit.Environment : Swift.Equatable {}
-extension LinkKit.Environment : Swift.Hashable {}
 extension LinkKit.AccountSubtype : Swift.CustomStringConvertible {}
 extension LinkKit.AccountSubtype.Other : Swift.CustomStringConvertible {}
 extension LinkKit.AccountSubtype.Credit : Swift.CustomStringConvertible {}
 extension LinkKit.AccountSubtype.Loan : Swift.CustomStringConvertible {}
 extension LinkKit.AccountSubtype.Depository : Swift.CustomStringConvertible {}
 extension LinkKit.AccountSubtype.Investment : Swift.CustomStringConvertible {}
+extension LinkKit.Environment : Swift.Equatable {}
+extension LinkKit.Environment : Swift.Hashable {}
 extension LinkKit.Product : Swift.Equatable {}
 extension LinkKit.Product : Swift.Hashable {}
 extension LinkKit.MFAType : Swift.Equatable {}
