@@ -1,5 +1,19 @@
 # RELEASES
 
+## LinkKit 4.2.1 — 2023-04-07
+### Requirements
+
+| Name | Version |
+|------|---------|
+| Xcode | >= 14.0 |
+| iOS | >= 11.0 |
+
+### Changes
+
+- Resolve invalid constraints warning.
+- Resolve error pane UI bug.
+- Resolve loading pane UI warning.
+
 ## LinkKit 4.2.0 — 2023-03-10
 ### Requirements
 
