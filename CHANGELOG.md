@@ -1,5 +1,21 @@
 # RELEASES
 
+## LinkKit 4.3.0 — 2023-05-01
+### Requirements
+
+| Name | Version |
+|------|---------|
+| Xcode | >= 14.0 |
+| iOS | >= 11.0 |
+
+### Changes
+
+- Fix LinkViewController memory leak.
+- Add support for in-process to out-of-process webview handoffs.
+- Prevent IDV users from being asked for camera permission multiple times.
+- Update deprecated `continue(from:)` to be no-op.
+- Reduce SDK size by ~20%.
+
 ## LinkKit 4.2.1 — 2023-04-07
 ### Requirements
 
