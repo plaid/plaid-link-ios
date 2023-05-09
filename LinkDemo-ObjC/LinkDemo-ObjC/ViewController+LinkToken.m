@@ -49,7 +49,7 @@
     // what is going on as the user goes through the Plaid Link flow.
     // Ref - https://plaid.com/docs/link/ios/#onevent
     linkConfiguration.onEvent = ^(PLKLinkEvent * event) {
-        NSLog(@"Link event %@", event);
+        NSLog(@"Link event %@", event.eventMetadata.metadataJSON);
     };
 
     NSError *createError = nil;
