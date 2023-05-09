@@ -43,7 +43,7 @@ class LinkViewController: UIViewController {
         }
     }
 
-    func createLinkTokenConfiguration() -> LinkTokenConfiguration {
+    private func createLinkTokenConfiguration() -> LinkTokenConfiguration {
         // Steps to acquire a Link Token:
         //
         // 1. Sign up for a Plaid account to get an API key.
@@ -110,7 +110,7 @@ extension LinkViewController {
         welcomeLabel.textColor = plaidBlue
 
         titleLabel.numberOfLines = 0
-        titleLabel.text = "Plaid Link SDK UIKit Example"
+        titleLabel.text = "Plaid Link SDK\nUIKit Example"
         titleLabel.font = .systemFont(ofSize: 32, weight: .light)
 
         let linkKitBundle  = Bundle(for: PLKPlaid.self)
