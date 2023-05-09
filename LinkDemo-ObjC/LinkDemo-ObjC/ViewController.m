@@ -6,10 +6,7 @@
 //
 
 #import "ViewController.h"
-
 #import "ViewController+LinkToken.h"
-#import "ViewController+PublicKey.h"
-//#import "ViewController+OAuthSupport.h"
 
 @interface ViewController ()
 @property IBOutlet UIButton* button;
@@ -19,26 +16,6 @@
 
 @implementation ViewController
 @synthesize linkHandler = _linkHandler;
-
-#pragma mark - PublicKey Configuration (Deprecated)
-// See `ViewController+PublicKey.m` for usage of `oauthRedirectUri` & `oauthNonce`.
-
-@synthesize oauthRedirectUri = _oauthRedirectUri;
-@synthesize oauthNonce = _oauthNonce;
-
-- (NSURL*)oauthRedirectUri {
-    #warning Replace <#YOUR_OAUTH_REDIRECT_URI#> below with your oauthRedirectUri, which should be a universal link and must be configured in the Plaid developer dashboard
-    return [NSURL URLWithString:@"<#YOUR_OAUTH_REDIRECT_URI#>"];
-}
-
-- (NSString*)oauthNonce {
-    // To complete the OAuth flows ensure that the same oauthNonce is used per session.
-    // This handling of oauthNonce is a simplified example for demonstaration purposes only.
-    if (_oauthNonce == nil) {
-        _oauthNonce = [[NSUUID UUID] UUIDString];
-    }
-    return _oauthNonce;
-}
 
 #pragma mark - Implementation
 
@@ -60,20 +37,7 @@
 }
 
 - (IBAction)didTapButton:(id)sender {
-    typedef enum : NSUInteger {
-        linkToken,
-        linkPublicKey // for compatability with LinkKit v1
-    } PlaidLinkSampleFlow;
-    #warning Select your desired Plaid Link sample flow
-    PlaidLinkSampleFlow sampleFlow = /*@START_MENU_TOKEN@*/linkToken/*[["linkToken","linkPublicKey"],[[[-1,0],[-1,1]]],[0]]@END_MENU_TOKEN@*/;
-    switch (sampleFlow) {
-        case linkToken:
-            [self presentPlaidLinkUsingLinkToken];
-            break;
-        case linkPublicKey:
-            [self presentPlaidLinkUsingPublicKey];
-            break;
-    }
+    [self presentPlaidLinkUsingLinkToken];
 }
 
 @end

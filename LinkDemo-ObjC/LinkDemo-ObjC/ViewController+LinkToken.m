@@ -12,7 +12,13 @@
 @implementation ViewController (LinkToken)
 
 // MARK: Start Plaid Link using a Link token
-// For details please see https://plaid.com/docs/#create-link-token
+// Steps to acquire a Link Token:
+//
+// 1. Sign up for a Plaid account to get an API key.
+//      Ref - https://dashboard.plaid.com/signup
+// 2. Make a request to our API using your API key.
+//      Ref - https://plaid.com/docs/quickstart/#introduction
+//      Ref - https://plaid.com/docs/api/tokens/#linktokencreate
 - (void)presentPlaidLinkUsingLinkToken {
 
     #warning Replace <#GENERATED_LINK_TOKEN#> below with your link_token
