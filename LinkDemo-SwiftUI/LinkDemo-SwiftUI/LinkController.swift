@@ -8,7 +8,7 @@
 import LinkKit
 import SwiftUI
 
-// Plaid currently doesn't fully support SwiftUI. This we need to create a bridge from SwiftUI to UIKit.
+// Plaid currently doesn't fully support SwiftUI. Therefore, we need to create a bridge from SwiftUI to UIKit.
 struct LinkController: UIViewControllerRepresentable {
 
     private let handler: Handler
