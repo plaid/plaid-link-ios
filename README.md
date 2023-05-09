@@ -23,7 +23,7 @@ Before building and running the sample application replace any Xcode placeholder
 - [Sign up for a Plaid account](https://dashboard.plaid.com/signup) to get an API key.
 - Make a request to [our API](https://plaid.com/docs/quickstart/#introduction) using your API key.
 
-Select your desired use-case in [`ViewController.didTapButton`](https://github.com/plaid/plaid-link-ios/search?q=didtapbutton) then build and run the demo application to experience the particular Link flow for yourself.
+Build and run the demo application to experience the Link flow for yourself.
 
 [link-ios-docs]: https://plaid.com/docs/link/ios
 [link-sdk-version]: https://img.shields.io/cocoapods/v/Plaid

@@ -302,7 +302,7 @@
 				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/../";
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = "LinkDemo-Swift/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -325,7 +325,7 @@
 				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/../";
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = "LinkDemo-Swift/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
