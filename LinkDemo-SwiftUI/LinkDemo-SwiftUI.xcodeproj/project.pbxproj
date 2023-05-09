@@ -8,17 +8,37 @@
 
 /* Begin PBXBuildFile section */
 		7CE6692D2A0A9FCB00A65FD3 /* LinkDemo_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE6692C2A0A9FCB00A65FD3 /* LinkDemo_SwiftUIApp.swift */; };
-		7CE6692F2A0A9FCB00A65FD3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE6692E2A0A9FCB00A65FD3 /* ContentView.swift */; };
 		7CE669312A0A9FCC00A65FD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CE669302A0A9FCC00A65FD3 /* Assets.xcassets */; };
 		7CE669342A0A9FCC00A65FD3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CE669332A0A9FCC00A65FD3 /* Preview Assets.xcassets */; };
+		7CE669462A0ABA8A00A65FD3 /* LinkKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CE669452A0ABA8A00A65FD3 /* LinkKit.xcframework */; };
+		7CE669472A0ABA8A00A65FD3 /* LinkKit.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7CE669452A0ABA8A00A65FD3 /* LinkKit.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7CE6694B2A0ABB3000A65FD3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE6694A2A0ABB3000A65FD3 /* ContentView.swift */; };
+		7CE6694D2A0ABBA800A65FD3 /* LinkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE6694C2A0ABBA800A65FD3 /* LinkController.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7CE669482A0ABA8A00A65FD3 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				7CE669472A0ABA8A00A65FD3 /* LinkKit.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		7CE669292A0A9FCB00A65FD3 /* LinkDemo-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LinkDemo-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CE6692C2A0A9FCB00A65FD3 /* LinkDemo_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkDemo_SwiftUIApp.swift; sourceTree = "<group>"; };
-		7CE6692E2A0A9FCB00A65FD3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7CE669302A0A9FCC00A65FD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7CE669332A0A9FCC00A65FD3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7CE669452A0ABA8A00A65FD3 /* LinkKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = LinkKit.xcframework; path = ../LinkKit.xcframework; sourceTree = "<group>"; };
+		7CE669492A0ABACD00A65FD3 /* LinkDemo-SwiftUI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "LinkDemo-SwiftUI.entitlements"; sourceTree = "<group>"; };
+		7CE6694A2A0ABB3000A65FD3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7CE6694C2A0ABBA800A65FD3 /* LinkController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CE669462A0ABA8A00A65FD3 /* LinkKit.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -37,6 +58,7 @@
 			children = (
 				7CE6692B2A0A9FCB00A65FD3 /* LinkDemo-SwiftUI */,
 				7CE6692A2A0A9FCB00A65FD3 /* Products */,
+				7CE669442A0ABA8A00A65FD3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,8 +73,10 @@
 		7CE6692B2A0A9FCB00A65FD3 /* LinkDemo-SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				7CE669492A0ABACD00A65FD3 /* LinkDemo-SwiftUI.entitlements */,
 				7CE6692C2A0A9FCB00A65FD3 /* LinkDemo_SwiftUIApp.swift */,
-				7CE6692E2A0A9FCB00A65FD3 /* ContentView.swift */,
+				7CE6694A2A0ABB3000A65FD3 /* ContentView.swift */,
+				7CE6694C2A0ABBA800A65FD3 /* LinkController.swift */,
 				7CE669302A0A9FCC00A65FD3 /* Assets.xcassets */,
 				7CE669322A0A9FCC00A65FD3 /* Preview Content */,
 			);
@@ -67,6 +91,14 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		7CE669442A0ABA8A00A65FD3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7CE669452A0ABA8A00A65FD3 /* LinkKit.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,6 +109,7 @@
 				7CE669252A0A9FCB00A65FD3 /* Sources */,
 				7CE669262A0A9FCB00A65FD3 /* Frameworks */,
 				7CE669272A0A9FCB00A65FD3 /* Resources */,
+				7CE669482A0ABA8A00A65FD3 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -137,7 +170,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7CE6692F2A0A9FCB00A65FD3 /* ContentView.swift in Sources */,
+				7CE6694D2A0ABBA800A65FD3 /* LinkController.swift in Sources */,
+				7CE6694B2A0ABB3000A65FD3 /* ContentView.swift in Sources */,
 				7CE6692D2A0A9FCB00A65FD3 /* LinkDemo_SwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,10 +298,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "LinkDemo-SwiftUI/LinkDemo-SwiftUI.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"LinkDemo-SwiftUI/Preview Content\"";
-				DEVELOPMENT_TEAM = Z2P2MSMY87;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -275,12 +310,13 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.plaid.LinkDemo-SwiftUI";
+				PRODUCT_BUNDLE_IDENTIFIER = com.plaid.linkdemo.ios.swiftui;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -293,10 +329,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "LinkDemo-SwiftUI/LinkDemo-SwiftUI.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"LinkDemo-SwiftUI/Preview Content\"";
-				DEVELOPMENT_TEAM = Z2P2MSMY87;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -304,12 +341,13 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.plaid.LinkDemo-SwiftUI";
+				PRODUCT_BUNDLE_IDENTIFIER = com.plaid.linkdemo.ios.swiftui;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;

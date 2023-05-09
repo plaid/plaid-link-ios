@@ -1,5 +1,5 @@
 //
-//  LinkView.swift
+//  ContentView.swift
 //  LinkDemo-SwiftUI
 //
 //  Copyright © 2023 Plaid Inc. All rights reserved.
@@ -9,6 +9,8 @@ import LinkKit
 import SwiftUI
 
 struct ContentView: View {
+
+    @State private var isPresentingLink = false
 
     var body: some View {
         ZStack(alignment: .leading) {
@@ -34,8 +36,8 @@ struct ContentView: View {
                     }, label:  {
                         Text("Open Plaid Link")
                             .font(.system(size: 17, weight: .medium))
+                            .frame(width: 312)
                     })
-                    .frame(width: 312)
                     .padding()
                     .foregroundColor(.white)
                     .background(plaidBlue)
@@ -51,14 +53,17 @@ struct ContentView: View {
                 isPresentingLink = false
             },
             content: {
-                let configuration = createLinkTokenConfiguration()
-
-                
+                let createResult = createHandler()
+                switch createResult {
+                case .failure(let createError):
+                    Text("Link Creation Error: \(createError.localizedDescription)")
+                        .font(.title2)
+                case .success(let handler):
+                    LinkController(handler: handler)
+                }
             }
         )
     }
-
-    @State private var isPresentingLink = false
 
     private let backgroundColor: Color = Color(
         red: 247 / 256,
@@ -86,6 +91,13 @@ struct ContentView: View {
             .font(.system(size: 12))
     }
 
+    private func createHandler() -> Result<Handler, Plaid.CreateError> {
+        let configuration = createLinkTokenConfiguration()
+
+        // This only results in an error if the token is malformed.
+        return Plaid.create(configuration)
+    }
+
     private func createLinkTokenConfiguration() -> LinkTokenConfiguration {
         // Steps to acquire a Link Token:
         //
@@ -103,7 +115,7 @@ struct ContentView: View {
         //
         // https://plaid.com/docs/api/tokens/#linktokencreate
 
-        var linkConfiguration = LinkTokenConfiguration(token: "link-sandbox-7bdd5ee1-ea5f-4249-a056-3e7c9b962ac1") { success in
+        var linkConfiguration = LinkTokenConfiguration(token: linkToken) { success in
             // Closure is called when a user successfully links an Item. It should take a single LinkSuccess argument,
             // containing the publicToken String and a metadata of type SuccessMetadata.
             // Ref - https://plaid.com/docs/link/ios/#onsuccess

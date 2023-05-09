@@ -2,7 +2,7 @@
 //  LinkDemo_SwiftUIApp.swift
 //  LinkDemo-SwiftUI
 //
-//  Created by Dave Troupe on 5/9/23.
+//  Copyright © 2023 Plaid Inc. All rights reserved.
 //
 
 import SwiftUI
