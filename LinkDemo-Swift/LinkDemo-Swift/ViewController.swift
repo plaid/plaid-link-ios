@@ -1,5 +1,5 @@
 //
-//  LinkViewController.swift
+//  ViewController.swift
 //  LinkDemo-Swift-UIKit
 //
 //  Copyright © 2023 Plaid Inc. All rights reserved.
@@ -8,7 +8,7 @@
 import UIKit
 import LinkKit
 
-class LinkViewController: UIViewController {
+class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -55,9 +55,8 @@ class LinkViewController: UIViewController {
         #warning("Replace <#GENERATED_LINK_TOKEN#> below with your link_token")
         let linkToken = "<#GENERATED_LINK_TOKEN#>"
 
-        // In your production application replace the hardcoded linkToken above with code that fetches an link_token
+        // In your production application replace the hardcoded linkToken above with code that fetches a linkToken
         // from your backend server which in turn retrieves it securely from Plaid, for details please refer to
-        //
         // https://plaid.com/docs/api/tokens/#linktokencreate
 
         var linkConfiguration = LinkTokenConfiguration(token: linkToken) { success in
@@ -94,7 +93,7 @@ class LinkViewController: UIViewController {
 
 // MARK: UI Layout
 
-extension LinkViewController {
+extension ViewController {
 
     private func setupUI() {
         view.backgroundColor = .white

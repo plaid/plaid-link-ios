@@ -110,9 +110,8 @@ struct ContentView: View {
         #warning("Replace <#GENERATED_LINK_TOKEN#> below with your link_token")
         let linkToken = "<#GENERATED_LINK_TOKEN#>"
 
-        // In your production application replace the hardcoded linkToken above with code that fetches an link_token
+        // In your production application replace the hardcoded linkToken above with code that fetches a linkToken
         // from your backend server which in turn retrieves it securely from Plaid, for details please refer to
-        //
         // https://plaid.com/docs/api/tokens/#linktokencreate
 
         var linkConfiguration = LinkTokenConfiguration(token: linkToken) { success in
