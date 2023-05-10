@@ -12,10 +12,8 @@
 		910CAE231E3BC35C0089B9CC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 910CAE221E3BC35C0089B9CC /* ViewController.m */; };
 		910CAE261E3BC35C0089B9CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 910CAE241E3BC35C0089B9CC /* Main.storyboard */; };
 		910CAE2B1E3BC35C0089B9CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 910CAE291E3BC35C0089B9CC /* LaunchScreen.storyboard */; };
-		91BB7743246D4ECB00BFD0CE /* ViewController+PublicKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 91BB7742246D4ECB00BFD0CE /* ViewController+PublicKey.m */; };
 		91BEC2C4254A9F7F00B21610 /* LinkKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91BEC2C3254A9F7F00B21610 /* LinkKit.xcframework */; };
 		91BEC2C5254A9F7F00B21610 /* LinkKit.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 91BEC2C3254A9F7F00B21610 /* LinkKit.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		91BEC2CD254AE5FB00B21610 /* ViewController+LinkToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 91BEC2CC254AE5FB00B21610 /* ViewController+LinkToken.m */; };
 		91DA6D8D1E3F8EED00434C45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91DA6D8C1E3F8EED00434C45 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
@@ -44,11 +42,7 @@
 		910CAE2A1E3BC35C0089B9CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		910CAE2C1E3BC35C0089B9CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		91648DDE24A49F75002BED1F /* LinkDemo-ObjC.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "LinkDemo-ObjC.entitlements"; sourceTree = "<group>"; };
-		91BB7741246D4ECB00BFD0CE /* ViewController+PublicKey.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ViewController+PublicKey.h"; sourceTree = "<group>"; };
-		91BB7742246D4ECB00BFD0CE /* ViewController+PublicKey.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ViewController+PublicKey.m"; sourceTree = "<group>"; };
 		91BEC2C3254A9F7F00B21610 /* LinkKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = LinkKit.xcframework; path = ../LinkKit.xcframework; sourceTree = "<group>"; };
-		91BEC2CB254AE5FB00B21610 /* ViewController+LinkToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+LinkToken.h"; sourceTree = "<group>"; };
-		91BEC2CC254AE5FB00B21610 /* ViewController+LinkToken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+LinkToken.m"; sourceTree = "<group>"; };
 		91DA6D8C1E3F8EED00434C45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -89,10 +83,6 @@
 				910CAE1F1E3BC35C0089B9CC /* AppDelegate.m */,
 				910CAE211E3BC35C0089B9CC /* ViewController.h */,
 				910CAE221E3BC35C0089B9CC /* ViewController.m */,
-				91BB7741246D4ECB00BFD0CE /* ViewController+PublicKey.h */,
-				91BB7742246D4ECB00BFD0CE /* ViewController+PublicKey.m */,
-				91BEC2CB254AE5FB00B21610 /* ViewController+LinkToken.h */,
-				91BEC2CC254AE5FB00B21610 /* ViewController+LinkToken.m */,
 				910CAE241E3BC35C0089B9CC /* Main.storyboard */,
 				910CAE291E3BC35C0089B9CC /* LaunchScreen.storyboard */,
 				91DA6D8C1E3F8EED00434C45 /* Assets.xcassets */,
@@ -192,8 +182,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				91BB7743246D4ECB00BFD0CE /* ViewController+PublicKey.m in Sources */,
-				91BEC2CD254AE5FB00B21610 /* ViewController+LinkToken.m in Sources */,
 				910CAE231E3BC35C0089B9CC /* ViewController.m in Sources */,
 				910CAE201E3BC35C0089B9CC /* AppDelegate.m in Sources */,
 				910CAE1D1E3BC35C0089B9CC /* main.m in Sources */,

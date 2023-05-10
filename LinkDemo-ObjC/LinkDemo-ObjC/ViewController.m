@@ -7,10 +7,6 @@
 
 #import "ViewController.h"
 
-#import "ViewController+LinkToken.h"
-#import "ViewController+PublicKey.h"
-//#import "ViewController+OAuthSupport.h"
-
 @interface ViewController ()
 @property IBOutlet UIButton* button;
 @property IBOutlet UILabel* label;
@@ -19,26 +15,6 @@
 
 @implementation ViewController
 @synthesize linkHandler = _linkHandler;
-
-#pragma mark - PublicKey Configuration (Deprecated)
-// See `ViewController+PublicKey.m` for usage of `oauthRedirectUri` & `oauthNonce`.
-
-@synthesize oauthRedirectUri = _oauthRedirectUri;
-@synthesize oauthNonce = _oauthNonce;
-
-- (NSURL*)oauthRedirectUri {
-    #warning Replace <#YOUR_OAUTH_REDIRECT_URI#> below with your oauthRedirectUri, which should be a universal link and must be configured in the Plaid developer dashboard
-    return [NSURL URLWithString:@"<#YOUR_OAUTH_REDIRECT_URI#>"];
-}
-
-- (NSString*)oauthNonce {
-    // To complete the OAuth flows ensure that the same oauthNonce is used per session.
-    // This handling of oauthNonce is a simplified example for demonstaration purposes only.
-    if (_oauthNonce == nil) {
-        _oauthNonce = [[NSUUID UUID] UUIDString];
-    }
-    return _oauthNonce;
-}
 
 #pragma mark - Implementation
 
@@ -60,19 +36,62 @@
 }
 
 - (IBAction)didTapButton:(id)sender {
-    typedef enum : NSUInteger {
-        linkToken,
-        linkPublicKey // for compatability with LinkKit v1
-    } PlaidLinkSampleFlow;
-    #warning Select your desired Plaid Link sample flow
-    PlaidLinkSampleFlow sampleFlow = /*@START_MENU_TOKEN@*/linkToken/*[["linkToken","linkPublicKey"],[[[-1,0],[-1,1]]],[0]]@END_MENU_TOKEN@*/;
-    switch (sampleFlow) {
-        case linkToken:
-            [self presentPlaidLinkUsingLinkToken];
-            break;
-        case linkPublicKey:
-            [self presentPlaidLinkUsingPublicKey];
-            break;
+    [self presentPlaidLinkUsingLinkToken];
+}
+
+// MARK: Start Plaid Link using a Link token
+// Steps to acquire a Link Token:
+//
+// 1. Sign up for a Plaid account to get an API key.
+//      Ref - https://dashboard.plaid.com/signup
+// 2. Make a request to our API using your API key.
+//      Ref - https://plaid.com/docs/quickstart/#introduction
+//      Ref - https://plaid.com/docs/api/tokens/#linktokencreate
+- (void)presentPlaidLinkUsingLinkToken {
+
+    #warning Replace <#GENERATED_LINK_TOKEN#> below with your link_token
+
+    // In your production application replace the hardcoded linkToken below with code that fetches a linkToken
+    // from your backend server which in turn retrieves it securely from Plaid, for details please refer to
+    // https://plaid.com/docs/api/tokens/#linktokencreate
+
+    PLKLinkTokenConfiguration* linkConfiguration = [PLKLinkTokenConfiguration createWithToken:@"<#GENERATED_LINK_TOKEN#>"
+                                                                                    onSuccess:^(PLKLinkSuccess *success) {
+
+        // Closure is called when a user successfully links an Item. It should take a single LinkSuccess argument,
+        // containing the publicToken String and a metadata of type SuccessMetadata.
+        // Ref - https://plaid.com/docs/link/ios/#onsuccess
+        NSLog(@"public-token: %@ metadata: %@", success.publicToken, success.metadata);
+    }];
+
+    // Optional closure is called when a user exits Link without successfully linking an Item,
+    // or when an error occurs during Link initialization. It should take a single LinkExit argument,
+    // containing an optional error and a metadata of type ExitMetadata.
+    // Ref - https://plaid.com/docs/link/ios/#onexit
+    linkConfiguration.onExit = ^(PLKLinkExit * exit) {
+        if (exit.error) {
+            NSLog(@"exit with %@\n%@", exit.error, exit.metadata);
+        } else {
+            NSLog(@"exit with %@", exit.metadata);
+        }
+    };
+
+    // Optional closure is called when certain events in the Plaid Link flow have occurred, for example,
+    // when the user selected an institution. This enables your application to gain further insight into
+    // what is going on as the user goes through the Plaid Link flow.
+    // Ref - https://plaid.com/docs/link/ios/#onevent
+    linkConfiguration.onEvent = ^(PLKLinkEvent * event) {
+        NSLog(@"Link event %@", event.eventMetadata.metadataJSON);
+    };
+
+    NSError *createError = nil;
+    id<PLKHandler> handler = [PLKPlaid createWithLinkTokenConfiguration:linkConfiguration
+                                                                  error:&createError];
+    if (handler) {
+        self.linkHandler = handler;
+        [handler openWithContextViewController:self];
+    } else if (createError) {
+        NSLog(@"Unable to create PLKHandler due to: %@", createError);
     }
 }
 

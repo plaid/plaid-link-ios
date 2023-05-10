@@ -1,9 +1,10 @@
 //
-//  LinkKitSwiftUISupport.swift
-//  LinkDemo-Swift
+//  LinkDemo_SwiftUIApp.swift
+//  LinkDemo-SwiftUI
 //
-//  Copyright © 2020 Plaid Inc. All rights reserved.
+//  Copyright © 2023 Plaid Inc. All rights reserved.
 //
+
 import SwiftUI
 
 @main
