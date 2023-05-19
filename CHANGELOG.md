@@ -1,5 +1,17 @@
 # RELEASES
 
+## LinkKit 4.3.1 — 2023-05-19
+### Requirements
+
+| Name | Version |
+|------|---------|
+| Xcode | >= 14.0 |
+| iOS | >= 11.0 |
+
+### Changes
+
+- Reduce SDK size by ~50%.
+
 ## LinkKit 4.3.0 — 2023-05-01
 ### Requirements
 
