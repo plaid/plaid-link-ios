@@ -1,5 +1,18 @@
 # RELEASES
 
+## LinkKit 4.4.0 — 2023-06-12
+### Requirements
+
+| Name | Version |
+|------|---------|
+| Xcode | >= 14.0 |
+| iOS | >= 11.0 |
+
+### Changes
+
+- Updates LinkKit loading state activity indicator.
+- Updates LinkKit loading state to use a transparent background.
+
 ## LinkKit 4.3.1 — 2023-05-19
 ### Requirements
 
