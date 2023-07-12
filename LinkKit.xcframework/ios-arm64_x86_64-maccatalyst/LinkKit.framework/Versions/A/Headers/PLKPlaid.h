@@ -61,6 +61,7 @@ typedef NS_ENUM(NSInteger, PLKEventNameValue) {
     PLKEventNameValueIdentityVerificationPassStep,
     PLKEventNameValueIdentityVerificationFailStep,
     PLKEventNameValueIdentityVerificationPendingReviewStep,
+    PLKEventNameValueIdentityVerificationPendingReviewSession,
     PLKEventNameValueIdentityVerificationCreateSession,
     PLKEventNameValueIdentityVerificationResumeSession,
     PLKEventNameValueIdentityVerificationPassSession,

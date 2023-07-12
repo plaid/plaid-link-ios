@@ -1,5 +1,17 @@
 # RELEASES
 
+## LinkKit 4.5.0 — 2023-07-12
+### Requirements
+
+| Name | Version |
+|------|---------|
+| Xcode | >= 14.0 |
+| iOS | >= 11.0 |
+
+### Changes
+
+- Add identityVerificationPendingReviewSession event name.
+
 ## LinkKit 4.4.0 — 2023-06-12
 ### Requirements
 

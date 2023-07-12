@@ -22,6 +22,7 @@ public struct Plaid {
   public enum CreateError : Swift.Error {
     case configurationError(LinkKit.ConfigurationError)
   }
+  @available(*, deprecated, message: "This function will be removed in LinkKit V5.0.0. Use `create(_ linkTokenConfiguration: LinkTokenConfiguration)` instead.")
   public static func create(_ linkPublicKeyConfiguration: LinkKit.LinkPublicKeyConfiguration) -> Swift.Result<LinkKit.Handler, LinkKit.Plaid.CreateError>
   public static func create(_ linkTokenConfiguration: LinkKit.LinkTokenConfiguration) -> Swift.Result<LinkKit.Handler, LinkKit.Plaid.CreateError>
   public static let version: Swift.String
@@ -35,6 +36,7 @@ public protocol Handler {
   func open(presentUsing method: LinkKit.PresentationMethod)
   @available(*, deprecated, message: "open with options is deprecated")
   func open(presentUsing method: LinkKit.PresentationMethod, _ options: LinkKit.OpenOptions)
+  func createEmbeddedView(presentUsing: LinkKit.PresentationMethod) -> Swift.Result<UIKit.UIView, LinkKit.ConfigurationError>
   @available(*, deprecated, message: "`continueFrom(redirectUri:) -> HandlerContinueError?` is deprecated. Use `continue(from:) -> Void`")
   func continueFrom(redirectUri: Foundation.URL) -> LinkKit.HandlerContinueError?
   @available(*, deprecated, message: "This function will be removed in LinkKit V5.0.0. This function should only be used if your app crashed or was killed during an out-of-process OAuth flow. Use `resumeAfterTermination(from redirectUri: URL)`")
@@ -342,6 +344,7 @@ public enum EventName : Swift.CustomStringConvertible, Swift.Codable {
   case identityVerificationPassStep
   case identityVerificationFailStep
   case identityVerificationPendingReviewStep
+  case identityVerificationPendingReviewSession
   case identityVerificationCreateSession
   case identityVerificationResumeSession
   case identityVerificationPassSession
@@ -559,6 +562,23 @@ public enum InstitutionErrorCode : Swift.Error, Swift.CustomStringConvertible {
   public var description: Swift.String {
     get
   }
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) final public class EmbeddedSearchAndSelectView : UIKit.UIView {
+  @available(*, unavailable)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @objc deinit
+}
+extension LinkKit.EmbeddedSearchAndSelectView : UIKit.UICollectionViewDelegate {
+  @_Concurrency.MainActor(unsafe) @objc final public func collectionView(_ collectionView: UIKit.UICollectionView, didSelectItemAt indexPath: Foundation.IndexPath)
+  @_Concurrency.MainActor(unsafe) @objc final public func collectionView(_ collectionView: UIKit.UICollectionView, didHighlightItemAt indexPath: Foundation.IndexPath)
+  @_Concurrency.MainActor(unsafe) @objc final public func collectionView(_ collectionView: UIKit.UICollectionView, didUnhighlightItemAt indexPath: Foundation.IndexPath)
+}
+extension LinkKit.EmbeddedSearchAndSelectView : UIKit.UICollectionViewDataSource {
+  @_Concurrency.MainActor(unsafe) @objc final public func collectionView(_ collectionView: UIKit.UICollectionView, numberOfItemsInSection section: Swift.Int) -> Swift.Int
+  @_Concurrency.MainActor(unsafe) @objc final public func collectionView(_ collectionView: UIKit.UICollectionView, cellForItemAt indexPath: Foundation.IndexPath) -> UIKit.UICollectionViewCell
+}
+extension LinkKit.EmbeddedSearchAndSelectView : UIKit.UICollectionViewDelegateFlowLayout {
+  @_Concurrency.MainActor(unsafe) @objc final public func collectionView(_ collectionView: UIKit.UICollectionView, layout collectionViewLayout: UIKit.UICollectionViewLayout, sizeForItemAt indexPath: Foundation.IndexPath) -> CoreFoundation.CGSize
 }
 @_inheritsConvenienceInitializers @objc public class PLKPlaid : ObjectiveC.NSObject {
   @objc public static func createWithLinkTokenConfiguration(_ linkTokenConfiguration: LinkKit.PLKLinkTokenConfiguration, error: Foundation.NSErrorPointer) -> LinkKit.PLKHandler?
