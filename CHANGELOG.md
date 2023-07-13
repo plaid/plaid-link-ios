@@ -1,5 +1,17 @@
 # RELEASES
 
+## LinkKit 4.5.1 — 2023-07-13
+### Requirements
+
+| Name | Version |
+|------|---------|
+| Xcode | >= 14.0 |
+| iOS | >= 11.0 |
+
+### Changes
+
+- Bug fixes and performance improvements.
+
 ## LinkKit 4.5.0 — 2023-07-12
 ### Requirements
 
