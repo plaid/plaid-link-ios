@@ -647,6 +647,15 @@ options:(NSDictionary<NSString *, NSString *> *)options  DEPRECATED_MSG_ATTRIBUT
                    dismissalHandler:(PLKDismissalHandler)dismissalHandler
                             options:(NSDictionary<NSString *, NSString *> *)options;
 
+- (void)createEmbeddedView:(PLKPresentationHandler)presentationHandler
+          dismissalHandler:(PLKDismissalHandler)dismissalHandler
+           errorCompletion:(void (^) (NSError *))onError
+         successCompletion:(void (^) (UIView *))onSuccess;
+
+- (void) createEmbeddedView:(UIViewController *)viewController
+            errorCompletion:(void (^) (NSError *))onError
+          successCompletion:(void (^) (UIView *))onSuccess;
+
 - (NSError * __nullable)continueFromRedirectUri:(NSURL *)redirectUri DEPRECATED_MSG_ATTRIBUTE("continueFromRedirectUri: is deprecated in favor continueWithRedirectUri:");
 - (void)continueWithRedirectUri:(NSURL *)redirectUri DEPRECATED_MSG_ATTRIBUTE("This function will be removed in LinkKit V5.0.0. This function should only be used if your app crashed or was killed during an out-of-process OAuth flow. Use `resumeAfterTermination(from redirectUri: URL)`");
 
