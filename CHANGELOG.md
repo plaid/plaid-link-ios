@@ -1,5 +1,18 @@
 # RELEASES
 
+## LinkKit 4.5.2 — 2023-08-15
+### Requirements
+
+| Name | Version |
+|------|---------|
+| Xcode | >= 14.0 |
+| iOS | >= 11.0 |
+
+### Changes
+
+- Reduce SDK Size from 17.6MB to 14.7MB.
+- Expose toObjC methonds for React Native SDK.
+
 ## LinkKit 4.5.1 — 2023-07-13
 ### Requirements
 

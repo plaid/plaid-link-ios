@@ -588,6 +588,21 @@ extension LinkKit.EmbeddedSearchAndSelectView : UIKit.UICollectionViewDelegateFl
   @objc override dynamic public init()
   @objc deinit
 }
+extension LinkKit.LinkSuccess {
+  public var toObjC: LinkKit.PLKLinkSuccess {
+    get
+  }
+}
+extension LinkKit.LinkExit {
+  public var toObjC: LinkKit.PLKLinkExit {
+    get
+  }
+}
+extension LinkKit.LinkEvent {
+  public var toObjC: LinkKit.PLKLinkEvent {
+    get
+  }
+}
 extension LinkKit.AccountSubtype {
   public var description: Swift.String {
     get
