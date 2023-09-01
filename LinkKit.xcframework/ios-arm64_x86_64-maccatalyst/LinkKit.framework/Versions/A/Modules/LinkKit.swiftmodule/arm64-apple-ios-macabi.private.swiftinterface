@@ -342,11 +342,11 @@ public enum EventName : Swift.CustomStringConvertible, Swift.Codable {
   case identityVerificationPassStep
   case identityVerificationFailStep
   case identityVerificationPendingReviewStep
-  case identityVerificationPendingReviewSession
   case identityVerificationCreateSession
   case identityVerificationResumeSession
   case identityVerificationPassSession
   case identityVerificationFailSession
+  case identityVerificationPendingReviewSession
   case identityVerificationOpenUI
   case identityVerificationResumeUI
   case identityVerificationCloseUI
@@ -357,11 +357,24 @@ public enum EventName : Swift.CustomStringConvertible, Swift.Codable {
   case openOAuth
   case searchInstitution
   case selectDegradedInstitution
+  case selectFilteredInstitution
   case selectDownInstitution
   case selectInstitution
+  case selectBrand
+  case selectAuthType
+  case submitAccountNumber
+  case submitDocuments
+  case submitDocumentsSuccess
+  case submitDocumentsError
+  case submitRoutingNumber
   case submitCredentials
   case submitMFA
   case transitionView
+  case viewDataTypes
+  case submitPhone
+  case skipSubmitPhone
+  case verifyPhone
+  case connectNewInstitution
   case unknown(Swift.String)
   public init(from decoder: Swift.Decoder) throws
   public var description: Swift.String {
@@ -374,6 +387,8 @@ public enum ViewName : Swift.CustomStringConvertible, Swift.Codable {
   case connected
   case consent
   case credential
+  case dataTransparency
+  case dataTransparencyConsent
   case documentaryVerification
   case error
   case exit
@@ -384,17 +399,24 @@ public enum ViewName : Swift.CustomStringConvertible, Swift.Codable {
   case matchedMFA
   case mfa
   case numbers
+  case numbersSelectInstitution
   case oauth
   case recaptcha
   case riskCheck
   case screening
   case selectAccount
+  case selectAuthType
+  case submitPhone
+  case verifyPhone
+  case selectSavedInstitution
+  case selectSavedAccount
+  case selectBrand
   case selectInstitution
   case selfieCheck
+  case uploadDocuments
   case submitDocuments
   case submitDocumentsSuccess
   case submitDocumentsError
-  case uploadDocuments
   case verifySMS
   case unknown(Swift.String)
   public init(from decoder: Swift.Decoder) throws
@@ -404,15 +426,20 @@ public enum ViewName : Swift.CustomStringConvertible, Swift.Codable {
   public func encode(to encoder: Swift.Encoder) throws
 }
 public struct EventMetadata : Swift.Codable {
+  public var accountNumberMask: Swift.String?
   public var errorCode: LinkKit.ExitErrorCode?
   public var errorMessage: Swift.String?
   public var exitStatus: LinkKit.ExitStatus?
   public var institutionID: LinkKit.InstitutionID?
   public var institutionName: Swift.String?
   public var institutionSearchQuery: Swift.String?
+  public var isUpdateMode: Swift.String?
+  public var matchReason: Swift.String?
   public var linkSessionID: Swift.String
   public var mfaType: LinkKit.MFAType?
   public var requestID: Swift.String?
+  public var routingNumber: Swift.String?
+  public var selection: Swift.String?
   public var timestamp: Foundation.Date
   public var viewName: LinkKit.ViewName?
   public var metadataJSON: LinkKit.RawJSONMetadata?
