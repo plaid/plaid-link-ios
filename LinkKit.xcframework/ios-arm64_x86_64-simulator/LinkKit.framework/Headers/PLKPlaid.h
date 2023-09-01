@@ -69,6 +69,19 @@ typedef NS_ENUM(NSInteger, PLKEventNameValue) {
     PLKEventNameValueIdentityVerificationOpenUI,
     PLKEventNameValueIdentityVerificationResumeUI,
     PLKEventNameValueIdentityVerificationCloseUI,
+    PLKEventNameValueSelectFilteredInstitution,
+    PLKEventNameValueSelectBrand,
+    PLKEventNameValueSelectAuthType,
+    PLKEventNameValueSubmitAccountNumber,
+    PLKEventNameValueSubmitDocuments,
+    PLKEventNameValueSubmitDocumentsSuccess,
+    PLKEventNameValueSubmitDocumentsError,
+    PLKEventNameValueSubmitRoutingNumber,
+    PLKEventNameValueViewDataTypes,
+    PLKEventNameValueSubmitPhone,
+    PLKEventNameValueSkipSubmitPhone,
+    PLKEventNameValueVerifyPhone,
+    PLKEventNameValueConnectNewInstitution,
     // Add new enum cases directly above this line to avoid breaking API changes
 };
 
@@ -122,6 +135,15 @@ typedef NS_ENUM(NSInteger, PLKViewNameValue) {
     PLKViewNameValueRiskCheck,
     PLKViewNameValueScreening,
     PLKViewNameValueVerifySMS,
+    PLKViewNameValueDataTransparency,
+    PLKViewNameValueDataTransparencyConsent,
+    PLKViewNameValueSelectAuthType,
+    PLKViewNameValueSelectBrand,
+    PLKViewNameValueNumbersSelectInstitution,
+    PLKViewNameValueSubmitPhone,
+    PLKViewNameValueVerifyPhone,
+    PLKViewNameValueSelectSavedInstitution,
+    PLKViewNameValueSelectSavedAccount,
     // Add new enum cases directly above this line to avoid breaking API changes
 };
 

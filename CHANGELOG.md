@@ -1,5 +1,20 @@
 # RELEASES
 
+## LinkKit 4.6.0 — 2023-09-01
+### Requirements
+
+| Name | Version |
+|------|---------|
+| Xcode | >= 14.0 |
+| iOS | >= 11.0 |
+
+### Changes
+
+- Only displays initial loading indicator for sessions with high latency on initial load.
+- Fix double navigation bar for charles schwab.
+- Add new event and view names.
+- Add missing event metadata fields.
+
 ## LinkKit 4.5.2 — 2023-08-15
 ### Requirements
 
