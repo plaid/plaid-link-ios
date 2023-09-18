@@ -1,5 +1,17 @@
 # RELEASES
 
+## LinkKit 4.6.1 — 2023-09-18
+### Requirements
+
+| Name | Version |
+|------|---------|
+| Xcode | >= 14.0 |
+| iOS | >= 11.0 |
+
+### Changes
+
+- Fix transparent loading state during OAuth redirect.
+
 ## LinkKit 4.6.0 — 2023-09-01
 ### Requirements
 
