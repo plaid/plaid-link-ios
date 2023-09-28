@@ -1,5 +1,17 @@
 # RELEASES
 
+## LinkKit 4.6.2 — 2023-09-28
+### Requirements
+
+| Name | Version |
+|------|---------|
+| Xcode | >= 14.0 |
+| iOS | >= 11.0 |
+
+### Changes
+
+- Resolves bug where half-pane Link header could overlap the status bar.
+
 ## LinkKit 4.6.1 — 2023-09-18
 ### Requirements
 
