@@ -1,5 +1,17 @@
 # RELEASES
 
+## LinkKit 4.6.3 — 2023-09-29
+### Requirements
+
+| Name | Version |
+|------|---------|
+| Xcode | >= 14.0 |
+| iOS | >= 11.0 |
+
+### Changes
+
+- Add missing fields to PLKEventMetadata for objective-c support.
+
 ## LinkKit 4.6.2 — 2023-09-28
 ### Requirements
 
