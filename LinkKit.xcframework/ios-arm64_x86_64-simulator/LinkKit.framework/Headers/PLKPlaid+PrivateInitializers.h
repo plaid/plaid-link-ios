@@ -58,6 +58,11 @@ NS_ASSUME_NONNULL_BEGIN
                 institutionID:(NSString * __nullable)institutionID
               institutionName:(NSString * __nullable)institutionName
        institutionSearchQuery:(NSString * __nullable)institutionSearchQuery
+            accountNumberMask:(NSString * __nullable)accountNumberMask
+                 isUpdateMode:(NSString * __nullable)isUpdateMode
+                  matchReason:(NSString * __nullable)matchReason
+                routingNumber:(NSString * __nullable)routingNumber
+                    selection:(NSString * __nullable)selection
                 linkSessionID:(NSString *)linkSessionID
                       mfaType:(PLKMFAType)mfaType
                     requestID:(NSString * __nullable)requestID
