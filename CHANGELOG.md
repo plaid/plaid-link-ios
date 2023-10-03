@@ -1,5 +1,17 @@
 # RELEASES
 
+## LinkKit 4.6.5 — 2023-10-03
+### Requirements
+
+| Name | Version |
+|------|---------|
+| Xcode | >= 14.0 |
+| iOS | >= 11.0 |
+
+### Changes
+
+- Adds Flutter usage tracking.
+
 ## LinkKit 4.6.4 — 2023-09-29
 ### Requirements
 
