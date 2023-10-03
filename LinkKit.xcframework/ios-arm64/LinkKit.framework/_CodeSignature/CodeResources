@@ -4,6 +4,10 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>.DS_Store</key>
+		<data>
+		rqWNSiuDkBPn96/FsEXbLqB5BVw=
+		</data>
 		<key>Headers/LinkKit-Swift.h</key>
 		<data>
 		mEeFETaBDMvnnX58Fh8s3ZJXUIE=
@@ -22,11 +26,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		E6j5+7kjkqbaAAsCRYedE76NKzE=
+		I8Uvo2B10gETaEsxp87yqy4s4gA=
 		</data>
 		<key>Modules/LinkKit.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		Yd8h3vKRFg2Fl9bVmSIceuc97KU=
+		AnZsxrpkRrtwadma5iFIRHXpmdc=
 		</data>
 		<key>Modules/LinkKit.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -34,7 +38,7 @@
 		</data>
 		<key>Modules/LinkKit.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		1tZpY5UMmPVYsLkFIcr6NBvDQas=
+		VFQtmK8Pmv3PbUnzZakKbBQuJP4=
 		</data>
 		<key>Modules/LinkKit.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
@@ -42,7 +46,7 @@
 		</data>
 		<key>Modules/LinkKit.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		yvTRaZDj5uI00qCNDY6ps9fFMhs=
+		lWXXBW9iPe9lohsH9HU0SA93CuM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -54,7 +58,7 @@
 		</data>
 		<key>Threads_Threads.bundle/Info.plist</key>
 		<data>
-		OpopjgdoeUC8EJlN3oCyNcd85ic=
+		40oYcxIUI/0dnL334frR7o3Gh/k=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -91,7 +95,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			3gAHglNXxqAGjoJJFLTHmUEN18ijocI+KH1lvs6T5jw=
+			g1ISVnJwndREYaWAdxTeRl1Az5toBOwBRhKJ6+jlhbY=
 			</data>
 		</dict>
 		<key>Modules/LinkKit.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -105,7 +109,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			aq4sVkgK3Hz8LolxBKuPUbE+mv5jhx9qEclyaOPsx9Q=
+			SUuml8P2UiwPAj5OuWBfIZ8NDNn7BFhHni1OjRVZ3mM=
 			</data>
 		</dict>
 		<key>Modules/LinkKit.swiftmodule/arm64-apple-ios.swiftinterface</key>
@@ -119,7 +123,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			zU7p1XLVTZ23LqvbGTN9+0EuaJJzafpLC3S2JV+1RCs=
+			6I41tfTZqaYYXzM/pQsiKjzXQunl6uHNpwcDiXYaHXI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -140,7 +144,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			QG9aZZ6FrEovYimgylHCVvWugojARLiTfWMPXceqHdc=
+			mdcWLK2WzwQV5N4ikxyVJO+8muJvRiY7zcu/a4pnBn8=
 			</data>
 		</dict>
 	</dict>
