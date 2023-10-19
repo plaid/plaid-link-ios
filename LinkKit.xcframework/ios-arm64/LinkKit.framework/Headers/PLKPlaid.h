@@ -95,6 +95,7 @@ typedef NS_ENUM(NSInteger, PLKExitStatusValue) {
     PLKExitStatusValueRequiresCredentials,
     PLKExitStatusValueInstitutionNotFound,
     PLKExitStatusValueRequiresAccountSelection,
+    PLKExitStatusValueContinueToThridParty
     // Add new enum cases directly above this line to avoid breaking API changes
 };
 
