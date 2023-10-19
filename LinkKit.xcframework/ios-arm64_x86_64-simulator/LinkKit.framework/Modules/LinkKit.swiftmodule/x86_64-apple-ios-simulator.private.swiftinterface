@@ -265,6 +265,7 @@ public enum ExitStatus : Swift.CustomStringConvertible, Swift.Codable {
   case requiresCredentials
   case institutionNotFound
   case requiresAccountSelection
+  case continueToThirdParty
   case unknown(Swift.String)
   public init(from decoder: any Swift.Decoder) throws
   public var description: Swift.String {

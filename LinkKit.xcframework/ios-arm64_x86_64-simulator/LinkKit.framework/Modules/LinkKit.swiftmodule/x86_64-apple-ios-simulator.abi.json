@@ -20171,13 +20171,6 @@
       },
       {
         "kind": "Import",
-        "name": "SafariServices",
-        "printedName": "SafariServices",
-        "declKind": "Import",
-        "moduleName": "LinkKit"
-      },
-      {
-        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -20641,6 +20634,46 @@
             "declKind": "EnumElement",
             "usr": "s:7LinkKit10ExitStatusO24requiresAccountSelectionyA2CmF",
             "mangledName": "$s7LinkKit10ExitStatusO24requiresAccountSelectionyA2CmF",
+            "moduleName": "LinkKit",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "continueToThirdParty",
+            "printedName": "continueToThirdParty",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(LinkKit.ExitStatus.Type) -> LinkKit.ExitStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ExitStatus",
+                    "printedName": "LinkKit.ExitStatus",
+                    "usr": "s:7LinkKit10ExitStatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "LinkKit.ExitStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ExitStatus",
+                        "printedName": "LinkKit.ExitStatus",
+                        "usr": "s:7LinkKit10ExitStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7LinkKit10ExitStatusO20continueToThirdPartyyA2CmF",
+            "mangledName": "$s7LinkKit10ExitStatusO20continueToThirdPartyyA2CmF",
             "moduleName": "LinkKit",
             "declAttributes": [
               "RawDocComment"
@@ -27905,13 +27938,6 @@
       },
       {
         "kind": "Import",
-        "name": "SafariServices",
-        "printedName": "SafariServices",
-        "declKind": "Import",
-        "moduleName": "LinkKit"
-      },
-      {
-        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -34947,13 +34973,6 @@
         "declAttributes": [
           "ImplementationOnly"
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "SafariServices",
-        "printedName": "SafariServices",
-        "declKind": "Import",
-        "moduleName": "LinkKit"
       },
       {
         "kind": "Import",
@@ -50361,49 +50380,49 @@
     {
       "filePath": "\/Users\/tests\/~tests\/jenkins\/workspace\/~tests\/jenkins\/workspace\/workspace\/link-ios-pull-request_PR-2844\/link\/apple\/Sources\/ViewControllers\/PlaidLinkViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1387,
+      "offset": 1342,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/tests\/~tests\/jenkins\/workspace\/~tests\/jenkins\/workspace\/workspace\/link-ios-pull-request_PR-2844\/link\/apple\/Sources\/ViewControllers\/PlaidLinkViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1845,
+      "offset": 1791,
       "length": 52,
       "value": "\"Transitioning from \""
     },
     {
       "filePath": "\/Users\/tests\/~tests\/jenkins\/workspace\/~tests\/jenkins\/workspace\/workspace\/link-ios-pull-request_PR-2844\/link\/apple\/Sources\/ViewControllers\/PlaidLinkViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1876,
+      "offset": 1822,
       "length": 2,
       "value": "\" to \""
     },
     {
       "filePath": "\/Users\/tests\/~tests\/jenkins\/workspace\/~tests\/jenkins\/workspace\/workspace\/link-ios-pull-request_PR-2844\/link\/apple\/Sources\/ViewControllers\/PlaidLinkViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1891,
+      "offset": 1837,
       "length": 4,
       "value": "\" pane\""
     },
     {
       "filePath": "\/Users\/tests\/~tests\/jenkins\/workspace\/~tests\/jenkins\/workspace\/workspace\/link-ios-pull-request_PR-2844\/link\/apple\/Sources\/ViewControllers\/PlaidLinkViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1924,
+      "offset": 1870,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/tests\/~tests\/jenkins\/workspace\/~tests\/jenkins\/workspace\/workspace\/link-ios-pull-request_PR-2844\/link\/apple\/Sources\/ViewControllers\/PlaidLinkViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2164,
+      "offset": 2110,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/tests\/~tests\/jenkins\/workspace\/~tests\/jenkins\/workspace\/workspace\/link-ios-pull-request_PR-2844\/link\/apple\/Sources\/ViewControllers\/PlaidLinkViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 3036,
+      "offset": 2982,
       "length": 5,
       "value": "false"
     },
@@ -51040,93 +51059,100 @@
     {
       "filePath": "\/Users\/tests\/~tests\/jenkins\/workspace\/~tests\/jenkins\/workspace\/workspace\/link-ios-pull-request_PR-2844\/link\/apple\/Sources\/PaneFactory.swift",
       "kind": "IntegerLiteral",
-      "offset": 598,
+      "offset": 576,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/tests\/~tests\/jenkins\/workspace\/~tests\/jenkins\/workspace\/workspace\/link-ios-pull-request_PR-2844\/link\/apple\/Sources\/PaneFactory.swift",
       "kind": "IntegerLiteral",
-      "offset": 630,
+      "offset": 608,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/tests\/~tests\/jenkins\/workspace\/~tests\/jenkins\/workspace\/workspace\/link-ios-pull-request_PR-2844\/link\/apple\/Sources\/PaneFactory.swift",
       "kind": "IntegerLiteral",
-      "offset": 709,
+      "offset": 687,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/tests\/~tests\/jenkins\/workspace\/~tests\/jenkins\/workspace\/workspace\/link-ios-pull-request_PR-2844\/link\/apple\/Sources\/PaneFactory.swift",
       "kind": "StringLiteral",
-      "offset": 2141,
+      "offset": 2119,
       "length": 66,
       "value": "\"Returning \""
     },
     {
       "filePath": "\/Users\/tests\/~tests\/jenkins\/workspace\/~tests\/jenkins\/workspace\/workspace\/link-ios-pull-request_PR-2844\/link\/apple\/Sources\/PaneFactory.swift",
       "kind": "StringLiteral",
-      "offset": 2174,
+      "offset": 2152,
       "length": 3,
       "value": "\" for view model \""
     },
     {
       "filePath": "\/Users\/tests\/~tests\/jenkins\/workspace\/~tests\/jenkins\/workspace\/workspace\/link-ios-pull-request_PR-2844\/link\/apple\/Sources\/PaneFactory.swift",
       "kind": "StringLiteral",
-      "offset": 2206,
+      "offset": 2184,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/tests\/~tests\/jenkins\/workspace\/~tests\/jenkins\/workspace\/workspace\/link-ios-pull-request_PR-2844\/link\/apple\/Sources\/Plaid\/ExitStatus.swift",
       "kind": "StringLiteral",
-      "offset": 2566,
+      "offset": 2824,
       "length": 20,
       "value": "\"requires_questions\""
     },
     {
       "filePath": "\/Users\/tests\/~tests\/jenkins\/workspace\/~tests\/jenkins\/workspace\/workspace\/link-ios-pull-request_PR-2844\/link\/apple\/Sources\/Plaid\/ExitStatus.swift",
       "kind": "StringLiteral",
-      "offset": 2637,
+      "offset": 2895,
       "length": 21,
       "value": "\"requires_selections\""
     },
     {
       "filePath": "\/Users\/tests\/~tests\/jenkins\/workspace\/~tests\/jenkins\/workspace\/workspace\/link-ios-pull-request_PR-2844\/link\/apple\/Sources\/Plaid\/ExitStatus.swift",
       "kind": "StringLiteral",
-      "offset": 2703,
+      "offset": 2961,
       "length": 15,
       "value": "\"requires_code\""
     },
     {
       "filePath": "\/Users\/tests\/~tests\/jenkins\/workspace\/~tests\/jenkins\/workspace\/workspace\/link-ios-pull-request_PR-2844\/link\/apple\/Sources\/Plaid\/ExitStatus.swift",
       "kind": "StringLiteral",
-      "offset": 2763,
+      "offset": 3021,
       "length": 15,
       "value": "\"choose_device\""
     },
     {
       "filePath": "\/Users\/tests\/~tests\/jenkins\/workspace\/~tests\/jenkins\/workspace\/workspace\/link-ios-pull-request_PR-2844\/link\/apple\/Sources\/Plaid\/ExitStatus.swift",
       "kind": "StringLiteral",
-      "offset": 2830,
+      "offset": 3088,
       "length": 22,
       "value": "\"requires_credentials\""
     },
     {
       "filePath": "\/Users\/tests\/~tests\/jenkins\/workspace\/~tests\/jenkins\/workspace\/workspace\/link-ios-pull-request_PR-2844\/link\/apple\/Sources\/Plaid\/ExitStatus.swift",
       "kind": "StringLiteral",
-      "offset": 2904,
+      "offset": 3162,
       "length": 23,
       "value": "\"institution_not_found\""
     },
     {
       "filePath": "\/Users\/tests\/~tests\/jenkins\/workspace\/~tests\/jenkins\/workspace\/workspace\/link-ios-pull-request_PR-2844\/link\/apple\/Sources\/Plaid\/ExitStatus.swift",
       "kind": "StringLiteral",
-      "offset": 2984,
+      "offset": 3242,
       "length": 28,
       "value": "\"requires_account_selection\""
+    },
+    {
+      "filePath": "\/Users\/tests\/~tests\/jenkins\/workspace\/~tests\/jenkins\/workspace\/workspace\/link-ios-pull-request_PR-2844\/link\/apple\/Sources\/Plaid\/ExitStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 3323,
+      "length": 25,
+      "value": "\"continue_to_third_party\""
     },
     {
       "filePath": "\/Users\/tests\/~tests\/jenkins\/workspace\/~tests\/jenkins\/workspace\/workspace\/link-ios-pull-request_PR-2844\/link\/apple\/Sources\/Plaid\/Plaid.swift",
@@ -51817,21 +51843,21 @@
     {
       "filePath": "\/Users\/tests\/~tests\/jenkins\/workspace\/~tests\/jenkins\/workspace\/workspace\/link-ios-pull-request_PR-2844\/link\/apple\/Sources\/ViewControllers\/LinkOOPWebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 594,
+      "offset": 572,
       "length": 39,
       "value": "\"init(coder:) has not been implemented\""
     },
     {
       "filePath": "\/Users\/tests\/~tests\/jenkins\/workspace\/~tests\/jenkins\/workspace\/workspace\/link-ios-pull-request_PR-2844\/link\/apple\/Sources\/ViewControllers\/LinkOOPWebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 170,
+      "offset": 148,
       "length": 24,
       "value": "\"LinkKit.LinkOOPWebViewController\""
     },
     {
       "filePath": "\/Users\/tests\/~tests\/jenkins\/workspace\/~tests\/jenkins\/workspace\/workspace\/link-ios-pull-request_PR-2844\/link\/apple\/Sources\/ViewControllers\/LinkOOPWebViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 5134,
+      "offset": 4671,
       "length": 4,
       "value": "true"
     },
@@ -52188,119 +52214,119 @@
     {
       "filePath": "\/Users\/tests\/~tests\/jenkins\/workspace\/~tests\/jenkins\/workspace\/workspace\/link-ios-pull-request_PR-2844\/link\/apple\/Sources\/LinkHandler.swift",
       "kind": "StringLiteral",
-      "offset": 2208,
+      "offset": 2186,
       "length": 218,
       "value": "\"The Handler is being deinitialized before Link has completed or been exited. Did you forget to strongly reference the Handler object returned by `Plaid.create`?\""
     },
     {
       "filePath": "\/Users\/tests\/~tests\/jenkins\/workspace\/~tests\/jenkins\/workspace\/workspace\/link-ios-pull-request_PR-2844\/link\/apple\/Sources\/LinkHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 6227,
+      "offset": 6205,
       "length": 3,
       "value": "390"
     },
     {
       "filePath": "\/Users\/tests\/~tests\/jenkins\/workspace\/~tests\/jenkins\/workspace\/workspace\/link-ios-pull-request_PR-2844\/link\/apple\/Sources\/LinkHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 6240,
+      "offset": 6218,
       "length": 3,
       "value": "690"
     },
     {
       "filePath": "\/Users\/tests\/~tests\/jenkins\/workspace\/~tests\/jenkins\/workspace\/workspace\/link-ios-pull-request_PR-2844\/link\/apple\/Sources\/LinkHandler.swift",
       "kind": "StringLiteral",
-      "offset": 10080,
+      "offset": 10058,
       "length": 39,
       "value": "\"Ignoring onMailto on \""
     },
     {
       "filePath": "\/Users\/tests\/~tests\/jenkins\/workspace\/~tests\/jenkins\/workspace\/workspace\/link-ios-pull-request_PR-2844\/link\/apple\/Sources\/LinkHandler.swift",
       "kind": "StringLiteral",
-      "offset": 10110,
+      "offset": 10088,
       "length": 1,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/tests\/~tests\/jenkins\/workspace\/~tests\/jenkins\/workspace\/workspace\/link-ios-pull-request_PR-2844\/link\/apple\/Sources\/LinkHandler.swift",
       "kind": "StringLiteral",
-      "offset": 10118,
+      "offset": 10096,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/tests\/~tests\/jenkins\/workspace\/~tests\/jenkins\/workspace\/workspace\/link-ios-pull-request_PR-2844\/link\/apple\/Sources\/LinkHandler.swift",
       "kind": "StringLiteral",
-      "offset": 10506,
+      "offset": 10484,
       "length": 50,
       "value": "\"Link requires \""
     },
     {
       "filePath": "\/Users\/tests\/~tests\/jenkins\/workspace\/~tests\/jenkins\/workspace\/workspace\/link-ios-pull-request_PR-2844\/link\/apple\/Sources\/LinkHandler.swift",
       "kind": "StringLiteral",
-      "offset": 10529,
+      "offset": 10507,
       "length": 2,
       "value": "\" to be a non-empty string.\""
     },
     {
       "filePath": "\/Users\/tests\/~tests\/jenkins\/workspace\/~tests\/jenkins\/workspace\/workspace\/link-ios-pull-request_PR-2844\/link\/apple\/Sources\/LinkHandler.swift",
       "kind": "StringLiteral",
-      "offset": 10811,
+      "offset": 10789,
       "length": 53,
       "value": "\"Ignoring pane view model change on \""
     },
     {
       "filePath": "\/Users\/tests\/~tests\/jenkins\/workspace\/~tests\/jenkins\/workspace\/workspace\/link-ios-pull-request_PR-2844\/link\/apple\/Sources\/LinkHandler.swift",
       "kind": "StringLiteral",
-      "offset": 10855,
+      "offset": 10833,
       "length": 1,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/tests\/~tests\/jenkins\/workspace\/~tests\/jenkins\/workspace\/workspace\/link-ios-pull-request_PR-2844\/link\/apple\/Sources\/LinkHandler.swift",
       "kind": "StringLiteral",
-      "offset": 10863,
+      "offset": 10841,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/tests\/~tests\/jenkins\/workspace\/~tests\/jenkins\/workspace\/workspace\/link-ios-pull-request_PR-2844\/link\/apple\/Sources\/LinkHandler.swift",
       "kind": "StringLiteral",
-      "offset": 12455,
+      "offset": 12433,
       "length": 83,
       "value": "\"Unexpected call to -startSession when state (\""
     },
     {
       "filePath": "\/Users\/tests\/~tests\/jenkins\/workspace\/~tests\/jenkins\/workspace\/workspace\/link-ios-pull-request_PR-2844\/link\/apple\/Sources\/LinkHandler.swift",
       "kind": "StringLiteral",
-      "offset": 12509,
+      "offset": 12487,
       "length": 1,
       "value": "\") is not .loadingSessionData\""
     },
     {
       "filePath": "\/Users\/tests\/~tests\/jenkins\/workspace\/~tests\/jenkins\/workspace\/workspace\/link-ios-pull-request_PR-2844\/link\/apple\/Sources\/LinkHandler.swift",
       "kind": "StringLiteral",
-      "offset": 12646,
+      "offset": 12624,
       "length": 28,
       "value": "\"Validation error: \""
     },
     {
       "filePath": "\/Users\/tests\/~tests\/jenkins\/workspace\/~tests\/jenkins\/workspace\/workspace\/link-ios-pull-request_PR-2844\/link\/apple\/Sources\/LinkHandler.swift",
       "kind": "StringLiteral",
-      "offset": 12673,
+      "offset": 12651,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/tests\/~tests\/jenkins\/workspace\/~tests\/jenkins\/workspace\/workspace\/link-ios-pull-request_PR-2844\/link\/apple\/Sources\/LinkHandler.swift",
       "kind": "StringLiteral",
-      "offset": 12707,
+      "offset": 12685,
       "length": 31,
       "value": "\"Using token: \""
     },
     {
       "filePath": "\/Users\/tests\/~tests\/jenkins\/workspace\/~tests\/jenkins\/workspace\/workspace\/link-ios-pull-request_PR-2844\/link\/apple\/Sources\/LinkHandler.swift",
       "kind": "StringLiteral",
-      "offset": 12737,
+      "offset": 12715,
       "length": 2,
       "value": "\"\""
     },
@@ -52881,28 +52907,28 @@
     {
       "filePath": "\/Users\/tests\/~tests\/jenkins\/workspace\/~tests\/jenkins\/workspace\/workspace\/link-ios-pull-request_PR-2844\/link\/apple\/Sources\/ObjCBridge\/PlaidObjCBridge.swift",
       "kind": "StringLiteral",
-      "offset": 27434,
+      "offset": 27512,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/tests\/~tests\/jenkins\/workspace\/~tests\/jenkins\/workspace\/workspace\/link-ios-pull-request_PR-2844\/link\/apple\/Sources\/ObjCBridge\/PlaidObjCBridge.swift",
       "kind": "StringLiteral",
-      "offset": 29963,
+      "offset": 30041,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/tests\/~tests\/jenkins\/workspace\/~tests\/jenkins\/workspace\/workspace\/link-ios-pull-request_PR-2844\/link\/apple\/Sources\/ObjCBridge\/PlaidObjCBridge.swift",
       "kind": "StringLiteral",
-      "offset": 30003,
+      "offset": 30081,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/tests\/~tests\/jenkins\/workspace\/~tests\/jenkins\/workspace\/workspace\/link-ios-pull-request_PR-2844\/link\/apple\/Sources\/ObjCBridge\/PlaidObjCBridge.swift",
       "kind": "StringLiteral",
-      "offset": 30066,
+      "offset": 30144,
       "length": 2,
       "value": "\"\""
     },
@@ -53784,21 +53810,21 @@
     {
       "filePath": "\/Users\/tests\/~tests\/jenkins\/workspace\/~tests\/jenkins\/workspace\/workspace\/link-ios-pull-request_PR-2844\/link\/apple\/Sources\/ViewControllers\/InProcessWebviewFallbackController.swift",
       "kind": "StringLiteral",
-      "offset": 12325,
+      "offset": 11809,
       "length": 58,
       "value": "\"Error on ASWebAuthenticationSession completion: \""
     },
     {
       "filePath": "\/Users\/tests\/~tests\/jenkins\/workspace\/~tests\/jenkins\/workspace\/workspace\/link-ios-pull-request_PR-2844\/link\/apple\/Sources\/ViewControllers\/InProcessWebviewFallbackController.swift",
       "kind": "StringLiteral",
-      "offset": 12382,
+      "offset": 11866,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/tests\/~tests\/jenkins\/workspace\/~tests\/jenkins\/workspace\/workspace\/link-ios-pull-request_PR-2844\/link\/apple\/Sources\/ViewControllers\/InProcessWebviewFallbackController.swift",
       "kind": "BooleanLiteral",
-      "offset": 13369,
+      "offset": 12853,
       "length": 5,
       "value": "false"
     },
