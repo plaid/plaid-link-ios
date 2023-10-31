@@ -9,7 +9,7 @@
 
 1️⃣  The previous major version of LinkKit can be found on the [main-v1][link-main-v1] branch.
 
-:warning: All integrations must upgrade to version 4.1.0 of the SDK (released January 2023) by September 30, 2023, to maintain support for Chase OAuth connections.
+:warning: All integrations must upgrade to version 4.1.0 of the SDK (released January 2023) by January 1, 2024, to maintain support for Chase OAuth connections.
 
 ## About the LinkDemo Xcode projects
 
