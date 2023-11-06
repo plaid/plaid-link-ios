@@ -1,5 +1,17 @@
 # RELEASES
 
+## LinkKit 4.7.0 — 2023-11-03
+### Requirements
+
+| Name | Version |
+|------|---------|
+| Xcode | >= 14.0 |
+| iOS | >= 11.0 |
+
+### Changes
+
+- Fixes resume after termination [issue](https://github.com/plaid/plaid-link-ios/issues/26).
+
 ## LinkKit 4.6.5 — 2023-10-03
 ### Requirements
 
