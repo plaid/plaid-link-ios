@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>21G726</string>
+	<string>23A344</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>
@@ -17,13 +17,13 @@
 	<key>CFBundlePackageType</key>
 	<string>FMWK</string>
 	<key>CFBundleShortVersionString</key>
-	<string>4.6.5</string>
+	<string>4.7.0</string>
 	<key>CFBundleSupportedPlatforms</key>
 	<array>
 		<string>MacOSX</string>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>2858.10</string>
+	<string>2891.11</string>
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
@@ -45,11 +45,11 @@
 	<key>NSHumanReadableCopyright</key>
 	<string>Copyright © 2016–2021 Plaid Inc. All rights reserved.</string>
 	<key>SCMBuildBranch</key>
-	<string>PR-2858</string>
+	<string>PR-2891</string>
 	<key>SCMBuildNumber</key>
-	<string>10</string>
+	<string>11</string>
 	<key>SCMBuildRevision</key>
-	<string>652e46b8ebe04b41854aaa08f3a7a311b98330af</string>
+	<string>4082b45610cbd49b70bfdfd63a2a8e6b81572fd5</string>
 	<key>UIDeviceFamily</key>
 	<array>
 		<integer>2</integer>
