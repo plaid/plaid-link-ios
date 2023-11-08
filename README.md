@@ -1,13 +1,13 @@
 # Plaid Link for iOS [![version][link-sdk-version]][link-sdk-pod-url] [![swift compatibility][link-sdk-swift-compat]][link-sdk-spi-url]
 
-📱 This repository contains multiple sample applications (requiring Xcode 11) that demonstrate integration and use of Plaid Link for iOS.
+📱 This repository contains multiple sample applications (requiring Xcode 14) that demonstrate integration and use of Plaid Link for iOS.
 * [Swift+UIKit](LinkDemo-Swift)
 * [Swift+SwiftUI](LinkDemo-SwiftUI)
 * [Objective-C](LinkDemo-ObjC)
 
 📚 Detailed instructions on how to integrate with Plaid Link for iOS can be found in our main documentation at [plaid.com/docs/link/ios][link-ios-docs]. 
 
-1️⃣  The previous major version of LinkKit can be found on the [main-v1][link-main-v1] branch.
+5️⃣ If you're updating from version 4.x to 5.x please read our [migration guide](v5-migration-guide).
 
 :warning: All integrations must upgrade to version 4.1.0 of the SDK (released January 2023) by January 1, 2024, to maintain support for Chase OAuth connections.
 
@@ -30,5 +30,4 @@ Build and run the demo application to experience the Link flow for yourself.
 [link-sdk-pod-url]: https://cocoapods.org/pods/Plaid
 [link-sdk-spi-url]: https://swiftpackageindex.com/plaid/plaid-link-ios
 [link-sdk-swift-compat]: https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fplaid%2Fplaid-link-ios%2Fbadge%3Ftype%3Dswift-versions
-[link-1-2-migration]: https://plaid.com/docs/link/ios/ios-v2-migration
-[link-main-v1]: https://github.com/plaid/plaid-link-ios/tree/main-v1
+
