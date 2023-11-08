@@ -1,5 +1,17 @@
 # RELEASES
 
+## LinkKit 4.8.0 — 2023-11-08
+### Requirements
+
+| Name | Version |
+|------|---------|
+| Xcode | >= 14.0 |
+| iOS | >= 11.0 |
+
+### Changes
+
+- Adds privacy manifest.
+
 ## LinkKit 4.7.0 — 2023-11-03
 ### Requirements
 
