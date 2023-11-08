@@ -7,7 +7,7 @@
 
 📚 Detailed instructions on how to integrate with Plaid Link for iOS can be found in our main documentation at [plaid.com/docs/link/ios][link-ios-docs]. 
 
-5️⃣ If you're updating from version 4.x to 5.x please read our [migration guide](v5-migration-guide).
+5️⃣ If you're updating from version 4.x to 5.x please read our [migration guide](v5-migration-guide.md).
 
 :warning: All integrations must upgrade to version 4.1.0 of the SDK (released January 2023) by January 1, 2024, to maintain support for Chase OAuth connections.
 
