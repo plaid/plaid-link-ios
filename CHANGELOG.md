@@ -1,5 +1,24 @@
 # RELEASES
 
+## LinkKit 5.0.0 — 2023-11-08
+### Requirements
+
+| Name | Version |
+|------|---------|
+| Xcode | >= 15.0.1 |
+| iOS | >= 14.0 |
+
+### Changes
+
+- Drop support for iOS 11, 12, & 13.
+- Reduce iOS SDK size from 15 megabytes to 11 megabytes.
+- Remove deprecated support for public key authentication.
+- Remove deprecated continue from method (this method no longer needs to be called for OAuth redirects).
+- Remove deprecated continue method (this method no longer needs to be called for OAuth redirects).
+- Remove deprecated open with OpenOptions function.
+- Make webview inspectable on iOS >= 16.4.
+- Add Privacy Manifest for `UserDefaults` use.
+
 ## LinkKit 4.7.0 — 2023-11-03
 ### Requirements
 

@@ -566,91 +566,11 @@ typedef void(^PLKOnEventHandler)(PLKLinkEvent *);
 
 @end
 
-@interface PLKOAuthNonceConfiguration : NSObject
-
-@property(nonatomic, readonly, copy) NSString *nonce;
-@property(nonatomic, readonly) NSURL *redirectUri;
-
-- (instancetype)initWithNonce:(NSString *)nonce
-                  redirectUri:(NSURL *)redirectUri NS_DESIGNATED_INITIALIZER;
-- (instancetype)init NS_UNAVAILABLE;
-+ (instancetype)createWithNonce:(NSString *)nonce
-                    redirectUri:(NSURL *)redirectUri;
-
-@end
-
-@interface PLKLinkPublicKeyConfigurationToken : NSObject
-
-@property(nonatomic, readonly, copy) NSString *publicKey;
-@property(nonatomic, readonly, nullable, copy) NSString *paymentToken;
-@property(nonatomic, readonly, nullable, copy) NSString *publicToken;
-@property(nonatomic, readonly, nullable, copy) NSString *depositSwitchToken;
-
-+ (instancetype)createWithPaymentToken:(NSString *)paymentToken
-                             publicKey:(NSString *)publicKey;
-
-+ (instancetype)createWithPublicToken:(NSString *)publicToken
-                            publicKey:(NSString *)publicKey;
-
-+ (instancetype)createWithDepositSwitchToken:(NSString *)depositSwitchToken
-                                   publicKey:(NSString *)publicKey;
-
-+ (instancetype)createWithPublicKey:(NSString *)publicKey;
-
-@end
-
 typedef NS_ENUM(NSInteger, PLKEnvironment) {
     PLKEnvironmentProduction,
     PLKEnvironmentDevelopment,
     PLKEnvironmentSandbox,
 };
-
-@interface PLKLinkPublicKeyConfiguration : NSObject
-
-@property(nonatomic, readonly, copy) NSString *clientName;
-@property(nonatomic, readonly) PLKEnvironment environment;
-
-@property(nonatomic, copy) PLKLanguage *language;
-@property(nonatomic, strong) PLKLinkPublicKeyConfigurationToken *token;
-@property(nonatomic, copy) NSArray<PLKCountryCode *> *countryCodes;
-
-@property(nonatomic) PLKOnSuccessHandler onSuccess;
-@property(nonatomic, strong) PLKOnExitHandler onExit;
-@property(nonatomic, strong) PLKOnEventHandler onEvent;
-
-@property(nonatomic, copy) NSArray<id<PLKAccountSubtype>> *accountSubtypes;
-
-@property(nonatomic, nullable) NSURL *webhook;
-
-@property(nonatomic, nullable) PLKOAuthNonceConfiguration *oauthConfiguration;
-
-@property(nonatomic, nullable, copy) NSString *userLegalName;
-@property(nonatomic, nullable, copy) NSString *userEmailAddress;
-@property(nonatomic, nullable, copy) NSString *userPhoneNumber;
-
-@property(nonatomic, nullable, copy) NSString *linkCustomizationName;
-
-/// An array of PLKProduct enum cases wrapped in an NSNumber.
-@property(nonatomic, readwrite, copy) NSArray<NSNumber *> *products;
-
-- (instancetype)initWithClientName:(NSString *)clientName
-                       environment:(PLKEnvironment)environment
-                          products:(NSArray<NSNumber *> *)products
-                          language:(PLKLanguage *)language
-                             token:(PLKLinkPublicKeyConfigurationToken *)token
-                      countryCodes:(NSArray<PLKCountryCode *> *)countryCodes
-                         onSuccess:(PLKOnSuccessHandler)successHandler;
-- (instancetype)init NS_UNAVAILABLE;
-
-+ (instancetype)createWithClientName:(NSString *)clientName
-                         environment:(PLKEnvironment)environment
-                            products:(NSArray<NSNumber *> *)products
-                            language:(PLKLanguage *)language
-                               token:(PLKLinkPublicKeyConfigurationToken *)token
-                        countryCodes:(NSArray<PLKCountryCode *> *)countryCodes
-                           onSuccess:(PLKOnSuccessHandler)successHandler;
-
-@end
 
 /// Both `PLKPresentationHandler` and `PLKDismissalHandler` clsoures take the Plaid Link View Controller to be
 /// presented or dismissed as a parameter.
@@ -661,31 +581,13 @@ typedef void(^PLKDismissalHandler)(UIViewController *);
 
 - (void)openWithContextViewController:(UIViewController *)viewController;
 
-- (void)openWithContextViewController:(UIViewController *)viewController
-                              options:(NSDictionary<NSString *, NSString *> *)options;
-
-- (void)openWithPresentationHandler:(PLKPresentationHandler)presentationHandler DEPRECATED_MSG_ATTRIBUTE("openWithPresentationHandler: is deprecated in favor openWithPresentationHandler:dismissalHandler:");
 - (void)openWithPresentationHandler:(PLKPresentationHandler)presentationHandler
                    dismissalHandler:(PLKDismissalHandler)dismissalHandler;
 
-- (void)openWithPresentationHandler:(PLKPresentationHandler)presentationHandler
-options:(NSDictionary<NSString *, NSString *> *)options  DEPRECATED_MSG_ATTRIBUTE("openWithPresentationHandler:options: is deprecated in favor openWithPresentationHandler:dismissalHandler:options:");
+- (UIView *)createEmbeddedView:(PLKPresentationHandler)presentationHandler
+              dismissalHandler:(PLKDismissalHandler)dismissalHandler;
 
-- (void)openWithPresentationHandler:(PLKPresentationHandler)presentationHandler
-                   dismissalHandler:(PLKDismissalHandler)dismissalHandler
-                            options:(NSDictionary<NSString *, NSString *> *)options;
-
-- (void)createEmbeddedView:(PLKPresentationHandler)presentationHandler
-          dismissalHandler:(PLKDismissalHandler)dismissalHandler
-           errorCompletion:(void (^) (NSError *))onError
-         successCompletion:(void (^) (UIView *))onSuccess;
-
-- (void) createEmbeddedView:(UIViewController *)viewController
-            errorCompletion:(void (^) (NSError *))onError
-          successCompletion:(void (^) (UIView *))onSuccess;
-
-- (NSError * __nullable)continueFromRedirectUri:(NSURL *)redirectUri DEPRECATED_MSG_ATTRIBUTE("continueFromRedirectUri: is deprecated in favor continueWithRedirectUri:");
-- (void)continueWithRedirectUri:(NSURL *)redirectUri DEPRECATED_MSG_ATTRIBUTE("This function will be removed in LinkKit V5.0.0. This function should only be used if your app crashed or was killed during an out-of-process OAuth flow. Use `resumeAfterTermination(from redirectUri: URL)`");
+- (UIView *) createEmbeddedView:(UIViewController *)viewController;
 
 - (void)resumeAfterTermination:(NSURL *)redirectUri;
 
