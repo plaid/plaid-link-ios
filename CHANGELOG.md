@@ -1,5 +1,17 @@
 # RELEASES
 
+## LinkKit 5.0.1 — 2024-01-03
+### Requirements
+
+| Name | Version |
+|------|---------|
+| Xcode | >= 15.0.1 |
+| iOS | >= 14.0 |
+
+### Changes
+
+- Resolve issue where `PrivacyInfo.xcprivacy` was missing `NSPrivacyCollectedDataTypes`.
+
 ## LinkKit 5.0.0 — 2023-11-08
 ### Requirements
 
