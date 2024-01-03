@@ -302,6 +302,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if defined(__OBJC__)
 @class NSCoder;
 
+/// Native UI representation for Embedded Search and Select.
 SWIFT_CLASS("_TtC7LinkKit27EmbeddedSearchAndSelectView")
 @interface EmbeddedSearchAndSelectView : UIView
 - (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER SWIFT_UNAVAILABLE;
@@ -660,6 +661,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if defined(__OBJC__)
 @class NSCoder;
 
+/// Native UI representation for Embedded Search and Select.
 SWIFT_CLASS("_TtC7LinkKit27EmbeddedSearchAndSelectView")
 @interface EmbeddedSearchAndSelectView : UIView
 - (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER SWIFT_UNAVAILABLE;

@@ -417,6 +417,24 @@ public struct LinkEvent : Swift.Codable {
   public init(from decoder: any Swift.Decoder) throws
   public func encode(to encoder: any Swift.Encoder) throws
 }
+public enum EmbeddedSearchComponentType : Swift.CaseIterable, Swift.CustomStringConvertible {
+  case searchAndSelect
+  case button
+  case chip
+  case miniCard
+  public var description: Swift.String {
+    get
+  }
+  public static func == (a: LinkKit.EmbeddedSearchComponentType, b: LinkKit.EmbeddedSearchComponentType) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public typealias AllCases = [LinkKit.EmbeddedSearchComponentType]
+  public static var allCases: [LinkKit.EmbeddedSearchComponentType] {
+    get
+  }
+  public var hashValue: Swift.Int {
+    get
+  }
+}
 public enum Product : Swift.CustomStringConvertible, Swift.CaseIterable {
   case assets
   case auth
@@ -612,6 +630,8 @@ public enum InvalidInputErrorCode : Swift.Error, Swift.CustomStringConvertible {
     get
   }
 }
+extension LinkKit.EmbeddedSearchComponentType : Swift.Equatable {}
+extension LinkKit.EmbeddedSearchComponentType : Swift.Hashable {}
 extension LinkKit.AccountSubtype : Swift.CustomStringConvertible {}
 extension LinkKit.AccountSubtype.Other : Swift.CustomStringConvertible {}
 extension LinkKit.AccountSubtype.Credit : Swift.CustomStringConvertible {}
