@@ -3,6 +3,7 @@
 // swift-module-flags: -target arm64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Osize -module-name LinkKit
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import AuthenticationServices
+import CoreTelephony
 import Foundation
 @_exported import LinkKit
 import SafariServices
