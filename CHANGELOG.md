@@ -1,5 +1,18 @@
 # RELEASES
 
+## LinkKit 5.1.0 — 2024-01-09
+### Requirements
+
+| Name | Version |
+|------|---------|
+| Xcode | >= 15.0.1 |
+| iOS | >= 14.0 |
+
+### Changes
+
+- Improved Remember Me experience.
+- Improved OAuth out-of-process webview open options.
+
 ## LinkKit 5.0.1 — 2024-01-03
 ### Requirements
 
