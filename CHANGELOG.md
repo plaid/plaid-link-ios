@@ -1,5 +1,17 @@
 # RELEASES
 
+## LinkKit 5.2.0 — 2024-02-01
+### Requirements
+
+| Name | Version |
+|------|---------|
+| Xcode | >= 15.0.1 |
+| iOS | >= 14.0 |
+
+### Changes
+
+- Improved Remember Me experience.
+
 ## LinkKit 5.1.0 — 2024-01-09
 ### Requirements
 
