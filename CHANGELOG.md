@@ -1,5 +1,17 @@
 # RELEASES
 
+## LinkKit 5.2.1 — 2024-02-21
+### Requirements
+
+| Name | Version |
+|------|---------|
+| Xcode | >= 15.0.1 |
+| iOS | >= 14.0 |
+
+### Changes
+
+- Improved Embedded Link experience.
+
 ## LinkKit 5.2.0 — 2024-02-01
 ### Requirements
 
