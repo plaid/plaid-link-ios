@@ -47,6 +47,8 @@ typedef NS_ENUM(NSInteger, PLKEventNameValue) {
     PLKEventNameValueOpen,
     PLKEventNameValueOpenMyPlaid,
     PLKEventNameValueOpenOAuth,
+    PLKEventNameValueProfileEligibilityCheckReady,
+    PLKEventNameValueProfileEligibilityCheckError,
     PLKEventNameValueSearchInstitution,
     PLKEventNameValueSelectInstitution,
     PLKEventNameValueSubmitCredentials,

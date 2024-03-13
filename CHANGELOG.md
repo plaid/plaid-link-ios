@@ -1,5 +1,17 @@
 # RELEASES
 
+## LinkKit 5.3.0 — 2024-03-13
+### Requirements
+
+| Name | Version |
+|------|---------|
+| Xcode | >= 15.0.1 |
+| iOS | >= 14.0 |
+
+### Changes
+
+- Improved Returning User Recognition - This update includes enhancements related to recognizing returning users.
+
 ## LinkKit 5.2.1 — 2024-02-21
 ### Requirements
 
