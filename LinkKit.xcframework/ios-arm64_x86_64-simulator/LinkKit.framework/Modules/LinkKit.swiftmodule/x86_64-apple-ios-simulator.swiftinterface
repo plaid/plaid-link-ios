@@ -79,6 +79,8 @@ public enum EventName : Swift.CustomStringConvertible, Swift.Codable {
   case open
   case openMyPlaid
   case openOAuth
+  case profileEligibilityCheckReady
+  case profileEligibilityCheckError
   case searchInstitution
   case selectDegradedInstitution
   case selectFilteredInstitution
