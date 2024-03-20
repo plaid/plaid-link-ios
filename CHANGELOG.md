@@ -1,5 +1,17 @@
 # RELEASES
 
+## LinkKit 4.7.3 — 2024-03-20
+### Requirements
+
+| Name | Version |
+|------|---------|
+| Xcode | >= 14.0 |
+| iOS | >= 11.0 |
+
+### Changes
+
+- Stability improvements.
+
 ## LinkKit 4.7.2 — 2024-02-01
 ### Requirements
 
