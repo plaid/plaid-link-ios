@@ -1,5 +1,18 @@
 # RELEASES
 
+## LinkKit 5.3.1 — 2024-03-20
+### Requirements
+
+| Name | Version |
+|------|---------|
+| Xcode | >= 15.0.1 |
+| iOS | >= 14.0 |
+
+### Changes
+
+- Resolves issue where IDV sessions fail to launch in 5.3.0.
+- Resolves issue where some sessions in 5.3.0 would remain stuck on an infinite spinner.
+
 ## LinkKit 5.3.0 — 2024-03-13
 ### Requirements
 
