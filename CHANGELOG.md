@@ -1,5 +1,18 @@
 # RELEASES
 
+## LinkKit 5.3.2 — 2024-03-27
+### Requirements
+
+| Name | Version |
+|------|---------|
+| Xcode | >= 15.0.1 |
+| iOS | >= 14.0 |
+
+### Changes
+
+- Resolved an issue where navigation buttons erroneously appeared within the safe-area during full-screen presentation of Link.
+- Deprecated custom Link presentation, providing a warning regarding full-screen presentation.
+
 ## LinkKit 5.3.1 — 2024-03-20
 ### Requirements
 
