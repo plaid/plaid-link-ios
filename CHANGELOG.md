@@ -1,5 +1,18 @@
 # RELEASES
 
+## LinkKit 4.7.4 — 2024-03-27
+### Requirements
+
+| Name | Version |
+|------|---------|
+| Xcode | >= 14.0 |
+| iOS | >= 11.0 |
+
+### Changes
+
+- Resolved an issue where navigation buttons erroneously appeared within the safe-area during full-screen presentation of Link.
+- Deprecated custom Link presentation, providing a warning regarding full-screen presentation.
+
 ## LinkKit 4.7.3 — 2024-03-20
 ### Requirements
 
