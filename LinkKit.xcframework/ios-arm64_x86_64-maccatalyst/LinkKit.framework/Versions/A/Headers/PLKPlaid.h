@@ -78,6 +78,7 @@ typedef NS_ENUM(NSInteger, PLKEventNameValue) {
     PLKEventNameValueSubmitDocuments,
     PLKEventNameValueSubmitDocumentsSuccess,
     PLKEventNameValueSubmitDocumentsError,
+    PLKEventNameValueSubmitOTP,
     PLKEventNameValueSubmitRoutingNumber,
     PLKEventNameValueViewDataTypes,
     PLKEventNameValueSubmitPhone,
