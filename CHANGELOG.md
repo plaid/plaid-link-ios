@@ -1,5 +1,18 @@
 # RELEASES
 
+## LinkKit 5.3.3 — 2024-03-29
+### Requirements
+
+| Name | Version |
+|------|---------|
+| Xcode | >= 15.0.1 |
+| iOS | >= 14.0 |
+
+### Changes
+
+- UI bug fixes.
+- Add submit OTP event name.
+
 ## LinkKit 5.3.2 — 2024-03-27
 ### Requirements
 

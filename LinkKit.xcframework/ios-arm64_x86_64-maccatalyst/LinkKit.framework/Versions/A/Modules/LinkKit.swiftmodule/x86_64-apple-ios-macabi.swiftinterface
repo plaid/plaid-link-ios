@@ -58,6 +58,7 @@ public struct LinkSuccess : Swift.Codable {
 public enum EventName : Swift.CustomStringConvertible, Swift.Codable {
   case bankIncomeInsightsCompleted
   case closeOAuth
+  case connectNewInstitution
   case error
   case exit
   case failOAuth
@@ -88,19 +89,19 @@ public enum EventName : Swift.CustomStringConvertible, Swift.Codable {
   case selectInstitution
   case selectBrand
   case selectAuthType
+  case skipSubmitPhone
   case submitAccountNumber
+  case submitCredentials
   case submitDocuments
   case submitDocumentsSuccess
   case submitDocumentsError
-  case submitRoutingNumber
-  case submitCredentials
   case submitMFA
-  case transitionView
-  case viewDataTypes
+  case submitOTP
   case submitPhone
-  case skipSubmitPhone
+  case submitRoutingNumber
+  case transitionView
   case verifyPhone
-  case connectNewInstitution
+  case viewDataTypes
   case unknown(Swift.String)
   public init(from decoder: any Swift.Decoder) throws
   public var description: Swift.String {
