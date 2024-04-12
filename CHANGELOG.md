@@ -1,5 +1,19 @@
 # RELEASES
 
+## LinkKit 5.4.0 — 2024-04-12
+### Requirements
+
+| Name | Version |
+|------|---------|
+| Xcode | >= 15.0.1 |
+| iOS | >= 14.0 |
+
+### Changes
+
+- Remove deprecation from custom Link presentation.
+- Improve Link presentation animation.
+- Embedded Link bug fixes.
+
 ## LinkKit 5.3.3 — 2024-03-29
 ### Requirements
 
