@@ -17,13 +17,13 @@
 	<key>CFBundlePackageType</key>
 	<string>FMWK</string>
 	<key>CFBundleShortVersionString</key>
-	<string>5.4.1</string>
+	<string>5.4.2</string>
 	<key>CFBundleSupportedPlatforms</key>
 	<array>
 		<string>MacOSX</string>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>3033.16</string>
+	<string>3041.2</string>
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
@@ -45,11 +45,11 @@
 	<key>NSHumanReadableCopyright</key>
 	<string>Copyright © 2016–2021 Plaid Inc. All rights reserved.</string>
 	<key>SCMBuildBranch</key>
-	<string>PR-3033</string>
+	<string>PR-3041</string>
 	<key>SCMBuildNumber</key>
-	<string>16</string>
+	<string>2</string>
 	<key>SCMBuildRevision</key>
-	<string>d06de6c0abdc7a4d00545f5ec55e5e45477d6787</string>
+	<string>a1b2bc5817cf7e4a398be4e18ee217d8966ad659</string>
 	<key>UIDeviceFamily</key>
 	<array>
 		<integer>2</integer>
