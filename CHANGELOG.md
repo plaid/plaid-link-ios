@@ -1,5 +1,17 @@
 # RELEASES
 
+## LinkKit 5.4.2 — 2024-04-15
+### Requirements
+
+| Name | Version |
+|------|---------|
+| Xcode | >= 15.0.1 |
+| iOS | >= 14.0 |
+
+### Changes
+
+- Make Link background a transparent gradient.
+
 ## LinkKit 5.4.1 — 2024-04-12
 ### Requirements
 
