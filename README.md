@@ -31,3 +31,4 @@ Build and run the demo application to experience the Link flow for yourself.
 [link-sdk-spi-url]: https://swiftpackageindex.com/plaid/plaid-link-ios
 [link-sdk-swift-compat]: https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fplaid%2Fplaid-link-ios%2Fbadge%3Ftype%3Dswift-versions
 
+
