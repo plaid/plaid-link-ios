@@ -12,7 +12,8 @@
 
 @property (readwrite) id<PLKHandler> linkHandler;
 
-- (void)presentPlaidLinkUsingLinkToken;
+- (void)createLinkHandler;
+- (void)openLink;
 
 @end
 

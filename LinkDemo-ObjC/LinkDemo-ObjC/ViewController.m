@@ -21,6 +21,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
+    // Create a Handler right away so Link can begin loading prior to the user pressing the button.
+    [self createLinkHandler];
+
     NSBundle* linkKitBundle = [NSBundle bundleForClass:[PLKPlaid class]];
     NSString* linkName      = [linkKitBundle objectForInfoDictionaryKey:(NSString*)kCFBundleNameKey];
     self.label.text         = [NSString stringWithFormat:@"Objective-C — %@ %@+%@"
@@ -36,10 +39,10 @@
 }
 
 - (IBAction)didTapButton:(id)sender {
-    [self presentPlaidLinkUsingLinkToken];
+    [self openLink];
 }
 
-// MARK: Start Plaid Link using a Link token
+// MARK: Create Link Handler to enable preloading.
 // Steps to acquire a Link Token:
 //
 // 1. Sign up for a Plaid account to get an API key.
@@ -47,8 +50,8 @@
 // 2. Make a request to our API using your API key.
 //      Ref - https://plaid.com/docs/quickstart/#introduction
 //      Ref - https://plaid.com/docs/api/tokens/#linktokencreate
-- (void)presentPlaidLinkUsingLinkToken {
 
+- (void) createLinkHandler {
     #warning Replace <#GENERATED_LINK_TOKEN#> below with your link_token
 
     // In your production application replace the hardcoded linkToken below with code that fetches a linkToken
@@ -56,7 +59,7 @@
     // https://plaid.com/docs/api/tokens/#linktokencreate
 
     PLKLinkTokenConfiguration* linkConfiguration = [PLKLinkTokenConfiguration createWithToken:@"<#GENERATED_LINK_TOKEN#>"
-                                                                                    onSuccess:^(PLKLinkSuccess *success) {
+                                                                                        onSuccess:^(PLKLinkSuccess *success) {
 
         // Closure is called when a user successfully links an Item. It should take a single LinkSuccess argument,
         // containing the publicToken String and a metadata of type SuccessMetadata.
@@ -89,9 +92,18 @@
                                                                   error:&createError];
     if (handler) {
         self.linkHandler = handler;
-        [handler openWithContextViewController:self];
     } else if (createError) {
         NSLog(@"Unable to create PLKHandler due to: %@", createError);
+    }
+}
+
+// MARK: Open Plaid Link using previously created Handler.
+
+- (void)openLink {
+    if (self.linkHandler) {
+        [self.linkHandler openWithContextViewController:self];
+    } else {
+        NSLog(@"Unable to open Link without Handler");
     }
 }
 
