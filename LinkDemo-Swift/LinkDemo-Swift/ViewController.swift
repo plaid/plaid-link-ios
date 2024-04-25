@@ -13,6 +13,9 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        // Create a Handler right away so Link can begin loading prior to the user pressing the button.
+        createLinkHandler()
+
         setupUI()
     }
 
@@ -30,7 +33,7 @@ class ViewController: UIViewController {
         openLink()
     }
 
-    private func openLink() {
+    private func createLinkHandler() {
         let configuration = createLinkTokenConfiguration()
 
         let result = Plaid.create(configuration)
@@ -39,8 +42,11 @@ class ViewController: UIViewController {
             print("Unable to create Plaid handler due to: \(error)")
         case .success(let handler):
             self.handler = handler
-            handler.open(presentUsing: .viewController(self))
         }
+    }
+
+    private func openLink() {
+        handler?.open(presentUsing: .viewController(self))
     }
 
     private func createLinkTokenConfiguration() -> LinkTokenConfiguration {
