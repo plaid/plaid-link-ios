@@ -1,5 +1,17 @@
 # RELEASES
 
+## LinkKit 4.7.7 — 2024-05-08
+### Requirements
+
+| Name | Version |
+|------|---------|
+| Xcode | >= 14.0 |
+| iOS | >= 11.0 |
+
+### Changes
+
+- Add NSPrivacyCollectedDataTypePurposes for NSPrivacyCollectedDataTypeUserID.
+
 ## LinkKit 4.7.6 — 2024-04-16
 ### Requirements
 
