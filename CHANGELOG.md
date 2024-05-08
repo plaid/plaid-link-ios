@@ -1,5 +1,18 @@
 # RELEASES
 
+## LinkKit 5.5.0 — 2024-05-08
+### Requirements
+
+| Name | Version |
+|------|---------|
+| Xcode | >= 15.0.1 |
+| iOS | >= 14.0 |
+
+### Changes
+
+- Add `PROFILE_DATA_REVIEW` view name.
+- Add NSPrivacyCollectedDataTypePurposes for NSPrivacyCollectedDataTypeUserID.
+
 ## LinkKit 5.4.2 — 2024-04-15
 ### Requirements
 
