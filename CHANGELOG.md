@@ -1,6 +1,6 @@
 # RELEASES
 
-## LinkKit 6.0.0 — 2024-05-21
+## LinkKit 6.0.0-beta1 — 2024-05-21
 ### Requirements
 
 | Name | Version |
