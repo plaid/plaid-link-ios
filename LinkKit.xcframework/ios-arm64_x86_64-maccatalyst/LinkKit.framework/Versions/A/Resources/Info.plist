@@ -17,13 +17,13 @@
 	<key>CFBundlePackageType</key>
 	<string>FMWK</string>
 	<key>CFBundleShortVersionString</key>
-	<string>5.5.0</string>
+	<string>6.0.0</string>
 	<key>CFBundleSupportedPlatforms</key>
 	<array>
 		<string>MacOSX</string>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>3060.7</string>
+	<string>3065.3</string>
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
@@ -31,25 +31,25 @@
 	<key>DTPlatformName</key>
 	<string>macosx</string>
 	<key>DTPlatformVersion</key>
-	<string>14.0</string>
+	<string>14.4</string>
 	<key>DTSDKBuild</key>
-	<string>23A334</string>
+	<string>23E208</string>
 	<key>DTSDKName</key>
-	<string>macosx14.0</string>
+	<string>macosx14.4</string>
 	<key>DTXcode</key>
-	<string>1501</string>
+	<string>1530</string>
 	<key>DTXcodeBuild</key>
-	<string>15A507</string>
+	<string>15E204a</string>
 	<key>LSMinimumSystemVersion</key>
 	<string>11.0</string>
 	<key>NSHumanReadableCopyright</key>
 	<string>Copyright © 2016–2021 Plaid Inc. All rights reserved.</string>
 	<key>SCMBuildBranch</key>
-	<string>PR-3060</string>
+	<string>PR-3065</string>
 	<key>SCMBuildNumber</key>
-	<string>7</string>
+	<string>3</string>
 	<key>SCMBuildRevision</key>
-	<string>4a53775ad85e542d734ded07aad1909efe8c13db</string>
+	<string>9d3a8ae96a8b41ff287aba62973a09ee472ff828</string>
 	<key>UIDeviceFamily</key>
 	<array>
 		<integer>2</integer>
