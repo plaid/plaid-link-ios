@@ -561,6 +561,8 @@ public enum AssetReportErrorCode : Swift.Error, Swift.CustomStringConvertible {
   @objc public static var sdkVersion: Swift.String {
     @objc get
   }
+  @available(iOS 17.4, *)
+  @objc public static func syncFinanceKit(token: Swift.String, requestAuthorizationIfNeeded: Swift.Bool, onSuccess: @escaping () -> Swift.Void, onError: @escaping (Foundation.NSError) -> Swift.Void)
   @objc override dynamic public init()
   @objc deinit
 }
@@ -589,12 +591,15 @@ public struct Account : Swift.Codable {
   public init(from decoder: any Swift.Decoder) throws
 }
 @available(iOS 17.4, *)
-public enum FinanceKitError : Swift.Error {
+public enum FinanceKitError : Foundation.LocalizedError {
   case invalidToken(message: Swift.String)
   case permissionError(message: Swift.String)
   case linkApiError(message: Swift.String)
   case permissionAccessError(message: Swift.String)
   case unknown(error: any Swift.Error)
+  public var errorDescription: Swift.String? {
+    get
+  }
 }
 extension LinkKit.AccountSubtype {
   public var description: Swift.String {

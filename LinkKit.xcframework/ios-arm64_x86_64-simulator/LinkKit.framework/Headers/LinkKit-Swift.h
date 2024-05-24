@@ -345,6 +345,7 @@ SWIFT_CLASS("_TtC7LinkKit8PLKPlaid")
 /// The version of the Plaid Link iOS SDK.
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull sdkVersion;)
 + (NSString * _Nonnull)sdkVersion SWIFT_WARN_UNUSED_RESULT;
++ (void)syncFinanceKitWithToken:(NSString * _Nonnull)token requestAuthorizationIfNeeded:(BOOL)requestAuthorizationIfNeeded onSuccess:(void (^ _Nonnull)(void))onSuccess onError:(void (^ _Nonnull)(NSError * _Nonnull))onError SWIFT_AVAILABILITY(ios,introduced=17.4);
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
@@ -704,6 +705,7 @@ SWIFT_CLASS("_TtC7LinkKit8PLKPlaid")
 /// The version of the Plaid Link iOS SDK.
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull sdkVersion;)
 + (NSString * _Nonnull)sdkVersion SWIFT_WARN_UNUSED_RESULT;
++ (void)syncFinanceKitWithToken:(NSString * _Nonnull)token requestAuthorizationIfNeeded:(BOOL)requestAuthorizationIfNeeded onSuccess:(void (^ _Nonnull)(void))onSuccess onError:(void (^ _Nonnull)(NSError * _Nonnull))onError SWIFT_AVAILABILITY(ios,introduced=17.4);
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
