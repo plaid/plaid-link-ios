@@ -1,5 +1,18 @@
 # RELEASES
 
+## LinkKit 6.0.0-beta2 — 2024-05-24
+### Requirements
+
+| Name | Version |
+|------|---------|
+| Xcode | >= 15.3.0 |
+| iOS | >= 14.0 |
+
+### Changes
+
+- Add objective-c FinanceKit APIs for React Native.
+- Add support for FinanceKit and Apple card.
+
 ## LinkKit 6.0.0-beta1 — 2024-05-21
 ### Requirements
 

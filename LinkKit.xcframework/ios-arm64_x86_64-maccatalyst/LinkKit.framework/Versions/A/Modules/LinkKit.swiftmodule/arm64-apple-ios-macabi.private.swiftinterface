@@ -586,12 +586,15 @@ public struct Account : Swift.Codable {
   public init(from decoder: any Swift.Decoder) throws
 }
 @available(iOS 17.4, *)
-public enum FinanceKitError : Swift.Error {
+public enum FinanceKitError : Foundation.LocalizedError {
   case invalidToken(message: Swift.String)
   case permissionError(message: Swift.String)
   case linkApiError(message: Swift.String)
   case permissionAccessError(message: Swift.String)
   case unknown(error: any Swift.Error)
+  public var errorDescription: Swift.String? {
+    get
+  }
 }
 extension LinkKit.AccountSubtype {
   public var description: Swift.String {
