@@ -4,6 +4,7 @@
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import AuthenticationServices
 import CoreTelephony
+import FinanceKit
 import Foundation
 @_exported import LinkKit
 import SafariServices
@@ -585,6 +586,14 @@ public struct Account : Swift.Codable {
   public let verificationStatus: LinkKit.VerificationStatus?
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
+}
+@available(iOS 17.4, *)
+public enum FinanceKitError : Swift.Error {
+  case invalidToken(message: Swift.String)
+  case permissionError(message: Swift.String)
+  case linkApiError(message: Swift.String)
+  case permissionAccessError(message: Swift.String)
+  case unknown(error: any Swift.Error)
 }
 extension LinkKit.AccountSubtype {
   public var description: Swift.String {

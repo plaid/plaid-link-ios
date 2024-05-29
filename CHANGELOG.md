@@ -1,5 +1,18 @@
 # RELEASES
 
+## LinkKit 5.5.1 — 2024-05-29
+### Requirements
+
+| Name | Version |
+|------|---------|
+| Xcode | >= 15.0.1 |
+| iOS | >= 14.0 |
+
+### Changes
+
+- Fix headless OAuth bug.
+- Improved Remember Me experience.
+
 ## LinkKit 5.5.0 — 2024-05-08
 ### Requirements
 
