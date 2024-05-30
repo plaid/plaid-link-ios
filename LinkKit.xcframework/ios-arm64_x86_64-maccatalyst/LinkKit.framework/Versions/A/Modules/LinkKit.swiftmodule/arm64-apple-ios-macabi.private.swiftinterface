@@ -465,7 +465,6 @@ public enum MFAType : Swift.CustomStringConvertible, Swift.Codable {
 }
 public enum PresentationMethod {
   case viewController(UIKit.UIViewController)
-  @available(*, deprecated, message: "Presenting Link with modalPresentationStyle .overFullScreen or .fullScreen is no longer supported. You may experience UI issues if you present Link using those modalPresentationStyles.")
   case custom(LinkKit.PresentationHandler, _: LinkKit.DismissalHandler = { $0.presentingViewController?.dismiss(animated: true, completion: nil) })
 }
 public enum ExitErrorCode : Swift.Codable {

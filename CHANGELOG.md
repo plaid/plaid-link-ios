@@ -1,5 +1,18 @@
 # RELEASES
 
+## LinkKit 4.7.8 — 2024-05-30
+### Requirements
+
+| Name | Version |
+|------|---------|
+| Xcode | >= 14.0 |
+| iOS | >= 11.0 |
+
+### Changes
+
+- Fix headless OAuth bug.
+- Improved Remember Me experience.
+
 ## LinkKit 4.7.7 — 2024-05-08
 ### Requirements
 
