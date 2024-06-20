@@ -62,6 +62,7 @@ struct ContentView: View {
         }
         .fullScreenCover(
             isPresented: $isPresentingLink,
+            onDismiss: { isPresentingLink = false },
             content: {
                 if let linkController {
                     linkController
