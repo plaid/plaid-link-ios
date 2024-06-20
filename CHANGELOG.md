@@ -1,5 +1,17 @@
 # RELEASES
 
+## LinkKit 4.7.9 — 2024-06-20
+### Requirements
+
+| Name | Version |
+|------|---------|
+| Xcode | >= 14.0 |
+| iOS | >= 11.0 |
+
+### Changes
+
+- Improved Remember Me experience.
+
 ## LinkKit 4.7.8 — 2024-05-30
 ### Requirements
 
