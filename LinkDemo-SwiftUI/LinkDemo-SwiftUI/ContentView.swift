@@ -60,14 +60,12 @@ struct ContentView: View {
             }
             .padding(EdgeInsets(top: 16, leading: 32, bottom: 0, trailing: 32))
         }
-        .sheet(
+        .fullScreenCover(
             isPresented: $isPresentingLink,
-            onDismiss: {
-                isPresentingLink = false
-            },
             content: {
                 if let linkController {
                     linkController
+                        .ignoresSafeArea(.all)
                 } else {
                     Text("Error: LinkController not initialized")
                 }
