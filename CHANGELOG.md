@@ -1,5 +1,18 @@
 # RELEASES
 
+## LinkKit 5.6.0 — 2024-06-24
+### Requirements
+
+| Name | Version |
+|------|---------|
+| Xcode | >= 15.0.1 |
+| iOS | >= 14.0 |
+
+### Changes
+
+- Add submit API for Layer.
+- Improved Remember Me experience.
+
 ## LinkKit 5.5.1 — 2024-05-29
 ### Requirements
 
