@@ -85,6 +85,8 @@ typedef NS_ENUM(NSInteger, PLKEventNameValue) {
     PLKEventNameValueSkipSubmitPhone,
     PLKEventNameValueVerifyPhone,
     PLKEventNameValueConnectNewInstitution,
+    PLKEventNameValueLayerReady,
+    PLKEventNameValueLayerNotAvailable,
     // Add new enum cases directly above this line to avoid breaking API changes
 };
 
@@ -514,6 +516,10 @@ static NSString *const kPLKDefaultErrorDomain = @"com.plaid.link";
 
 @end
 
+@interface PLKSubmissionData : NSObject
+@property (nonatomic, copy, nullable) NSString *phoneNumber;
+@end
+
 @interface PLKEventMetadata : NSObject
 
 @property(nonatomic, readonly, nullable) PLKExitError *error;
@@ -594,6 +600,8 @@ typedef void(^PLKDismissalHandler)(UIViewController *);
 - (UIView *) createEmbeddedView:(UIViewController *)viewController;
 
 - (void)resumeAfterTermination:(NSURL *)redirectUri;
+
+- (void) submit:(PLKSubmissionData *)data;
 
 @end
 

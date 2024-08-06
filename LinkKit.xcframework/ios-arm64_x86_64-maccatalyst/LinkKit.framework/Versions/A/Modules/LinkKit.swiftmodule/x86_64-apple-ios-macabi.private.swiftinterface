@@ -74,6 +74,8 @@ public enum EventName : Swift.CustomStringConvertible, Swift.Codable {
   case identityVerificationOpenUI
   case identityVerificationResumeUI
   case identityVerificationCloseUI
+  case layerReady
+  case layerNotAvailable
   case matchedSelectInstitution
   case matchedSelectVerifyMethod
   case open
@@ -332,6 +334,9 @@ public struct ExitError : Swift.Error, Swift.Codable {
   public var errorJSON: LinkKit.RawJSONMetadata?
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
+}
+public protocol SubmissionData {
+  var phoneNumber: Swift.String? { get }
 }
 public enum MFAType : Swift.CustomStringConvertible, Swift.Codable {
   case code
@@ -628,6 +633,7 @@ extension LinkKit.AccountSubtype.Investment {
 }
 public protocol Handler {
   func open(presentUsing method: LinkKit.PresentationMethod)
+  func submit(data: any LinkKit.SubmissionData)
   func createEmbeddedView(presentUsing: LinkKit.PresentationMethod) -> UIKit.UIView
   func resumeAfterTermination(from redirectUri: Foundation.URL)
 }

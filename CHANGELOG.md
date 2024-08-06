@@ -1,5 +1,18 @@
 # RELEASES
 
+## LinkKit 6.0.0-beta5 — 2024-08-06
+### Requirements
+
+| Name | Version |
+|------|---------|
+| Xcode | >= 15.3.0 |
+| iOS | >= 14.0 |
+
+### Changes
+
+- Resolves bug where large transaction syncs failed.
+- Resolves bug where large account balance extraction failed.
+
 ## LinkKit 6.0.0-beta4 — 2024-05-29
 ### Requirements
 
