@@ -1,17 +1,5 @@
 # RELEASES
 
-## LinkKit 5.6.1 — 2024-08-05
-### Requirements
-
-| Name | Version |
-|------|---------|
-| Xcode | >= 15.0.1 |
-| iOS | >= 14.0 |
-
-### Changes
-
-- Add support for plaid-link-ios-spm
-
 ## LinkKit 5.6.0 — 2024-06-24
 ### Requirements
 
