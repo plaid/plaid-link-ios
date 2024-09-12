@@ -87,6 +87,15 @@ typedef NS_ENUM(NSInteger, PLKEventNameValue) {
     PLKEventNameValueConnectNewInstitution,
     PLKEventNameValueLayerReady,
     PLKEventNameValueLayerNotAvailable,
+    PLKEventNameValueSubmitEmail,
+    PLKEventNameValueSkipSubmitEmail,
+    PLKEventNameValueRememberMeEnabled,
+    PLKEventNameValueRememberMeDisabled,
+    PLKEventNameValueRememberMeHoldout,
+    PLKEventNameValueSelectSavedInstitution,
+    PLKEventNameValueSelectSavedAccount,
+    PLKEventNameValueAutoSelectSavedInstitution,
+    PLKEventNameValuePlaidCheckPane,
     // Add new enum cases directly above this line to avoid breaking API changes
 };
 
@@ -151,6 +160,8 @@ typedef NS_ENUM(NSInteger, PLKViewNameValue) {
     PLKViewNameValueVerifyPhone,
     PLKViewNameValueSelectSavedInstitution,
     PLKViewNameValueSelectSavedAccount,
+    PLKViewNameValueSubmitEmail,
+    PLKViewNameValueVerifyEmail,
     // Add new enum cases directly above this line to avoid breaking API changes
 };
 

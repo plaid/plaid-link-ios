@@ -1,5 +1,20 @@
 # RELEASES
 
+## LinkKit 5.6.1 — 2024-09-12
+### Requirements
+
+| Name | Version |
+|------|---------|
+| Xcode | >= 15.0.1 |
+| iOS | >= 14.0 |
+
+### Changes
+
+- Add missing event names submitEmail, skipSubmitEmail, rememberMeEnabled, rememberMeDisabled, rememberMeHoldout, selectSavedInstitution, selectSavedAccount, autoSelectSavedInstitution, plaidCheckPane.
+- Add missing view names submitEmail and verifyEmail.
+- Add haptics support.
+- Fix Embedded search view dynamic resizing.
+
 ## LinkKit 5.6.0 — 2024-06-24
 ### Requirements
 
