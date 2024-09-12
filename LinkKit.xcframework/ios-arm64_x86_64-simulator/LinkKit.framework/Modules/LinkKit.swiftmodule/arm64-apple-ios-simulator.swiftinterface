@@ -105,6 +105,15 @@ public enum EventName : Swift.CustomStringConvertible, Swift.Codable {
   case transitionView
   case verifyPhone
   case viewDataTypes
+  case submitEmail
+  case skipSubmitEmail
+  case rememberMeEnabled
+  case rememberMeDisabled
+  case rememberMeHoldout
+  case selectSavedInstitution
+  case selectSavedAccount
+  case autoSelectSavedInstitution
+  case plaidCheckPane
   case unknown(Swift.String)
   public init(from decoder: any Swift.Decoder) throws
   public var description: Swift.String {
@@ -529,6 +538,8 @@ public enum ViewName : Swift.CustomStringConvertible, Swift.Codable {
   case submitDocumentsSuccess
   case submitDocumentsError
   case verifySMS
+  case submitEmail
+  case verifyEmail
   case unknown(Swift.String)
   public init(from decoder: any Swift.Decoder) throws
   public var description: Swift.String {
