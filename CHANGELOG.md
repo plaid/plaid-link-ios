@@ -1,5 +1,17 @@
 # RELEASES
 
+## LinkKit 6.0.0 - 2024-11-11
+### Requirements
+
+| Name | Version |
+|------|---------|
+| Xcode | >= 16.1.0 |
+| iOS | >= 14.0 |
+
+### Changes
+
+- Add support for FinanceKit and Apple card.
+
 ## LinkKit 5.6.1 — 2024-09-12
 ### Requirements
 

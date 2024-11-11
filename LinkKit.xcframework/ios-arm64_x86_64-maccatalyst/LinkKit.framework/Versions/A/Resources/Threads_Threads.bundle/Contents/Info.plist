@@ -3,11 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>23E224</string>
+	<string>23F79</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleIdentifier</key>
-	<string>Threads-Threads-resources</string>
+	<string>threads.Threads.resources</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
@@ -19,23 +19,23 @@
 		<string>MacOSX</string>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>3351.12</string>
+	<string>3065.1731356740</string>
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
-	<string></string>
+	<string>24B75</string>
 	<key>DTPlatformName</key>
 	<string>macosx</string>
 	<key>DTPlatformVersion</key>
-	<string>14.0</string>
+	<string>15.1</string>
 	<key>DTSDKBuild</key>
-	<string>23A334</string>
+	<string>24B75</string>
 	<key>DTSDKName</key>
-	<string>macosx14.0</string>
+	<string>macosx15.1</string>
 	<key>DTXcode</key>
-	<string>1501</string>
+	<string>1610</string>
 	<key>DTXcodeBuild</key>
-	<string>15A507</string>
+	<string>16B40</string>
 	<key>LSMinimumSystemVersion</key>
 	<string>11.0</string>
 	<key>UIDeviceFamily</key>
