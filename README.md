@@ -45,7 +45,7 @@ This [plaid-link-spm](https://github.com/plaid/plaid-link-ios-spm) repository ju
 
 5️⃣ If you're updating from version 4.x to 5.x please read our [migration guide](v5-migration-guide.md).
 
-:warning: All integrations must upgrade to version 4.1.0 of the SDK (released January 2023) by January 1, 2024, to maintain support for Chase OAuth connections.
+:warning: All integrations must use version 4.1.0 (released January 2023) or higher to maintain support for Chase OAuth connections.
 
 ### About the LinkDemo Xcode projects
 
