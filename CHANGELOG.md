@@ -1,5 +1,17 @@
 # RELEASES
 
+## LinkKit 6.0.3 - 2025-02-03
+### Requirements
+
+| Name | Version |
+|------|---------|
+| Xcode | >= 16.1.0 |
+| iOS | >= 14.0 |
+
+### Changes
+
+- Fixed an issue where some sessions experienced delays in receiving the `LAYER_READY` event or did not receive it at all.
+
 ## 2025-01-17
 ### Requirements
 
