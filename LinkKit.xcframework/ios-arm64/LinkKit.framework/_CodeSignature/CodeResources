@@ -22,7 +22,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		MvpziP/RehjyyHDgpS6jm5gw7nY=
+		BlqHpCi+6ZlGH8CBAn5sh1lfVtQ=
 		</data>
 		<key>Modules/LinkKit.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>Modules/LinkKit.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		7L0fgWqRnDiJwDphb0F806npaLI=
+		fAU9oPYDccZYULEgpAv57IF0MSU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -51,6 +51,14 @@
 		<key>PrivacyInfo.xcprivacy</key>
 		<data>
 		ZslbibRlnYFZ3P3mPkRNxCiXM44=
+		</data>
+		<key>Threads_Threads.bundle/Assets.car</key>
+		<data>
+		9LlpqUatOxHgy69Q0D80zPixBmM=
+		</data>
+		<key>Threads_Threads.bundle/Info.plist</key>
+		<data>
+		UQrfwFJjyX+7zgSTWqQXfr74c5I=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -115,7 +123,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+kxUEp9e0k2IQ74L8KoD4CDIxP3Hlt2XJ3znVAf5TCA=
+			dpTRKYplHmIXXcNqauynuBf0jJoH76M74Qi76lzMI/8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -130,6 +138,20 @@
 			<key>hash2</key>
 			<data>
 			miWgwnkAGFMlwDVKKnSJH9MRPNSwFFxWqC4XV9/Zi4U=
+			</data>
+		</dict>
+		<key>Threads_Threads.bundle/Assets.car</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			deEO6dPy4GJu5ew12ixn/I0MGdwcaPUQMoOkULhgaz0=
+			</data>
+		</dict>
+		<key>Threads_Threads.bundle/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			nwzvUKSRakK2vyFNyvM786RnAntPOFhOKiyCuHMkQtM=
 			</data>
 		</dict>
 	</dict>
