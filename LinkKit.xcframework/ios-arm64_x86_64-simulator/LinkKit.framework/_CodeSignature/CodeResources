@@ -22,7 +22,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Q0QVAnGcXkO4tZbVZrYhR/hBkKw=
+		Ev2bkdnUYq+PO9PYcV2OhRtDKBA=
 		</data>
 		<key>Modules/LinkKit.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>Modules/LinkKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		f3MqWbTTq+331WZY1o2BsDdN6Aw=
+		5uB1lcO2haALiOoPfE0z87h3Kc0=
 		</data>
 		<key>Modules/LinkKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -62,7 +62,7 @@
 		</data>
 		<key>Modules/LinkKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		wcllJfHMkL69RBgjnG8/AyZVo+8=
+		K94qItoWyw5Ua0pfBj66F/9g/io=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -71,6 +71,34 @@
 		<key>PrivacyInfo.xcprivacy</key>
 		<data>
 		ZslbibRlnYFZ3P3mPkRNxCiXM44=
+		</data>
+		<key>Threads_Threads.bundle/Assets.car</key>
+		<data>
+		9LlpqUatOxHgy69Q0D80zPixBmM=
+		</data>
+		<key>Threads_Threads.bundle/Info.plist</key>
+		<data>
+		FX76lWdQ/B0WxAAIBSdEUf9dgXU=
+		</data>
+		<key>Threads_Threads.bundle/_CodeSignature/CodeDirectory</key>
+		<data>
+		PJHiBjf+AI/5VvZkKjSadecVzb8=
+		</data>
+		<key>Threads_Threads.bundle/_CodeSignature/CodeRequirements</key>
+		<data>
+		OnX22wWFKRSOFN1+obRynMCeyXM=
+		</data>
+		<key>Threads_Threads.bundle/_CodeSignature/CodeRequirements-1</key>
+		<data>
+		tGp8Nfspb3Kvy+wzZlnHme9fO6g=
+		</data>
+		<key>Threads_Threads.bundle/_CodeSignature/CodeResources</key>
+		<data>
+		qhDltfrhZjt9o9vqzHoUac7GprE=
+		</data>
+		<key>Threads_Threads.bundle/_CodeSignature/CodeSignature</key>
+		<data>
+		2jmj7l5rSw0yVb/vlWAYkK/YBwk=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -135,7 +163,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			fefGrsov58Ms+snkKeQW2g0jokpF3WvLirIkCYbEhrQ=
+			Ro/ZaUVY3equry5qOL5omqX5yJY8eJXmb002PQ+/oRw=
 			</data>
 		</dict>
 		<key>Modules/LinkKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -170,7 +198,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			0+3A4mwYwXy/K3dw6fKvSfSHvwwAVdtnwoKiyyw+70o=
+			mv37HTPVRPsHcr9oCz6wu7fElcoMjW65E7odYiZ6bUA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -185,6 +213,55 @@
 			<key>hash2</key>
 			<data>
 			miWgwnkAGFMlwDVKKnSJH9MRPNSwFFxWqC4XV9/Zi4U=
+			</data>
+		</dict>
+		<key>Threads_Threads.bundle/Assets.car</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			deEO6dPy4GJu5ew12ixn/I0MGdwcaPUQMoOkULhgaz0=
+			</data>
+		</dict>
+		<key>Threads_Threads.bundle/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Eh9cfA/FogMQrj2TGNMo/ZRb5vSmxMeDFZlLGtVkn74=
+			</data>
+		</dict>
+		<key>Threads_Threads.bundle/_CodeSignature/CodeDirectory</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			g169sEz4E5DkEai5GATgxhAwUfnycBr7an+XFo5wuWU=
+			</data>
+		</dict>
+		<key>Threads_Threads.bundle/_CodeSignature/CodeRequirements</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			mHkgkE6rZQ51eIwFSqCwUk5qgL/HGqMt+NI3phdD+YY=
+			</data>
+		</dict>
+		<key>Threads_Threads.bundle/_CodeSignature/CodeRequirements-1</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			S+EsHEpfupLj24ncH3+aFEnqs458Frri4FnkEziisp8=
+			</data>
+		</dict>
+		<key>Threads_Threads.bundle/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			KYbUC7rmLqPKqgNYuF5HNjZc0tlu+0bXlv3+8PNEFMI=
+			</data>
+		</dict>
+		<key>Threads_Threads.bundle/_CodeSignature/CodeSignature</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
 			</data>
 		</dict>
 	</dict>
