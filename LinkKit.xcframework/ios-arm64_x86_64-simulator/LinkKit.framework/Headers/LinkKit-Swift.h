@@ -280,9 +280,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
-@import CoreFoundation;
 @import ObjectiveC;
-@import UIKit;
 #endif
 
 #endif
@@ -304,38 +302,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 #if defined(__OBJC__)
-@class NSCoder;
-
-/// Native UI representation for Embedded Search and Select.
-SWIFT_CLASS("_TtC7LinkKit27EmbeddedSearchAndSelectView")
-@interface EmbeddedSearchAndSelectView : UIView
-- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER SWIFT_UNAVAILABLE;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
-@end
-
-@class UICollectionView;
-@class UICollectionViewLayout;
-@class NSIndexPath;
-
-@interface EmbeddedSearchAndSelectView (SWIFT_EXTENSION(LinkKit)) <UICollectionViewDelegateFlowLayout>
-- (CGSize)collectionView:(UICollectionView * _Nonnull)collectionView layout:(UICollectionViewLayout * _Nonnull)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
-@end
-
-@class UICollectionViewCell;
-
-@interface EmbeddedSearchAndSelectView (SWIFT_EXTENSION(LinkKit)) <UICollectionViewDataSource>
-- (NSInteger)collectionView:(UICollectionView * _Nonnull)collectionView numberOfItemsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
-- (UICollectionViewCell * _Nonnull)collectionView:(UICollectionView * _Nonnull)collectionView cellForItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
-@end
-
-
-@interface EmbeddedSearchAndSelectView (SWIFT_EXTENSION(LinkKit)) <UICollectionViewDelegate>
-- (void)collectionView:(UICollectionView * _Nonnull)collectionView didSelectItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
-- (void)collectionView:(UICollectionView * _Nonnull)collectionView didHighlightItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
-- (void)collectionView:(UICollectionView * _Nonnull)collectionView didUnhighlightItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
-@end
-
-
 
 @class PLKLinkTokenConfiguration;
 @class NSError;
@@ -644,9 +610,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
-@import CoreFoundation;
 @import ObjectiveC;
-@import UIKit;
 #endif
 
 #endif
@@ -668,38 +632,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 #if defined(__OBJC__)
-@class NSCoder;
-
-/// Native UI representation for Embedded Search and Select.
-SWIFT_CLASS("_TtC7LinkKit27EmbeddedSearchAndSelectView")
-@interface EmbeddedSearchAndSelectView : UIView
-- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER SWIFT_UNAVAILABLE;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
-@end
-
-@class UICollectionView;
-@class UICollectionViewLayout;
-@class NSIndexPath;
-
-@interface EmbeddedSearchAndSelectView (SWIFT_EXTENSION(LinkKit)) <UICollectionViewDelegateFlowLayout>
-- (CGSize)collectionView:(UICollectionView * _Nonnull)collectionView layout:(UICollectionViewLayout * _Nonnull)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
-@end
-
-@class UICollectionViewCell;
-
-@interface EmbeddedSearchAndSelectView (SWIFT_EXTENSION(LinkKit)) <UICollectionViewDataSource>
-- (NSInteger)collectionView:(UICollectionView * _Nonnull)collectionView numberOfItemsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
-- (UICollectionViewCell * _Nonnull)collectionView:(UICollectionView * _Nonnull)collectionView cellForItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
-@end
-
-
-@interface EmbeddedSearchAndSelectView (SWIFT_EXTENSION(LinkKit)) <UICollectionViewDelegate>
-- (void)collectionView:(UICollectionView * _Nonnull)collectionView didSelectItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
-- (void)collectionView:(UICollectionView * _Nonnull)collectionView didHighlightItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
-- (void)collectionView:(UICollectionView * _Nonnull)collectionView didUnhighlightItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
-@end
-
-
 
 @class PLKLinkTokenConfiguration;
 @class NSError;
