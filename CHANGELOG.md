@@ -1,5 +1,17 @@
 # RELEASES
 
+## LinkKit 6.1.0 - 2025-03-10
+### Requirements
+
+| Name | Version |
+|------|---------|
+| Xcode | >= 16.1.0 |
+| iOS | >= 14.0 |
+
+### Changes
+
+- Improved RememberMe experience.
+
 ## LinkKit 6.0.4 - 2025-02-03
 ### Requirements
 
