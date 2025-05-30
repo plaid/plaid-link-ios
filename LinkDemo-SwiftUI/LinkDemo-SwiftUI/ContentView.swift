@@ -12,19 +12,7 @@ struct ContentView: View {
 
     @State private var isPresentingLink = false
     @State private var isLoadingLink = true
-
-    private var linkController: LinkController?
-
-    init() {
-        // Create a Handler right away so Link can begin loading prior to the user pressing the button.
-        let createResult = createHandler()
-        switch createResult {
-        case .failure(let createError):
-            print("Link Creation Error: \(createError.localizedDescription)")
-        case .success(let handler):
-            linkController = LinkController(handler: handler)
-        }
-    }
+    @State private var linkController: LinkController?
 
     var body: some View {
         ZStack(alignment: .leading) {
@@ -84,6 +72,16 @@ struct ContentView: View {
                 }
             }
         )
+        .onAppear {
+            // Create a Handler right away so Link can begin loading prior to the user pressing the button.
+            let createResult = createHandler()
+            switch createResult {
+            case .failure(let createError):
+                print("Link Creation Error: \(createError.localizedDescription)")
+            case .success(let handler):
+                linkController = LinkController(handler: handler)
+            }
+        }
     }
 
     private let backgroundColor: Color = Color(
