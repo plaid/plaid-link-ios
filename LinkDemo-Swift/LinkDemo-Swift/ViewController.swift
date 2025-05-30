@@ -45,6 +45,10 @@ class ViewController: UIViewController {
                 // Ex:
                 //    guard let self = self else { return }
                 //    self.handler?.open(presentUsing: .viewController(self))
+                //
+
+                // Enable the button once Link has loaded
+                self?.openButton.isEnabled = true
             }
         )
         switch result {
@@ -164,10 +168,12 @@ extension ViewController {
 
     private func setupButton() {
         openButton.backgroundColor = plaidBlue
+        openButton.setTitle("Loading...", for: .disabled)
         openButton.addTarget(self, action: #selector(openButtonPressed), for: .touchUpInside)
         openButton.layer.cornerRadius = 8
         openButton.titleLabel?.font = .systemFont(ofSize: 17, weight: .medium)
         openButton.setTitle("Open Plaid Link", for: .normal)
+        openButton.isEnabled = false
         openButton.translatesAutoresizingMaskIntoConstraints = false
 
         view.addSubview(openButton)
