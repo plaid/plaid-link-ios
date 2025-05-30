@@ -303,6 +303,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 #if defined(__OBJC__)
 
+
 @class PLKLinkTokenConfiguration;
 @class NSError;
 @protocol PLKHandler;
@@ -312,6 +313,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 SWIFT_CLASS("_TtC7LinkKit8PLKPlaid")
 @interface PLKPlaid : NSObject
 + (id <PLKHandler> _Nullable)createWithLinkTokenConfiguration:(PLKLinkTokenConfiguration * _Nonnull)linkTokenConfiguration error:(NSError * _Nullable * _Nullable)error SWIFT_WARN_UNUSED_RESULT;
++ (id <PLKHandler> _Nullable)createWithLinkTokenConfiguration:(PLKLinkTokenConfiguration * _Nonnull)linkTokenConfiguration onLoad:(void (^ _Nullable)(void))onLoad error:(NSError * _Nullable * _Nullable)error SWIFT_WARN_UNUSED_RESULT;
 /// The version of the Plaid Link iOS SDK.
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull sdkVersion;)
 + (NSString * _Nonnull)sdkVersion SWIFT_WARN_UNUSED_RESULT;
@@ -632,6 +634,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 #if defined(__OBJC__)
 
+
 @class PLKLinkTokenConfiguration;
 @class NSError;
 @protocol PLKHandler;
@@ -641,6 +644,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 SWIFT_CLASS("_TtC7LinkKit8PLKPlaid")
 @interface PLKPlaid : NSObject
 + (id <PLKHandler> _Nullable)createWithLinkTokenConfiguration:(PLKLinkTokenConfiguration * _Nonnull)linkTokenConfiguration error:(NSError * _Nullable * _Nullable)error SWIFT_WARN_UNUSED_RESULT;
++ (id <PLKHandler> _Nullable)createWithLinkTokenConfiguration:(PLKLinkTokenConfiguration * _Nonnull)linkTokenConfiguration onLoad:(void (^ _Nullable)(void))onLoad error:(NSError * _Nullable * _Nullable)error SWIFT_WARN_UNUSED_RESULT;
 /// The version of the Plaid Link iOS SDK.
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull sdkVersion;)
 + (NSString * _Nonnull)sdkVersion SWIFT_WARN_UNUSED_RESULT;

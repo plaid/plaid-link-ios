@@ -36,7 +36,21 @@ class ViewController: UIViewController {
     private func createLinkHandler() {
         let configuration = createLinkTokenConfiguration()
 
-        let result = Plaid.create(configuration)
+        let result = Plaid.create(
+            configuration,
+            onLoad: { [weak self] in
+                // Optional callback that is invoked once Plaid Link has finished loading and is ready to be presented.
+                // You could use your own loading UI and automatically launch Link when this callback fires.
+                //
+                // Ex:
+                //    guard let self = self else { return }
+                //    self.handler?.open(presentUsing: .viewController(self))
+                //
+
+                // Enable the button once Link has loaded
+                self?.openButton.isEnabled = true
+            }
+        )
         switch result {
         case .failure(let error):
             print("Unable to create Plaid handler due to: \(error)")
@@ -54,10 +68,10 @@ class ViewController: UIViewController {
         //
         // 1. Sign up for a Plaid account to get an API key.
         //      Ref - https://dashboard.plaid.com/signup
+        //
         // 2. Make a request to our API using your API key.
         //      Ref - https://plaid.com/docs/quickstart/#introduction
         //      Ref - https://plaid.com/docs/api/tokens/#linktokencreate
-
         #warning("Replace <#GENERATED_LINK_TOKEN#> below with your link_token")
         let linkToken = "<#GENERATED_LINK_TOKEN#>"
 
@@ -92,6 +106,14 @@ class ViewController: UIViewController {
         linkConfiguration.onEvent = { event in
             print("Link Event: \(event)")
         }
+
+        // Set to `true` to skip the initial native loading spinner shown when Link launches.
+        // This can be useful if your app provides its own custom loading indicator.
+        linkConfiguration.noLoadingState = false
+
+        // Controls whether a transparent gradient background is displayed behind the Link view.
+        // Set to `false` to disable the default gradient background.
+        linkConfiguration.showGradientBackground = true
 
         return linkConfiguration
     }
@@ -146,10 +168,12 @@ extension ViewController {
 
     private func setupButton() {
         openButton.backgroundColor = plaidBlue
+        openButton.setTitle("Loading...", for: .disabled)
         openButton.addTarget(self, action: #selector(openButtonPressed), for: .touchUpInside)
         openButton.layer.cornerRadius = 8
         openButton.titleLabel?.font = .systemFont(ofSize: 17, weight: .medium)
         openButton.setTitle("Open Plaid Link", for: .normal)
+        openButton.isEnabled = false
         openButton.translatesAutoresizingMaskIntoConstraints = false
 
         view.addSubview(openButton)

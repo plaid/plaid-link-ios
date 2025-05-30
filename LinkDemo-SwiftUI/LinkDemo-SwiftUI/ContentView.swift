@@ -11,19 +11,8 @@ import SwiftUI
 struct ContentView: View {
 
     @State private var isPresentingLink = false
-
-    private var linkController: LinkController?
-
-    init() {
-        // Create a Handler right away so Link can begin loading prior to the user pressing the button.
-        let createResult = createHandler()
-        switch createResult {
-        case .failure(let createError):
-            print("Link Creation Error: \(createError.localizedDescription)")
-        case .success(let handler):
-            linkController = LinkController(handler: handler)
-        }
-    }
+    @State private var isLoadingLink = true
+    @State private var linkController: LinkController?
 
     var body: some View {
         ZStack(alignment: .leading) {
@@ -47,14 +36,25 @@ struct ContentView: View {
                     Button(action: {
                         isPresentingLink = true
                     }, label:  {
-                        Text("Open Plaid Link")
-                            .font(.system(size: 17, weight: .medium))
+                        if isLoadingLink {
+                            HStack(spacing: 8) {
+                                ProgressView()
+                                    .progressViewStyle(CircularProgressViewStyle(tint: .white))
+                                Text("Loading...")
+                                    .font(.system(size: 17, weight: .medium))
+                            }
                             .frame(width: 312)
+                        } else {
+                            Text("Open Plaid Link")
+                                .font(.system(size: 17, weight: .medium))
+                                .frame(width: 312)
+                        }
                     })
                     .padding()
                     .foregroundColor(.white)
                     .background(plaidBlue)
                     .cornerRadius(4)
+                    .disabled(isLoadingLink) // Disable while loading
                 }
                 .frame(height: 56)
             }
@@ -72,6 +72,16 @@ struct ContentView: View {
                 }
             }
         )
+        .onAppear {
+            // Create a Handler right away so Link can begin loading prior to the user pressing the button.
+            let createResult = createHandler()
+            switch createResult {
+            case .failure(let createError):
+                print("Link Creation Error: \(createError.localizedDescription)")
+            case .success(let handler):
+                linkController = LinkController(handler: handler)
+            }
+        }
     }
 
     private let backgroundColor: Color = Color(
@@ -104,7 +114,18 @@ struct ContentView: View {
         let configuration = createLinkTokenConfiguration()
 
         // This only results in an error if the token is malformed.
-        return Plaid.create(configuration)
+        return Plaid.create(
+            configuration,
+            onLoad: {
+                // Optional callback that is invoked once Plaid Link has finished loading and is ready to be presented.
+                // You could use your own loading UI and automatically launch Link when this callback fires.
+                //
+                // Ex: self?.isPresentingLink = true
+
+                // Enable the button once Link has loaded
+                self.isLoadingLink = false
+            }
+        )
     }
 
     private func createLinkTokenConfiguration() -> LinkTokenConfiguration {
@@ -112,10 +133,10 @@ struct ContentView: View {
         //
         // 1. Sign up for a Plaid account to get an API key.
         //      Ref - https://dashboard.plaid.com/signup
+        //
         // 2. Make a request to our API using your API key.
         //      Ref - https://plaid.com/docs/quickstart/#introduction
         //      Ref - https://plaid.com/docs/api/tokens/#linktokencreate
-
         #warning("Replace <#GENERATED_LINK_TOKEN#> below with your link_token")
         let linkToken = "<#GENERATED_LINK_TOKEN#>"
 
@@ -152,6 +173,14 @@ struct ContentView: View {
         linkConfiguration.onEvent = { event in
             print("Link Event: \(event)")
         }
+
+        // Set to `true` to skip the initial native loading spinner shown when Link launches.
+        // This can be useful if your app provides its own custom loading indicator.
+        linkConfiguration.noLoadingState = false
+
+        // Controls whether a transparent gradient background is displayed behind the Link view.
+        // Set to `false` to disable the default gradient background.
+        linkConfiguration.showGradientBackground = true
 
         return linkConfiguration
     }
