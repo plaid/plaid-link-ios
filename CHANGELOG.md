@@ -1,5 +1,19 @@
 # RELEASES
 
+## LinkKit 6.2.0 - 2025-05-30
+### Requirements
+
+| Name | Version |
+|------|---------|
+| Xcode | >= 16.1.0 |
+| iOS | >= 14.0 |
+
+### Changes
+
+- Reduced SDK size from 13.2MB to 8.9MB
+- Added `onLoad` callback to `Plaid.create` for detecting when Link is ready to present
+- Added `showGradientBackground` to `LinkTokenConfiguration` for customizing Link's background appearance
+
 ## LinkKit 6.1.0 - 2025-03-10
 ### Requirements
 

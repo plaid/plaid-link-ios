@@ -577,6 +577,17 @@ typedef void(^PLKOnEventHandler)(PLKLinkEvent *);
 /// Note: This should be set to `YES` when setting the `eu_config.headless` field in /link/token/create requests to `true`.
 /// For reference, see https://plaid.com/docs/api/tokens/#link-token-create-request-eu-config-headless
 @property(nonatomic) BOOL noLoadingState;
+
+/// A Boolean value that determines whether Link displays a transparent gradient background.
+///
+/// When set to `true`, Link will display a solid background instead of the default transparent gradient.
+///
+/// - Note: To achieve the intended visual result, you may also need to set `noLoadingState` to `true`.
+///         This ensures that the initial loading UI is skipped, allowing your custom background or UI
+///         to remain visible during the loading process.
+///
+/// - Note: The use of a custom presentation animation can also enhance the UX of Link.
+@property(nonatomic) BOOL showGradientBackground;
 @property(nonatomic) PLKOnSuccessHandler onSuccess;
 @property(nonatomic, strong) PLKOnExitHandler onExit;
 @property(nonatomic, strong) PLKOnEventHandler onEvent;
@@ -589,7 +600,6 @@ typedef void(^PLKOnEventHandler)(PLKLinkEvent *);
 
 typedef NS_ENUM(NSInteger, PLKEnvironment) {
     PLKEnvironmentProduction,
-    PLKEnvironmentDevelopment,
     PLKEnvironmentSandbox,
 };
 
