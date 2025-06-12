@@ -1043,6 +1043,134 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "FlutterLinkKit",
+        "printedName": "FlutterLinkKit",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "sdkVersion",
+            "printedName": "sdkVersion",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7LinkKit07FlutteraB0V10sdkVersionSSSgvpZ",
+            "mangledName": "$s7LinkKit07FlutteraB0V10sdkVersionSSSgvpZ",
+            "moduleName": "LinkKit",
+            "static": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7LinkKit07FlutteraB0V10sdkVersionSSSgvgZ",
+                "mangledName": "$s7LinkKit07FlutteraB0V10sdkVersionSSSgvgZ",
+                "moduleName": "LinkKit",
+                "static": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FlutterLinkKit",
+                "printedName": "LinkKit.FlutterLinkKit",
+                "usr": "s:7LinkKit07FlutteraB0V"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7LinkKit07FlutteraB0VACycfc",
+            "mangledName": "$s7LinkKit07FlutteraB0VACycfc",
+            "moduleName": "LinkKit",
+            "implicit": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:7LinkKit07FlutteraB0V",
+        "mangledName": "$s7LinkKit07FlutteraB0V",
+        "moduleName": "LinkKit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LinkKit"
+      },
+      {
+        "kind": "TypeDecl",
         "name": "ExitErrorCode",
         "printedName": "ExitErrorCode",
         "children": [
@@ -25197,7 +25325,6 @@
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl",
               "RawDocComment"
             ],
             "hasStorage": true,
@@ -43246,6 +43373,71 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "flutterSDKVersion",
+            "printedName": "flutterSDKVersion",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7LinkKit15SDKInfoProviderV17flutterSDKVersionSSSgvp",
+            "mangledName": "$s7LinkKit15SDKInfoProviderV17flutterSDKVersionSSSgvp",
+            "moduleName": "LinkKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 7,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7LinkKit15SDKInfoProviderV17flutterSDKVersionSSSgvg",
+                "mangledName": "$s7LinkKit15SDKInfoProviderV17flutterSDKVersionSSSgvg",
+                "moduleName": "LinkKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init()",
@@ -49657,28 +49849,42 @@
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/Services\/LinkHTTPServiceUserAgentProvider.swift",
       "kind": "StringLiteral",
-      "offset": 989,
+      "offset": 1033,
+      "length": 16,
+      "value": "\"FlutterLinkSdk\""
+    },
+    {
+      "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/Services\/LinkHTTPServiceUserAgentProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 1123,
+      "length": 8,
+      "value": "\"%@\/%@ \""
+    },
+    {
+      "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/Services\/LinkHTTPServiceUserAgentProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 1270,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/Services\/LinkHTTPServiceUserAgentProvider.swift",
       "kind": "StringLiteral",
-      "offset": 1045,
+      "offset": 1326,
       "length": 29,
       "value": "\"%@%@%@\/%@(%@) %@-%@ (%@ %@)\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/Services\/LinkHTTPServiceUserAgentProvider.swift",
       "kind": "StringLiteral",
-      "offset": 1293,
+      "offset": 1574,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/Services\/LinkHTTPServiceUserAgentProvider.swift",
       "kind": "StringLiteral",
-      "offset": 1357,
+      "offset": 1638,
       "length": 2,
       "value": "\"\""
     },
@@ -49713,21 +49919,21 @@
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/ReactNativeLinkKit.swift",
       "kind": "StringLiteral",
-      "offset": 376,
+      "offset": 518,
       "length": 11,
       "value": "\"RNLinksdk\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/ReactNativeLinkKit.swift",
       "kind": "StringLiteral",
-      "offset": 536,
+      "offset": 907,
       "length": 12,
       "value": "\"sdkVersion\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/ReactNativeLinkKit.swift",
       "kind": "StringLiteral",
-      "offset": 965,
+      "offset": 1508,
       "length": 15,
       "value": "\"0.0.0-unknown\""
     },
