@@ -1,5 +1,17 @@
 # RELEASES
 
+## LinkKit 6.2.1 - 2025-06-12
+### Requirements
+
+| Name | Version |
+|------|---------|
+| Xcode | >= 16.1.0 |
+| iOS | >= 14.0 |
+
+### Changes
+
+- Add Flutter SDK version tracking
+
 ## LinkKit 6.2.0 - 2025-05-30
 ### Requirements
 
