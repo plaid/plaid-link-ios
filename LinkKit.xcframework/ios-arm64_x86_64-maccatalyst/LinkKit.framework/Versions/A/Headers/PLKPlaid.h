@@ -96,6 +96,11 @@ typedef NS_ENUM(NSInteger, PLKEventNameValue) {
     PLKEventNameValueSelectSavedAccount,
     PLKEventNameValueAutoSelectSavedInstitution,
     PLKEventNameValuePlaidCheckPane,
+    PLKEventNameValueAutoSubmitPhone,
+    PLKEventNameValueIdentityMatchPassed,
+    PLKEventNameValueIdentityMatchFailed,
+    PLKEventNameValueIssueFollowed,
+    PLKEventNameValueSelectAccount
     // Add new enum cases directly above this line to avoid breaking API changes
 };
 
@@ -541,6 +546,7 @@ static NSString *const kPLKDefaultErrorDomain = @"com.plaid.link";
 @property(nonatomic, readonly, nullable, copy) NSString *accountNumberMask;
 @property(nonatomic, readonly, nullable, copy) NSString *isUpdateMode;
 @property(nonatomic, readonly, nullable, copy) NSString *matchReason;
+@property(nonatomic, readonly, nullable, copy) NSString *issueID;
 @property(nonatomic, readonly, nullable, copy) NSString *routingNumber;
 @property(nonatomic, readonly, nullable, copy) NSString *selection;
 @property(nonatomic, readonly, copy) NSString *linkSessionID;

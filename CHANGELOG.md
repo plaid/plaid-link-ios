@@ -1,5 +1,34 @@
 # RELEASES
 
+## LinkKit 6.3.0 – 2025-07-23
+
+### Requirements
+
+| Name  | Version   |
+|-------|-----------|
+| Xcode | >= 16.1.0 |
+| iOS   | >= 14.0   |
+
+### SwiftUI API Enhancements
+
+- Added `makePlaidLinkSheet()` to `Handler`: a convenience method that returns a `View` to present LinkKit using `.fullScreenCover` in SwiftUI applications.
+- Added `plaidLink(isPresented:handler:)`: a SwiftUI view modifier to attach LinkKit to any `View`, such as a `Button`, using a pre-configured handler.
+- Added `plaidLink(isPresented:token:onSuccess:onExit:onEvent:onLoad:errorView:)`: a flexible SwiftUI modifier for creating LinkKit sessions with just a link token and callbacks—no `Handler` required.
+
+### Testing
+
+- Improved FinanceKit testing capabilities in Sandbox.
+
+### Event Tracking Improvements
+
+- Added event names:
+  - `IDENTITY_MATCH_PASSED`
+  - `IDENTITY_MATCH_FAILED`
+  - `ISSUE_FOLLOWED`
+  - `SELECT_ACCOUNT`
+- Added `issueID` to `EventMetadata`.
+
+
 ## LinkKit 6.2.1 - 2025-06-12
 ### Requirements
 

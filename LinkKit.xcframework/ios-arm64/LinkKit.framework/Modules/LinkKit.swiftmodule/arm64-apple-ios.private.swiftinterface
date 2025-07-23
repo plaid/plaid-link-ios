@@ -9,8 +9,10 @@ import Foundation
 @_exported import LinkKit
 import SafariServices
 import Swift
+import SwiftUI
 import UIKit
 import WebKit
+import _AuthenticationServices_SwiftUI
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
@@ -45,6 +47,12 @@ public enum ExitErrorCode : Swift.Codable {
   }
   public func encode(to encoder: any Swift.Encoder) throws
 }
+extension SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public func plaidLink(isPresented: SwiftUICore.Binding<Swift.Bool>, handler: any LinkKit.Handler) -> some SwiftUICore.View
+  
+  @_Concurrency.MainActor @preconcurrency public func plaidLink(isPresented: SwiftUICore.Binding<Swift.Bool>, token: Swift.String, onSuccess: @escaping (LinkKit.LinkSuccess) -> Swift.Void, onExit: ((LinkKit.LinkExit) -> Swift.Void)?, onEvent: ((LinkKit.LinkEvent) -> Swift.Void)?, onLoad: (() -> Swift.Void)?, errorView: SwiftUICore.AnyView) -> some SwiftUICore.View
+  
+}
 extension Foundation.UUID {
   public var linkuuidString: Swift.String {
     get
@@ -57,6 +65,7 @@ public struct LinkSuccess : Swift.Codable {
   public init(from decoder: any Swift.Decoder) throws
 }
 public enum EventName : Swift.CustomStringConvertible, Swift.Codable {
+  case autoSubmitPhone
   case bankIncomeInsightsCompleted
   case closeOAuth
   case connectNewInstitution
@@ -64,6 +73,8 @@ public enum EventName : Swift.CustomStringConvertible, Swift.Codable {
   case exit
   case failOAuth
   case handoff
+  case identityMatchPassed
+  case identityMatchFailed
   case identityVerificationStartStep
   case identityVerificationPassStep
   case identityVerificationFailStep
@@ -76,6 +87,7 @@ public enum EventName : Swift.CustomStringConvertible, Swift.Codable {
   case identityVerificationOpenUI
   case identityVerificationResumeUI
   case identityVerificationCloseUI
+  case issueFollowed
   case layerReady
   case layerNotAvailable
   case matchedSelectInstitution
@@ -86,6 +98,7 @@ public enum EventName : Swift.CustomStringConvertible, Swift.Codable {
   case profileEligibilityCheckReady
   case profileEligibilityCheckError
   case searchInstitution
+  case selectAccount
   case selectDegradedInstitution
   case selectFilteredInstitution
   case selectDownInstitution
@@ -302,6 +315,7 @@ public struct EventMetadata : Swift.Codable {
   public var linkSessionID: Swift.String
   public var mfaType: LinkKit.MFAType?
   public var requestID: Swift.String?
+  public var issueID: Swift.String?
   public var routingNumber: Swift.String?
   public var selection: Swift.String?
   public var timestamp: Foundation.Date
@@ -316,7 +330,7 @@ public struct Plaid {
   }
   public static func create(_ linkTokenConfiguration: LinkKit.LinkTokenConfiguration, onLoad: (() -> Swift.Void)? = nil) -> Swift.Result<any LinkKit.Handler, LinkKit.Plaid.CreateError>
   @available(iOS 17.4, *)
-  public static func syncFinanceKit(token: Swift.String, requestAuthorizationIfNeeded: Swift.Bool, completion: @escaping (Swift.Result<Swift.Void, LinkKit.FinanceKitError>) -> Swift.Void)
+  public static func syncFinanceKit(token: Swift.String, requestAuthorizationIfNeeded: Swift.Bool, simulatedBehavior: Swift.Bool = false, completion: @escaping (Swift.Result<Swift.Void, LinkKit.FinanceKitError>) -> Swift.Void)
   public static let version: Swift.String
 }
 public enum AuthErrorCode : Swift.Error, Swift.CustomStringConvertible {
@@ -636,6 +650,7 @@ public protocol Handler {
   func open(presentUsing method: LinkKit.PresentationMethod)
   func submit(data: any LinkKit.SubmissionData)
   func createEmbeddedView(presentUsing: LinkKit.PresentationMethod) -> UIKit.UIView
+  func makePlaidLinkSheet() -> SwiftUICore.AnyView
   func resumeAfterTermination(from redirectUri: Foundation.URL)
 }
 public enum InvalidInputErrorCode : Swift.Error, Swift.CustomStringConvertible {

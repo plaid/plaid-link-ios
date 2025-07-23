@@ -17,7 +17,7 @@ To install Plaid Link using [Swift Package Manager](https://github.com/apple/swi
 Alternatively, you can add the following dependency to your `Package.swift` file:
 
 ```swift
-.package(url: "https://github.com/plaid/plaid-link-ios-spm.git", from: "5.6.0")
+.package(url: "https://github.com/plaid/plaid-link-ios-spm.git", from: "6.0.0")
 ```
 
 **Recommendation**: Use the [plaid-link-spm](https://github.com/plaid/plaid-link-ios-spm) repo instead of the main [plaid-link-ios](https://github.com/plaid/plaid-link-ios) repository. The main repository with full git history is very large (~1 GB), and Swift Package Manager always downloads the full repository with all git history. This [plaid-link-ios-spm](https://github.com/plaid/plaid-link-ios-spm) repository is much smaller (less than 500kb), making the download faster.

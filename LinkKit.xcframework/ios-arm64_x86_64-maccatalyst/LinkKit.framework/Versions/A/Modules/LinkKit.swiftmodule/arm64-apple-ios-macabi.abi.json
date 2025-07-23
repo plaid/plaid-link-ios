@@ -2796,6 +2796,13 @@
       },
       {
         "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "LinkKit"
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -3242,6 +3249,46 @@
         "children": [
           {
             "kind": "Var",
+            "name": "autoSubmitPhone",
+            "printedName": "autoSubmitPhone",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(LinkKit.EventName.Type) -> LinkKit.EventName",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EventName",
+                    "printedName": "LinkKit.EventName",
+                    "usr": "s:7LinkKit9EventNameO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "LinkKit.EventName.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "EventName",
+                        "printedName": "LinkKit.EventName",
+                        "usr": "s:7LinkKit9EventNameO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7LinkKit9EventNameO15autoSubmitPhoneyA2CmF",
+            "mangledName": "$s7LinkKit9EventNameO15autoSubmitPhoneyA2CmF",
+            "moduleName": "LinkKit",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "bankIncomeInsightsCompleted",
             "printedName": "bankIncomeInsightsCompleted",
             "children": [
@@ -3515,6 +3562,86 @@
             "declKind": "EnumElement",
             "usr": "s:7LinkKit9EventNameO7handoffyA2CmF",
             "mangledName": "$s7LinkKit9EventNameO7handoffyA2CmF",
+            "moduleName": "LinkKit",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "identityMatchPassed",
+            "printedName": "identityMatchPassed",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(LinkKit.EventName.Type) -> LinkKit.EventName",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EventName",
+                    "printedName": "LinkKit.EventName",
+                    "usr": "s:7LinkKit9EventNameO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "LinkKit.EventName.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "EventName",
+                        "printedName": "LinkKit.EventName",
+                        "usr": "s:7LinkKit9EventNameO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7LinkKit9EventNameO19identityMatchPassedyA2CmF",
+            "mangledName": "$s7LinkKit9EventNameO19identityMatchPassedyA2CmF",
+            "moduleName": "LinkKit",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "identityMatchFailed",
+            "printedName": "identityMatchFailed",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(LinkKit.EventName.Type) -> LinkKit.EventName",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EventName",
+                    "printedName": "LinkKit.EventName",
+                    "usr": "s:7LinkKit9EventNameO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "LinkKit.EventName.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "EventName",
+                        "printedName": "LinkKit.EventName",
+                        "usr": "s:7LinkKit9EventNameO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7LinkKit9EventNameO19identityMatchFailedyA2CmF",
+            "mangledName": "$s7LinkKit9EventNameO19identityMatchFailedyA2CmF",
             "moduleName": "LinkKit",
             "declAttributes": [
               "RawDocComment"
@@ -4002,6 +4129,46 @@
           },
           {
             "kind": "Var",
+            "name": "issueFollowed",
+            "printedName": "issueFollowed",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(LinkKit.EventName.Type) -> LinkKit.EventName",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EventName",
+                    "printedName": "LinkKit.EventName",
+                    "usr": "s:7LinkKit9EventNameO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "LinkKit.EventName.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "EventName",
+                        "printedName": "LinkKit.EventName",
+                        "usr": "s:7LinkKit9EventNameO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7LinkKit9EventNameO13issueFollowedyA2CmF",
+            "mangledName": "$s7LinkKit9EventNameO13issueFollowedyA2CmF",
+            "moduleName": "LinkKit",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "layerReady",
             "printedName": "layerReady",
             "children": [
@@ -4395,6 +4562,46 @@
             "declKind": "EnumElement",
             "usr": "s:7LinkKit9EventNameO17searchInstitutionyA2CmF",
             "mangledName": "$s7LinkKit9EventNameO17searchInstitutionyA2CmF",
+            "moduleName": "LinkKit",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "selectAccount",
+            "printedName": "selectAccount",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(LinkKit.EventName.Type) -> LinkKit.EventName",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EventName",
+                    "printedName": "LinkKit.EventName",
+                    "usr": "s:7LinkKit9EventNameO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "LinkKit.EventName.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "EventName",
+                        "printedName": "LinkKit.EventName",
+                        "usr": "s:7LinkKit9EventNameO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7LinkKit9EventNameO13selectAccountyA2CmF",
+            "mangledName": "$s7LinkKit9EventNameO13selectAccountyA2CmF",
             "moduleName": "LinkKit",
             "declAttributes": [
               "RawDocComment"
@@ -8153,6 +8360,193 @@
             "printedName": "InternalEquatable",
             "usr": "s:7LinkKit17InternalEquatableP",
             "mangledName": "$s7LinkKit17InternalEquatableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "LinkKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PlaidLinkSheet",
+        "printedName": "PlaidLinkSheet",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PlaidLinkSheet",
+                "printedName": "LinkKit.PlaidLinkSheet",
+                "usr": "s:7LinkKit05PlaidA5SheetV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Handler",
+                "printedName": "any LinkKit.Handler",
+                "usr": "s:7LinkKit7HandlerP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7LinkKit05PlaidA5SheetVyAcA7Handler_pcfc",
+            "mangledName": "$s7LinkKit05PlaidA5SheetVyAcA7Handler_pcfc",
+            "moduleName": "LinkKit",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7LinkKit05PlaidA5SheetV4bodyQrvp",
+            "mangledName": "$s7LinkKit05PlaidA5SheetV4bodyQrvp",
+            "moduleName": "LinkKit",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7LinkKit05PlaidA5SheetV4bodyQrvg",
+                "mangledName": "$s7LinkKit05PlaidA5SheetV4bodyQrvg",
+                "moduleName": "LinkKit",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "handler",
+            "printedName": "handler",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Handler",
+                "printedName": "any LinkKit.Handler",
+                "usr": "s:7LinkKit7HandlerP"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7LinkKit05PlaidA5SheetV7handler33_EEAC1C4A614328CC32B3BF6FA369FCB2LLAA7Handler_pvp",
+            "mangledName": "$s7LinkKit05PlaidA5SheetV7handler33_EEAC1C4A614328CC32B3BF6FA369FCB2LLAA7Handler_pvp",
+            "moduleName": "LinkKit",
+            "isInternal": true,
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 0,
+            "isLet": true,
+            "hasStorage": true
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:7LinkKit05PlaidA5SheetV",
+        "mangledName": "$s7LinkKit05PlaidA5SheetV",
+        "moduleName": "LinkKit",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -21584,6 +21978,117 @@
           },
           {
             "kind": "Var",
+            "name": "issueID",
+            "printedName": "issueID",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7LinkKit13EventMetadataV7issueIDSSSgvp",
+            "mangledName": "$s7LinkKit13EventMetadataV7issueIDSSSgvp",
+            "moduleName": "LinkKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7LinkKit13EventMetadataV7issueIDSSSgvg",
+                "mangledName": "$s7LinkKit13EventMetadataV7issueIDSSSgvg",
+                "moduleName": "LinkKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7LinkKit13EventMetadataV7issueIDSSSgvs",
+                "mangledName": "$s7LinkKit13EventMetadataV7issueIDSSSgvs",
+                "moduleName": "LinkKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7LinkKit13EventMetadataV7issueIDSSSgvM",
+                "mangledName": "$s7LinkKit13EventMetadataV7issueIDSSSgvM",
+                "moduleName": "LinkKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "routingNumber",
             "printedName": "routingNumber",
             "children": [
@@ -22115,7 +22620,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(accountNumberMask:errorCode:errorMessage:exitStatus:institutionID:institutionName:institutionSearchQuery:isUpdateMode:matchReason:linkSessionID:mfaType:requestID:routingNumber:selection:timestamp:viewName:metadataJSON:)",
+            "printedName": "init(accountNumberMask:errorCode:errorMessage:exitStatus:institutionID:institutionName:institutionSearchQuery:isUpdateMode:matchReason:linkSessionID:mfaType:requestID:issueID:routingNumber:selection:timestamp:viewName:metadataJSON:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -22326,6 +22831,21 @@
               },
               {
                 "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
                 "name": "Date",
                 "printedName": "Foundation.Date",
                 "usr": "s:10Foundation4DateV"
@@ -22362,8 +22882,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:7LinkKit13EventMetadataV17accountNumberMask9errorCode0H7Message10exitStatus13institutionID0M4Name0M11SearchQuery12isUpdateMode11matchReason011linkSessionN07mfaType07requestN007routingF09selection9timestamp04viewO012metadataJSONACSSSg_AA09ExitErrorI0OSgAuA04ExitL0OSgA5USSAA7MFATypeOSgA3U10Foundation4DateVAA04ViewO0OSgAUtcfc",
-            "mangledName": "$s7LinkKit13EventMetadataV17accountNumberMask9errorCode0H7Message10exitStatus13institutionID0M4Name0M11SearchQuery12isUpdateMode11matchReason011linkSessionN07mfaType07requestN007routingF09selection9timestamp04viewO012metadataJSONACSSSg_AA09ExitErrorI0OSgAuA04ExitL0OSgA5USSAA7MFATypeOSgA3U10Foundation4DateVAA04ViewO0OSgAUtcfc",
+            "usr": "s:7LinkKit13EventMetadataV17accountNumberMask9errorCode0H7Message10exitStatus13institutionID0M4Name0M11SearchQuery12isUpdateMode11matchReason011linkSessionN07mfaType07requestN005issueN007routingF09selection9timestamp04viewO012metadataJSONACSSSg_AA09ExitErrorI0OSgAvA04ExitL0OSgA5VSSAA7MFATypeOSgA4V10Foundation4DateVAA04ViewO0OSgAVtcfc",
+            "mangledName": "$s7LinkKit13EventMetadataV17accountNumberMask9errorCode0H7Message10exitStatus13institutionID0M4Name0M11SearchQuery12isUpdateMode11matchReason011linkSessionN07mfaType07requestN005issueN007routingF09selection9timestamp04viewO012metadataJSONACSSSg_AA09ExitErrorI0OSgAvA04ExitL0OSgA5VSSAA7MFATypeOSgA4V10Foundation4DateVAA04ViewO0OSgAVtcfc",
             "moduleName": "LinkKit",
             "implicit": true,
             "init_kind": "Designated"
@@ -26094,6 +26614,427 @@
         "moduleName": "LinkKit",
         "declAttributes": [
           "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "LinkKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PlaidLinkUIViewControllerRepresentable",
+        "printedName": "PlaidLinkUIViewControllerRepresentable",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(handler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PlaidLinkUIViewControllerRepresentable",
+                "printedName": "LinkKit.PlaidLinkUIViewControllerRepresentable",
+                "usr": "s:7LinkKit05PlaidA29UIViewControllerRepresentableV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Handler",
+                "printedName": "any LinkKit.Handler",
+                "usr": "s:7LinkKit7HandlerP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7LinkKit05PlaidA29UIViewControllerRepresentableV7handlerAcA7Handler_p_tcfc",
+            "mangledName": "$s7LinkKit05PlaidA29UIViewControllerRepresentableV7handlerAcA7Handler_p_tcfc",
+            "moduleName": "LinkKit",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "Coordinator",
+            "printedName": "Coordinator",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "parent",
+                "printedName": "parent",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PlaidLinkUIViewControllerRepresentable",
+                    "printedName": "LinkKit.PlaidLinkUIViewControllerRepresentable",
+                    "usr": "s:7LinkKit05PlaidA29UIViewControllerRepresentableV"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:7LinkKit05PlaidA29UIViewControllerRepresentableV11CoordinatorC6parent33_852EEF9518A948E766E9E441B0D6DF54LLACvp",
+                "mangledName": "$s7LinkKit05PlaidA29UIViewControllerRepresentableV11CoordinatorC6parent33_852EEF9518A948E766E9E441B0D6DF54LLACvp",
+                "moduleName": "LinkKit",
+                "isInternal": true,
+                "declAttributes": [
+                  "Final",
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "fixedbinaryorder": 0,
+                "isLet": true,
+                "hasStorage": true
+              },
+              {
+                "kind": "Var",
+                "name": "handler",
+                "printedName": "handler",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Handler",
+                    "printedName": "any LinkKit.Handler",
+                    "usr": "s:7LinkKit7HandlerP"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:7LinkKit05PlaidA29UIViewControllerRepresentableV11CoordinatorC7handler33_852EEF9518A948E766E9E441B0D6DF54LLAA7Handler_pvp",
+                "mangledName": "$s7LinkKit05PlaidA29UIViewControllerRepresentableV11CoordinatorC7handler33_852EEF9518A948E766E9E441B0D6DF54LLAA7Handler_pvp",
+                "moduleName": "LinkKit",
+                "isInternal": true,
+                "declAttributes": [
+                  "Final",
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "fixedbinaryorder": 1,
+                "isLet": true,
+                "hasStorage": true
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Coordinator",
+                    "printedName": "LinkKit.PlaidLinkUIViewControllerRepresentable.Coordinator",
+                    "usr": "s:7LinkKit05PlaidA29UIViewControllerRepresentableV11CoordinatorC"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:7LinkKit05PlaidA29UIViewControllerRepresentableV11CoordinatorCAEycfc",
+                "mangledName": "$s7LinkKit05PlaidA29UIViewControllerRepresentableV11CoordinatorCAEycfc",
+                "moduleName": "LinkKit",
+                "overriding": true,
+                "implicit": true,
+                "objc_name": "init",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC",
+                  "Override"
+                ],
+                "init_kind": "Designated"
+              }
+            ],
+            "declKind": "Class",
+            "usr": "s:7LinkKit05PlaidA29UIViewControllerRepresentableV11CoordinatorC",
+            "mangledName": "$s7LinkKit05PlaidA29UIViewControllerRepresentableV11CoordinatorC",
+            "moduleName": "LinkKit",
+            "declAttributes": [
+              "Final",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "superclassUsr": "c:objc(cs)NSObject",
+            "superclassNames": [
+              "ObjectiveC.NSObject"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CVarArg",
+                "printedName": "CVarArg",
+                "usr": "s:s7CVarArgP",
+                "mangledName": "$ss7CVarArgP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "_KeyValueCodingAndObservingPublishing",
+                "printedName": "_KeyValueCodingAndObservingPublishing",
+                "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+                "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "_KeyValueCodingAndObserving",
+                "printedName": "_KeyValueCodingAndObserving",
+                "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+                "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CustomStringConvertible",
+                "printedName": "CustomStringConvertible",
+                "usr": "s:s23CustomStringConvertibleP",
+                "mangledName": "$ss23CustomStringConvertibleP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CustomDebugStringConvertible",
+                "printedName": "CustomDebugStringConvertible",
+                "usr": "s:s28CustomDebugStringConvertibleP",
+                "mangledName": "$ss28CustomDebugStringConvertibleP"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "makeCoordinator",
+            "printedName": "makeCoordinator()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Coordinator",
+                "printedName": "LinkKit.PlaidLinkUIViewControllerRepresentable.Coordinator",
+                "usr": "s:7LinkKit05PlaidA29UIViewControllerRepresentableV11CoordinatorC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7LinkKit05PlaidA29UIViewControllerRepresentableV15makeCoordinatorAC0H0CyF",
+            "mangledName": "$s7LinkKit05PlaidA29UIViewControllerRepresentableV15makeCoordinatorAC0H0CyF",
+            "moduleName": "LinkKit",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "makeUIViewController",
+            "printedName": "makeUIViewController(context:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewControllerRepresentableContext",
+                "printedName": "SwiftUI.UIViewControllerRepresentableContext<LinkKit.PlaidLinkUIViewControllerRepresentable>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PlaidLinkUIViewControllerRepresentable",
+                    "printedName": "LinkKit.PlaidLinkUIViewControllerRepresentable",
+                    "usr": "s:7LinkKit05PlaidA29UIViewControllerRepresentableV"
+                  }
+                ],
+                "usr": "s:7SwiftUI36UIViewControllerRepresentableContextV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7LinkKit05PlaidA29UIViewControllerRepresentableV04makedE07contextSo0dE0C7SwiftUI0deF7ContextVyACG_tF",
+            "mangledName": "$s7LinkKit05PlaidA29UIViewControllerRepresentableV04makedE07contextSo0dE0C7SwiftUI0deF7ContextVyACG_tF",
+            "moduleName": "LinkKit",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "updateUIViewController",
+            "printedName": "updateUIViewController(_:context:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewControllerRepresentableContext",
+                "printedName": "SwiftUI.UIViewControllerRepresentableContext<LinkKit.PlaidLinkUIViewControllerRepresentable>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PlaidLinkUIViewControllerRepresentable",
+                    "printedName": "LinkKit.PlaidLinkUIViewControllerRepresentable",
+                    "usr": "s:7LinkKit05PlaidA29UIViewControllerRepresentableV"
+                  }
+                ],
+                "usr": "s:7SwiftUI36UIViewControllerRepresentableContextV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7LinkKit05PlaidA29UIViewControllerRepresentableV06updatedE0_7contextySo0dE0C_7SwiftUI0deF7ContextVyACGtF",
+            "mangledName": "$s7LinkKit05PlaidA29UIViewControllerRepresentableV06updatedE0_7contextySo0dE0C_7SwiftUI0deF7ContextVyACGtF",
+            "moduleName": "LinkKit",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "handler",
+            "printedName": "handler",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Handler",
+                "printedName": "any LinkKit.Handler",
+                "usr": "s:7LinkKit7HandlerP"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7LinkKit05PlaidA29UIViewControllerRepresentableV7handler33_852EEF9518A948E766E9E441B0D6DF54LLAA7Handler_pvp",
+            "mangledName": "$s7LinkKit05PlaidA29UIViewControllerRepresentableV7handler33_852EEF9518A948E766E9E441B0D6DF54LLAA7Handler_pvp",
+            "moduleName": "LinkKit",
+            "isInternal": true,
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "fixedbinaryorder": 0,
+            "isLet": true,
+            "hasStorage": true
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:7LinkKit05PlaidA29UIViewControllerRepresentableV",
+        "mangledName": "$s7LinkKit05PlaidA29UIViewControllerRepresentableV",
+        "moduleName": "LinkKit",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UIViewControllerRepresentable",
+            "printedName": "UIViewControllerRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "UIViewControllerType",
+                "printedName": "UIViewControllerType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Coordinator",
+                "printedName": "Coordinator",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Coordinator",
+                    "printedName": "LinkKit.PlaidLinkUIViewControllerRepresentable.Coordinator",
+                    "usr": "s:7LinkKit05PlaidA29UIViewControllerRepresentableV11CoordinatorC"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI29UIViewControllerRepresentableP",
+            "mangledName": "$s7SwiftUI29UIViewControllerRepresentableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Never",
+                    "printedName": "Swift.Never",
+                    "usr": "s:s5NeverO"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
         ]
       },
       {
@@ -33468,6 +34409,13 @@
       },
       {
         "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "LinkKit"
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -33771,6 +34719,29 @@
             "isOpen": true,
             "declAttributes": [
               "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "makePlaidLinkSheet",
+            "printedName": "makePlaidLinkSheet()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AnyView",
+                "printedName": "SwiftUI.AnyView",
+                "usr": "s:7SwiftUI7AnyViewV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7LinkKit0A7HandlerC09makePlaidA5Sheet7SwiftUI7AnyViewVyF",
+            "mangledName": "$s7LinkKit0A7HandlerC09makePlaidA5Sheet7SwiftUI7AnyViewVyF",
+            "moduleName": "LinkKit",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -44585,6 +45556,47 @@
           },
           {
             "kind": "Function",
+            "name": "presentMockFinanceKitPermissionAlert",
+            "printedName": "presentMockFinanceKitPermissionAlert(completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Bool) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7LinkKit34InProcessWebviewFallbackControllerC018presentMockFinanceB15PermissionAlert10completionyySbc_tF",
+            "mangledName": "$s7LinkKit34InProcessWebviewFallbackControllerC018presentMockFinanceB15PermissionAlert10completionyySbc_tF",
+            "moduleName": "LinkKit",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "Final"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "userContentController",
             "printedName": "userContentController(_:didReceive:replyHandler:)",
             "children": [
@@ -45469,6 +46481,13 @@
         "moduleName": "LinkKit"
       },
       {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "LinkKit"
+      },
+      {
         "kind": "TypeDecl",
         "name": "Handler",
         "printedName": "Handler",
@@ -45554,6 +46573,28 @@
             "declKind": "Func",
             "usr": "s:7LinkKit7HandlerP18createEmbeddedView12presentUsingSo6UIViewCAA18PresentationMethodO_tF",
             "mangledName": "$s7LinkKit7HandlerP18createEmbeddedView12presentUsingSo6UIViewCAA18PresentationMethodO_tF",
+            "moduleName": "LinkKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : LinkKit.Handler>",
+            "sugared_genericSig": "<Self where Self : LinkKit.Handler>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "makePlaidLinkSheet",
+            "printedName": "makePlaidLinkSheet()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AnyView",
+                "printedName": "SwiftUI.AnyView",
+                "usr": "s:7SwiftUI7AnyViewV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7LinkKit7HandlerP09makePlaidA5Sheet7SwiftUI7AnyViewVyF",
+            "mangledName": "$s7LinkKit7HandlerP09makePlaidA5Sheet7SwiftUI7AnyViewVyF",
             "moduleName": "LinkKit",
             "genericSig": "<τ_0_0 where τ_0_0 : LinkKit.Handler>",
             "sugared_genericSig": "<Self where Self : LinkKit.Handler>",
@@ -46798,6 +47839,262 @@
             "printedName": "LinkPresentationInfoProvider",
             "usr": "s:8Workflow28LinkPresentationInfoProviderP",
             "mangledName": "$s8Workflow28LinkPresentationInfoProviderP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "View",
+        "printedName": "View",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "plaidLink",
+            "printedName": "plaidLink(isPresented:handler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Binding",
+                "printedName": "SwiftUI.Binding<Swift.Bool>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:7SwiftUI7BindingV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Handler",
+                "printedName": "any LinkKit.Handler",
+                "usr": "s:7LinkKit7HandlerP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7SwiftUI4ViewP7LinkKitE05plaidD011isPresented7handlerQrAA7BindingVySbG_AD7Handler_ptF",
+            "mangledName": "$s7SwiftUI4ViewP7LinkKitE05plaidD011isPresented7handlerQrAA7BindingVySbG_AD7Handler_ptF",
+            "moduleName": "LinkKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+            "sugared_genericSig": "<Self where Self : SwiftUI.View>",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "plaidLink",
+            "printedName": "plaidLink(isPresented:token:onSuccess:onExit:onEvent:onLoad:errorView:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Binding",
+                "printedName": "SwiftUI.Binding<Swift.Bool>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:7SwiftUI7BindingV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(LinkKit.LinkSuccess) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LinkSuccess",
+                    "printedName": "LinkKit.LinkSuccess",
+                    "usr": "s:7LinkKit0A7SuccessV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((LinkKit.LinkExit) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(LinkKit.LinkExit) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LinkExit",
+                        "printedName": "LinkKit.LinkExit",
+                        "usr": "s:7LinkKit0A4ExitV"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((LinkKit.LinkEvent) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(LinkKit.LinkEvent) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LinkEvent",
+                        "printedName": "LinkKit.LinkEvent",
+                        "usr": "s:7LinkKit0A5EventV"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AnyView",
+                "printedName": "SwiftUI.AnyView",
+                "usr": "s:7SwiftUI7AnyViewV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7SwiftUI4ViewP7LinkKitE05plaidD011isPresented5token9onSuccess0J4Exit0J5Event0J4Load05errorC0QrAA7BindingVySbG_SSyAD0dK0VcyAD0dL0VcSgyAD0dM0VcSgyycSgAA03AnyC0VtF",
+            "mangledName": "$s7SwiftUI4ViewP7LinkKitE05plaidD011isPresented5token9onSuccess0J4Exit0J5Event0J4Load05errorC0QrAA7BindingVySbG_SSyAD0dK0VcyAD0dL0VcSgyAD0dM0VcSgyycSgAA03AnyC0VtF",
+            "moduleName": "LinkKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+            "sugared_genericSig": "<Self where Self : SwiftUI.View>",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:7SwiftUI4ViewP",
+        "mangledName": "$s7SwiftUI4ViewP",
+        "moduleName": "SwiftUICore",
+        "genericSig": "<τ_0_0.Body : SwiftUI.View>",
+        "sugared_genericSig": "<Self.Body : SwiftUI.View>",
+        "intro_Macosx": "10.15",
+        "intro_iOS": "13.0",
+        "intro_tvOS": "13.0",
+        "intro_watchOS": "6.0",
+        "declAttributes": [
+          "Preconcurrency",
+          "TypeEraser",
+          "OriginallyDefinedIn",
+          "OriginallyDefinedIn",
+          "OriginallyDefinedIn",
+          "OriginallyDefinedIn",
+          "Available",
+          "Available",
+          "Available",
+          "Available",
+          "Custom"
+        ],
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
           }
         ]
       },
@@ -49261,399 +50558,434 @@
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/Plaid\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 15016,
+      "offset": 16155,
+      "length": 19,
+      "value": "\"AUTO_SUBMIT_PHONE\""
+    },
+    {
+      "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/Plaid\/EventName.swift",
+      "kind": "StringLiteral",
+      "offset": 16234,
       "length": 32,
       "value": "\"BANK_INCOME_INSIGHTS_COMPLETED\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/Plaid\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 15091,
+      "offset": 16309,
       "length": 13,
       "value": "\"CLOSE_OAUTH\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/Plaid\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 15158,
+      "offset": 16376,
       "length": 25,
       "value": "\"CONNECT_NEW_INSTITUTION\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/Plaid\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 15221,
+      "offset": 16439,
       "length": 7,
       "value": "\"ERROR\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/Plaid\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 15265,
+      "offset": 16483,
       "length": 6,
       "value": "\"EXIT\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/Plaid\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 15313,
+      "offset": 16531,
       "length": 12,
       "value": "\"FAIL_OAUTH\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/Plaid\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 15365,
+      "offset": 16583,
       "length": 9,
       "value": "\"HANDOFF\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/Plaid\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 15436,
+      "offset": 16644,
+      "length": 23,
+      "value": "\"IDENTITY_MATCH_PASSED\""
+    },
+    {
+      "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/Plaid\/EventName.swift",
+      "kind": "StringLiteral",
+      "offset": 16719,
+      "length": 23,
+      "value": "\"IDENTITY_MATCH_FAILED\""
+    },
+    {
+      "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/Plaid\/EventName.swift",
+      "kind": "StringLiteral",
+      "offset": 16804,
       "length": 34,
       "value": "\"IDENTITY_VERIFICATION_START_STEP\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/Plaid\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 15531,
+      "offset": 16899,
       "length": 33,
       "value": "\"IDENTITY_VERIFICATION_PASS_STEP\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/Plaid\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 15625,
+      "offset": 16993,
       "length": 33,
       "value": "\"IDENTITY_VERIFICATION_FAIL_STEP\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/Plaid\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 15728,
+      "offset": 17096,
       "length": 43,
       "value": "\"IDENTITY_VERIFICATION_PENDING_REVIEW_STEP\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/Plaid\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 15844,
+      "offset": 17212,
       "length": 46,
       "value": "\"IDENTITY_VERIFICATION_PENDING_REVIEW_SESSION\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/Plaid\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 15956,
+      "offset": 17324,
       "length": 38,
       "value": "\"IDENTITY_VERIFICATION_CREATE_SESSION\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/Plaid\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 16060,
+      "offset": 17428,
       "length": 38,
       "value": "\"IDENTITY_VERIFICATION_RESUME_SESSION\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/Plaid\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 16162,
+      "offset": 17530,
       "length": 36,
       "value": "\"IDENTITY_VERIFICATION_PASS_SESSION\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/Plaid\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 16262,
+      "offset": 17630,
       "length": 36,
       "value": "\"IDENTITY_VERIFICATION_FAIL_SESSION\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/Plaid\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 16357,
+      "offset": 17725,
       "length": 31,
       "value": "\"IDENTITY_VERIFICATION_OPEN_UI\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/Plaid\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 16449,
+      "offset": 17817,
       "length": 33,
       "value": "\"IDENTITY_VERIFICATION_RESUME_UI\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/Plaid\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 16542,
+      "offset": 17910,
       "length": 32,
       "value": "\"IDENTITY_VERIFICATION_CLOSE_UI\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/Plaid\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 16631,
+      "offset": 17988,
+      "length": 16,
+      "value": "\"ISSUE_FOLLOWED\""
+    },
+    {
+      "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/Plaid\/EventName.swift",
+      "kind": "StringLiteral",
+      "offset": 18061,
       "length": 28,
       "value": "\"MATCHED_SELECT_INSTITUTION\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/Plaid\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 16717,
+      "offset": 18147,
       "length": 30,
       "value": "\"MATCHED_SELECT_VERIFY_METHOD\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/Plaid\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 16784,
+      "offset": 18214,
       "length": 6,
       "value": "\"OPEN\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/Plaid\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 16834,
+      "offset": 18264,
       "length": 15,
       "value": "\"OPEN_MY_PLAID\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/Plaid\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 16891,
+      "offset": 18321,
       "length": 12,
       "value": "\"OPEN_OAUTH\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/Plaid\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 16964,
+      "offset": 18394,
       "length": 33,
       "value": "\"PROFILE_ELIGIBILITY_CHECK_READY\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/Plaid\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 17058,
+      "offset": 18488,
       "length": 33,
       "value": "\"PROFILE_ELIGIBILITY_CHECK_ERROR\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/Plaid\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 17134,
+      "offset": 18564,
       "length": 13,
       "value": "\"LAYER_READY\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/Plaid\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 17197,
+      "offset": 18627,
       "length": 21,
       "value": "\"LAYER_NOT_AVAILABLE\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/Plaid\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 17268,
+      "offset": 18698,
       "length": 20,
       "value": "\"SEARCH_INSTITUTION\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/Plaid\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 17346,
+      "offset": 18764,
+      "length": 16,
+      "value": "\"SELECT_ACCOUNT\""
+    },
+    {
+      "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/Plaid\/EventName.swift",
+      "kind": "StringLiteral",
+      "offset": 18838,
       "length": 29,
       "value": "\"SELECT_DEGRADED_INSTITUTION\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/Plaid\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 17429,
+      "offset": 18921,
       "length": 25,
       "value": "\"SELECT_DOWN_INSTITUTION\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/Plaid\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 17512,
+      "offset": 19004,
       "length": 29,
       "value": "\"SELECT_FILTERED_INSTITUTION\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/Plaid\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 17591,
+      "offset": 19083,
       "length": 20,
       "value": "\"SELECT_INSTITUTION\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/Plaid\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 17655,
+      "offset": 19147,
       "length": 14,
       "value": "\"SELECT_BRAND\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/Plaid\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 17716,
+      "offset": 19208,
       "length": 18,
       "value": "\"SELECT_AUTH_TYPE\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/Plaid\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 17786,
+      "offset": 19278,
       "length": 23,
       "value": "\"SUBMIT_ACCOUNT_NUMBER\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/Plaid\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 17857,
+      "offset": 19349,
       "length": 18,
       "value": "\"SUBMIT_DOCUMENTS\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/Plaid\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 17930,
+      "offset": 19422,
       "length": 26,
       "value": "\"SUBMIT_DOCUMENTS_SUCCESS\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/Plaid\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 18009,
+      "offset": 19501,
       "length": 24,
       "value": "\"SUBMIT_DOCUMENTS_ERROR\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/Plaid\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 18085,
+      "offset": 19577,
       "length": 23,
       "value": "\"SUBMIT_ROUTING_NUMBER\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/Plaid\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 18154,
+      "offset": 19646,
       "length": 17,
       "value": "\"VIEW_DATA_TYPES\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/Plaid\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 18213,
+      "offset": 19705,
       "length": 12,
       "value": "\"SUBMIT_OTP\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/Plaid\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 18269,
+      "offset": 19761,
       "length": 14,
       "value": "\"SUBMIT_PHONE\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/Plaid\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 18331,
+      "offset": 19823,
       "length": 19,
       "value": "\"SKIP_SUBMIT_PHONE\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/Plaid\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 18394,
+      "offset": 19886,
       "length": 14,
       "value": "\"VERIFY_PHONE\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/Plaid\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 18458,
+      "offset": 19950,
       "length": 20,
       "value": "\"SUBMIT_CREDENTIALS\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/Plaid\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 18520,
+      "offset": 20012,
       "length": 12,
       "value": "\"SUBMIT_MFA\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/Plaid\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 18579,
+      "offset": 20071,
       "length": 17,
       "value": "\"TRANSITION_VIEW\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/Plaid\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 18640,
+      "offset": 20132,
       "length": 14,
       "value": "\"SUBMIT_EMAIL\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/Plaid\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 18702,
+      "offset": 20194,
       "length": 19,
       "value": "\"SKIP_SUBMIT_EMAIL\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/Plaid\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 18771,
+      "offset": 20263,
       "length": 21,
       "value": "\"REMEMBER_ME_ENABLED\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/Plaid\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 18843,
+      "offset": 20335,
       "length": 22,
       "value": "\"REMEMBER_ME_DISABLED\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/Plaid\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 18915,
+      "offset": 20407,
       "length": 21,
       "value": "\"REMEMBER_ME_HOLDOUT\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/Plaid\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 18991,
+      "offset": 20483,
       "length": 26,
       "value": "\"SELECT_SAVED_INSTITUTION\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/Plaid\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 19068,
+      "offset": 20560,
       "length": 22,
       "value": "\"SELECT_SAVED_ACCOUNT\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/Plaid\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 19149,
+      "offset": 20641,
       "length": 31,
       "value": "\"AUTO_SELECT_SAVED_INSTITUTION\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/Plaid\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 19227,
+      "offset": 20719,
       "length": 18,
       "value": "\"PLAID_CHECK_PANE\""
     },
@@ -50248,14 +51580,14 @@
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/LinkHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 8902,
+      "offset": 10184,
       "length": 3,
       "value": "390"
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/LinkHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 8915,
+      "offset": 10197,
       "length": 3,
       "value": "690"
     },
