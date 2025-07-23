@@ -71,13 +71,12 @@ struct ContentView: View {
 
             switch (error, handler) {
             case (.some(let error), .none):
-                // If there was an error creating the handler, show it
+                // If there was an error creating the handler, show it.
                 Spacer()
                 Text("Error creating handler: \(String(describing: error))")
                     .padding()
 
             case (.none, .some(let handler)):
-                // If there was an error creating the handler, show it.
                 TabView {
                     // MARK: 1. Sheet-based Link
                     linkDemoButton(type: .sheet)
@@ -235,7 +234,7 @@ struct ContentView: View {
     }
 
     /// Returns a tiny SwiftUI view that shows the LinkKit SDK version,
-    /// e.g. **“LinkKit 6.2.1”**.
+    /// e.g. **“LinkKit 6.3.0”**.
     private func versionInformationView() -> some View {
         // ------------------------------------------------------------------
         // 1. Locate the bundle that contains the LinkKit framework.
