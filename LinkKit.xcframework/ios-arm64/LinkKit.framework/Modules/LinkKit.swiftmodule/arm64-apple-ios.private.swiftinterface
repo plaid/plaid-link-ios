@@ -88,6 +88,7 @@ public enum EventName : Swift.CustomStringConvertible, Swift.Codable {
   case identityVerificationResumeUI
   case identityVerificationCloseUI
   case issueFollowed
+  case layerAutoFillNotAvailable
   case layerReady
   case layerNotAvailable
   case matchedSelectInstitution
@@ -363,6 +364,7 @@ public struct ExitError : Swift.Error, Swift.Codable {
 }
 public protocol SubmissionData {
   var phoneNumber: Swift.String? { get }
+  var dateOfBirth: Swift.String? { get }
 }
 public enum MFAType : Swift.CustomStringConvertible, Swift.Codable {
   case code
@@ -577,7 +579,7 @@ public enum AssetReportErrorCode : Swift.Error, Swift.CustomStringConvertible {
     @objc get
   }
   @available(iOS 17.4, *)
-  @objc public static func syncFinanceKit(token: Swift.String, requestAuthorizationIfNeeded: Swift.Bool, onSuccess: @escaping () -> Swift.Void, onError: @escaping (Foundation.NSError) -> Swift.Void)
+  @objc public static func syncFinanceKit(token: Swift.String, requestAuthorizationIfNeeded: Swift.Bool, simulatedBehavior: Swift.Bool, onSuccess: @escaping () -> Swift.Void, onError: @escaping (Foundation.NSError) -> Swift.Void)
   @objc override dynamic public init()
   @objc deinit
 }

@@ -87,6 +87,7 @@ public enum EventName : Swift.CustomStringConvertible, Swift.Codable {
   case identityVerificationResumeUI
   case identityVerificationCloseUI
   case issueFollowed
+  case layerAutoFillNotAvailable
   case layerReady
   case layerNotAvailable
   case matchedSelectInstitution
@@ -360,6 +361,7 @@ public struct ExitError : Swift.Error, Swift.Codable {
 }
 public protocol SubmissionData {
   var phoneNumber: Swift.String? { get }
+  var dateOfBirth: Swift.String? { get }
 }
 public enum MFAType : Swift.CustomStringConvertible, Swift.Codable {
   case code

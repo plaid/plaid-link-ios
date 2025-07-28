@@ -4169,6 +4169,46 @@
           },
           {
             "kind": "Var",
+            "name": "layerAutoFillNotAvailable",
+            "printedName": "layerAutoFillNotAvailable",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(LinkKit.EventName.Type) -> LinkKit.EventName",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EventName",
+                    "printedName": "LinkKit.EventName",
+                    "usr": "s:7LinkKit9EventNameO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "LinkKit.EventName.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "EventName",
+                        "printedName": "LinkKit.EventName",
+                        "usr": "s:7LinkKit9EventNameO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7LinkKit9EventNameO25layerAutoFillNotAvailableyA2CmF",
+            "mangledName": "$s7LinkKit9EventNameO25layerAutoFillNotAvailableyA2CmF",
+            "moduleName": "LinkKit",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "layerReady",
             "printedName": "layerReady",
             "children": [
@@ -7611,6 +7651,224 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "ScriptMessage",
+        "printedName": "ScriptMessage",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "Any"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7LinkKit13ScriptMessageP4bodyypvp",
+            "mangledName": "$s7LinkKit13ScriptMessageP4bodyypvp",
+            "moduleName": "LinkKit",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7LinkKit13ScriptMessageP4bodyypvg",
+                "mangledName": "$s7LinkKit13ScriptMessageP4bodyypvg",
+                "moduleName": "LinkKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : LinkKit.ScriptMessage>",
+                "sugared_genericSig": "<Self where Self : LinkKit.ScriptMessage>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "name",
+            "printedName": "name",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7LinkKit13ScriptMessageP4nameSSvp",
+            "mangledName": "$s7LinkKit13ScriptMessageP4nameSSvp",
+            "moduleName": "LinkKit",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7LinkKit13ScriptMessageP4nameSSvg",
+                "mangledName": "$s7LinkKit13ScriptMessageP4nameSSvg",
+                "moduleName": "LinkKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : LinkKit.ScriptMessage>",
+                "sugared_genericSig": "<Self where Self : LinkKit.ScriptMessage>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:7LinkKit13ScriptMessageP",
+        "mangledName": "$s7LinkKit13ScriptMessageP",
+        "moduleName": "LinkKit",
+        "declAttributes": [
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ScriptMessageWithReplyHandlerDelegate",
+        "printedName": "ScriptMessageWithReplyHandlerDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "didReceiveScriptMessage",
+            "printedName": "didReceiveScriptMessage(_:replyHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ScriptMessage",
+                "printedName": "any LinkKit.ScriptMessage",
+                "usr": "s:7LinkKit13ScriptMessageP"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Any?, Swift.String?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Any?, Swift.String?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Any?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "Any"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7LinkKit37ScriptMessageWithReplyHandlerDelegateP010didReceivecD0_05replyG0yAA0cD0_p_yypSg_SSSgtctF",
+            "mangledName": "$s7LinkKit37ScriptMessageWithReplyHandlerDelegateP010didReceivecD0_05replyG0yAA0cD0_p_yypSg_SSSgtctF",
+            "moduleName": "LinkKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : LinkKit.ScriptMessageWithReplyHandlerDelegate>",
+            "sugared_genericSig": "<Self where Self : LinkKit.ScriptMessageWithReplyHandlerDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:7LinkKit37ScriptMessageWithReplyHandlerDelegateP",
+        "mangledName": "$s7LinkKit37ScriptMessageWithReplyHandlerDelegateP",
+        "moduleName": "LinkKit",
+        "declAttributes": [
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "ScriptMessageWithReplyHandler",
         "printedName": "ScriptMessageWithReplyHandler",
         "children": [
@@ -7621,13 +7879,22 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "WeakStorage",
-                "printedName": "(any WebKit.WKScriptMessageHandlerWithReply)?"
+                "name": "Optional",
+                "printedName": "(any LinkKit.ScriptMessageWithReplyHandlerDelegate)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ScriptMessageWithReplyHandlerDelegate",
+                    "printedName": "any LinkKit.ScriptMessageWithReplyHandlerDelegate",
+                    "usr": "s:7LinkKit37ScriptMessageWithReplyHandlerDelegateP"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:7LinkKit29ScriptMessageWithReplyHandlerC8delegate33_B986218EE03EFF631BD9B01904EECEFBLLSo08WKScriptdgeF0_pSgvp",
-            "mangledName": "$s7LinkKit29ScriptMessageWithReplyHandlerC8delegate33_B986218EE03EFF631BD9B01904EECEFBLLSo08WKScriptdgeF0_pSgvp",
+            "usr": "s:7LinkKit29ScriptMessageWithReplyHandlerC8delegate33_B986218EE03EFF631BD9B01904EECEFBLLAA0cdefG8Delegate_pSgvp",
+            "mangledName": "$s7LinkKit29ScriptMessageWithReplyHandlerC8delegate33_B986218EE03EFF631BD9B01904EECEFBLLAA0cdefG8Delegate_pSgvp",
             "moduleName": "LinkKit",
             "isInternal": true,
             "declAttributes": [
@@ -7636,11 +7903,10 @@
               "Preconcurrency",
               "Custom",
               "HasStorage",
-              "ReferenceOwnership",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "fixedbinaryorder": 0,
-            "ownership": 1,
             "hasStorage": true
           },
           {
@@ -7656,18 +7922,19 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "WKScriptMessageHandlerWithReply",
-                "printedName": "any WebKit.WKScriptMessageHandlerWithReply",
-                "usr": "c:objc(pl)WKScriptMessageHandlerWithReply"
+                "name": "ScriptMessageWithReplyHandlerDelegate",
+                "printedName": "any LinkKit.ScriptMessageWithReplyHandlerDelegate",
+                "usr": "s:7LinkKit37ScriptMessageWithReplyHandlerDelegateP"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:7LinkKit29ScriptMessageWithReplyHandlerC8delegateACSo08WKScriptdgeF0_p_tcfc",
-            "mangledName": "$s7LinkKit29ScriptMessageWithReplyHandlerC8delegateACSo08WKScriptdgeF0_p_tcfc",
+            "usr": "s:7LinkKit29ScriptMessageWithReplyHandlerC8delegateAcA0cdefG8Delegate_p_tcfc",
+            "mangledName": "$s7LinkKit29ScriptMessageWithReplyHandlerC8delegateAcA0cdefG8Delegate_p_tcfc",
             "moduleName": "LinkKit",
             "declAttributes": [
               "Preconcurrency",
-              "Custom"
+              "Custom",
+              "RawDocComment"
             ],
             "init_kind": "Designated"
           },
@@ -7749,7 +8016,8 @@
               "Final",
               "ObjC",
               "Preconcurrency",
-              "Custom"
+              "Custom",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -26016,6 +26284,64 @@
                 "accessorKind": "get"
               }
             ]
+          },
+          {
+            "kind": "Var",
+            "name": "dateOfBirth",
+            "printedName": "dateOfBirth",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7LinkKit14SubmissionDataP11dateOfBirthSSSgvp",
+            "mangledName": "$s7LinkKit14SubmissionDataP11dateOfBirthSSSgvp",
+            "moduleName": "LinkKit",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7LinkKit14SubmissionDataP11dateOfBirthSSSgvg",
+                "mangledName": "$s7LinkKit14SubmissionDataP11dateOfBirthSSSgvg",
+                "moduleName": "LinkKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : LinkKit.SubmissionData>",
+                "sugared_genericSig": "<Self where Self : LinkKit.SubmissionData>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
           }
         ],
         "declKind": "Protocol",
@@ -41786,7 +42112,7 @@
           {
             "kind": "Function",
             "name": "syncFinanceKit",
-            "printedName": "syncFinanceKit(token:requestAuthorizationIfNeeded:onSuccess:onError:)",
+            "printedName": "syncFinanceKit(token:requestAuthorizationIfNeeded:simulatedBehavior:onSuccess:onError:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -41798,6 +42124,12 @@
                 "name": "String",
                 "printedName": "Swift.String",
                 "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
               },
               {
                 "kind": "TypeNominal",
@@ -41842,12 +42174,12 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@LinkKit@objc(cs)PLKPlaid(cm)syncFinanceKitWithToken:requestAuthorizationIfNeeded:onSuccess:onError:",
-            "mangledName": "$s7LinkKit8PLKPlaidC011syncFinanceB05token28requestAuthorizationIfNeeded9onSuccess0K5ErrorySS_SbyycySo7NSErrorCctFZ",
+            "usr": "c:@M@LinkKit@objc(cs)PLKPlaid(cm)syncFinanceKitWithToken:requestAuthorizationIfNeeded:simulatedBehavior:onSuccess:onError:",
+            "mangledName": "$s7LinkKit8PLKPlaidC011syncFinanceB05token28requestAuthorizationIfNeeded17simulatedBehavior9onSuccess0M5ErrorySS_S2byycySo7NSErrorCctFZ",
             "moduleName": "LinkKit",
             "static": true,
             "intro_iOS": "17.4",
-            "objc_name": "syncFinanceKitWithToken:requestAuthorizationIfNeeded:onSuccess:onError:",
+            "objc_name": "syncFinanceKitWithToken:requestAuthorizationIfNeeded:simulatedBehavior:onSuccess:onError:",
             "declAttributes": [
               "Final",
               "AccessControl",
@@ -46010,8 +46342,8 @@
               {
                 "kind": "TypeNominal",
                 "name": "InProcessWebviewFallbackViewModel",
-                "printedName": "Workflow.InProcessWebviewFallbackViewModel",
-                "usr": "s:8Workflow33InProcessWebviewFallbackViewModelC"
+                "printedName": "any Workflow.InProcessWebviewFallbackViewModel",
+                "usr": "s:8Workflow33InProcessWebviewFallbackViewModelP"
               },
               {
                 "kind": "TypeNominal",
@@ -46021,8 +46353,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:7LinkKit34InProcessWebviewFallbackControllerC9viewModel3logAC8Workflow0cdef4ViewI0C_3LogAIVtcfc",
-            "mangledName": "$s7LinkKit34InProcessWebviewFallbackControllerC9viewModel3logAC8Workflow0cdef4ViewI0C_3LogAIVtcfc",
+            "usr": "s:7LinkKit34InProcessWebviewFallbackControllerC9viewModel3logAC8Workflow0cdef4ViewI0_p_3LogAHVtcfc",
+            "mangledName": "$s7LinkKit34InProcessWebviewFallbackControllerC9viewModel3logAC8Workflow0cdef4ViewI0_p_3LogAHVtcfc",
             "moduleName": "LinkKit",
             "declAttributes": [
               "Preconcurrency",
@@ -46468,13 +46800,13 @@
               {
                 "kind": "TypeNominal",
                 "name": "InProcessWebviewFallbackViewModel",
-                "printedName": "Workflow.InProcessWebviewFallbackViewModel",
-                "usr": "s:8Workflow33InProcessWebviewFallbackViewModelC"
+                "printedName": "any Workflow.InProcessWebviewFallbackViewModel",
+                "usr": "s:8Workflow33InProcessWebviewFallbackViewModelP"
               }
             ],
             "declKind": "Var",
-            "usr": "s:7LinkKit34InProcessWebviewFallbackControllerC9viewModel33_32F4DB776C6A6928E36575C991298D05LL8Workflow0cdef4ViewI0Cvp",
-            "mangledName": "$s7LinkKit34InProcessWebviewFallbackControllerC9viewModel33_32F4DB776C6A6928E36575C991298D05LL8Workflow0cdef4ViewI0Cvp",
+            "usr": "s:7LinkKit34InProcessWebviewFallbackControllerC9viewModel33_32F4DB776C6A6928E36575C991298D05LL8Workflow0cdef4ViewI0_pvp",
+            "mangledName": "$s7LinkKit34InProcessWebviewFallbackControllerC9viewModel33_32F4DB776C6A6928E36575C991298D05LL8Workflow0cdef4ViewI0_pvp",
             "moduleName": "LinkKit",
             "isInternal": true,
             "declAttributes": [
@@ -47061,8 +47393,8 @@
           },
           {
             "kind": "Function",
-            "name": "userContentController",
-            "printedName": "userContentController(_:didReceive:replyHandler:)",
+            "name": "didReceiveScriptMessage",
+            "printedName": "didReceiveScriptMessage(_:replyHandler:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -47071,15 +47403,9 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "WKUserContentController",
-                "printedName": "WebKit.WKUserContentController",
-                "usr": "c:objc(cs)WKUserContentController"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "WKScriptMessage",
-                "printedName": "WebKit.WKScriptMessage",
-                "usr": "c:objc(cs)WKScriptMessage"
+                "name": "ScriptMessage",
+                "printedName": "any LinkKit.ScriptMessage",
+                "usr": "s:7LinkKit13ScriptMessageP"
               },
               {
                 "kind": "TypeFunc",
@@ -47129,15 +47455,13 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@CM@LinkKit@objc(cs)InProcessWebviewFallbackController(im)userContentController:didReceiveScriptMessage:replyHandler:",
-            "mangledName": "$s7LinkKit34InProcessWebviewFallbackControllerC011userContentG0_10didReceive12replyHandlerySo06WKUseriG0C_So15WKScriptMessageCyypSg_SSSgtctF",
+            "usr": "s:7LinkKit34InProcessWebviewFallbackControllerC23didReceiveScriptMessage_12replyHandleryAA0jK0_p_yypSg_SSSgtctF",
+            "mangledName": "$s7LinkKit34InProcessWebviewFallbackControllerC23didReceiveScriptMessage_12replyHandleryAA0jK0_p_yypSg_SSSgtctF",
             "moduleName": "LinkKit",
-            "objc_name": "userContentController:didReceiveScriptMessage:replyHandler:",
             "declAttributes": [
-              "Final",
-              "ObjC",
               "Preconcurrency",
-              "Custom"
+              "Custom",
+              "Final"
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
@@ -47274,6 +47598,13 @@
             "printedName": "InProcessWebviewFallbackViewModelDelegate",
             "usr": "s:8Workflow41InProcessWebviewFallbackViewModelDelegateP",
             "mangledName": "$s8Workflow41InProcessWebviewFallbackViewModelDelegateP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ScriptMessageWithReplyHandlerDelegate",
+            "printedName": "ScriptMessageWithReplyHandlerDelegate",
+            "usr": "s:7LinkKit37ScriptMessageWithReplyHandlerDelegateP",
+            "mangledName": "$s7LinkKit37ScriptMessageWithReplyHandlerDelegateP"
           }
         ]
       },
@@ -47679,8 +48010,8 @@
           },
           {
             "kind": "Function",
-            "name": "userContentController",
-            "printedName": "userContentController(_:didReceive:replyHandler:)",
+            "name": "didReceiveScriptMessage",
+            "printedName": "didReceiveScriptMessage(_:replyHandler:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -47689,15 +48020,9 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "WKUserContentController",
-                "printedName": "WebKit.WKUserContentController",
-                "usr": "c:objc(cs)WKUserContentController"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "WKScriptMessage",
-                "printedName": "WebKit.WKScriptMessage",
-                "usr": "c:objc(cs)WKScriptMessage"
+                "name": "ScriptMessage",
+                "printedName": "any LinkKit.ScriptMessage",
+                "usr": "s:7LinkKit13ScriptMessageP"
               },
               {
                 "kind": "TypeFunc",
@@ -47747,15 +48072,13 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@CM@LinkKit@objc(cs)EmbeddedSearchView(im)userContentController:didReceiveScriptMessage:replyHandler:",
-            "mangledName": "$s7LinkKit18EmbeddedSearchViewC21userContentController_10didReceive12replyHandlerySo06WKUsergH0C_So15WKScriptMessageCyypSg_SSSgtctF",
+            "usr": "s:7LinkKit18EmbeddedSearchViewC23didReceiveScriptMessage_12replyHandleryAA0hI0_p_yypSg_SSSgtctF",
+            "mangledName": "$s7LinkKit18EmbeddedSearchViewC23didReceiveScriptMessage_12replyHandleryAA0hI0_p_yypSg_SSSgtctF",
             "moduleName": "LinkKit",
-            "objc_name": "userContentController:didReceiveScriptMessage:replyHandler:",
             "declAttributes": [
-              "Final",
-              "ObjC",
               "Preconcurrency",
-              "Custom"
+              "Custom",
+              "Final"
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
@@ -47927,6 +48250,13 @@
             "printedName": "__DefaultCustomPlaygroundQuickLookable",
             "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
             "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ScriptMessageWithReplyHandlerDelegate",
+            "printedName": "ScriptMessageWithReplyHandlerDelegate",
+            "usr": "s:7LinkKit37ScriptMessageWithReplyHandlerDelegateP",
+            "mangledName": "$s7LinkKit37ScriptMessageWithReplyHandlerDelegateP"
           },
           {
             "kind": "Conformance",
@@ -50352,6 +50682,102 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "WKScriptMessage",
+        "printedName": "WKScriptMessage",
+        "declKind": "Class",
+        "usr": "c:objc(cs)WKScriptMessage",
+        "moduleName": "WebKit",
+        "isOpen": true,
+        "intro_iOS": "8.0",
+        "objc_name": "WKScriptMessage",
+        "declAttributes": [
+          "Preconcurrency",
+          "Available",
+          "ObjC",
+          "Custom",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ScriptMessage",
+            "printedName": "ScriptMessage",
+            "usr": "s:7LinkKit13ScriptMessageP",
+            "mangledName": "$s7LinkKit13ScriptMessageP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "WorkflowSubmissionData",
         "printedName": "WorkflowSubmissionData",
         "children": [
@@ -52629,434 +53055,441 @@
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/Plaid\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 16155,
+      "offset": 16402,
       "length": 19,
       "value": "\"AUTO_SUBMIT_PHONE\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/Plaid\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 16234,
+      "offset": 16481,
       "length": 32,
       "value": "\"BANK_INCOME_INSIGHTS_COMPLETED\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/Plaid\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 16309,
+      "offset": 16556,
       "length": 13,
       "value": "\"CLOSE_OAUTH\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/Plaid\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 16376,
+      "offset": 16623,
       "length": 25,
       "value": "\"CONNECT_NEW_INSTITUTION\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/Plaid\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 16439,
+      "offset": 16686,
       "length": 7,
       "value": "\"ERROR\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/Plaid\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 16483,
+      "offset": 16730,
       "length": 6,
       "value": "\"EXIT\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/Plaid\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 16531,
+      "offset": 16778,
       "length": 12,
       "value": "\"FAIL_OAUTH\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/Plaid\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 16583,
+      "offset": 16830,
       "length": 9,
       "value": "\"HANDOFF\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/Plaid\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 16644,
+      "offset": 16891,
       "length": 23,
       "value": "\"IDENTITY_MATCH_PASSED\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/Plaid\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 16719,
+      "offset": 16966,
       "length": 23,
       "value": "\"IDENTITY_MATCH_FAILED\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/Plaid\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 16804,
+      "offset": 17051,
       "length": 34,
       "value": "\"IDENTITY_VERIFICATION_START_STEP\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/Plaid\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 16899,
+      "offset": 17146,
       "length": 33,
       "value": "\"IDENTITY_VERIFICATION_PASS_STEP\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/Plaid\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 16993,
+      "offset": 17240,
       "length": 33,
       "value": "\"IDENTITY_VERIFICATION_FAIL_STEP\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/Plaid\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 17096,
+      "offset": 17343,
       "length": 43,
       "value": "\"IDENTITY_VERIFICATION_PENDING_REVIEW_STEP\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/Plaid\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 17212,
+      "offset": 17459,
       "length": 46,
       "value": "\"IDENTITY_VERIFICATION_PENDING_REVIEW_SESSION\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/Plaid\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 17324,
+      "offset": 17571,
       "length": 38,
       "value": "\"IDENTITY_VERIFICATION_CREATE_SESSION\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/Plaid\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 17428,
+      "offset": 17675,
       "length": 38,
       "value": "\"IDENTITY_VERIFICATION_RESUME_SESSION\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/Plaid\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 17530,
+      "offset": 17777,
       "length": 36,
       "value": "\"IDENTITY_VERIFICATION_PASS_SESSION\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/Plaid\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 17630,
+      "offset": 17877,
       "length": 36,
       "value": "\"IDENTITY_VERIFICATION_FAIL_SESSION\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/Plaid\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 17725,
+      "offset": 17972,
       "length": 31,
       "value": "\"IDENTITY_VERIFICATION_OPEN_UI\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/Plaid\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 17817,
+      "offset": 18064,
       "length": 33,
       "value": "\"IDENTITY_VERIFICATION_RESUME_UI\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/Plaid\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 17910,
+      "offset": 18157,
       "length": 32,
       "value": "\"IDENTITY_VERIFICATION_CLOSE_UI\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/Plaid\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 17988,
+      "offset": 18235,
       "length": 16,
       "value": "\"ISSUE_FOLLOWED\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/Plaid\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 18061,
+      "offset": 18308,
       "length": 28,
       "value": "\"MATCHED_SELECT_INSTITUTION\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/Plaid\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 18147,
+      "offset": 18394,
       "length": 30,
       "value": "\"MATCHED_SELECT_VERIFY_METHOD\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/Plaid\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 18214,
+      "offset": 18461,
       "length": 6,
       "value": "\"OPEN\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/Plaid\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 18264,
+      "offset": 18511,
       "length": 15,
       "value": "\"OPEN_MY_PLAID\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/Plaid\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 18321,
+      "offset": 18568,
       "length": 12,
       "value": "\"OPEN_OAUTH\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/Plaid\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 18394,
+      "offset": 18641,
       "length": 33,
       "value": "\"PROFILE_ELIGIBILITY_CHECK_READY\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/Plaid\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 18488,
+      "offset": 18735,
       "length": 33,
       "value": "\"PROFILE_ELIGIBILITY_CHECK_ERROR\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/Plaid\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 18564,
+      "offset": 18826,
+      "length": 30,
+      "value": "\"LAYER_AUTOFILL_NOT_AVAILABLE\""
+    },
+    {
+      "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/Plaid\/EventName.swift",
+      "kind": "StringLiteral",
+      "offset": 18899,
       "length": 13,
       "value": "\"LAYER_READY\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/Plaid\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 18627,
+      "offset": 18962,
       "length": 21,
       "value": "\"LAYER_NOT_AVAILABLE\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/Plaid\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 18698,
+      "offset": 19033,
       "length": 20,
       "value": "\"SEARCH_INSTITUTION\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/Plaid\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 18764,
+      "offset": 19099,
       "length": 16,
       "value": "\"SELECT_ACCOUNT\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/Plaid\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 18838,
+      "offset": 19173,
       "length": 29,
       "value": "\"SELECT_DEGRADED_INSTITUTION\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/Plaid\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 18921,
+      "offset": 19256,
       "length": 25,
       "value": "\"SELECT_DOWN_INSTITUTION\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/Plaid\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 19004,
+      "offset": 19339,
       "length": 29,
       "value": "\"SELECT_FILTERED_INSTITUTION\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/Plaid\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 19083,
+      "offset": 19418,
       "length": 20,
       "value": "\"SELECT_INSTITUTION\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/Plaid\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 19147,
+      "offset": 19482,
       "length": 14,
       "value": "\"SELECT_BRAND\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/Plaid\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 19208,
+      "offset": 19543,
       "length": 18,
       "value": "\"SELECT_AUTH_TYPE\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/Plaid\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 19278,
+      "offset": 19613,
       "length": 23,
       "value": "\"SUBMIT_ACCOUNT_NUMBER\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/Plaid\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 19349,
+      "offset": 19684,
       "length": 18,
       "value": "\"SUBMIT_DOCUMENTS\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/Plaid\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 19422,
+      "offset": 19757,
       "length": 26,
       "value": "\"SUBMIT_DOCUMENTS_SUCCESS\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/Plaid\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 19501,
+      "offset": 19836,
       "length": 24,
       "value": "\"SUBMIT_DOCUMENTS_ERROR\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/Plaid\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 19577,
+      "offset": 19912,
       "length": 23,
       "value": "\"SUBMIT_ROUTING_NUMBER\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/Plaid\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 19646,
+      "offset": 19981,
       "length": 17,
       "value": "\"VIEW_DATA_TYPES\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/Plaid\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 19705,
+      "offset": 20040,
       "length": 12,
       "value": "\"SUBMIT_OTP\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/Plaid\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 19761,
+      "offset": 20096,
       "length": 14,
       "value": "\"SUBMIT_PHONE\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/Plaid\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 19823,
+      "offset": 20158,
       "length": 19,
       "value": "\"SKIP_SUBMIT_PHONE\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/Plaid\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 19886,
+      "offset": 20221,
       "length": 14,
       "value": "\"VERIFY_PHONE\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/Plaid\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 19950,
+      "offset": 20285,
       "length": 20,
       "value": "\"SUBMIT_CREDENTIALS\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/Plaid\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 20012,
+      "offset": 20347,
       "length": 12,
       "value": "\"SUBMIT_MFA\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/Plaid\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 20071,
+      "offset": 20406,
       "length": 17,
       "value": "\"TRANSITION_VIEW\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/Plaid\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 20132,
+      "offset": 20467,
       "length": 14,
       "value": "\"SUBMIT_EMAIL\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/Plaid\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 20194,
+      "offset": 20529,
       "length": 19,
       "value": "\"SKIP_SUBMIT_EMAIL\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/Plaid\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 20263,
+      "offset": 20598,
       "length": 21,
       "value": "\"REMEMBER_ME_ENABLED\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/Plaid\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 20335,
+      "offset": 20670,
       "length": 22,
       "value": "\"REMEMBER_ME_DISABLED\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/Plaid\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 20407,
+      "offset": 20742,
       "length": 21,
       "value": "\"REMEMBER_ME_HOLDOUT\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/Plaid\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 20483,
+      "offset": 20818,
       "length": 26,
       "value": "\"SELECT_SAVED_INSTITUTION\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/Plaid\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 20560,
+      "offset": 20895,
       "length": 22,
       "value": "\"SELECT_SAVED_ACCOUNT\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/Plaid\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 20641,
+      "offset": 20976,
       "length": 31,
       "value": "\"AUTO_SELECT_SAVED_INSTITUTION\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/Plaid\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 20719,
+      "offset": 21054,
       "length": 18,
       "value": "\"PLAID_CHECK_PANE\""
     },
@@ -54043,70 +54476,70 @@
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/ObjCBridge\/PlaidObjCBridge.swift",
       "kind": "IntegerLiteral",
-      "offset": 2126,
+      "offset": 2209,
       "length": 20,
       "value": "1"
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/ObjCBridge\/PlaidObjCBridge.swift",
       "kind": "IntegerLiteral",
-      "offset": 2156,
+      "offset": 2239,
       "length": 9,
       "value": "2"
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/ObjCBridge\/PlaidObjCBridge.swift",
       "kind": "IntegerLiteral",
-      "offset": 2175,
+      "offset": 2258,
       "length": 18,
       "value": "3"
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/ObjCBridge\/PlaidObjCBridge.swift",
       "kind": "IntegerLiteral",
-      "offset": 2203,
+      "offset": 2286,
       "length": 24,
       "value": "4"
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/ObjCBridge\/PlaidObjCBridge.swift",
       "kind": "IntegerLiteral",
-      "offset": 2237,
+      "offset": 2320,
       "length": 23,
       "value": "5"
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/ObjCBridge\/PlaidObjCBridge.swift",
       "kind": "IntegerLiteral",
-      "offset": 2270,
+      "offset": 2353,
       "length": 12,
       "value": "6"
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/ObjCBridge\/PlaidObjCBridge.swift",
       "kind": "IntegerLiteral",
-      "offset": 18697,
+      "offset": 18864,
       "length": 15,
       "value": "1"
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/ObjCBridge\/PlaidObjCBridge.swift",
       "kind": "IntegerLiteral",
-      "offset": 18722,
+      "offset": 18889,
       "length": 12,
       "value": "2"
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/ObjCBridge\/PlaidObjCBridge.swift",
       "kind": "IntegerLiteral",
-      "offset": 18744,
+      "offset": 18911,
       "length": 21,
       "value": "3"
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/ObjCBridge\/PlaidObjCBridge.swift",
       "kind": "IntegerLiteral",
-      "offset": 18775,
+      "offset": 18942,
       "length": 7,
       "value": "4"
     },
@@ -54673,56 +55106,56 @@
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/ViewControllers\/InProcessWebviewFallbackController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1359,
+      "offset": 1358,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/ViewControllers\/InProcessWebviewFallbackController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2727,
+      "offset": 2810,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/ViewControllers\/InProcessWebviewFallbackController.swift",
       "kind": "BooleanLiteral",
-      "offset": 3827,
+      "offset": 3910,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/ViewControllers\/InProcessWebviewFallbackController.swift",
       "kind": "BooleanLiteral",
-      "offset": 3895,
+      "offset": 3978,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/ViewControllers\/InProcessWebviewFallbackController.swift",
       "kind": "BooleanLiteral",
-      "offset": 4117,
+      "offset": 4200,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/ViewControllers\/InProcessWebviewFallbackController.swift",
       "kind": "BooleanLiteral",
-      "offset": 4165,
+      "offset": 4248,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/ViewControllers\/InProcessWebviewFallbackController.swift",
       "kind": "BooleanLiteral",
-      "offset": 4365,
+      "offset": 4448,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-009075a2931af096d-1\/plaid\/client-ci\/link\/apple\/Sources\/ViewControllers\/InProcessWebviewFallbackController.swift",
       "kind": "BooleanLiteral",
-      "offset": 4695,
+      "offset": 4778,
       "length": 5,
       "value": "false"
     },

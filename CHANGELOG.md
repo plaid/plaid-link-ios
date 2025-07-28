@@ -1,5 +1,18 @@
 # RELEASES
 
+## LinkKit 6.3.1 - 2025-07-28
+### Requirements
+
+| Name | Version |
+|------|---------|
+| Xcode | >= 16.1.0 |
+| iOS | >= 14.0 |
+
+### Changes
+
+- Expose Finance Kit sync simulated behavior to Objective-C (React Native).
+- Updated Layer submit API
+
 ## LinkKit 6.3.0 – 2025-07-23
 
 ### Requirements
