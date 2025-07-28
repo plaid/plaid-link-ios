@@ -100,7 +100,8 @@ typedef NS_ENUM(NSInteger, PLKEventNameValue) {
     PLKEventNameValueIdentityMatchPassed,
     PLKEventNameValueIdentityMatchFailed,
     PLKEventNameValueIssueFollowed,
-    PLKEventNameValueSelectAccount
+    PLKEventNameValueSelectAccount,
+    PLKEventNameValueLayerAutoFillNotAvailable
     // Add new enum cases directly above this line to avoid breaking API changes
 };
 
@@ -534,6 +535,7 @@ static NSString *const kPLKDefaultErrorDomain = @"com.plaid.link";
 
 @interface PLKSubmissionData : NSObject
 @property (nonatomic, copy, nullable) NSString *phoneNumber;
+@property (nonatomic, copy, nullable) NSString *dateOfBirth;
 @end
 
 @interface PLKEventMetadata : NSObject
