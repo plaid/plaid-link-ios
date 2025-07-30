@@ -1,5 +1,25 @@
 # RELEASES
 
+## LinkKit 6.3.2 - 2025-07-30
+### Requirements
+
+| Name | Version |
+|------|---------|
+| Xcode | >= 16.1.0 |
+| iOS | >= 14.0 |
+
+### Changes
+
+- Fix XCFramework signing issue
+
+## LinkKit 6.3.1 - 2025-07-28
+### Requirements
+
+| Name | Version |
+|------|---------|
+| Xcode | >= 16.1.0 |
+| iOS | >= 14.0 |
+
 ## LinkKit 6.3.1 - 2025-07-28
 ### Requirements
 
