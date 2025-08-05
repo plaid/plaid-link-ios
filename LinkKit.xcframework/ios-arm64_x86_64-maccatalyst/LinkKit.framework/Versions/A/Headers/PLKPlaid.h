@@ -549,6 +549,8 @@ static NSString *const kPLKDefaultErrorDomain = @"com.plaid.link";
 @property(nonatomic, readonly, nullable, copy) NSString *isUpdateMode;
 @property(nonatomic, readonly, nullable, copy) NSString *matchReason;
 @property(nonatomic, readonly, nullable, copy) NSString *issueID;
+@property(nonatomic, readonly, nullable, copy) NSString *issueDescription;
+@property(nonatomic, readonly, nullable, copy) NSDate *issueDetectedAt;
 @property(nonatomic, readonly, nullable, copy) NSString *routingNumber;
 @property(nonatomic, readonly, nullable, copy) NSString *selection;
 @property(nonatomic, readonly, copy) NSString *linkSessionID;

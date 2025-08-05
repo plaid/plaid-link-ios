@@ -62,6 +62,8 @@ NS_ASSUME_NONNULL_BEGIN
                  isUpdateMode:(NSString * __nullable)isUpdateMode
                   matchReason:(NSString * __nullable)matchReason
                       issueID:(NSString * __nullable)issueID
+             issueDescription:(NSString * __nullable)issueDescription
+              issueDetectedAt:(NSDate * __nullable)issueDetectedAt
                 routingNumber:(NSString * __nullable)routingNumber
                     selection:(NSString * __nullable)selection
                 linkSessionID:(NSString *)linkSessionID
