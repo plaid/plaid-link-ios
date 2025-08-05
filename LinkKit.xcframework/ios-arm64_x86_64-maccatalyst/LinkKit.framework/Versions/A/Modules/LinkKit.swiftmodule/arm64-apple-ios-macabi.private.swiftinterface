@@ -316,6 +316,8 @@ public struct EventMetadata : Swift.Codable {
   public var mfaType: LinkKit.MFAType?
   public var requestID: Swift.String?
   public var issueID: Swift.String?
+  public var issueDescription: Swift.String?
+  public var issueDetectedAt: Foundation.Date?
   public var routingNumber: Swift.String?
   public var selection: Swift.String?
   public var timestamp: Foundation.Date

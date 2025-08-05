@@ -1,5 +1,25 @@
 # RELEASES
 
+## LinkKit 6.4.0 - 2025-08-05
+### Requirements
+
+| Name | Version |
+|------|---------|
+| Xcode | >= 16.1.0 |
+| iOS | >= 14.0 |
+
+### Changes
+
+- Add `issueDescription` and `issueDetectedAt` to `EventMetadata`.
+
+## LinkKit 6.3.2 - 2025-07-30
+### Requirements
+
+| Name | Version |
+|------|---------|
+| Xcode | >= 16.1.0 |
+| iOS | >= 14.0 |
+
 ## LinkKit 6.3.2 - 2025-07-30
 ### Requirements
 

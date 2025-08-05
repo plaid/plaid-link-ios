@@ -22357,6 +22357,228 @@
           },
           {
             "kind": "Var",
+            "name": "issueDescription",
+            "printedName": "issueDescription",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7LinkKit13EventMetadataV16issueDescriptionSSSgvp",
+            "mangledName": "$s7LinkKit13EventMetadataV16issueDescriptionSSSgvp",
+            "moduleName": "LinkKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7LinkKit13EventMetadataV16issueDescriptionSSSgvg",
+                "mangledName": "$s7LinkKit13EventMetadataV16issueDescriptionSSSgvg",
+                "moduleName": "LinkKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7LinkKit13EventMetadataV16issueDescriptionSSSgvs",
+                "mangledName": "$s7LinkKit13EventMetadataV16issueDescriptionSSSgvs",
+                "moduleName": "LinkKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7LinkKit13EventMetadataV16issueDescriptionSSSgvM",
+                "mangledName": "$s7LinkKit13EventMetadataV16issueDescriptionSSSgvM",
+                "moduleName": "LinkKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "issueDetectedAt",
+            "printedName": "issueDetectedAt",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Date?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7LinkKit13EventMetadataV15issueDetectedAt10Foundation4DateVSgvp",
+            "mangledName": "$s7LinkKit13EventMetadataV15issueDetectedAt10Foundation4DateVSgvp",
+            "moduleName": "LinkKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Date?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Date",
+                        "printedName": "Foundation.Date",
+                        "usr": "s:10Foundation4DateV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7LinkKit13EventMetadataV15issueDetectedAt10Foundation4DateVSgvg",
+                "mangledName": "$s7LinkKit13EventMetadataV15issueDetectedAt10Foundation4DateVSgvg",
+                "moduleName": "LinkKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Date?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Date",
+                        "printedName": "Foundation.Date",
+                        "usr": "s:10Foundation4DateV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7LinkKit13EventMetadataV15issueDetectedAt10Foundation4DateVSgvs",
+                "mangledName": "$s7LinkKit13EventMetadataV15issueDetectedAt10Foundation4DateVSgvs",
+                "moduleName": "LinkKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7LinkKit13EventMetadataV15issueDetectedAt10Foundation4DateVSgvM",
+                "mangledName": "$s7LinkKit13EventMetadataV15issueDetectedAt10Foundation4DateVSgvM",
+                "moduleName": "LinkKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "routingNumber",
             "printedName": "routingNumber",
             "children": [
@@ -22888,7 +23110,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(accountNumberMask:errorCode:errorMessage:exitStatus:institutionID:institutionName:institutionSearchQuery:isUpdateMode:matchReason:linkSessionID:mfaType:requestID:issueID:routingNumber:selection:timestamp:viewName:metadataJSON:)",
+            "printedName": "init(accountNumberMask:errorCode:errorMessage:exitStatus:institutionID:institutionName:institutionSearchQuery:isUpdateMode:matchReason:linkSessionID:mfaType:requestID:issueID:issueDescription:issueDetectedAt:routingNumber:selection:timestamp:viewName:metadataJSON:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -23100,6 +23322,36 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
+                "printedName": "Foundation.Date?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
                 "printedName": "Swift.String?",
                 "children": [
                   {
@@ -23150,8 +23402,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:7LinkKit13EventMetadataV17accountNumberMask9errorCode0H7Message10exitStatus13institutionID0M4Name0M11SearchQuery12isUpdateMode11matchReason011linkSessionN07mfaType07requestN005issueN007routingF09selection9timestamp04viewO012metadataJSONACSSSg_AA09ExitErrorI0OSgAvA04ExitL0OSgA5VSSAA7MFATypeOSgA4V10Foundation4DateVAA04ViewO0OSgAVtcfc",
-            "mangledName": "$s7LinkKit13EventMetadataV17accountNumberMask9errorCode0H7Message10exitStatus13institutionID0M4Name0M11SearchQuery12isUpdateMode11matchReason011linkSessionN07mfaType07requestN005issueN007routingF09selection9timestamp04viewO012metadataJSONACSSSg_AA09ExitErrorI0OSgAvA04ExitL0OSgA5VSSAA7MFATypeOSgA4V10Foundation4DateVAA04ViewO0OSgAVtcfc",
+            "usr": "s:7LinkKit13EventMetadataV17accountNumberMask9errorCode0H7Message10exitStatus13institutionID0M4Name0M11SearchQuery12isUpdateMode11matchReason011linkSessionN07mfaType07requestN005issueN016issueDescription15issueDetectedAt07routingF09selection9timestamp04viewO012metadataJSONACSSSg_AA09ExitErrorI0OSgAxA04ExitL0OSgA5XSSAA7MFATypeOSgA3X10Foundation4DateVSgA2XA8_AA04ViewO0OSgAXtcfc",
+            "mangledName": "$s7LinkKit13EventMetadataV17accountNumberMask9errorCode0H7Message10exitStatus13institutionID0M4Name0M11SearchQuery12isUpdateMode11matchReason011linkSessionN07mfaType07requestN005issueN016issueDescription15issueDetectedAt07routingF09selection9timestamp04viewO012metadataJSONACSSSg_AA09ExitErrorI0OSgAxA04ExitL0OSgA5XSSAA7MFATypeOSgA3X10Foundation4DateVSgA2XA8_AA04ViewO0OSgAXtcfc",
             "moduleName": "LinkKit",
             "implicit": true,
             "init_kind": "Designated"
