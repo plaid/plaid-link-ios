@@ -158,6 +158,46 @@
             "declAttributes": [
               "RawDocComment"
             ]
+          },
+          {
+            "kind": "Var",
+            "name": "description",
+            "printedName": "description",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7LinkKit18PresentationMethodO11descriptionSSvp",
+            "mangledName": "$s7LinkKit18PresentationMethodO11descriptionSSvp",
+            "moduleName": "LinkKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7LinkKit18PresentationMethodO11descriptionSSvg",
+                "mangledName": "$s7LinkKit18PresentationMethodO11descriptionSSvg",
+                "moduleName": "LinkKit",
+                "accessorKind": "get"
+              }
+            ]
           }
         ],
         "declKind": "Enum",
@@ -36315,6 +36355,97 @@
           },
           {
             "kind": "Var",
+            "name": "workflowService",
+            "printedName": "workflowService",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WorkflowService",
+                "printedName": "any Workflow.WorkflowService",
+                "usr": "s:8Workflow0A7ServiceP"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7LinkKit0A7HandlerC15workflowService8Workflow0fE0_pvp",
+            "mangledName": "$s7LinkKit0A7HandlerC15workflowService8Workflow0fE0_pvp",
+            "moduleName": "LinkKit",
+            "isOpen": true,
+            "declAttributes": [
+              "Lazy",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WorkflowService",
+                    "printedName": "any Workflow.WorkflowService",
+                    "usr": "s:8Workflow0A7ServiceP"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7LinkKit0A7HandlerC15workflowService8Workflow0fE0_pvg",
+                "mangledName": "$s7LinkKit0A7HandlerC15workflowService8Workflow0fE0_pvg",
+                "moduleName": "LinkKit",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WorkflowService",
+                    "printedName": "any Workflow.WorkflowService",
+                    "usr": "s:8Workflow0A7ServiceP"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7LinkKit0A7HandlerC15workflowService8Workflow0fE0_pvs",
+                "mangledName": "$s7LinkKit0A7HandlerC15workflowService8Workflow0fE0_pvs",
+                "moduleName": "LinkKit",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7LinkKit0A7HandlerC15workflowService8Workflow0fE0_pvM",
+                "mangledName": "$s7LinkKit0A7HandlerC15workflowService8Workflow0fE0_pvM",
+                "moduleName": "LinkKit",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "$__lazy_storage_$_workflowService",
             "printedName": "$__lazy_storage_$_workflowService",
             "children": [
@@ -36349,6 +36480,131 @@
           },
           {
             "kind": "Var",
+            "name": "plogger",
+            "printedName": "plogger",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Plogger",
+                "printedName": "Workflow.Plogger",
+                "usr": "s:8Workflow7PloggerC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7LinkKit0A7HandlerC7plogger8Workflow7PloggerCvp",
+            "mangledName": "$s7LinkKit0A7HandlerC7plogger8Workflow7PloggerCvp",
+            "moduleName": "LinkKit",
+            "isOpen": true,
+            "declAttributes": [
+              "Lazy",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Plogger",
+                    "printedName": "Workflow.Plogger",
+                    "usr": "s:8Workflow7PloggerC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7LinkKit0A7HandlerC7plogger8Workflow7PloggerCvg",
+                "mangledName": "$s7LinkKit0A7HandlerC7plogger8Workflow7PloggerCvg",
+                "moduleName": "LinkKit",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Plogger",
+                    "printedName": "Workflow.Plogger",
+                    "usr": "s:8Workflow7PloggerC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7LinkKit0A7HandlerC7plogger8Workflow7PloggerCvs",
+                "mangledName": "$s7LinkKit0A7HandlerC7plogger8Workflow7PloggerCvs",
+                "moduleName": "LinkKit",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7LinkKit0A7HandlerC7plogger8Workflow7PloggerCvM",
+                "mangledName": "$s7LinkKit0A7HandlerC7plogger8Workflow7PloggerCvM",
+                "moduleName": "LinkKit",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "$__lazy_storage_$_plogger",
+            "printedName": "$__lazy_storage_$_plogger",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Workflow.Plogger?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Plogger",
+                    "printedName": "Workflow.Plogger",
+                    "usr": "s:8Workflow7PloggerC"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7LinkKit0A7HandlerC25$__lazy_storage_$_plogger33_2F35CE8D0F063DC4E7A32246BB6D8185LL8Workflow7PloggerCSgvp",
+            "mangledName": "$s7LinkKit0A7HandlerC25$__lazy_storage_$_plogger33_2F35CE8D0F063DC4E7A32246BB6D8185LL8Workflow7PloggerCSgvp",
+            "moduleName": "LinkKit",
+            "implicit": true,
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 19,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
             "name": "paneViewModelObserver",
             "printedName": "paneViewModelObserver",
             "children": [
@@ -36377,7 +36633,7 @@
               "HasStorage",
               "AccessControl"
             ],
-            "fixedbinaryorder": 19,
+            "fixedbinaryorder": 20,
             "hasStorage": true
           }
         ],
@@ -45004,6 +45260,45 @@
             "moduleName": "LinkKit",
             "implicit": true,
             "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "ploggerClientType",
+            "printedName": "ploggerClientType",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PloggerClientType",
+                "printedName": "Workflow.PloggerClientType",
+                "usr": "s:8Workflow17PloggerClientTypeO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7LinkKit15SDKInfoProviderV17ploggerClientType8Workflow07PloggerfG0Ovp",
+            "mangledName": "$s7LinkKit15SDKInfoProviderV17ploggerClientType8Workflow07PloggerfG0Ovp",
+            "moduleName": "LinkKit",
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PloggerClientType",
+                    "printedName": "Workflow.PloggerClientType",
+                    "usr": "s:8Workflow17PloggerClientTypeO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7LinkKit15SDKInfoProviderV17ploggerClientType8Workflow07PloggerfG0Ovg",
+                "mangledName": "$s7LinkKit15SDKInfoProviderV17ploggerClientType8Workflow07PloggerfG0Ovg",
+                "moduleName": "LinkKit",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
           }
         ],
         "declKind": "Struct",

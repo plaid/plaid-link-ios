@@ -1,5 +1,18 @@
 # RELEASES
 
+## LinkKit 6.4.1 - 2025-09-25
+### Requirements
+
+| Name | Version |
+|------|---------|
+| Xcode | >= 16.1.0 |
+| iOS | >= 14.0 |
+
+### Changes
+
+- Resolved an issue where the `selection` value was missing in `LinkEvent.EventMetadata`.
+- Improved internal debugging and logging to help diagnose customer-reported issues more effectively.
+
 ## LinkKit 6.4.0 - 2025-08-05
 ### Requirements
 
