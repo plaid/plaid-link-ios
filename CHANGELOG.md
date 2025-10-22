@@ -1,5 +1,17 @@
 # RELEASES
 
+## LinkKit 6.4.2 - 2025-10-22
+### Requirements
+
+| Name | Version |
+|------|---------|
+| Xcode | >= 16.1.0 |
+| iOS | >= 14.0 |
+
+### Changes
+
+- Resolved `syncFinanceKit` crash when running on iPad on compatibility mode.
+
 ## LinkKit 6.4.1 - 2025-09-25
 ### Requirements
 
