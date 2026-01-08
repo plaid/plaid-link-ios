@@ -536,6 +536,7 @@ static NSString *const kPLKDefaultErrorDomain = @"com.plaid.link";
 @interface PLKSubmissionData : NSObject
 @property (nonatomic, copy, nullable) NSString *phoneNumber;
 @property (nonatomic, copy, nullable) NSString *dateOfBirth;
+@property (nonatomic, copy, nullable) NSDictionary<NSString *, NSString *> *params;
 @end
 
 @interface PLKEventMetadata : NSObject
