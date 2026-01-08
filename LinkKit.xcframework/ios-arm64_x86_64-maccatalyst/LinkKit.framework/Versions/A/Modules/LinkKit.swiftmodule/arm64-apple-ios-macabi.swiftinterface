@@ -364,6 +364,7 @@ public struct ExitError : Swift.Error, Swift.Codable {
 public protocol SubmissionData {
   var phoneNumber: Swift.String? { get }
   var dateOfBirth: Swift.String? { get }
+  var params: [Swift.String : Swift.String]? { get }
 }
 public enum MFAType : Swift.CustomStringConvertible, Swift.Codable {
   case code
