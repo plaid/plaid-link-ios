@@ -1,6 +1,6 @@
 # Plaid Link for iOS
 [![SwiftPM](https://img.shields.io/badge/SPM-supported-DE5C43.svg?style=flat)](https://swift.org/package-manager/) 
-[![version][link-sdk-version]]
+[![version][link-sdk-version]][link-ios-docs]
 [![swift compatibility][link-sdk-swift-compat]][link-sdk-spi-url]
 
 ## Installing LinkKit
