@@ -22,17 +22,9 @@ Alternatively, you can add the following dependency to your `Package.swift` file
 
 **Recommendation**: Use the [plaid-link-spm](https://github.com/plaid/plaid-link-ios-spm) repo instead of the main [plaid-link-ios](https://github.com/plaid/plaid-link-ios) repository. The main repository with full git history is very large (~1 GB), and Swift Package Manager always downloads the full repository with all git history. This [plaid-link-ios-spm](https://github.com/plaid/plaid-link-ios-spm) repository is much smaller (less than 500kb), making the download faster.
 
-This [plaid-link-spm](https://github.com/plaid/plaid-link-ios-spm) repository just contains a pointer to the precompiled XCFramework included in the [latest plaid-link-ios release](https://github.com/plaid/plaid-link-ios/releases/latest) (typically ~20MB). Since [plaid-link-ios](https://github.com/plaid/plaid-link-ios) doesn't provide source code it's strongly recommended that users depend on [plaid-link-ios-spm](https://github.com/plaid/plaid-link-ios-spm) instead.
+This [plaid-link-spm](https://github.com/plaid/plaid-link-ios-spm) repository just contains a pointer to the precompiled XCFramework included in the [latest plaid-link-ios release](https://github.com/plaid/plaid-link-ios/releases/latest) (typically ~15MB). Since [plaid-link-ios](https://github.com/plaid/plaid-link-ios) doesn't provide source code it's strongly recommended that users depend on [plaid-link-ios-spm](https://github.com/plaid/plaid-link-ios-spm) instead.
 
 **Validation**: When using plaid-link-ios-spm, the downloaded `LinkKit.xframework` isn't visible in the project navigator. To validate the authenticity of a plaid-link-ios-spm package, you can confirm that the `Package.swift` file references a binary XCFramework from https://github.com/plaid/plaid-link-ios/releases.
-
-### CocoaPods
-
-1. If you haven’t already, install the latest version of [CocoaPods](https://guides.cocoapods.org/using/getting-started.html).
-2. If you don’t have an existing Podfile, create one by running: `pod init`
-3. Add this line to your Podfile: `pod 'Plaid'`
-4. Install the pods by running: `pod install`
-5. To update to newer releases in the future, run: `pod install`
 
 ## Contents
 
@@ -42,10 +34,6 @@ This [plaid-link-spm](https://github.com/plaid/plaid-link-ios-spm) repository ju
 * [Objective-C](LinkDemo-ObjC)
 
 📚 Detailed instructions on how to integrate with Plaid Link for iOS can be found in our main documentation at [plaid.com/docs/link/ios][link-ios-docs]. 
-
-5️⃣ If you're updating from version 4.x to 5.x please read our [migration guide](v5-migration-guide.md).
-
-:warning: All integrations must use version 4.1.0 (released January 2023) or higher to maintain support for Chase OAuth connections.
 
 ### About the LinkDemo Xcode projects
 
@@ -61,7 +49,6 @@ Before building and running the sample application replace any Xcode placeholder
 Build and run the demo application to experience the Link flow for yourself.
 
 [link-ios-docs]: https://plaid.com/docs/link/ios
-[link-sdk-version]: https://img.shields.io/cocoapods/v/Plaid
-[link-sdk-pod-url]: https://cocoapods.org/pods/Plaid
-[link-sdk-spi-url]: https://swiftpackageindex.com/plaid/plaid-link-ios
-[link-sdk-swift-compat]: https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fplaid%2Fplaid-link-ios%2Fbadge%3Ftype%3Dswift-versions
+[link-sdk-version]: https://img.shields.io/github/v/release/plaid/plaid-link-ios-spm?label=version
+[link-sdk-spi-url]: https://swiftpackageindex.com/plaid/plaid-link-ios-spm
+[link-sdk-swift-compat]: https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fplaid%2Fplaid-link-ios-spm%2Fbadge%3Ftype%3Dswift-versions
