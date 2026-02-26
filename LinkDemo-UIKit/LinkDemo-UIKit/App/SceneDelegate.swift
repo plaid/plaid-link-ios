@@ -1,22 +1,15 @@
 //
-//  LinkKitSwiftUISupport.swift
-//  LinkDemo-SwiftUI
+//  SceneDelegate.swift
+//  LinkDemo-UIKit
 //
 //  Copyright © 2026 Plaid Inc. All rights reserved.
 //
 
-import SwiftUI
+import UIKit
 
-@main
-struct LinkDemoSwiftuiApp: App {
-    /// Wrapper view for options related to LinkKit SDK.
-    var body: some Scene {
-        WindowGroup {
-            ExampleListView(linkToken: linkToken)
-        }
-    }
+class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
-    // MARK: Private
+    var window: UIWindow?
 
     // Steps to acquire a Link Token:
     //
@@ -31,4 +24,20 @@ struct LinkDemoSwiftuiApp: App {
     // https://plaid.com/docs/api/tokens/#linktokencreate
     #warning("Replace <#GENERATED_LINK_TOKEN#> below with your link_token")
     private let linkToken: String = "<#GENERATED_LINK_TOKEN#>"
+
+    func scene(
+        _ scene: UIScene,
+        willConnectTo session: UISceneSession,
+        options connectionOptions: UIScene.ConnectionOptions
+    ) {
+        guard let windowScene = (scene as? UIWindowScene) else { return }
+
+        let window = UIWindow(windowScene: windowScene)
+        let exampleListVC = ExampleListViewController(linkToken: linkToken)
+        let navigationController = UINavigationController(rootViewController: exampleListVC)
+
+        window.rootViewController = navigationController
+        window.makeKeyAndVisible()
+        self.window = window
+    }
 }
