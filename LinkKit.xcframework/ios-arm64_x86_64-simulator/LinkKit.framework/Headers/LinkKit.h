@@ -20,6 +20,3 @@ FOUNDATION_EXPORT const NSString* LinkKitCommit;
 
 //! Project identifier for LinkKit.
 FOUNDATION_EXPORT const NSString* LinkKitIdentifier;
-
-#import <LinkKit/PLKPlaid.h>
-#import <LinkKit/PLKPlaid+PrivateInitializers.h>

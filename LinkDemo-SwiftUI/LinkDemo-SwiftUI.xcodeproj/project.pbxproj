@@ -7,13 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C5D16812F50F3B000018D4E /* ExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5D167E2F50F3B000018D4E /* ExampleView.swift */; };
+		7C5D16822F50F3B000018D4E /* PlaidLinkSessionExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5D16792F50F3B000018D4E /* PlaidLinkSessionExampleView.swift */; };
+		7C5D16832F50F3B000018D4E /* PlaidLayerSessionExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5D16772F50F3B000018D4E /* PlaidLayerSessionExampleView.swift */; };
+		7C5D16842F50F3B000018D4E /* LabeledTextInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5D16712F50F3B000018D4E /* LabeledTextInputView.swift */; };
+		7C5D16852F50F3B000018D4E /* PlaidLinkUIViewControllerRepresentableExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5D167A2F50F3B000018D4E /* PlaidLinkUIViewControllerRepresentableExampleView.swift */; };
+		7C5D16862F50F3B000018D4E /* PlaidErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5D16732F50F3B000018D4E /* PlaidErrorView.swift */; };
+		7C5D16872F50F3B000018D4E /* SyncFinanceKitExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5D167C2F50F3B000018D4E /* SyncFinanceKitExampleView.swift */; };
+		7C5D16882F50F3B000018D4E /* ExampleListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5D16752F50F3B000018D4E /* ExampleListView.swift */; };
+		7C5D16892F50F3B000018D4E /* PlaidEmbeddedLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5D16762F50F3B000018D4E /* PlaidEmbeddedLinkView.swift */; };
+		7C5D168A2F50F3B000018D4E /* LoadingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5D167F2F50F3B000018D4E /* LoadingState.swift */; };
+		7C5D168B2F50F3B000018D4E /* LinkKitVersionInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5D16722F50F3B000018D4E /* LinkKitVersionInfoView.swift */; };
+		7C5D168C2F50F3B000018D4E /* PlaidLinkViewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5D167B2F50F3B000018D4E /* PlaidLinkViewExample.swift */; };
+		7C5D168D2F50F3B000018D4E /* PlaidLinkHeadlessSessionExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5D16782F50F3B000018D4E /* PlaidLinkHeadlessSessionExampleView.swift */; };
 		7CE6692D2A0A9FCB00A65FD3 /* LinkDemo_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE6692C2A0A9FCB00A65FD3 /* LinkDemo_SwiftUIApp.swift */; };
 		7CE669312A0A9FCC00A65FD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CE669302A0A9FCC00A65FD3 /* Assets.xcassets */; };
 		7CE669342A0A9FCC00A65FD3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CE669332A0A9FCC00A65FD3 /* Preview Assets.xcassets */; };
 		7CE669462A0ABA8A00A65FD3 /* LinkKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CE669452A0ABA8A00A65FD3 /* LinkKit.xcframework */; };
 		7CE669472A0ABA8A00A65FD3 /* LinkKit.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7CE669452A0ABA8A00A65FD3 /* LinkKit.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		7CE6694B2A0ABB3000A65FD3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE6694A2A0ABB3000A65FD3 /* ContentView.swift */; };
-		7CE6694D2A0ABBA800A65FD3 /* LinkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE6694C2A0ABBA800A65FD3 /* LinkController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,14 +42,25 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		7C5D16712F50F3B000018D4E /* LabeledTextInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabeledTextInputView.swift; sourceTree = "<group>"; };
+		7C5D16722F50F3B000018D4E /* LinkKitVersionInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkKitVersionInfoView.swift; sourceTree = "<group>"; };
+		7C5D16732F50F3B000018D4E /* PlaidErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaidErrorView.swift; sourceTree = "<group>"; };
+		7C5D16752F50F3B000018D4E /* ExampleListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleListView.swift; sourceTree = "<group>"; };
+		7C5D16762F50F3B000018D4E /* PlaidEmbeddedLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaidEmbeddedLinkView.swift; sourceTree = "<group>"; };
+		7C5D16772F50F3B000018D4E /* PlaidLayerSessionExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaidLayerSessionExampleView.swift; sourceTree = "<group>"; };
+		7C5D16782F50F3B000018D4E /* PlaidLinkHeadlessSessionExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaidLinkHeadlessSessionExampleView.swift; sourceTree = "<group>"; };
+		7C5D16792F50F3B000018D4E /* PlaidLinkSessionExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaidLinkSessionExampleView.swift; sourceTree = "<group>"; };
+		7C5D167A2F50F3B000018D4E /* PlaidLinkUIViewControllerRepresentableExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaidLinkUIViewControllerRepresentableExampleView.swift; sourceTree = "<group>"; };
+		7C5D167B2F50F3B000018D4E /* PlaidLinkViewExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaidLinkViewExample.swift; sourceTree = "<group>"; };
+		7C5D167C2F50F3B000018D4E /* SyncFinanceKitExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyncFinanceKitExampleView.swift; sourceTree = "<group>"; };
+		7C5D167E2F50F3B000018D4E /* ExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleView.swift; sourceTree = "<group>"; };
+		7C5D167F2F50F3B000018D4E /* LoadingState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingState.swift; sourceTree = "<group>"; };
 		7CE669292A0A9FCB00A65FD3 /* LinkDemo-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LinkDemo-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CE6692C2A0A9FCB00A65FD3 /* LinkDemo_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkDemo_SwiftUIApp.swift; sourceTree = "<group>"; };
 		7CE669302A0A9FCC00A65FD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7CE669332A0A9FCC00A65FD3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7CE669452A0ABA8A00A65FD3 /* LinkKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = LinkKit.xcframework; path = ../LinkKit.xcframework; sourceTree = "<group>"; };
 		7CE669492A0ABACD00A65FD3 /* LinkDemo-SwiftUI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "LinkDemo-SwiftUI.entitlements"; sourceTree = "<group>"; };
-		7CE6694A2A0ABB3000A65FD3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		7CE6694C2A0ABBA800A65FD3 /* LinkController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +75,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7C5D16742F50F3B000018D4E /* ComponentViews */ = {
+			isa = PBXGroup;
+			children = (
+				7C5D16712F50F3B000018D4E /* LabeledTextInputView.swift */,
+				7C5D16722F50F3B000018D4E /* LinkKitVersionInfoView.swift */,
+				7C5D16732F50F3B000018D4E /* PlaidErrorView.swift */,
+			);
+			path = ComponentViews;
+			sourceTree = "<group>";
+		};
+		7C5D167D2F50F3B000018D4E /* ExampleViews */ = {
+			isa = PBXGroup;
+			children = (
+				7C5D16762F50F3B000018D4E /* PlaidEmbeddedLinkView.swift */,
+				7C5D16772F50F3B000018D4E /* PlaidLayerSessionExampleView.swift */,
+				7C5D16782F50F3B000018D4E /* PlaidLinkHeadlessSessionExampleView.swift */,
+				7C5D16792F50F3B000018D4E /* PlaidLinkSessionExampleView.swift */,
+				7C5D167A2F50F3B000018D4E /* PlaidLinkUIViewControllerRepresentableExampleView.swift */,
+				7C5D167B2F50F3B000018D4E /* PlaidLinkViewExample.swift */,
+				7C5D167C2F50F3B000018D4E /* SyncFinanceKitExampleView.swift */,
+			);
+			path = ExampleViews;
+			sourceTree = "<group>";
+		};
+		7C5D16802F50F3B000018D4E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7C5D167E2F50F3B000018D4E /* ExampleView.swift */,
+				7C5D167F2F50F3B000018D4E /* LoadingState.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		7CE669202A0A9FCB00A65FD3 = {
 			isa = PBXGroup;
 			children = (
@@ -73,10 +128,12 @@
 		7CE6692B2A0A9FCB00A65FD3 /* LinkDemo-SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				7C5D16742F50F3B000018D4E /* ComponentViews */,
+				7C5D167D2F50F3B000018D4E /* ExampleViews */,
+				7C5D16802F50F3B000018D4E /* Models */,
 				7CE669492A0ABACD00A65FD3 /* LinkDemo-SwiftUI.entitlements */,
 				7CE6692C2A0A9FCB00A65FD3 /* LinkDemo_SwiftUIApp.swift */,
-				7CE6694A2A0ABB3000A65FD3 /* ContentView.swift */,
-				7CE6694C2A0ABBA800A65FD3 /* LinkController.swift */,
+				7C5D16752F50F3B000018D4E /* ExampleListView.swift */,
 				7CE669302A0A9FCC00A65FD3 /* Assets.xcassets */,
 				7CE669322A0A9FCC00A65FD3 /* Preview Content */,
 			);
@@ -170,9 +227,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7CE6694D2A0ABBA800A65FD3 /* LinkController.swift in Sources */,
-				7CE6694B2A0ABB3000A65FD3 /* ContentView.swift in Sources */,
 				7CE6692D2A0A9FCB00A65FD3 /* LinkDemo_SwiftUIApp.swift in Sources */,
+				7C5D16812F50F3B000018D4E /* ExampleView.swift in Sources */,
+				7C5D16822F50F3B000018D4E /* PlaidLinkSessionExampleView.swift in Sources */,
+				7C5D16832F50F3B000018D4E /* PlaidLayerSessionExampleView.swift in Sources */,
+				7C5D16842F50F3B000018D4E /* LabeledTextInputView.swift in Sources */,
+				7C5D16852F50F3B000018D4E /* PlaidLinkUIViewControllerRepresentableExampleView.swift in Sources */,
+				7C5D16862F50F3B000018D4E /* PlaidErrorView.swift in Sources */,
+				7C5D16872F50F3B000018D4E /* SyncFinanceKitExampleView.swift in Sources */,
+				7C5D16882F50F3B000018D4E /* ExampleListView.swift in Sources */,
+				7C5D16892F50F3B000018D4E /* PlaidEmbeddedLinkView.swift in Sources */,
+				7C5D168A2F50F3B000018D4E /* LoadingState.swift in Sources */,
+				7C5D168B2F50F3B000018D4E /* LinkKitVersionInfoView.swift in Sources */,
+				7C5D168C2F50F3B000018D4E /* PlaidLinkViewExample.swift in Sources */,
+				7C5D168D2F50F3B000018D4E /* PlaidLinkHeadlessSessionExampleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,7 +378,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -318,6 +386,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.plaid.linkdemo.ios.swiftui;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -341,7 +412,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -349,6 +420,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.plaid.linkdemo.ios.swiftui;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
