@@ -102,7 +102,10 @@ public enum EventName : Swift.CustomStringConvertible, Swift.Codable {
   case selectDegradedInstitution
   case selectFilteredInstitution
   case selectDownInstitution
+  case selectDenylistedInstitution
+  case selectFallbackRoutingInstitution
   case selectInstitution
+  case selectRememberMeDuplicateInstitution
   case selectBrand
   case selectAuthType
   case skipSubmitPhone
@@ -548,6 +551,18 @@ public enum ViewName : Swift.CustomStringConvertible, Swift.Codable {
   }
   public func encode(to encoder: any Swift.Encoder) throws
 }
+public struct PlaidFinanceKit {
+  @available(iOS 17.4, *)
+  public enum SyncBehavior {
+    case live
+    case simulated
+    public static func == (a: LinkKit.PlaidFinanceKit.SyncBehavior, b: LinkKit.PlaidFinanceKit.SyncBehavior) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+}
 public enum VerificationStatus : Swift.CustomStringConvertible, Swift.Codable {
   case pendingAutomaticVerification
   case pendingManualVerification
@@ -578,6 +593,10 @@ public enum AssetReportErrorCode : Swift.Error, Swift.CustomStringConvertible {
   @objc public static var sdkVersion: Swift.String {
     @objc get
   }
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class PLKPlaidFinanceKit : ObjectiveC.NSObject {
   @objc override dynamic public init()
   @objc deinit
 }
@@ -681,3 +700,7 @@ extension LinkKit.MFAType : Swift.Equatable {}
 extension LinkKit.MFAType : Swift.Hashable {}
 extension LinkKit.Product : Swift.Equatable {}
 extension LinkKit.Product : Swift.Hashable {}
+@available(iOS 17.4, *)
+extension LinkKit.PlaidFinanceKit.SyncBehavior : Swift.Equatable {}
+@available(iOS 17.4, *)
+extension LinkKit.PlaidFinanceKit.SyncBehavior : Swift.Hashable {}
