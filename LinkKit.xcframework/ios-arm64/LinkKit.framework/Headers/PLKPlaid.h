@@ -101,7 +101,10 @@ typedef NS_ENUM(NSInteger, PLKEventNameValue) {
     PLKEventNameValueIdentityMatchFailed,
     PLKEventNameValueIssueFollowed,
     PLKEventNameValueSelectAccount,
-    PLKEventNameValueLayerAutoFillNotAvailable
+    PLKEventNameValueLayerAutoFillNotAvailable,
+    PLKEventNameValueSelectDenylistedInstitution,
+    PLKEventNameValueSelectFallbackRoutingInstitution,
+    PLKEventNameValueSelectRememberMeDuplicateInstitution
     // Add new enum cases directly above this line to avoid breaking API changes
 };
 
@@ -636,5 +639,10 @@ typedef void(^PLKDismissalHandler)(UIViewController *);
 - (void) submit:(PLKSubmissionData *)data;
 
 @end
+
+typedef NS_ENUM(NSInteger, PLKSyncBehavior) {
+    PLKSyncBehaviorLive,
+    PLKSyncBehaviorSimulated
+};
 
 NS_ASSUME_NONNULL_END

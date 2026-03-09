@@ -283,6 +283,8 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @import ObjectiveC;
 #endif
 
+#import <LinkKit/LinkKit.h>
+
 #endif
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
 #pragma clang diagnostic ignored "-Wduplicate-method-arg"
@@ -317,7 +319,30 @@ SWIFT_CLASS("_TtC7LinkKit8PLKPlaid")
 /// The version of the Plaid Link iOS SDK.
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull sdkVersion;)
 + (NSString * _Nonnull)sdkVersion SWIFT_WARN_UNUSED_RESULT;
-+ (void)syncFinanceKitWithToken:(NSString * _Nonnull)token requestAuthorizationIfNeeded:(BOOL)requestAuthorizationIfNeeded simulatedBehavior:(BOOL)simulatedBehavior onSuccess:(void (^ _Nonnull)(void))onSuccess onError:(void (^ _Nonnull)(NSError * _Nonnull))onError SWIFT_AVAILABILITY(ios,introduced=17.4);
++ (void)syncFinanceKitWithToken:(NSString * _Nonnull)token requestAuthorizationIfNeeded:(BOOL)requestAuthorizationIfNeeded simulatedBehavior:(BOOL)simulatedBehavior onSuccess:(void (^ _Nonnull)(void))onSuccess onError:(void (^ _Nonnull)(NSError * _Nonnull))onError SWIFT_AVAILABILITY(ios,introduced=6.0.0,deprecated=6.4.4,message="Use PKLPlaidFinanceKit.sync(token:requestAuthorizationIfNeeded:syncBehavior:completion:) instead. This method will be removed in version 7 of the SDK.") SWIFT_AVAILABILITY(ios,introduced=17.4);
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC7LinkKit18PLKPlaidFinanceKit")
+@interface PLKPlaidFinanceKit : NSObject
+/// Synchronizes the user’s Apple Card transactions with Plaid.
+/// Call this method <em>after</em> the user has linked their Apple Card in a standard Plaid Link
+/// session and your app has been granted <em>FinanceKit</em> entitlements by Apple.
+/// note:
+/// Available on iOS 17.4 and later.
+/// \param token A Plaid link token already associated with an access token.
+///
+/// \param requestAuthorizationIfNeeded Pass <code>true</code> to prompt the user for FinanceKit
+/// permission if it hasn’t been granted yet; otherwise pass <code>false</code>.
+///
+/// \param syncBehavior Controls whether the sync uses live FinanceKit data or simulated data.
+///
+/// \param onSuccess Closure executed when the sync completes successfully.
+///
+/// \param onError Closure executed when the sync fails, providing an NSError.
+///
++ (void)syncWithToken:(NSString * _Nonnull)token requestAuthorizationIfNeeded:(BOOL)requestAuthorizationIfNeeded syncBehavior:(PLKSyncBehavior)syncBehavior onSuccess:(void (^ _Nonnull)(void))onSuccess onError:(void (^ _Nonnull)(NSError * _Nonnull))onError SWIFT_AVAILABILITY(ios,introduced=17.4);
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 

@@ -321,6 +321,12 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _No
 @end
 
 
+SWIFT_CLASS("_TtC7LinkKit18PLKPlaidFinanceKit")
+@interface PLKPlaidFinanceKit : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
 
 
 #endif
@@ -650,6 +656,12 @@ SWIFT_CLASS("_TtC7LinkKit8PLKPlaid")
 /// The version of the Plaid Link iOS SDK.
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull sdkVersion;)
 + (NSString * _Nonnull)sdkVersion SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC7LinkKit18PLKPlaidFinanceKit")
+@interface PLKPlaidFinanceKit : NSObject
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 

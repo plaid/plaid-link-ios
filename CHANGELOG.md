@@ -1,5 +1,20 @@
 # RELEASES
 
+## LinkKit 6.4.4 - 2026-03-06
+
+### Requirements
+
+| Name  | Version  |
+|-------|----------|
+| Xcode | >= 16.1.0 |
+| iOS   | >= 14.0  |
+
+### Changes
+
+- Add event names `SELECT_FALLBACK_ROUTING_INSTITUTION`, `SELECT_DENYLISTED_INSTITUTION`, & `SELECT_REMEMBER_ME_DUPLICATE_INSTITUTION`
+- Deprecate FinanceKit sync API
+- Deprecate CocoaPods integration
+
 ## LinkKit 6.4.3 - 2026-01-08
 ### Requirements
 
