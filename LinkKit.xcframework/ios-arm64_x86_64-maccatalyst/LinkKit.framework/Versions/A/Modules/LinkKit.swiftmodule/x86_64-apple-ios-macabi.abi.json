@@ -28873,8 +28873,7 @@
             "moduleName": "LinkKit",
             "declAttributes": [
               "Final",
-              "AccessControl",
-              "RawDocComment"
+              "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -29215,6 +29214,46 @@
           },
           {
             "kind": "Var",
+            "name": "dataTransparencyMessagingModal",
+            "printedName": "dataTransparencyMessagingModal",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(LinkKit.ViewName.Type) -> LinkKit.ViewName",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ViewName",
+                    "printedName": "LinkKit.ViewName",
+                    "usr": "s:7LinkKit8ViewNameO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "LinkKit.ViewName.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ViewName",
+                        "printedName": "LinkKit.ViewName",
+                        "usr": "s:7LinkKit8ViewNameO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7LinkKit8ViewNameO30dataTransparencyMessagingModalyA2CmF",
+            "mangledName": "$s7LinkKit8ViewNameO30dataTransparencyMessagingModalyA2CmF",
+            "moduleName": "LinkKit",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "documentaryVerification",
             "printedName": "documentaryVerification",
             "children": [
@@ -29328,6 +29367,46 @@
             "declKind": "EnumElement",
             "usr": "s:7LinkKit8ViewNameO4exityA2CmF",
             "mangledName": "$s7LinkKit8ViewNameO4exityA2CmF",
+            "moduleName": "LinkKit",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "identityMatchBlock",
+            "printedName": "identityMatchBlock",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(LinkKit.ViewName.Type) -> LinkKit.ViewName",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ViewName",
+                    "printedName": "LinkKit.ViewName",
+                    "usr": "s:7LinkKit8ViewNameO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "LinkKit.ViewName.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ViewName",
+                        "printedName": "LinkKit.ViewName",
+                        "usr": "s:7LinkKit8ViewNameO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7LinkKit8ViewNameO18identityMatchBlockyA2CmF",
+            "mangledName": "$s7LinkKit8ViewNameO18identityMatchBlockyA2CmF",
             "moduleName": "LinkKit",
             "declAttributes": [
               "RawDocComment"
@@ -30492,6 +30571,246 @@
           },
           {
             "kind": "Var",
+            "name": "craConsent",
+            "printedName": "craConsent",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(LinkKit.ViewName.Type) -> LinkKit.ViewName",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ViewName",
+                    "printedName": "LinkKit.ViewName",
+                    "usr": "s:7LinkKit8ViewNameO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "LinkKit.ViewName.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ViewName",
+                        "printedName": "LinkKit.ViewName",
+                        "usr": "s:7LinkKit8ViewNameO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7LinkKit8ViewNameO10craConsentyA2CmF",
+            "mangledName": "$s7LinkKit8ViewNameO10craConsentyA2CmF",
+            "moduleName": "LinkKit",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "instantMicrodepositAuthorized",
+            "printedName": "instantMicrodepositAuthorized",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(LinkKit.ViewName.Type) -> LinkKit.ViewName",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ViewName",
+                    "printedName": "LinkKit.ViewName",
+                    "usr": "s:7LinkKit8ViewNameO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "LinkKit.ViewName.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ViewName",
+                        "printedName": "LinkKit.ViewName",
+                        "usr": "s:7LinkKit8ViewNameO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7LinkKit8ViewNameO29instantMicrodepositAuthorizedyA2CmF",
+            "mangledName": "$s7LinkKit8ViewNameO29instantMicrodepositAuthorizedyA2CmF",
+            "moduleName": "LinkKit",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "sameDayMicrodepositAuthorized",
+            "printedName": "sameDayMicrodepositAuthorized",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(LinkKit.ViewName.Type) -> LinkKit.ViewName",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ViewName",
+                    "printedName": "LinkKit.ViewName",
+                    "usr": "s:7LinkKit8ViewNameO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "LinkKit.ViewName.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ViewName",
+                        "printedName": "LinkKit.ViewName",
+                        "usr": "s:7LinkKit8ViewNameO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7LinkKit8ViewNameO29sameDayMicrodepositAuthorizedyA2CmF",
+            "mangledName": "$s7LinkKit8ViewNameO29sameDayMicrodepositAuthorizedyA2CmF",
+            "moduleName": "LinkKit",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "instantMicrodepositVerification",
+            "printedName": "instantMicrodepositVerification",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(LinkKit.ViewName.Type) -> LinkKit.ViewName",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ViewName",
+                    "printedName": "LinkKit.ViewName",
+                    "usr": "s:7LinkKit8ViewNameO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "LinkKit.ViewName.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ViewName",
+                        "printedName": "LinkKit.ViewName",
+                        "usr": "s:7LinkKit8ViewNameO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7LinkKit8ViewNameO31instantMicrodepositVerificationyA2CmF",
+            "mangledName": "$s7LinkKit8ViewNameO31instantMicrodepositVerificationyA2CmF",
+            "moduleName": "LinkKit",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "sameDayMicrodepositVerification",
+            "printedName": "sameDayMicrodepositVerification",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(LinkKit.ViewName.Type) -> LinkKit.ViewName",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ViewName",
+                    "printedName": "LinkKit.ViewName",
+                    "usr": "s:7LinkKit8ViewNameO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "LinkKit.ViewName.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ViewName",
+                        "printedName": "LinkKit.ViewName",
+                        "usr": "s:7LinkKit8ViewNameO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7LinkKit8ViewNameO31sameDayMicrodepositVerificationyA2CmF",
+            "mangledName": "$s7LinkKit8ViewNameO31sameDayMicrodepositVerificationyA2CmF",
+            "moduleName": "LinkKit",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "transferStatusCheck",
+            "printedName": "transferStatusCheck",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(LinkKit.ViewName.Type) -> LinkKit.ViewName",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ViewName",
+                    "printedName": "LinkKit.ViewName",
+                    "usr": "s:7LinkKit8ViewNameO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "LinkKit.ViewName.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ViewName",
+                        "printedName": "LinkKit.ViewName",
+                        "usr": "s:7LinkKit8ViewNameO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7LinkKit8ViewNameO19transferStatusCheckyA2CmF",
+            "mangledName": "$s7LinkKit8ViewNameO19transferStatusCheckyA2CmF",
+            "moduleName": "LinkKit",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "unknown",
             "printedName": "unknown",
             "children": [
@@ -31088,6 +31407,44 @@
               },
               {
                 "kind": "Var",
+                "name": "dataTransparencyMessagingModal",
+                "printedName": "dataTransparencyMessagingModal",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(LinkKit.ViewName.InternalViewName.Type) -> LinkKit.ViewName.InternalViewName",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "InternalViewName",
+                        "printedName": "LinkKit.ViewName.InternalViewName",
+                        "usr": "s:7LinkKit8ViewNameO08InternalcD0O"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "LinkKit.ViewName.InternalViewName.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "InternalViewName",
+                            "printedName": "LinkKit.ViewName.InternalViewName",
+                            "usr": "s:7LinkKit8ViewNameO08InternalcD0O"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:7LinkKit8ViewNameO08InternalcD0O30dataTransparencyMessagingModalyA2EmF",
+                "mangledName": "$s7LinkKit8ViewNameO08InternalcD0O30dataTransparencyMessagingModalyA2EmF",
+                "moduleName": "LinkKit",
+                "fixedbinaryorder": 6
+              },
+              {
+                "kind": "Var",
                 "name": "documentaryVerification",
                 "printedName": "documentaryVerification",
                 "children": [
@@ -31122,7 +31479,7 @@
                 "usr": "s:7LinkKit8ViewNameO08InternalcD0O23documentaryVerificationyA2EmF",
                 "mangledName": "$s7LinkKit8ViewNameO08InternalcD0O23documentaryVerificationyA2EmF",
                 "moduleName": "LinkKit",
-                "fixedbinaryorder": 6
+                "fixedbinaryorder": 7
               },
               {
                 "kind": "Var",
@@ -31160,7 +31517,7 @@
                 "usr": "s:7LinkKit8ViewNameO08InternalcD0O5erroryA2EmF",
                 "mangledName": "$s7LinkKit8ViewNameO08InternalcD0O5erroryA2EmF",
                 "moduleName": "LinkKit",
-                "fixedbinaryorder": 7
+                "fixedbinaryorder": 8
               },
               {
                 "kind": "Var",
@@ -31198,7 +31555,45 @@
                 "usr": "s:7LinkKit8ViewNameO08InternalcD0O4exityA2EmF",
                 "mangledName": "$s7LinkKit8ViewNameO08InternalcD0O4exityA2EmF",
                 "moduleName": "LinkKit",
-                "fixedbinaryorder": 8
+                "fixedbinaryorder": 9
+              },
+              {
+                "kind": "Var",
+                "name": "identityMatchBlock",
+                "printedName": "identityMatchBlock",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(LinkKit.ViewName.InternalViewName.Type) -> LinkKit.ViewName.InternalViewName",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "InternalViewName",
+                        "printedName": "LinkKit.ViewName.InternalViewName",
+                        "usr": "s:7LinkKit8ViewNameO08InternalcD0O"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "LinkKit.ViewName.InternalViewName.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "InternalViewName",
+                            "printedName": "LinkKit.ViewName.InternalViewName",
+                            "usr": "s:7LinkKit8ViewNameO08InternalcD0O"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:7LinkKit8ViewNameO08InternalcD0O18identityMatchBlockyA2EmF",
+                "mangledName": "$s7LinkKit8ViewNameO08InternalcD0O18identityMatchBlockyA2EmF",
+                "moduleName": "LinkKit",
+                "fixedbinaryorder": 10
               },
               {
                 "kind": "Var",
@@ -31236,7 +31631,7 @@
                 "usr": "s:7LinkKit8ViewNameO08InternalcD0O8kycCheckyA2EmF",
                 "mangledName": "$s7LinkKit8ViewNameO08InternalcD0O8kycCheckyA2EmF",
                 "moduleName": "LinkKit",
-                "fixedbinaryorder": 9
+                "fixedbinaryorder": 11
               },
               {
                 "kind": "Var",
@@ -31274,7 +31669,7 @@
                 "usr": "s:7LinkKit8ViewNameO08InternalcD0O11selfieCheckyA2EmF",
                 "mangledName": "$s7LinkKit8ViewNameO08InternalcD0O11selfieCheckyA2EmF",
                 "moduleName": "LinkKit",
-                "fixedbinaryorder": 10
+                "fixedbinaryorder": 12
               },
               {
                 "kind": "Var",
@@ -31312,7 +31707,7 @@
                 "usr": "s:7LinkKit8ViewNameO08InternalcD0O7loadingyA2EmF",
                 "mangledName": "$s7LinkKit8ViewNameO08InternalcD0O7loadingyA2EmF",
                 "moduleName": "LinkKit",
-                "fixedbinaryorder": 11
+                "fixedbinaryorder": 13
               },
               {
                 "kind": "Var",
@@ -31350,7 +31745,7 @@
                 "usr": "s:7LinkKit8ViewNameO08InternalcD0O14matchedConsentyA2EmF",
                 "mangledName": "$s7LinkKit8ViewNameO08InternalcD0O14matchedConsentyA2EmF",
                 "moduleName": "LinkKit",
-                "fixedbinaryorder": 12
+                "fixedbinaryorder": 14
               },
               {
                 "kind": "Var",
@@ -31388,7 +31783,7 @@
                 "usr": "s:7LinkKit8ViewNameO08InternalcD0O17matchedCredentialyA2EmF",
                 "mangledName": "$s7LinkKit8ViewNameO08InternalcD0O17matchedCredentialyA2EmF",
                 "moduleName": "LinkKit",
-                "fixedbinaryorder": 13
+                "fixedbinaryorder": 15
               },
               {
                 "kind": "Var",
@@ -31426,7 +31821,7 @@
                 "usr": "s:7LinkKit8ViewNameO08InternalcD0O10matchedMFAyA2EmF",
                 "mangledName": "$s7LinkKit8ViewNameO08InternalcD0O10matchedMFAyA2EmF",
                 "moduleName": "LinkKit",
-                "fixedbinaryorder": 14
+                "fixedbinaryorder": 16
               },
               {
                 "kind": "Var",
@@ -31464,7 +31859,7 @@
                 "usr": "s:7LinkKit8ViewNameO08InternalcD0O3mfayA2EmF",
                 "mangledName": "$s7LinkKit8ViewNameO08InternalcD0O3mfayA2EmF",
                 "moduleName": "LinkKit",
-                "fixedbinaryorder": 15
+                "fixedbinaryorder": 17
               },
               {
                 "kind": "Var",
@@ -31502,7 +31897,7 @@
                 "usr": "s:7LinkKit8ViewNameO08InternalcD0O7numbersyA2EmF",
                 "mangledName": "$s7LinkKit8ViewNameO08InternalcD0O7numbersyA2EmF",
                 "moduleName": "LinkKit",
-                "fixedbinaryorder": 16
+                "fixedbinaryorder": 18
               },
               {
                 "kind": "Var",
@@ -31540,7 +31935,7 @@
                 "usr": "s:7LinkKit8ViewNameO08InternalcD0O24numbersSelectInstitutionyA2EmF",
                 "mangledName": "$s7LinkKit8ViewNameO08InternalcD0O24numbersSelectInstitutionyA2EmF",
                 "moduleName": "LinkKit",
-                "fixedbinaryorder": 17
+                "fixedbinaryorder": 19
               },
               {
                 "kind": "Var",
@@ -31578,7 +31973,7 @@
                 "usr": "s:7LinkKit8ViewNameO08InternalcD0O17profileDataReviewyA2EmF",
                 "mangledName": "$s7LinkKit8ViewNameO08InternalcD0O17profileDataReviewyA2EmF",
                 "moduleName": "LinkKit",
-                "fixedbinaryorder": 18
+                "fixedbinaryorder": 20
               },
               {
                 "kind": "Var",
@@ -31616,7 +32011,7 @@
                 "usr": "s:7LinkKit8ViewNameO08InternalcD0O5oauthyA2EmF",
                 "mangledName": "$s7LinkKit8ViewNameO08InternalcD0O5oauthyA2EmF",
                 "moduleName": "LinkKit",
-                "fixedbinaryorder": 19
+                "fixedbinaryorder": 21
               },
               {
                 "kind": "Var",
@@ -31654,7 +32049,7 @@
                 "usr": "s:7LinkKit8ViewNameO08InternalcD0O9recaptchayA2EmF",
                 "mangledName": "$s7LinkKit8ViewNameO08InternalcD0O9recaptchayA2EmF",
                 "moduleName": "LinkKit",
-                "fixedbinaryorder": 20
+                "fixedbinaryorder": 22
               },
               {
                 "kind": "Var",
@@ -31692,7 +32087,7 @@
                 "usr": "s:7LinkKit8ViewNameO08InternalcD0O9riskCheckyA2EmF",
                 "mangledName": "$s7LinkKit8ViewNameO08InternalcD0O9riskCheckyA2EmF",
                 "moduleName": "LinkKit",
-                "fixedbinaryorder": 21
+                "fixedbinaryorder": 23
               },
               {
                 "kind": "Var",
@@ -31730,7 +32125,7 @@
                 "usr": "s:7LinkKit8ViewNameO08InternalcD0O9screeningyA2EmF",
                 "mangledName": "$s7LinkKit8ViewNameO08InternalcD0O9screeningyA2EmF",
                 "moduleName": "LinkKit",
-                "fixedbinaryorder": 22
+                "fixedbinaryorder": 24
               },
               {
                 "kind": "Var",
@@ -31768,7 +32163,7 @@
                 "usr": "s:7LinkKit8ViewNameO08InternalcD0O13selectAccountyA2EmF",
                 "mangledName": "$s7LinkKit8ViewNameO08InternalcD0O13selectAccountyA2EmF",
                 "moduleName": "LinkKit",
-                "fixedbinaryorder": 23
+                "fixedbinaryorder": 25
               },
               {
                 "kind": "Var",
@@ -31806,7 +32201,7 @@
                 "usr": "s:7LinkKit8ViewNameO08InternalcD0O14selectAuthTypeyA2EmF",
                 "mangledName": "$s7LinkKit8ViewNameO08InternalcD0O14selectAuthTypeyA2EmF",
                 "moduleName": "LinkKit",
-                "fixedbinaryorder": 24
+                "fixedbinaryorder": 26
               },
               {
                 "kind": "Var",
@@ -31844,7 +32239,7 @@
                 "usr": "s:7LinkKit8ViewNameO08InternalcD0O11submitPhoneyA2EmF",
                 "mangledName": "$s7LinkKit8ViewNameO08InternalcD0O11submitPhoneyA2EmF",
                 "moduleName": "LinkKit",
-                "fixedbinaryorder": 25
+                "fixedbinaryorder": 27
               },
               {
                 "kind": "Var",
@@ -31882,7 +32277,7 @@
                 "usr": "s:7LinkKit8ViewNameO08InternalcD0O11verifyPhoneyA2EmF",
                 "mangledName": "$s7LinkKit8ViewNameO08InternalcD0O11verifyPhoneyA2EmF",
                 "moduleName": "LinkKit",
-                "fixedbinaryorder": 26
+                "fixedbinaryorder": 28
               },
               {
                 "kind": "Var",
@@ -31920,7 +32315,7 @@
                 "usr": "s:7LinkKit8ViewNameO08InternalcD0O22selectSavedInstitutionyA2EmF",
                 "mangledName": "$s7LinkKit8ViewNameO08InternalcD0O22selectSavedInstitutionyA2EmF",
                 "moduleName": "LinkKit",
-                "fixedbinaryorder": 27
+                "fixedbinaryorder": 29
               },
               {
                 "kind": "Var",
@@ -31958,7 +32353,7 @@
                 "usr": "s:7LinkKit8ViewNameO08InternalcD0O18selectSavedAccountyA2EmF",
                 "mangledName": "$s7LinkKit8ViewNameO08InternalcD0O18selectSavedAccountyA2EmF",
                 "moduleName": "LinkKit",
-                "fixedbinaryorder": 28
+                "fixedbinaryorder": 30
               },
               {
                 "kind": "Var",
@@ -31996,7 +32391,7 @@
                 "usr": "s:7LinkKit8ViewNameO08InternalcD0O11selectBrandyA2EmF",
                 "mangledName": "$s7LinkKit8ViewNameO08InternalcD0O11selectBrandyA2EmF",
                 "moduleName": "LinkKit",
-                "fixedbinaryorder": 29
+                "fixedbinaryorder": 31
               },
               {
                 "kind": "Var",
@@ -32034,7 +32429,7 @@
                 "usr": "s:7LinkKit8ViewNameO08InternalcD0O17selectInstitutionyA2EmF",
                 "mangledName": "$s7LinkKit8ViewNameO08InternalcD0O17selectInstitutionyA2EmF",
                 "moduleName": "LinkKit",
-                "fixedbinaryorder": 30
+                "fixedbinaryorder": 32
               },
               {
                 "kind": "Var",
@@ -32072,7 +32467,7 @@
                 "usr": "s:7LinkKit8ViewNameO08InternalcD0O15submitDocumentsyA2EmF",
                 "mangledName": "$s7LinkKit8ViewNameO08InternalcD0O15submitDocumentsyA2EmF",
                 "moduleName": "LinkKit",
-                "fixedbinaryorder": 31
+                "fixedbinaryorder": 33
               },
               {
                 "kind": "Var",
@@ -32110,7 +32505,7 @@
                 "usr": "s:7LinkKit8ViewNameO08InternalcD0O22submitDocumentsSuccessyA2EmF",
                 "mangledName": "$s7LinkKit8ViewNameO08InternalcD0O22submitDocumentsSuccessyA2EmF",
                 "moduleName": "LinkKit",
-                "fixedbinaryorder": 32
+                "fixedbinaryorder": 34
               },
               {
                 "kind": "Var",
@@ -32148,7 +32543,7 @@
                 "usr": "s:7LinkKit8ViewNameO08InternalcD0O20submitDocumentsErroryA2EmF",
                 "mangledName": "$s7LinkKit8ViewNameO08InternalcD0O20submitDocumentsErroryA2EmF",
                 "moduleName": "LinkKit",
-                "fixedbinaryorder": 33
+                "fixedbinaryorder": 35
               },
               {
                 "kind": "Var",
@@ -32186,7 +32581,7 @@
                 "usr": "s:7LinkKit8ViewNameO08InternalcD0O15uploadDocumentsyA2EmF",
                 "mangledName": "$s7LinkKit8ViewNameO08InternalcD0O15uploadDocumentsyA2EmF",
                 "moduleName": "LinkKit",
-                "fixedbinaryorder": 34
+                "fixedbinaryorder": 36
               },
               {
                 "kind": "Var",
@@ -32224,7 +32619,7 @@
                 "usr": "s:7LinkKit8ViewNameO08InternalcD0O9verifySMSyA2EmF",
                 "mangledName": "$s7LinkKit8ViewNameO08InternalcD0O9verifySMSyA2EmF",
                 "moduleName": "LinkKit",
-                "fixedbinaryorder": 35
+                "fixedbinaryorder": 37
               },
               {
                 "kind": "Var",
@@ -32262,7 +32657,7 @@
                 "usr": "s:7LinkKit8ViewNameO08InternalcD0O11submitEmailyA2EmF",
                 "mangledName": "$s7LinkKit8ViewNameO08InternalcD0O11submitEmailyA2EmF",
                 "moduleName": "LinkKit",
-                "fixedbinaryorder": 36
+                "fixedbinaryorder": 38
               },
               {
                 "kind": "Var",
@@ -32300,7 +32695,235 @@
                 "usr": "s:7LinkKit8ViewNameO08InternalcD0O11verifyEmailyA2EmF",
                 "mangledName": "$s7LinkKit8ViewNameO08InternalcD0O11verifyEmailyA2EmF",
                 "moduleName": "LinkKit",
-                "fixedbinaryorder": 37
+                "fixedbinaryorder": 39
+              },
+              {
+                "kind": "Var",
+                "name": "craConsent",
+                "printedName": "craConsent",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(LinkKit.ViewName.InternalViewName.Type) -> LinkKit.ViewName.InternalViewName",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "InternalViewName",
+                        "printedName": "LinkKit.ViewName.InternalViewName",
+                        "usr": "s:7LinkKit8ViewNameO08InternalcD0O"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "LinkKit.ViewName.InternalViewName.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "InternalViewName",
+                            "printedName": "LinkKit.ViewName.InternalViewName",
+                            "usr": "s:7LinkKit8ViewNameO08InternalcD0O"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:7LinkKit8ViewNameO08InternalcD0O10craConsentyA2EmF",
+                "mangledName": "$s7LinkKit8ViewNameO08InternalcD0O10craConsentyA2EmF",
+                "moduleName": "LinkKit",
+                "fixedbinaryorder": 40
+              },
+              {
+                "kind": "Var",
+                "name": "instantMicrodepositAuthorized",
+                "printedName": "instantMicrodepositAuthorized",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(LinkKit.ViewName.InternalViewName.Type) -> LinkKit.ViewName.InternalViewName",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "InternalViewName",
+                        "printedName": "LinkKit.ViewName.InternalViewName",
+                        "usr": "s:7LinkKit8ViewNameO08InternalcD0O"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "LinkKit.ViewName.InternalViewName.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "InternalViewName",
+                            "printedName": "LinkKit.ViewName.InternalViewName",
+                            "usr": "s:7LinkKit8ViewNameO08InternalcD0O"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:7LinkKit8ViewNameO08InternalcD0O29instantMicrodepositAuthorizedyA2EmF",
+                "mangledName": "$s7LinkKit8ViewNameO08InternalcD0O29instantMicrodepositAuthorizedyA2EmF",
+                "moduleName": "LinkKit",
+                "fixedbinaryorder": 41
+              },
+              {
+                "kind": "Var",
+                "name": "sameDayMicrodepositAuthorized",
+                "printedName": "sameDayMicrodepositAuthorized",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(LinkKit.ViewName.InternalViewName.Type) -> LinkKit.ViewName.InternalViewName",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "InternalViewName",
+                        "printedName": "LinkKit.ViewName.InternalViewName",
+                        "usr": "s:7LinkKit8ViewNameO08InternalcD0O"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "LinkKit.ViewName.InternalViewName.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "InternalViewName",
+                            "printedName": "LinkKit.ViewName.InternalViewName",
+                            "usr": "s:7LinkKit8ViewNameO08InternalcD0O"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:7LinkKit8ViewNameO08InternalcD0O29sameDayMicrodepositAuthorizedyA2EmF",
+                "mangledName": "$s7LinkKit8ViewNameO08InternalcD0O29sameDayMicrodepositAuthorizedyA2EmF",
+                "moduleName": "LinkKit",
+                "fixedbinaryorder": 42
+              },
+              {
+                "kind": "Var",
+                "name": "instantMicrodepositVerification",
+                "printedName": "instantMicrodepositVerification",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(LinkKit.ViewName.InternalViewName.Type) -> LinkKit.ViewName.InternalViewName",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "InternalViewName",
+                        "printedName": "LinkKit.ViewName.InternalViewName",
+                        "usr": "s:7LinkKit8ViewNameO08InternalcD0O"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "LinkKit.ViewName.InternalViewName.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "InternalViewName",
+                            "printedName": "LinkKit.ViewName.InternalViewName",
+                            "usr": "s:7LinkKit8ViewNameO08InternalcD0O"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:7LinkKit8ViewNameO08InternalcD0O31instantMicrodepositVerificationyA2EmF",
+                "mangledName": "$s7LinkKit8ViewNameO08InternalcD0O31instantMicrodepositVerificationyA2EmF",
+                "moduleName": "LinkKit",
+                "fixedbinaryorder": 43
+              },
+              {
+                "kind": "Var",
+                "name": "sameDayMicrodepositVerification",
+                "printedName": "sameDayMicrodepositVerification",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(LinkKit.ViewName.InternalViewName.Type) -> LinkKit.ViewName.InternalViewName",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "InternalViewName",
+                        "printedName": "LinkKit.ViewName.InternalViewName",
+                        "usr": "s:7LinkKit8ViewNameO08InternalcD0O"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "LinkKit.ViewName.InternalViewName.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "InternalViewName",
+                            "printedName": "LinkKit.ViewName.InternalViewName",
+                            "usr": "s:7LinkKit8ViewNameO08InternalcD0O"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:7LinkKit8ViewNameO08InternalcD0O31sameDayMicrodepositVerificationyA2EmF",
+                "mangledName": "$s7LinkKit8ViewNameO08InternalcD0O31sameDayMicrodepositVerificationyA2EmF",
+                "moduleName": "LinkKit",
+                "fixedbinaryorder": 44
+              },
+              {
+                "kind": "Var",
+                "name": "transferStatusCheck",
+                "printedName": "transferStatusCheck",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(LinkKit.ViewName.InternalViewName.Type) -> LinkKit.ViewName.InternalViewName",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "InternalViewName",
+                        "printedName": "LinkKit.ViewName.InternalViewName",
+                        "usr": "s:7LinkKit8ViewNameO08InternalcD0O"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "LinkKit.ViewName.InternalViewName.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "InternalViewName",
+                            "printedName": "LinkKit.ViewName.InternalViewName",
+                            "usr": "s:7LinkKit8ViewNameO08InternalcD0O"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:7LinkKit8ViewNameO08InternalcD0O19transferStatusCheckyA2EmF",
+                "mangledName": "$s7LinkKit8ViewNameO08InternalcD0O19transferStatusCheckyA2EmF",
+                "moduleName": "LinkKit",
+                "fixedbinaryorder": 45
               },
               {
                 "kind": "Constructor",
@@ -35252,6 +35875,13 @@
             "mangledName": "$sSE"
           }
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LinkKit"
       },
       {
         "kind": "Import",
@@ -39198,6 +39828,46 @@
           },
           {
             "kind": "Var",
+            "name": "selectFallbackRoutingInstitution",
+            "printedName": "selectFallbackRoutingInstitution",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(LinkKit.EventName.Type) -> LinkKit.EventName",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EventName",
+                    "printedName": "LinkKit.EventName",
+                    "usr": "s:7LinkKit9EventNameO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "LinkKit.EventName.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "EventName",
+                        "printedName": "LinkKit.EventName",
+                        "usr": "s:7LinkKit9EventNameO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7LinkKit9EventNameO32selectFallbackRoutingInstitutionyA2CmF",
+            "mangledName": "$s7LinkKit9EventNameO32selectFallbackRoutingInstitutionyA2CmF",
+            "moduleName": "LinkKit",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "selectDownInstitution",
             "printedName": "selectDownInstitution",
             "children": [
@@ -39231,6 +39901,86 @@
             "declKind": "EnumElement",
             "usr": "s:7LinkKit9EventNameO21selectDownInstitutionyA2CmF",
             "mangledName": "$s7LinkKit9EventNameO21selectDownInstitutionyA2CmF",
+            "moduleName": "LinkKit",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "selectDenylistedInstitution",
+            "printedName": "selectDenylistedInstitution",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(LinkKit.EventName.Type) -> LinkKit.EventName",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EventName",
+                    "printedName": "LinkKit.EventName",
+                    "usr": "s:7LinkKit9EventNameO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "LinkKit.EventName.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "EventName",
+                        "printedName": "LinkKit.EventName",
+                        "usr": "s:7LinkKit9EventNameO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7LinkKit9EventNameO27selectDenylistedInstitutionyA2CmF",
+            "mangledName": "$s7LinkKit9EventNameO27selectDenylistedInstitutionyA2CmF",
+            "moduleName": "LinkKit",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "selectRememberMeDuplicateInstitution",
+            "printedName": "selectRememberMeDuplicateInstitution",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(LinkKit.EventName.Type) -> LinkKit.EventName",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EventName",
+                    "printedName": "LinkKit.EventName",
+                    "usr": "s:7LinkKit9EventNameO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "LinkKit.EventName.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "EventName",
+                        "printedName": "LinkKit.EventName",
+                        "usr": "s:7LinkKit9EventNameO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7LinkKit9EventNameO36selectRememberMeDuplicateInstitutionyA2CmF",
+            "mangledName": "$s7LinkKit9EventNameO36selectRememberMeDuplicateInstitutionyA2CmF",
             "moduleName": "LinkKit",
             "declAttributes": [
               "RawDocComment"
@@ -41966,6 +42716,44 @@
               },
               {
                 "kind": "Var",
+                "name": "selectFallbackRoutingInstitution",
+                "printedName": "selectFallbackRoutingInstitution",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(LinkKit.EventName.InternalEventName.Type) -> LinkKit.EventName.InternalEventName",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "InternalEventName",
+                        "printedName": "LinkKit.EventName.InternalEventName",
+                        "usr": "s:7LinkKit9EventNameO08InternalcD0O"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "LinkKit.EventName.InternalEventName.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "InternalEventName",
+                            "printedName": "LinkKit.EventName.InternalEventName",
+                            "usr": "s:7LinkKit9EventNameO08InternalcD0O"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:7LinkKit9EventNameO08InternalcD0O32selectFallbackRoutingInstitutionyA2EmF",
+                "mangledName": "$s7LinkKit9EventNameO08InternalcD0O32selectFallbackRoutingInstitutionyA2EmF",
+                "moduleName": "LinkKit",
+                "fixedbinaryorder": 37
+              },
+              {
+                "kind": "Var",
                 "name": "selectDownInstitution",
                 "printedName": "selectDownInstitution",
                 "children": [
@@ -42000,7 +42788,83 @@
                 "usr": "s:7LinkKit9EventNameO08InternalcD0O21selectDownInstitutionyA2EmF",
                 "mangledName": "$s7LinkKit9EventNameO08InternalcD0O21selectDownInstitutionyA2EmF",
                 "moduleName": "LinkKit",
-                "fixedbinaryorder": 37
+                "fixedbinaryorder": 38
+              },
+              {
+                "kind": "Var",
+                "name": "selectDenylistedInstitution",
+                "printedName": "selectDenylistedInstitution",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(LinkKit.EventName.InternalEventName.Type) -> LinkKit.EventName.InternalEventName",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "InternalEventName",
+                        "printedName": "LinkKit.EventName.InternalEventName",
+                        "usr": "s:7LinkKit9EventNameO08InternalcD0O"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "LinkKit.EventName.InternalEventName.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "InternalEventName",
+                            "printedName": "LinkKit.EventName.InternalEventName",
+                            "usr": "s:7LinkKit9EventNameO08InternalcD0O"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:7LinkKit9EventNameO08InternalcD0O27selectDenylistedInstitutionyA2EmF",
+                "mangledName": "$s7LinkKit9EventNameO08InternalcD0O27selectDenylistedInstitutionyA2EmF",
+                "moduleName": "LinkKit",
+                "fixedbinaryorder": 39
+              },
+              {
+                "kind": "Var",
+                "name": "selectRememberMeDuplicateInstitution",
+                "printedName": "selectRememberMeDuplicateInstitution",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(LinkKit.EventName.InternalEventName.Type) -> LinkKit.EventName.InternalEventName",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "InternalEventName",
+                        "printedName": "LinkKit.EventName.InternalEventName",
+                        "usr": "s:7LinkKit9EventNameO08InternalcD0O"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "LinkKit.EventName.InternalEventName.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "InternalEventName",
+                            "printedName": "LinkKit.EventName.InternalEventName",
+                            "usr": "s:7LinkKit9EventNameO08InternalcD0O"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:7LinkKit9EventNameO08InternalcD0O36selectRememberMeDuplicateInstitutionyA2EmF",
+                "mangledName": "$s7LinkKit9EventNameO08InternalcD0O36selectRememberMeDuplicateInstitutionyA2EmF",
+                "moduleName": "LinkKit",
+                "fixedbinaryorder": 40
               },
               {
                 "kind": "Var",
@@ -42038,7 +42902,7 @@
                 "usr": "s:7LinkKit9EventNameO08InternalcD0O17selectInstitutionyA2EmF",
                 "mangledName": "$s7LinkKit9EventNameO08InternalcD0O17selectInstitutionyA2EmF",
                 "moduleName": "LinkKit",
-                "fixedbinaryorder": 38
+                "fixedbinaryorder": 41
               },
               {
                 "kind": "Var",
@@ -42076,7 +42940,7 @@
                 "usr": "s:7LinkKit9EventNameO08InternalcD0O11selectBrandyA2EmF",
                 "mangledName": "$s7LinkKit9EventNameO08InternalcD0O11selectBrandyA2EmF",
                 "moduleName": "LinkKit",
-                "fixedbinaryorder": 39
+                "fixedbinaryorder": 42
               },
               {
                 "kind": "Var",
@@ -42114,7 +42978,7 @@
                 "usr": "s:7LinkKit9EventNameO08InternalcD0O14selectAuthTypeyA2EmF",
                 "mangledName": "$s7LinkKit9EventNameO08InternalcD0O14selectAuthTypeyA2EmF",
                 "moduleName": "LinkKit",
-                "fixedbinaryorder": 40
+                "fixedbinaryorder": 43
               },
               {
                 "kind": "Var",
@@ -42152,7 +43016,7 @@
                 "usr": "s:7LinkKit9EventNameO08InternalcD0O19submitAccountNumberyA2EmF",
                 "mangledName": "$s7LinkKit9EventNameO08InternalcD0O19submitAccountNumberyA2EmF",
                 "moduleName": "LinkKit",
-                "fixedbinaryorder": 41
+                "fixedbinaryorder": 44
               },
               {
                 "kind": "Var",
@@ -42190,7 +43054,7 @@
                 "usr": "s:7LinkKit9EventNameO08InternalcD0O15submitDocumentsyA2EmF",
                 "mangledName": "$s7LinkKit9EventNameO08InternalcD0O15submitDocumentsyA2EmF",
                 "moduleName": "LinkKit",
-                "fixedbinaryorder": 42
+                "fixedbinaryorder": 45
               },
               {
                 "kind": "Var",
@@ -42228,7 +43092,7 @@
                 "usr": "s:7LinkKit9EventNameO08InternalcD0O22submitDocumentsSuccessyA2EmF",
                 "mangledName": "$s7LinkKit9EventNameO08InternalcD0O22submitDocumentsSuccessyA2EmF",
                 "moduleName": "LinkKit",
-                "fixedbinaryorder": 43
+                "fixedbinaryorder": 46
               },
               {
                 "kind": "Var",
@@ -42266,7 +43130,7 @@
                 "usr": "s:7LinkKit9EventNameO08InternalcD0O20submitDocumentsErroryA2EmF",
                 "mangledName": "$s7LinkKit9EventNameO08InternalcD0O20submitDocumentsErroryA2EmF",
                 "moduleName": "LinkKit",
-                "fixedbinaryorder": 44
+                "fixedbinaryorder": 47
               },
               {
                 "kind": "Var",
@@ -42304,7 +43168,7 @@
                 "usr": "s:7LinkKit9EventNameO08InternalcD0O19submitRoutingNumberyA2EmF",
                 "mangledName": "$s7LinkKit9EventNameO08InternalcD0O19submitRoutingNumberyA2EmF",
                 "moduleName": "LinkKit",
-                "fixedbinaryorder": 45
+                "fixedbinaryorder": 48
               },
               {
                 "kind": "Var",
@@ -42342,7 +43206,7 @@
                 "usr": "s:7LinkKit9EventNameO08InternalcD0O13viewDataTypesyA2EmF",
                 "mangledName": "$s7LinkKit9EventNameO08InternalcD0O13viewDataTypesyA2EmF",
                 "moduleName": "LinkKit",
-                "fixedbinaryorder": 46
+                "fixedbinaryorder": 49
               },
               {
                 "kind": "Var",
@@ -42380,7 +43244,7 @@
                 "usr": "s:7LinkKit9EventNameO08InternalcD0O9submitOtpyA2EmF",
                 "mangledName": "$s7LinkKit9EventNameO08InternalcD0O9submitOtpyA2EmF",
                 "moduleName": "LinkKit",
-                "fixedbinaryorder": 47
+                "fixedbinaryorder": 50
               },
               {
                 "kind": "Var",
@@ -42418,7 +43282,7 @@
                 "usr": "s:7LinkKit9EventNameO08InternalcD0O11submitPhoneyA2EmF",
                 "mangledName": "$s7LinkKit9EventNameO08InternalcD0O11submitPhoneyA2EmF",
                 "moduleName": "LinkKit",
-                "fixedbinaryorder": 48
+                "fixedbinaryorder": 51
               },
               {
                 "kind": "Var",
@@ -42456,7 +43320,7 @@
                 "usr": "s:7LinkKit9EventNameO08InternalcD0O15skipSubmitPhoneyA2EmF",
                 "mangledName": "$s7LinkKit9EventNameO08InternalcD0O15skipSubmitPhoneyA2EmF",
                 "moduleName": "LinkKit",
-                "fixedbinaryorder": 49
+                "fixedbinaryorder": 52
               },
               {
                 "kind": "Var",
@@ -42494,7 +43358,7 @@
                 "usr": "s:7LinkKit9EventNameO08InternalcD0O11verifyPhoneyA2EmF",
                 "mangledName": "$s7LinkKit9EventNameO08InternalcD0O11verifyPhoneyA2EmF",
                 "moduleName": "LinkKit",
-                "fixedbinaryorder": 50
+                "fixedbinaryorder": 53
               },
               {
                 "kind": "Var",
@@ -42532,7 +43396,7 @@
                 "usr": "s:7LinkKit9EventNameO08InternalcD0O17submitCredentialsyA2EmF",
                 "mangledName": "$s7LinkKit9EventNameO08InternalcD0O17submitCredentialsyA2EmF",
                 "moduleName": "LinkKit",
-                "fixedbinaryorder": 51
+                "fixedbinaryorder": 54
               },
               {
                 "kind": "Var",
@@ -42570,7 +43434,7 @@
                 "usr": "s:7LinkKit9EventNameO08InternalcD0O9submitMFAyA2EmF",
                 "mangledName": "$s7LinkKit9EventNameO08InternalcD0O9submitMFAyA2EmF",
                 "moduleName": "LinkKit",
-                "fixedbinaryorder": 52
+                "fixedbinaryorder": 55
               },
               {
                 "kind": "Var",
@@ -42608,7 +43472,7 @@
                 "usr": "s:7LinkKit9EventNameO08InternalcD0O14transitionViewyA2EmF",
                 "mangledName": "$s7LinkKit9EventNameO08InternalcD0O14transitionViewyA2EmF",
                 "moduleName": "LinkKit",
-                "fixedbinaryorder": 53
+                "fixedbinaryorder": 56
               },
               {
                 "kind": "Var",
@@ -42646,7 +43510,7 @@
                 "usr": "s:7LinkKit9EventNameO08InternalcD0O11submitEmailyA2EmF",
                 "mangledName": "$s7LinkKit9EventNameO08InternalcD0O11submitEmailyA2EmF",
                 "moduleName": "LinkKit",
-                "fixedbinaryorder": 54
+                "fixedbinaryorder": 57
               },
               {
                 "kind": "Var",
@@ -42684,7 +43548,7 @@
                 "usr": "s:7LinkKit9EventNameO08InternalcD0O15skipSubmitEmailyA2EmF",
                 "mangledName": "$s7LinkKit9EventNameO08InternalcD0O15skipSubmitEmailyA2EmF",
                 "moduleName": "LinkKit",
-                "fixedbinaryorder": 55
+                "fixedbinaryorder": 58
               },
               {
                 "kind": "Var",
@@ -42722,7 +43586,7 @@
                 "usr": "s:7LinkKit9EventNameO08InternalcD0O17rememberMeEnabledyA2EmF",
                 "mangledName": "$s7LinkKit9EventNameO08InternalcD0O17rememberMeEnabledyA2EmF",
                 "moduleName": "LinkKit",
-                "fixedbinaryorder": 56
+                "fixedbinaryorder": 59
               },
               {
                 "kind": "Var",
@@ -42760,7 +43624,7 @@
                 "usr": "s:7LinkKit9EventNameO08InternalcD0O18rememberMeDisabledyA2EmF",
                 "mangledName": "$s7LinkKit9EventNameO08InternalcD0O18rememberMeDisabledyA2EmF",
                 "moduleName": "LinkKit",
-                "fixedbinaryorder": 57
+                "fixedbinaryorder": 60
               },
               {
                 "kind": "Var",
@@ -42798,7 +43662,7 @@
                 "usr": "s:7LinkKit9EventNameO08InternalcD0O17rememberMeHoldoutyA2EmF",
                 "mangledName": "$s7LinkKit9EventNameO08InternalcD0O17rememberMeHoldoutyA2EmF",
                 "moduleName": "LinkKit",
-                "fixedbinaryorder": 58
+                "fixedbinaryorder": 61
               },
               {
                 "kind": "Var",
@@ -42836,7 +43700,7 @@
                 "usr": "s:7LinkKit9EventNameO08InternalcD0O22selectSavedInstitutionyA2EmF",
                 "mangledName": "$s7LinkKit9EventNameO08InternalcD0O22selectSavedInstitutionyA2EmF",
                 "moduleName": "LinkKit",
-                "fixedbinaryorder": 59
+                "fixedbinaryorder": 62
               },
               {
                 "kind": "Var",
@@ -42874,7 +43738,7 @@
                 "usr": "s:7LinkKit9EventNameO08InternalcD0O18selectSavedAccountyA2EmF",
                 "mangledName": "$s7LinkKit9EventNameO08InternalcD0O18selectSavedAccountyA2EmF",
                 "moduleName": "LinkKit",
-                "fixedbinaryorder": 60
+                "fixedbinaryorder": 63
               },
               {
                 "kind": "Var",
@@ -42912,7 +43776,7 @@
                 "usr": "s:7LinkKit9EventNameO08InternalcD0O26autoSelectSavedInstitutionyA2EmF",
                 "mangledName": "$s7LinkKit9EventNameO08InternalcD0O26autoSelectSavedInstitutionyA2EmF",
                 "moduleName": "LinkKit",
-                "fixedbinaryorder": 61
+                "fixedbinaryorder": 64
               },
               {
                 "kind": "Var",
@@ -42950,7 +43814,7 @@
                 "usr": "s:7LinkKit9EventNameO08InternalcD0O14plaidCheckPaneyA2EmF",
                 "mangledName": "$s7LinkKit9EventNameO08InternalcD0O14plaidCheckPaneyA2EmF",
                 "moduleName": "LinkKit",
-                "fixedbinaryorder": 62
+                "fixedbinaryorder": 65
               },
               {
                 "kind": "Constructor",
@@ -43292,6 +44156,13 @@
         "declAttributes": [
           "AccessControl"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LinkKit"
       },
       {
         "kind": "TypeDecl",
@@ -48815,6 +49686,193 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "UIDevice",
+        "printedName": "UIDevice",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "isRunningInCompatibilityMode",
+            "printedName": "isRunningInCompatibilityMode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So8UIDeviceC7LinkKitE28isRunningInCompatibilityModeSbvp",
+            "mangledName": "$sSo8UIDeviceC7LinkKitE28isRunningInCompatibilityModeSbvp",
+            "moduleName": "LinkKit",
+            "isOpen": true,
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So8UIDeviceC7LinkKitE28isRunningInCompatibilityModeSbvg",
+                "mangledName": "$sSo8UIDeviceC7LinkKitE28isRunningInCompatibilityModeSbvg",
+                "moduleName": "LinkKit",
+                "isOpen": true,
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "supportsFinanceKit",
+            "printedName": "supportsFinanceKit",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So8UIDeviceC7LinkKitE015supportsFinanceC0Sbvp",
+            "mangledName": "$sSo8UIDeviceC7LinkKitE015supportsFinanceC0Sbvp",
+            "moduleName": "LinkKit",
+            "isOpen": true,
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So8UIDeviceC7LinkKitE015supportsFinanceC0Sbvg",
+                "mangledName": "$sSo8UIDeviceC7LinkKitE015supportsFinanceC0Sbvg",
+                "moduleName": "LinkKit",
+                "isOpen": true,
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)UIDevice",
+        "moduleName": "UIKit",
+        "isOpen": true,
+        "intro_iOS": "2.0",
+        "objc_name": "UIDevice",
+        "declAttributes": [
+          "Preconcurrency",
+          "Available",
+          "Available",
+          "ObjC",
+          "NonSendable",
+          "Custom",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "Date",
         "printedName": "Date",
         "children": [
@@ -50113,268 +51171,324 @@
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-0926a7a7701540b80-2\/plaid\/client-ci\/link\/apple\/Sources\/Public\/Models\/Enums\/ViewName.swift",
       "kind": "StringLiteral",
-      "offset": 9833,
+      "offset": 11846,
       "length": 12,
       "value": "\"ACCEPT_TOS\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-0926a7a7701540b80-2\/plaid\/client-ci\/link\/apple\/Sources\/Public\/Models\/Enums\/ViewName.swift",
       "kind": "StringLiteral",
-      "offset": 9871,
+      "offset": 11884,
       "length": 11,
       "value": "\"CONNECTED\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-0926a7a7701540b80-2\/plaid\/client-ci\/link\/apple\/Sources\/Public\/Models\/Enums\/ViewName.swift",
       "kind": "StringLiteral",
-      "offset": 9906,
+      "offset": 11919,
       "length": 9,
       "value": "\"CONSENT\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-0926a7a7701540b80-2\/plaid\/client-ci\/link\/apple\/Sources\/Public\/Models\/Enums\/ViewName.swift",
       "kind": "StringLiteral",
-      "offset": 9942,
+      "offset": 11955,
       "length": 12,
       "value": "\"CREDENTIAL\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-0926a7a7701540b80-2\/plaid\/client-ci\/link\/apple\/Sources\/Public\/Models\/Enums\/ViewName.swift",
       "kind": "StringLiteral",
-      "offset": 9987,
+      "offset": 12000,
       "length": 19,
       "value": "\"DATA_TRANSPARENCY\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-0926a7a7701540b80-2\/plaid\/client-ci\/link\/apple\/Sources\/Public\/Models\/Enums\/ViewName.swift",
       "kind": "StringLiteral",
-      "offset": 10046,
+      "offset": 12059,
       "length": 27,
       "value": "\"DATA_TRANSPARENCY_CONSENT\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-0926a7a7701540b80-2\/plaid\/client-ci\/link\/apple\/Sources\/Public\/Models\/Enums\/ViewName.swift",
       "kind": "StringLiteral",
-      "offset": 10113,
+      "offset": 12133,
+      "length": 35,
+      "value": "\"DATA_TRANSPARENCY_MESSAGING_MODAL\""
+    },
+    {
+      "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-0926a7a7701540b80-2\/plaid\/client-ci\/link\/apple\/Sources\/Public\/Models\/Enums\/ViewName.swift",
+      "kind": "StringLiteral",
+      "offset": 12208,
       "length": 26,
       "value": "\"DOCUMENTARY_VERIFICATION\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-0926a7a7701540b80-2\/plaid\/client-ci\/link\/apple\/Sources\/Public\/Models\/Enums\/ViewName.swift",
       "kind": "StringLiteral",
-      "offset": 10161,
+      "offset": 12256,
       "length": 7,
       "value": "\"ERROR\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-0926a7a7701540b80-2\/plaid\/client-ci\/link\/apple\/Sources\/Public\/Models\/Enums\/ViewName.swift",
       "kind": "StringLiteral",
-      "offset": 10189,
+      "offset": 12284,
       "length": 6,
       "value": "\"EXIT\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-0926a7a7701540b80-2\/plaid\/client-ci\/link\/apple\/Sources\/Public\/Models\/Enums\/ViewName.swift",
       "kind": "StringLiteral",
-      "offset": 10220,
+      "offset": 12325,
+      "length": 22,
+      "value": "\"IDENTITY_MATCH_BLOCK\""
+    },
+    {
+      "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-0926a7a7701540b80-2\/plaid\/client-ci\/link\/apple\/Sources\/Public\/Models\/Enums\/ViewName.swift",
+      "kind": "StringLiteral",
+      "offset": 12372,
       "length": 11,
       "value": "\"KYC_CHECK\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-0926a7a7701540b80-2\/plaid\/client-ci\/link\/apple\/Sources\/Public\/Models\/Enums\/ViewName.swift",
       "kind": "StringLiteral",
-      "offset": 10259,
+      "offset": 12411,
       "length": 14,
       "value": "\"SELFIE_CHECK\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-0926a7a7701540b80-2\/plaid\/client-ci\/link\/apple\/Sources\/Public\/Models\/Enums\/ViewName.swift",
       "kind": "StringLiteral",
-      "offset": 10297,
+      "offset": 12449,
       "length": 9,
       "value": "\"LOADING\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-0926a7a7701540b80-2\/plaid\/client-ci\/link\/apple\/Sources\/Public\/Models\/Enums\/ViewName.swift",
       "kind": "StringLiteral",
-      "offset": 10337,
+      "offset": 12489,
       "length": 17,
       "value": "\"MATCHED_CONSENT\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-0926a7a7701540b80-2\/plaid\/client-ci\/link\/apple\/Sources\/Public\/Models\/Enums\/ViewName.swift",
       "kind": "StringLiteral",
-      "offset": 10388,
+      "offset": 12540,
       "length": 20,
       "value": "\"MATCHED_CREDENTIAL\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-0926a7a7701540b80-2\/plaid\/client-ci\/link\/apple\/Sources\/Public\/Models\/Enums\/ViewName.swift",
       "kind": "StringLiteral",
-      "offset": 10435,
+      "offset": 12587,
       "length": 13,
       "value": "\"MATCHED_MFA\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-0926a7a7701540b80-2\/plaid\/client-ci\/link\/apple\/Sources\/Public\/Models\/Enums\/ViewName.swift",
       "kind": "StringLiteral",
-      "offset": 10468,
+      "offset": 12620,
       "length": 5,
       "value": "\"MFA\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-0926a7a7701540b80-2\/plaid\/client-ci\/link\/apple\/Sources\/Public\/Models\/Enums\/ViewName.swift",
       "kind": "StringLiteral",
-      "offset": 10497,
+      "offset": 12649,
       "length": 9,
       "value": "\"NUMBERS\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-0926a7a7701540b80-2\/plaid\/client-ci\/link\/apple\/Sources\/Public\/Models\/Enums\/ViewName.swift",
       "kind": "StringLiteral",
-      "offset": 10547,
+      "offset": 12699,
       "length": 28,
       "value": "\"NUMBERS_SELECT_INSTITUTION\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-0926a7a7701540b80-2\/plaid\/client-ci\/link\/apple\/Sources\/Public\/Models\/Enums\/ViewName.swift",
       "kind": "StringLiteral",
-      "offset": 10609,
+      "offset": 12761,
       "length": 21,
       "value": "\"PROFILE_DATA_REVIEW\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-0926a7a7701540b80-2\/plaid\/client-ci\/link\/apple\/Sources\/Public\/Models\/Enums\/ViewName.swift",
       "kind": "StringLiteral",
-      "offset": 10652,
+      "offset": 12804,
       "length": 7,
       "value": "\"OAUTH\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-0926a7a7701540b80-2\/plaid\/client-ci\/link\/apple\/Sources\/Public\/Models\/Enums\/ViewName.swift",
       "kind": "StringLiteral",
-      "offset": 10685,
+      "offset": 12837,
       "length": 11,
       "value": "\"RECAPTCHA\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-0926a7a7701540b80-2\/plaid\/client-ci\/link\/apple\/Sources\/Public\/Models\/Enums\/ViewName.swift",
       "kind": "StringLiteral",
-      "offset": 10722,
+      "offset": 12874,
       "length": 12,
       "value": "\"RISK_CHECK\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-0926a7a7701540b80-2\/plaid\/client-ci\/link\/apple\/Sources\/Public\/Models\/Enums\/ViewName.swift",
       "kind": "StringLiteral",
-      "offset": 10760,
+      "offset": 12912,
       "length": 11,
       "value": "\"SCREENING\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-0926a7a7701540b80-2\/plaid\/client-ci\/link\/apple\/Sources\/Public\/Models\/Enums\/ViewName.swift",
       "kind": "StringLiteral",
-      "offset": 10801,
+      "offset": 12953,
       "length": 16,
       "value": "\"SELECT_ACCOUNT\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-0926a7a7701540b80-2\/plaid\/client-ci\/link\/apple\/Sources\/Public\/Models\/Enums\/ViewName.swift",
       "kind": "StringLiteral",
-      "offset": 10848,
+      "offset": 13000,
       "length": 18,
       "value": "\"SELECT_AUTH_TYPE\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-0926a7a7701540b80-2\/plaid\/client-ci\/link\/apple\/Sources\/Public\/Models\/Enums\/ViewName.swift",
       "kind": "StringLiteral",
-      "offset": 10894,
+      "offset": 13046,
       "length": 14,
       "value": "\"SUBMIT_PHONE\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-0926a7a7701540b80-2\/plaid\/client-ci\/link\/apple\/Sources\/Public\/Models\/Enums\/ViewName.swift",
       "kind": "StringLiteral",
-      "offset": 10936,
+      "offset": 13088,
       "length": 14,
       "value": "\"VERIFY_PHONE\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-0926a7a7701540b80-2\/plaid\/client-ci\/link\/apple\/Sources\/Public\/Models\/Enums\/ViewName.swift",
       "kind": "StringLiteral",
-      "offset": 10989,
+      "offset": 13141,
       "length": 26,
       "value": "\"SELECT_SAVED_INSTITUTION\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-0926a7a7701540b80-2\/plaid\/client-ci\/link\/apple\/Sources\/Public\/Models\/Enums\/ViewName.swift",
       "kind": "StringLiteral",
-      "offset": 11050,
+      "offset": 13202,
       "length": 22,
       "value": "\"SELECT_SAVED_ACCOUNT\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-0926a7a7701540b80-2\/plaid\/client-ci\/link\/apple\/Sources\/Public\/Models\/Enums\/ViewName.swift",
       "kind": "StringLiteral",
-      "offset": 11100,
+      "offset": 13252,
       "length": 14,
       "value": "\"SELECT_BRAND\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-0926a7a7701540b80-2\/plaid\/client-ci\/link\/apple\/Sources\/Public\/Models\/Enums\/ViewName.swift",
       "kind": "StringLiteral",
-      "offset": 11148,
+      "offset": 13300,
       "length": 20,
       "value": "\"SELECT_INSTITUTION\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-0926a7a7701540b80-2\/plaid\/client-ci\/link\/apple\/Sources\/Public\/Models\/Enums\/ViewName.swift",
       "kind": "StringLiteral",
-      "offset": 11200,
+      "offset": 13352,
       "length": 18,
       "value": "\"SUBMIT_DOCUMENTS\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-0926a7a7701540b80-2\/plaid\/client-ci\/link\/apple\/Sources\/Public\/Models\/Enums\/ViewName.swift",
       "kind": "StringLiteral",
-      "offset": 11257,
+      "offset": 13409,
       "length": 26,
       "value": "\"SUBMIT_DOCUMENTS_SUCCESS\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-0926a7a7701540b80-2\/plaid\/client-ci\/link\/apple\/Sources\/Public\/Models\/Enums\/ViewName.swift",
       "kind": "StringLiteral",
-      "offset": 11320,
+      "offset": 13472,
       "length": 24,
       "value": "\"SUBMIT_DOCUMENTS_ERROR\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-0926a7a7701540b80-2\/plaid\/client-ci\/link\/apple\/Sources\/Public\/Models\/Enums\/ViewName.swift",
       "kind": "StringLiteral",
-      "offset": 11376,
+      "offset": 13528,
       "length": 18,
       "value": "\"UPLOAD_DOCUMENTS\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-0926a7a7701540b80-2\/plaid\/client-ci\/link\/apple\/Sources\/Public\/Models\/Enums\/ViewName.swift",
       "kind": "StringLiteral",
-      "offset": 11420,
+      "offset": 13572,
       "length": 12,
       "value": "\"VERIFY_SMS\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-0926a7a7701540b80-2\/plaid\/client-ci\/link\/apple\/Sources\/Public\/Models\/Enums\/ViewName.swift",
       "kind": "StringLiteral",
-      "offset": 11460,
+      "offset": 13612,
       "length": 14,
       "value": "\"SUBMIT_EMAIL\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-0926a7a7701540b80-2\/plaid\/client-ci\/link\/apple\/Sources\/Public\/Models\/Enums\/ViewName.swift",
       "kind": "StringLiteral",
-      "offset": 11502,
+      "offset": 13654,
       "length": 14,
       "value": "\"VERIFY_EMAIL\""
+    },
+    {
+      "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-0926a7a7701540b80-2\/plaid\/client-ci\/link\/apple\/Sources\/Public\/Models\/Enums\/ViewName.swift",
+      "kind": "StringLiteral",
+      "offset": 13695,
+      "length": 13,
+      "value": "\"CRA_CONSENT\""
+    },
+    {
+      "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-0926a7a7701540b80-2\/plaid\/client-ci\/link\/apple\/Sources\/Public\/Models\/Enums\/ViewName.swift",
+      "kind": "StringLiteral",
+      "offset": 13754,
+      "length": 33,
+      "value": "\"INSTANT_MICRODEPOSIT_AUTHORIZED\""
+    },
+    {
+      "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-0926a7a7701540b80-2\/plaid\/client-ci\/link\/apple\/Sources\/Public\/Models\/Enums\/ViewName.swift",
+      "kind": "StringLiteral",
+      "offset": 13833,
+      "length": 34,
+      "value": "\"SAME_DAY_MICRODEPOSIT_AUTHORIZED\""
+    },
+    {
+      "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-0926a7a7701540b80-2\/plaid\/client-ci\/link\/apple\/Sources\/Public\/Models\/Enums\/ViewName.swift",
+      "kind": "StringLiteral",
+      "offset": 13915,
+      "length": 35,
+      "value": "\"INSTANT_MICRODEPOSIT_VERIFICATION\""
+    },
+    {
+      "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-0926a7a7701540b80-2\/plaid\/client-ci\/link\/apple\/Sources\/Public\/Models\/Enums\/ViewName.swift",
+      "kind": "StringLiteral",
+      "offset": 13998,
+      "length": 36,
+      "value": "\"SAME_DAY_MICRODEPOSIT_VERIFICATION\""
+    },
+    {
+      "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-0926a7a7701540b80-2\/plaid\/client-ci\/link\/apple\/Sources\/Public\/Models\/Enums\/ViewName.swift",
+      "kind": "StringLiteral",
+      "offset": 14070,
+      "length": 23,
+      "value": "\"TRANSFER_STATUS_CHECK\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-0926a7a7701540b80-2\/plaid\/client-ci\/link\/apple\/Sources\/Public\/Models\/Enums\/PresentationMethod.swift",
@@ -50554,441 +51668,462 @@
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-0926a7a7701540b80-2\/plaid\/client-ci\/link\/apple\/Sources\/Public\/Models\/Enums\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 16886,
+      "offset": 17747,
       "length": 19,
       "value": "\"AUTO_SUBMIT_PHONE\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-0926a7a7701540b80-2\/plaid\/client-ci\/link\/apple\/Sources\/Public\/Models\/Enums\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 16949,
+      "offset": 17810,
       "length": 32,
       "value": "\"BANK_INCOME_INSIGHTS_COMPLETED\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-0926a7a7701540b80-2\/plaid\/client-ci\/link\/apple\/Sources\/Public\/Models\/Enums\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 17008,
+      "offset": 17869,
       "length": 13,
       "value": "\"CLOSE_OAUTH\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-0926a7a7701540b80-2\/plaid\/client-ci\/link\/apple\/Sources\/Public\/Models\/Enums\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 17059,
+      "offset": 17920,
       "length": 25,
       "value": "\"CONNECT_NEW_INSTITUTION\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-0926a7a7701540b80-2\/plaid\/client-ci\/link\/apple\/Sources\/Public\/Models\/Enums\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 17106,
+      "offset": 17967,
       "length": 7,
       "value": "\"ERROR\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-0926a7a7701540b80-2\/plaid\/client-ci\/link\/apple\/Sources\/Public\/Models\/Enums\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 17134,
+      "offset": 17995,
       "length": 6,
       "value": "\"EXIT\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-0926a7a7701540b80-2\/plaid\/client-ci\/link\/apple\/Sources\/Public\/Models\/Enums\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 17166,
+      "offset": 18027,
       "length": 12,
       "value": "\"FAIL_OAUTH\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-0926a7a7701540b80-2\/plaid\/client-ci\/link\/apple\/Sources\/Public\/Models\/Enums\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 17202,
+      "offset": 18063,
       "length": 9,
       "value": "\"HANDOFF\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-0926a7a7701540b80-2\/plaid\/client-ci\/link\/apple\/Sources\/Public\/Models\/Enums\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 17247,
+      "offset": 18108,
       "length": 23,
       "value": "\"IDENTITY_MATCH_PASSED\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-0926a7a7701540b80-2\/plaid\/client-ci\/link\/apple\/Sources\/Public\/Models\/Enums\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 17306,
+      "offset": 18167,
       "length": 23,
       "value": "\"IDENTITY_MATCH_FAILED\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-0926a7a7701540b80-2\/plaid\/client-ci\/link\/apple\/Sources\/Public\/Models\/Enums\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 17375,
+      "offset": 18236,
       "length": 34,
       "value": "\"IDENTITY_VERIFICATION_START_STEP\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-0926a7a7701540b80-2\/plaid\/client-ci\/link\/apple\/Sources\/Public\/Models\/Enums\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 17454,
+      "offset": 18315,
       "length": 33,
       "value": "\"IDENTITY_VERIFICATION_PASS_STEP\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-0926a7a7701540b80-2\/plaid\/client-ci\/link\/apple\/Sources\/Public\/Models\/Enums\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 17532,
+      "offset": 18393,
       "length": 33,
       "value": "\"IDENTITY_VERIFICATION_FAIL_STEP\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-0926a7a7701540b80-2\/plaid\/client-ci\/link\/apple\/Sources\/Public\/Models\/Enums\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 17619,
+      "offset": 18480,
       "length": 43,
       "value": "\"IDENTITY_VERIFICATION_PENDING_REVIEW_STEP\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-0926a7a7701540b80-2\/plaid\/client-ci\/link\/apple\/Sources\/Public\/Models\/Enums\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 17719,
+      "offset": 18580,
       "length": 46,
       "value": "\"IDENTITY_VERIFICATION_PENDING_REVIEW_SESSION\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-0926a7a7701540b80-2\/plaid\/client-ci\/link\/apple\/Sources\/Public\/Models\/Enums\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 17815,
+      "offset": 18676,
       "length": 38,
       "value": "\"IDENTITY_VERIFICATION_CREATE_SESSION\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-0926a7a7701540b80-2\/plaid\/client-ci\/link\/apple\/Sources\/Public\/Models\/Enums\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 17903,
+      "offset": 18764,
       "length": 38,
       "value": "\"IDENTITY_VERIFICATION_RESUME_SESSION\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-0926a7a7701540b80-2\/plaid\/client-ci\/link\/apple\/Sources\/Public\/Models\/Enums\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 17989,
+      "offset": 18850,
       "length": 36,
       "value": "\"IDENTITY_VERIFICATION_PASS_SESSION\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-0926a7a7701540b80-2\/plaid\/client-ci\/link\/apple\/Sources\/Public\/Models\/Enums\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 18073,
+      "offset": 18934,
       "length": 36,
       "value": "\"IDENTITY_VERIFICATION_FAIL_SESSION\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-0926a7a7701540b80-2\/plaid\/client-ci\/link\/apple\/Sources\/Public\/Models\/Enums\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 18152,
+      "offset": 19013,
       "length": 31,
       "value": "\"IDENTITY_VERIFICATION_OPEN_UI\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-0926a7a7701540b80-2\/plaid\/client-ci\/link\/apple\/Sources\/Public\/Models\/Enums\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 18228,
+      "offset": 19089,
       "length": 33,
       "value": "\"IDENTITY_VERIFICATION_RESUME_UI\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-0926a7a7701540b80-2\/plaid\/client-ci\/link\/apple\/Sources\/Public\/Models\/Enums\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 18305,
+      "offset": 19166,
       "length": 32,
       "value": "\"IDENTITY_VERIFICATION_CLOSE_UI\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-0926a7a7701540b80-2\/plaid\/client-ci\/link\/apple\/Sources\/Public\/Models\/Enums\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 18367,
+      "offset": 19228,
       "length": 16,
       "value": "\"ISSUE_FOLLOWED\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-0926a7a7701540b80-2\/plaid\/client-ci\/link\/apple\/Sources\/Public\/Models\/Enums\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 18424,
+      "offset": 19285,
       "length": 28,
       "value": "\"MATCHED_SELECT_INSTITUTION\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-0926a7a7701540b80-2\/plaid\/client-ci\/link\/apple\/Sources\/Public\/Models\/Enums\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 18494,
+      "offset": 19355,
       "length": 30,
       "value": "\"MATCHED_SELECT_VERIFY_METHOD\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-0926a7a7701540b80-2\/plaid\/client-ci\/link\/apple\/Sources\/Public\/Models\/Enums\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 18545,
+      "offset": 19406,
       "length": 6,
       "value": "\"OPEN\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-0926a7a7701540b80-2\/plaid\/client-ci\/link\/apple\/Sources\/Public\/Models\/Enums\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 18579,
+      "offset": 19440,
       "length": 15,
       "value": "\"OPEN_MY_PLAID\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-0926a7a7701540b80-2\/plaid\/client-ci\/link\/apple\/Sources\/Public\/Models\/Enums\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 18620,
+      "offset": 19481,
       "length": 12,
       "value": "\"OPEN_OAUTH\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-0926a7a7701540b80-2\/plaid\/client-ci\/link\/apple\/Sources\/Public\/Models\/Enums\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 18677,
+      "offset": 19538,
       "length": 33,
       "value": "\"PROFILE_ELIGIBILITY_CHECK_READY\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-0926a7a7701540b80-2\/plaid\/client-ci\/link\/apple\/Sources\/Public\/Models\/Enums\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 18755,
+      "offset": 19616,
       "length": 33,
       "value": "\"PROFILE_ELIGIBILITY_CHECK_ERROR\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-0926a7a7701540b80-2\/plaid\/client-ci\/link\/apple\/Sources\/Public\/Models\/Enums\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 18830,
+      "offset": 19691,
       "length": 30,
       "value": "\"LAYER_AUTOFILL_NOT_AVAILABLE\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-0926a7a7701540b80-2\/plaid\/client-ci\/link\/apple\/Sources\/Public\/Models\/Enums\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 18887,
+      "offset": 19748,
       "length": 13,
       "value": "\"LAYER_READY\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-0926a7a7701540b80-2\/plaid\/client-ci\/link\/apple\/Sources\/Public\/Models\/Enums\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 18934,
+      "offset": 19795,
       "length": 21,
       "value": "\"LAYER_NOT_AVAILABLE\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-0926a7a7701540b80-2\/plaid\/client-ci\/link\/apple\/Sources\/Public\/Models\/Enums\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 18989,
+      "offset": 19850,
       "length": 20,
       "value": "\"SEARCH_INSTITUTION\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-0926a7a7701540b80-2\/plaid\/client-ci\/link\/apple\/Sources\/Public\/Models\/Enums\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 19039,
+      "offset": 19900,
       "length": 16,
       "value": "\"SELECT_ACCOUNT\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-0926a7a7701540b80-2\/plaid\/client-ci\/link\/apple\/Sources\/Public\/Models\/Enums\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 19097,
+      "offset": 19958,
       "length": 29,
       "value": "\"SELECT_DEGRADED_INSTITUTION\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-0926a7a7701540b80-2\/plaid\/client-ci\/link\/apple\/Sources\/Public\/Models\/Enums\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 19168,
+      "offset": 20029,
       "length": 29,
       "value": "\"SELECT_FILTERED_INSTITUTION\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-0926a7a7701540b80-2\/plaid\/client-ci\/link\/apple\/Sources\/Public\/Models\/Enums\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 19235,
+      "offset": 20107,
+      "length": 37,
+      "value": "\"SELECT_FALLBACK_ROUTING_INSTITUTION\""
+    },
+    {
+      "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-0926a7a7701540b80-2\/plaid\/client-ci\/link\/apple\/Sources\/Public\/Models\/Enums\/EventName.swift",
+      "kind": "StringLiteral",
+      "offset": 20182,
       "length": 25,
       "value": "\"SELECT_DOWN_INSTITUTION\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-0926a7a7701540b80-2\/plaid\/client-ci\/link\/apple\/Sources\/Public\/Models\/Enums\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 19294,
+      "offset": 20251,
+      "length": 31,
+      "value": "\"SELECT_DENYLISTED_INSTITUTION\""
+    },
+    {
+      "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-0926a7a7701540b80-2\/plaid\/client-ci\/link\/apple\/Sources\/Public\/Models\/Enums\/EventName.swift",
+      "kind": "StringLiteral",
+      "offset": 20335,
+      "length": 42,
+      "value": "\"SELECT_REMEMBER_ME_DUPLICATE_INSTITUTION\""
+    },
+    {
+      "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-0926a7a7701540b80-2\/plaid\/client-ci\/link\/apple\/Sources\/Public\/Models\/Enums\/EventName.swift",
+      "kind": "StringLiteral",
+      "offset": 20411,
       "length": 20,
       "value": "\"SELECT_INSTITUTION\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-0926a7a7701540b80-2\/plaid\/client-ci\/link\/apple\/Sources\/Public\/Models\/Enums\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 19342,
+      "offset": 20459,
       "length": 14,
       "value": "\"SELECT_BRAND\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-0926a7a7701540b80-2\/plaid\/client-ci\/link\/apple\/Sources\/Public\/Models\/Enums\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 19387,
+      "offset": 20504,
       "length": 18,
       "value": "\"SELECT_AUTH_TYPE\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-0926a7a7701540b80-2\/plaid\/client-ci\/link\/apple\/Sources\/Public\/Models\/Enums\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 19441,
+      "offset": 20558,
       "length": 23,
       "value": "\"SUBMIT_ACCOUNT_NUMBER\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-0926a7a7701540b80-2\/plaid\/client-ci\/link\/apple\/Sources\/Public\/Models\/Enums\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 19496,
+      "offset": 20613,
       "length": 18,
       "value": "\"SUBMIT_DOCUMENTS\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-0926a7a7701540b80-2\/plaid\/client-ci\/link\/apple\/Sources\/Public\/Models\/Enums\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 19553,
+      "offset": 20670,
       "length": 26,
       "value": "\"SUBMIT_DOCUMENTS_SUCCESS\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-0926a7a7701540b80-2\/plaid\/client-ci\/link\/apple\/Sources\/Public\/Models\/Enums\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 19616,
+      "offset": 20733,
       "length": 24,
       "value": "\"SUBMIT_DOCUMENTS_ERROR\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-0926a7a7701540b80-2\/plaid\/client-ci\/link\/apple\/Sources\/Public\/Models\/Enums\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 19676,
+      "offset": 20793,
       "length": 23,
       "value": "\"SUBMIT_ROUTING_NUMBER\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-0926a7a7701540b80-2\/plaid\/client-ci\/link\/apple\/Sources\/Public\/Models\/Enums\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 19729,
+      "offset": 20846,
       "length": 17,
       "value": "\"VIEW_DATA_TYPES\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-0926a7a7701540b80-2\/plaid\/client-ci\/link\/apple\/Sources\/Public\/Models\/Enums\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 19772,
+      "offset": 20889,
       "length": 12,
       "value": "\"SUBMIT_OTP\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-0926a7a7701540b80-2\/plaid\/client-ci\/link\/apple\/Sources\/Public\/Models\/Enums\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 19812,
+      "offset": 20929,
       "length": 14,
       "value": "\"SUBMIT_PHONE\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-0926a7a7701540b80-2\/plaid\/client-ci\/link\/apple\/Sources\/Public\/Models\/Enums\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 19858,
+      "offset": 20975,
       "length": 19,
       "value": "\"SKIP_SUBMIT_PHONE\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-0926a7a7701540b80-2\/plaid\/client-ci\/link\/apple\/Sources\/Public\/Models\/Enums\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 19905,
+      "offset": 21022,
       "length": 14,
       "value": "\"VERIFY_PHONE\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-0926a7a7701540b80-2\/plaid\/client-ci\/link\/apple\/Sources\/Public\/Models\/Enums\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 19953,
+      "offset": 21070,
       "length": 20,
       "value": "\"SUBMIT_CREDENTIALS\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-0926a7a7701540b80-2\/plaid\/client-ci\/link\/apple\/Sources\/Public\/Models\/Enums\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 19999,
+      "offset": 21116,
       "length": 12,
       "value": "\"SUBMIT_MFA\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-0926a7a7701540b80-2\/plaid\/client-ci\/link\/apple\/Sources\/Public\/Models\/Enums\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 20042,
+      "offset": 21159,
       "length": 17,
       "value": "\"TRANSITION_VIEW\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-0926a7a7701540b80-2\/plaid\/client-ci\/link\/apple\/Sources\/Public\/Models\/Enums\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 20087,
+      "offset": 21204,
       "length": 14,
       "value": "\"SUBMIT_EMAIL\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-0926a7a7701540b80-2\/plaid\/client-ci\/link\/apple\/Sources\/Public\/Models\/Enums\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 20133,
+      "offset": 21250,
       "length": 19,
       "value": "\"SKIP_SUBMIT_EMAIL\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-0926a7a7701540b80-2\/plaid\/client-ci\/link\/apple\/Sources\/Public\/Models\/Enums\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 20186,
+      "offset": 21303,
       "length": 21,
       "value": "\"REMEMBER_ME_ENABLED\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-0926a7a7701540b80-2\/plaid\/client-ci\/link\/apple\/Sources\/Public\/Models\/Enums\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 20242,
+      "offset": 21359,
       "length": 22,
       "value": "\"REMEMBER_ME_DISABLED\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-0926a7a7701540b80-2\/plaid\/client-ci\/link\/apple\/Sources\/Public\/Models\/Enums\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 20298,
+      "offset": 21415,
       "length": 21,
       "value": "\"REMEMBER_ME_HOLDOUT\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-0926a7a7701540b80-2\/plaid\/client-ci\/link\/apple\/Sources\/Public\/Models\/Enums\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 20358,
+      "offset": 21475,
       "length": 26,
       "value": "\"SELECT_SAVED_INSTITUTION\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-0926a7a7701540b80-2\/plaid\/client-ci\/link\/apple\/Sources\/Public\/Models\/Enums\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 20419,
+      "offset": 21536,
       "length": 22,
       "value": "\"SELECT_SAVED_ACCOUNT\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-0926a7a7701540b80-2\/plaid\/client-ci\/link\/apple\/Sources\/Public\/Models\/Enums\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 20484,
+      "offset": 21601,
       "length": 31,
       "value": "\"AUTO_SELECT_SAVED_INSTITUTION\""
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-0926a7a7701540b80-2\/plaid\/client-ci\/link\/apple\/Sources\/Public\/Models\/Enums\/EventName.swift",
       "kind": "StringLiteral",
-      "offset": 20546,
+      "offset": 21663,
       "length": 18,
       "value": "\"PLAID_CHECK_PANE\""
     },
