@@ -312,6 +312,7 @@ SWIFT_CLASS("_TtC7LinkKit20EmbeddedSearchUIView")
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 @end
 
+
 #endif
 #if __has_attribute(external_source_symbol)
 # pragma clang attribute pop
@@ -633,6 +634,7 @@ SWIFT_CLASS("_TtC7LinkKit20EmbeddedSearchUIView")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 @end
+
 
 #endif
 #if __has_attribute(external_source_symbol)

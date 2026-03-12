@@ -23,7 +23,7 @@
 		<string>MacOSX</string>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>3935.1772210021</string>
+	<string>3935.1773254435</string>
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
@@ -47,9 +47,9 @@
 	<key>SCMBuildBranch</key>
 	<string>HEAD</string>
 	<key>SCMBuildNumber</key>
-	<string>1772210021</string>
+	<string>1773254435</string>
 	<key>SCMBuildRevision</key>
-	<string>a9b10acc0</string>
+	<string>71a8ad5d9</string>
 	<key>UIDeviceFamily</key>
 	<array>
 		<integer>2</integer>

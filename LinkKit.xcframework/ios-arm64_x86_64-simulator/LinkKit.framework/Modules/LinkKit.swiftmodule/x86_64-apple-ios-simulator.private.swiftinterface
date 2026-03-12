@@ -436,9 +436,11 @@ public enum ViewName : Swift.CustomStringConvertible, Swift.Codable, Swift.Equat
   case credential
   case dataTransparency
   case dataTransparencyConsent
+  case dataTransparencyMessagingModal
   case documentaryVerification
   case error
   case exit
+  case identityMatchBlock
   case kycCheck
   case loading
   case matchedConsent
@@ -468,6 +470,12 @@ public enum ViewName : Swift.CustomStringConvertible, Swift.Codable, Swift.Equat
   case verifySMS
   case submitEmail
   case verifyEmail
+  case craConsent
+  case instantMicrodepositAuthorized
+  case sameDayMicrodepositAuthorized
+  case instantMicrodepositVerification
+  case sameDayMicrodepositVerification
+  case transferStatusCheck
   case unknown(Swift.String)
   public static var allCases: [LinkKit.ViewName] {
     get
@@ -609,7 +617,10 @@ public enum EventName : Swift.CustomStringConvertible, Swift.Codable, Swift.Equa
   case selectAccount
   case selectDegradedInstitution
   case selectFilteredInstitution
+  case selectFallbackRoutingInstitution
   case selectDownInstitution
+  case selectDenylistedInstitution
+  case selectRememberMeDuplicateInstitution
   case selectInstitution
   case selectBrand
   case selectAuthType
