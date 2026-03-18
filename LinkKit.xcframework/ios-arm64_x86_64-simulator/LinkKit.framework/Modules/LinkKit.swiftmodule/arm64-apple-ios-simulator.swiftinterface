@@ -373,6 +373,11 @@ public protocol SubmissionData {
   var dateOfBirth: Swift.String? { get }
   var params: [Swift.String : Swift.String]? { get }
 }
+extension LinkKit.SubmissionData {
+  public var params: [Swift.String : Swift.String]? {
+    get
+  }
+}
 public enum MFAType : Swift.CustomStringConvertible, Swift.Codable {
   case code
   case device

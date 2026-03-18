@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name              = 'Plaid'
   s.module_name       = 'LinkKit'
-  s.version           = '6.4.5'
+  s.version           = '6.4.6'
 
   s.summary           = '[DEPRECATED] The official Plaid Link SDK for iOS.'
 
