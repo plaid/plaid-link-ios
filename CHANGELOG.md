@@ -1,5 +1,17 @@
 # RELEASES
 
+## LinkKit 6.4.6 - 2026-03-18
+### Requirements
+
+| Name | Version |
+|------|---------|
+| Xcode | >= 16.1.0 |
+| iOS | >= 14.0 |
+
+### Changes
+
+– Fix SubmissionData params breaking change
+
 ## LinkKit 6.4.5 - 2026-03-17
 ### Requirements
 
