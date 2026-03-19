@@ -1,5 +1,17 @@
 # RELEASES
 
+## LinkKit 6.4.7 - 2026-03-19
+### Requirements
+
+| Name | Version |
+|------|---------|
+| Xcode | >= 16.1.0 |
+| iOS | >= 14.0 |
+
+### Changes
+
+– Fix FinanceKit sync API Deprecation
+
 ## LinkKit 6.4.6 - 2026-03-18
 ### Requirements
 
