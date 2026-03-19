@@ -336,7 +336,7 @@ public struct Plaid {
   }
   public static func create(_ linkTokenConfiguration: LinkKit.LinkTokenConfiguration, onLoad: (() -> Swift.Void)? = nil) -> Swift.Result<any LinkKit.Handler, LinkKit.Plaid.CreateError>
   @available(iOS 17.4, *)
-  @available(iOS, deprecated, message: "Use PlaidFinanceKit.sync(token:requestAuthorizationIfNeeded:syncBehavior:completion:) instead. This method will be removed in version 7 of the SDK.")
+  @available(iOS, introduced: 17.4, deprecated: 17.4, message: "Use PlaidFinanceKit.sync(token:requestAuthorizationIfNeeded:syncBehavior:completion:) instead. This method will be removed in version 7 of the SDK.")
   public static func syncFinanceKit(token: Swift.String, requestAuthorizationIfNeeded: Swift.Bool, simulatedBehavior: Swift.Bool = false, completion: @escaping (Swift.Result<Swift.Void, LinkKit.FinanceKitError>) -> Swift.Void)
   public static let version: Swift.String
 }
@@ -607,7 +607,7 @@ public enum AssetReportErrorCode : Swift.Error, Swift.CustomStringConvertible {
     @objc get
   }
   @available(iOS 17.4, *)
-  @available(iOS, deprecated, message: "Use PKLPlaidFinanceKit.sync(token:requestAuthorizationIfNeeded:syncBehavior:completion:) instead. This method will be removed in version 7 of the SDK.")
+  @available(iOS, introduced: 17.4, deprecated: 17.4, message: "Use PKLPlaidFinanceKit.sync(token:requestAuthorizationIfNeeded:syncBehavior:completion:) instead. This method will be removed in version 7 of the SDK.")
   @objc public static func syncFinanceKit(token: Swift.String, requestAuthorizationIfNeeded: Swift.Bool, simulatedBehavior: Swift.Bool, onSuccess: @escaping () -> Swift.Void, onError: @escaping (Foundation.NSError) -> Swift.Void)
   @objc override dynamic public init()
   @objc deinit
