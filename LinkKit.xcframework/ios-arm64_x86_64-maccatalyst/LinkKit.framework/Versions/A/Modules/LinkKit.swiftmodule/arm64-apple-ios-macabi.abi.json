@@ -53962,70 +53962,70 @@
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-0926a7a7701540b80-2\/plaid\/client-ci\/link\/apple\/Sources\/ObjCBridge\/PlaidObjCBridge.swift",
       "kind": "IntegerLiteral",
-      "offset": 4412,
+      "offset": 4444,
       "length": 20,
       "value": "1"
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-0926a7a7701540b80-2\/plaid\/client-ci\/link\/apple\/Sources\/ObjCBridge\/PlaidObjCBridge.swift",
       "kind": "IntegerLiteral",
-      "offset": 4442,
+      "offset": 4474,
       "length": 9,
       "value": "2"
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-0926a7a7701540b80-2\/plaid\/client-ci\/link\/apple\/Sources\/ObjCBridge\/PlaidObjCBridge.swift",
       "kind": "IntegerLiteral",
-      "offset": 4461,
+      "offset": 4493,
       "length": 18,
       "value": "3"
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-0926a7a7701540b80-2\/plaid\/client-ci\/link\/apple\/Sources\/ObjCBridge\/PlaidObjCBridge.swift",
       "kind": "IntegerLiteral",
-      "offset": 4489,
+      "offset": 4521,
       "length": 24,
       "value": "4"
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-0926a7a7701540b80-2\/plaid\/client-ci\/link\/apple\/Sources\/ObjCBridge\/PlaidObjCBridge.swift",
       "kind": "IntegerLiteral",
-      "offset": 4523,
+      "offset": 4555,
       "length": 23,
       "value": "5"
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-0926a7a7701540b80-2\/plaid\/client-ci\/link\/apple\/Sources\/ObjCBridge\/PlaidObjCBridge.swift",
       "kind": "IntegerLiteral",
-      "offset": 4556,
+      "offset": 4588,
       "length": 12,
       "value": "6"
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-0926a7a7701540b80-2\/plaid\/client-ci\/link\/apple\/Sources\/ObjCBridge\/PlaidObjCBridge.swift",
       "kind": "IntegerLiteral",
-      "offset": 21146,
+      "offset": 21178,
       "length": 15,
       "value": "1"
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-0926a7a7701540b80-2\/plaid\/client-ci\/link\/apple\/Sources\/ObjCBridge\/PlaidObjCBridge.swift",
       "kind": "IntegerLiteral",
-      "offset": 21171,
+      "offset": 21203,
       "length": 12,
       "value": "2"
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-0926a7a7701540b80-2\/plaid\/client-ci\/link\/apple\/Sources\/ObjCBridge\/PlaidObjCBridge.swift",
       "kind": "IntegerLiteral",
-      "offset": 21193,
+      "offset": 21225,
       "length": 21,
       "value": "3"
     },
     {
       "filePath": "\/opt\/homebrew\/var\/buildkite-agent\/builds\/i-0926a7a7701540b80-2\/plaid\/client-ci\/link\/apple\/Sources\/ObjCBridge\/PlaidObjCBridge.swift",
       "kind": "IntegerLiteral",
-      "offset": 21224,
+      "offset": 21256,
       "length": 7,
       "value": "4"
     },
