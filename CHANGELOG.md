@@ -1,5 +1,50 @@
 # RELEASES
 
+# LinkKit 7.0.0-beta3 - 2026-03-23
+
+LinkKit 7.0.0 is a major release introducing a modernized, session-based architecture and native SwiftUI support. This version significantly reduces the SDK footprint while offering more granular control over Link flows.
+
+### ⚠️ Breaking Changes & Deprecations
+
+* **Session-based API**: The legacy `Handler` API has been replaced by specialized `Session` objects (e.g., `PlaidLinkSession`, `PlaidLayerSession`).
+* **CocoaPods Retirement**: CocoaPods is no longer a supported distribution method. Please migrate to **Swift Package Manager (SPM)** to continue receiving updates.
+* **Swift-Only Core**: The core `LinkKit` module is now Swift-only. For Objective-C support, you must explicitly import the new `LinkKitObjC` module.
+
+### Requirements
+
+| Name | Version |
+|------|---------|
+| Xcode | >= 16.1.0 |
+| iOS | >= 15.0 |
+| Swift | >= 5.10 |
+
+### Key Enhancements
+
+* **SDK Footprint Reduction**: Reduced the executable size from ~6.4MB to **2.5MB**, optimizing app bundle sizes.
+* **Native SwiftUI Support**: Introduces native modifiers like `.plaidLink(isPresented:token:...)` and the `.sheet()` method on session objects, removing the need for `UIViewControllerRepresentable`.
+* **Pre-Initialization & `onLoad`**: The `onLoad` callback is now a first-class citizen in `LinkTokenConfiguration`. You can now initialize sessions in the background and only present UI when the SDK is "Ready."
+* **Modernized FinanceKit Sync**: Moved FinanceKit functionality to `PlaidFinanceKit` with support for **async/await** and a new `SyncBehavior` enum.
+
+### Feature Updates
+
+#### Standard Link
+- Unified `LinkTokenConfiguration` where `onSuccess`, `onExit`, `onEvent`, and `onLoad` are all defined at initialization.
+- Replaced `Plaid.create` result-switching with a throwing `Plaid.createPlaidLinkSession` method.
+
+#### Plaid Layer
+- Introduced `LayerTokenConfiguration` and `PlaidLayerSession`.
+- Added `session.submit(data:)` to programmatically pass user information (Phone, DOB) to an active Layer session.
+
+#### Headless Link
+- Optimized `PlaidHeadlessSession` which removes the need for `noLoadingState` flags; the session is entirely invisible until programmatically started.
+
+#### Embedded Link
+- New `EmbeddedSearchView` (SwiftUI) and `EmbeddedSearchUIView` (UIKit) provide a "search-first" native experience without manual view wrapping.
+
+---
+
+**Note:** For detailed code examples and step-by-step instructions on transitioning your implementation, please refer to our [v7.0.0 Migration Guide](#).
+
 # LinkKit 7.0.0-beta2 - 2026-03-12
 
 LinkKit 7.0.0 is a major release introducing a modernized, session-based architecture and native SwiftUI support. This version significantly reduces the SDK footprint while offering more granular control over Link flows.

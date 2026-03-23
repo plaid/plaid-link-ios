@@ -240,9 +240,12 @@ public enum ApiErrorCode : Swift.Error, Swift.CustomStringConvertible, Swift.Cod
   }
   public static func == (a: LinkKit.ApiErrorCode, b: LinkKit.ApiErrorCode) -> Swift.Bool
 }
-public enum ConfigurationError : Swift.Error {
+public enum ConfigurationError : Foundation.LocalizedError {
   case invalidToken(message: Swift.String)
   public var message: Swift.String {
+    get
+  }
+  public var errorDescription: Swift.String? {
     get
   }
 }
