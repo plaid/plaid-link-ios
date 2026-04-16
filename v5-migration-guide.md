@@ -1,4 +1,4 @@
-# Plaid Integration Migration Guide: LinkKit 4.x to 5.x
+# Plaid Integration Migration Guide: LinkKit 4.x to 5.x/6.x
 
 
 ## Overview
