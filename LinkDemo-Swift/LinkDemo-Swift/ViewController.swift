@@ -83,7 +83,7 @@ class ViewController: UIViewController {
             // Closure is called when a user successfully links an Item. It should take a single LinkSuccess argument,
             // containing the publicToken String and a metadata of type SuccessMetadata.
             // Ref - https://plaid.com/docs/link/ios/#onsuccess
-            print("public-token: \(success.publicToken) metadata: \(success.metadata)")
+            print("Plaid Link succeeded. Exchange the public token on your backend; do not log it.")
         }
 
         // Optional closure is called when a user exits Link without successfully linking an Item,
@@ -92,10 +92,10 @@ class ViewController: UIViewController {
         // Ref - https://plaid.com/docs/link/ios/#onexit
         linkConfiguration.onExit = { exit in
             if let error = exit.error {
-                print("exit with \(error)\n\(exit.metadata)")
+                print("Plaid Link exited with error: \(error)")
             } else {
                 // User exited the flow without an error.
-                print("exit with \(exit.metadata)")
+                print("Plaid Link exited without an error.")
             }
         }
 
@@ -104,7 +104,7 @@ class ViewController: UIViewController {
         // what is going on as the user goes through the Plaid Link flow.
         // Ref - https://plaid.com/docs/link/ios/#onevent
         linkConfiguration.onEvent = { event in
-            print("Link Event: \(event)")
+            print("Link Event: \(event.eventName)")
         }
 
         // Set to `true` to skip the initial native loading spinner shown when Link launches.

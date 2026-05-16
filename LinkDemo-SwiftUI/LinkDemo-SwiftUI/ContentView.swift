@@ -99,9 +99,17 @@ struct ContentView: View {
                         .plaidLink(
                             isPresented: binding(for: .modifierToken),
                             token: linkToken,
-                            onSuccess: { print("✅", $0.publicToken) },
-                            onExit: { print("🚪", $0) },
-                            onEvent: { print("📣", $0.eventName) },
+                            onSuccess: { _ in
+                                print("Plaid Link succeeded. Exchange the public token on your backend; do not log it.")
+                            },
+                            onExit: { exit in
+                                if let error = exit.error {
+                                    print("Plaid Link exited with error: \(error)")
+                                } else {
+                                    print("Plaid Link exited without an error.")
+                                }
+                            },
+                            onEvent: { print("Link Event: \($0.eventName)") },
                             onLoad: { print("Link loaded") },
                             errorView: AnyView(
                                 VStack {
@@ -152,7 +160,7 @@ struct ContentView: View {
             // Closure is called when a user successfully links an Item. It should take a single LinkSuccess argument,
             // containing the publicToken String and a metadata of type SuccessMetadata.
             // Ref - https://plaid.com/docs/link/ios/#onsuccess
-            print("public-token: \(success.publicToken) metadata: \(success.metadata)")
+            print("Plaid Link succeeded. Exchange the public token on your backend; do not log it.")
             activePresentationType = nil  // Dismiss Link
         }
 
@@ -162,10 +170,10 @@ struct ContentView: View {
         // Ref - https://plaid.com/docs/link/ios/#onexit
         linkConfiguration.onExit = { exit in
             if let error = exit.error {
-                print("exit with \(error)\n\(exit.metadata)")
+                print("Plaid Link exited with error: \(error)")
             } else {
                 // User exited the flow without an error.
-                print("exit with \(exit.metadata)")
+                print("Plaid Link exited without an error.")
             }
             activePresentationType = nil  // Dismiss Link
         }
@@ -175,7 +183,7 @@ struct ContentView: View {
         // what is going on as the user goes through the Plaid Link flow.
         // Ref - https://plaid.com/docs/link/ios/#onevent
         linkConfiguration.onEvent = { event in
-            print("Link Event: \(event)")
+            print("Link Event: \(event.eventName)")
         }
 
         // Set to `true` to skip the initial native loading spinner shown when Link launches.

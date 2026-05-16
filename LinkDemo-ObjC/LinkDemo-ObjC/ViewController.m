@@ -64,7 +64,7 @@
         // Closure is called when a user successfully links an Item. It should take a single LinkSuccess argument,
         // containing the publicToken String and a metadata of type SuccessMetadata.
         // Ref - https://plaid.com/docs/link/ios/#onsuccess
-        NSLog(@"public-token: %@ metadata: %@", success.publicToken, success.metadata);
+        NSLog(@"Plaid Link succeeded. Exchange the public token on your backend; do not log it.");
     }];
 
     // Optional closure is called when a user exits Link without successfully linking an Item,
@@ -73,9 +73,9 @@
     // Ref - https://plaid.com/docs/link/ios/#onexit
     linkConfiguration.onExit = ^(PLKLinkExit * exit) {
         if (exit.error) {
-            NSLog(@"exit with %@\n%@", exit.error, exit.metadata);
+            NSLog(@"Plaid Link exited with error: %@", exit.error);
         } else {
-            NSLog(@"exit with %@", exit.metadata);
+            NSLog(@"Plaid Link exited without an error.");
         }
     };
 
@@ -84,7 +84,7 @@
     // what is going on as the user goes through the Plaid Link flow.
     // Ref - https://plaid.com/docs/link/ios/#onevent
     linkConfiguration.onEvent = ^(PLKLinkEvent * event) {
-        NSLog(@"Link event %@", event.eventMetadata.metadataJSON);
+        NSLog(@"Link event %@", event.eventName);
     };
 
     NSError *createError = nil;
