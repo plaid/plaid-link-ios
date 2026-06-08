@@ -69,6 +69,12 @@ extension EventName {
             return .selectInstitution
         case .selectDownInstitution:
             return .selectInstitution
+        case .selectFallbackRoutingInstitution:
+            return .selectFallbackRoutingInstitution
+        case .selectDenylistedInstitution:
+            return .selectDenylistedInstitution
+        case .selectRememberMeDuplicateInstitution:
+            return .selectRememberMeDuplicateInstitution
         case .selectInstitution:
             return .selectInstitution
         case .submitCredentials:
