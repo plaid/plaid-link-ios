@@ -1,0 +1,22 @@
+name: ObjC Tests
+
+on:
+  pull_request:
+
+jobs:
+  linkkit-objc-tests:
+    name: LinkKit ObjC Tests
+    runs-on: macos-15
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Run ObjC compatibility tests
+        run: |
+          xcodebuild test \
+            -scheme LinkKit-Package \
+            -destination 'platform=iOS Simulator,name=iPhone 16,OS=latest' \
+            -derivedDataPath "$RUNNER_TEMP/DerivedData" \
+            -clonedSourcePackagesDirPath "$RUNNER_TEMP/SourcePackages" \
+            CODE_SIGNING_ALLOWED=NO
