@@ -15,6 +15,7 @@ jobs:
       - name: Run ObjC compatibility tests
         run: |
           xcodebuild test \
+            -packagePath "$GITHUB_WORKSPACE" \
             -scheme LinkKit-Package \
             -destination 'platform=iOS Simulator,name=iPhone 16,OS=latest' \
             -derivedDataPath "$RUNNER_TEMP/DerivedData" \
