@@ -181,6 +181,57 @@ LinkKit 7.0.0 is a major release introducing a modernized, session-based archite
 
 **Note:** For detailed code examples and step-by-step instructions on transitioning your implementation, please refer to our [v7.0.0 Migration Guide](#).
 
+## LinkKit 6.4.7 - 2026-03-19
+### Requirements
+
+| Name | Version |
+|------|---------|
+| Xcode | >= 16.1.0 |
+| iOS | >= 14.0 |
+
+### Changes
+
+– Fix FinanceKit sync API Deprecation
+
+## LinkKit 6.4.6 - 2026-03-18
+### Requirements
+
+| Name | Version |
+|------|---------|
+| Xcode | >= 16.1.0 |
+| iOS | >= 14.0 |
+
+### Changes
+
+– Fix SubmissionData params breaking change
+
+## LinkKit 6.4.5 - 2026-03-17
+### Requirements
+
+| Name | Version |
+|------|---------|
+| Xcode | >= 16.1.0 |
+| iOS | >= 14.0 |
+
+### Changes
+
+– Fix FinanceKit sync API Deprecation
+
+## LinkKit 6.4.4 - 2026-03-06
+
+### Requirements
+
+| Name  | Version  |
+|-------|----------|
+| Xcode | >= 16.1.0 |
+| iOS   | >= 14.0  |
+
+### Changes
+
+- Add event names `SELECT_FALLBACK_ROUTING_INSTITUTION`, `SELECT_DENYLISTED_INSTITUTION`, & `SELECT_REMEMBER_ME_DUPLICATE_INSTITUTION`
+- Deprecate FinanceKit sync API
+- Deprecate CocoaPods integration
+
 ## LinkKit 6.4.3 - 2026-01-08
 ### Requirements
 
