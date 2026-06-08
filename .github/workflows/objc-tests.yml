@@ -11,11 +11,13 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
+        with:
+          path: plaid-link-ios-staging
 
       - name: Run ObjC compatibility tests
+        working-directory: plaid-link-ios-staging
         run: |
           xcodebuild test \
-            -packagePath "$GITHUB_WORKSPACE" \
             -scheme LinkKit-Package \
             -destination 'platform=iOS Simulator,name=iPhone 16,OS=latest' \
             -derivedDataPath "$RUNNER_TEMP/DerivedData" \
