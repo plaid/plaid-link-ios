@@ -63,6 +63,10 @@ extension ViewName {
             return .dataTransparency
         case .dataTransparencyConsent:
             return .dataTransparencyConsent
+        case .dataTransparencyMessagingModal:
+            return .dataTransparencyMessagingModal
+        case .identityMatchBlock:
+            return .identityMatchBlock
         case .selectAuthType:
             return .selectAuthType
         case .selectBrand:
@@ -81,6 +85,18 @@ extension ViewName {
             return .selectSavedAccount
         case .verifyEmail:
             return .verifyEmail
+        case .craConsent:
+            return .craConsent
+        case .instantMicrodepositAuthorized:
+            return .instantMicrodepositAuthorized
+        case .sameDayMicrodepositAuthorized:
+            return .sameDayMicrodepositAuthorized
+        case .instantMicrodepositVerification:
+            return .instantMicrodepositVerification
+        case .sameDayMicrodepositVerification:
+            return .sameDayMicrodepositVerification
+        case .transferStatusCheck:
+            return .transferStatusCheck
         case .unknown:
             return nil
         @unknown default:

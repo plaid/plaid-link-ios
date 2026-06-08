@@ -101,7 +101,10 @@ typedef NS_ENUM(NSInteger, PLKEventNameValue) {
     PLKEventNameValueIdentityMatchFailed,
     PLKEventNameValueIssueFollowed,
     PLKEventNameValueSelectAccount,
-    PLKEventNameValueLayerAutoFillNotAvailable
+    PLKEventNameValueLayerAutoFillNotAvailable,
+    PLKEventNameValueSelectFallbackRoutingInstitution,
+    PLKEventNameValueSelectDenylistedInstitution,
+    PLKEventNameValueSelectRememberMeDuplicateInstitution,
     // Add new enum cases directly above this line to avoid breaking API changes
 };
 
@@ -168,6 +171,14 @@ typedef NS_ENUM(NSInteger, PLKViewNameValue) {
     PLKViewNameValueSelectSavedAccount,
     PLKViewNameValueSubmitEmail,
     PLKViewNameValueVerifyEmail,
+    PLKViewNameValueDataTransparencyMessagingModal,
+    PLKViewNameValueIdentityMatchBlock,
+    PLKViewNameValueCRAConsent,
+    PLKViewNameValueInstantMicrodepositAuthorized,
+    PLKViewNameValueSameDayMicrodepositAuthorized,
+    PLKViewNameValueInstantMicrodepositVerification,
+    PLKViewNameValueSameDayMicrodepositVerification,
+    PLKViewNameValueTransferStatusCheck,
     // Add new enum cases directly above this line to avoid breaking API changes
 };
 
