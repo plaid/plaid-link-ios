@@ -280,10 +280,9 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
-@import ObjectiveC;
+@import CoreFoundation;
+@import UIKit;
 #endif
-
-#import <LinkKit/LinkKit.h>
 
 #endif
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
@@ -304,49 +303,14 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 #if defined(__OBJC__)
+@class NSCoder;
 
-
-@class PLKLinkTokenConfiguration;
-@class NSError;
-@protocol PLKHandler;
-@class NSString;
-
-/// Plaid is the main entrypoint for the Plaid Link iOS SDK.
-SWIFT_CLASS("_TtC7LinkKit8PLKPlaid")
-@interface PLKPlaid : NSObject
-+ (id <PLKHandler> _Nullable)createWithLinkTokenConfiguration:(PLKLinkTokenConfiguration * _Nonnull)linkTokenConfiguration error:(NSError * _Nullable * _Nullable)error SWIFT_WARN_UNUSED_RESULT;
-+ (id <PLKHandler> _Nullable)createWithLinkTokenConfiguration:(PLKLinkTokenConfiguration * _Nonnull)linkTokenConfiguration onLoad:(void (^ _Nullable)(void))onLoad error:(NSError * _Nullable * _Nullable)error SWIFT_WARN_UNUSED_RESULT;
-/// The version of the Plaid Link iOS SDK.
-SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull sdkVersion;)
-+ (NSString * _Nonnull)sdkVersion SWIFT_WARN_UNUSED_RESULT;
-+ (void)syncFinanceKitWithToken:(NSString * _Nonnull)token requestAuthorizationIfNeeded:(BOOL)requestAuthorizationIfNeeded simulatedBehavior:(BOOL)simulatedBehavior onSuccess:(void (^ _Nonnull)(void))onSuccess onError:(void (^ _Nonnull)(NSError * _Nonnull))onError SWIFT_AVAILABILITY(ios,introduced=17.4,deprecated=17.4,message="Use PKLPlaidFinanceKit.sync(token:requestAuthorizationIfNeeded:syncBehavior:completion:) instead. This method will be removed in version 7 of the SDK.") SWIFT_AVAILABILITY(ios,introduced=17.4);
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+/// UIKit-based View for Plaid Embedded Search.
+SWIFT_CLASS("_TtC7LinkKit20EmbeddedSearchUIView")
+@interface EmbeddedSearchUIView : UIView
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
+- (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 @end
-
-
-SWIFT_CLASS("_TtC7LinkKit18PLKPlaidFinanceKit")
-@interface PLKPlaidFinanceKit : NSObject
-/// Synchronizes the user’s Apple Card transactions with Plaid.
-/// Call this method <em>after</em> the user has linked their Apple Card in a standard Plaid Link
-/// session and your app has been granted <em>FinanceKit</em> entitlements by Apple.
-/// note:
-/// Available on iOS 17.4 and later.
-/// \param token A Plaid link token already associated with an access token.
-///
-/// \param requestAuthorizationIfNeeded Pass <code>true</code> to prompt the user for FinanceKit
-/// permission if it hasn’t been granted yet; otherwise pass <code>false</code>.
-///
-/// \param syncBehavior Controls whether the sync uses live FinanceKit data or simulated data.
-///
-/// \param onSuccess Closure executed when the sync completes successfully.
-///
-/// \param onError Closure executed when the sync fails, providing an NSError.
-///
-+ (void)syncWithToken:(NSString * _Nonnull)token requestAuthorizationIfNeeded:(BOOL)requestAuthorizationIfNeeded syncBehavior:(PLKSyncBehavior)syncBehavior onSuccess:(void (^ _Nonnull)(void))onSuccess onError:(void (^ _Nonnull)(NSError * _Nonnull))onError SWIFT_AVAILABILITY(ios,introduced=17.4);
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
 
 
 #endif
