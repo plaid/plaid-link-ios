@@ -11,38 +11,12 @@ let package = Package(
         .library(
             name: "LinkKit",
             targets: ["LinkKit"]
-        ),
-        .library(
-            name: "LinkKitObjC",
-            targets: ["LinkKitObjC"]
         )
     ],
     targets: [
-        .target(
-            name: "LinkKitObjC",
-            dependencies: [
-                "LinkKitObjCInternal",
-                "LinkKit"
-            ],
-            path: "Sources/ObjC-Support/Swift"
-        ),
-        .target(
-            name: "LinkKitObjCInternal",
-            dependencies: [
-                "LinkKit"
-            ],
-            path: "Sources/ObjC-Support/ObjectiveC",
-            publicHeadersPath: "include"
-        ),
         .binaryTarget(
             name: "LinkKit",
             path: "LinkKit.xcframework"
-        ),
-        .testTarget(
-            name: "LinkKitObjCTests",
-            dependencies: [
-                "LinkKitObjC"
-            ]
-        ),
+        )
     ]
 )

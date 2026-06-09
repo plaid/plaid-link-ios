@@ -42,7 +42,7 @@ This guide provides the necessary steps to migrate your iOS integration from the
 > ### 🏛️ Objective-C Compatibility Bridge
 > If your project requires Objective-C support, you must explicitly import the **`LinkKitObjC`** module. The core `LinkKit` module is now Swift-only to optimize performance.
 > 
-> The code for this compatibility bridge is now fully open-source and visible within the public repository for your reference. Additionally, there is an updated Objective-C example app.
+> The code for this compatibility bridge is now fully open-source in the [plaid-link-ios-spm](https://github.com/plaid/plaid-link-ios-spm) repository. That repository also contains the updated Objective-C example app.
 
 ### New Session Based Models
 
@@ -121,7 +121,7 @@ struct PlaidLinkSessionExampleView: View {
 }
 ```
 
-For more implementation examples including UIKit, Objective-C, and advanced use cases explore the example apps included in this repository.
+For more implementation examples including UIKit and advanced use cases, explore the Swift example apps included in this repository. For Objective-C, use the example app in [plaid-link-ios-spm](https://github.com/plaid/plaid-link-ios-spm/tree/master/LinkDemo-ObjC).
 
 #### Plaid Layer Changes
 
@@ -201,7 +201,7 @@ struct LayerSubmissionData: SubmissionData {
 }
 ```
 
-For more implementation examples including UIKit, Objective-C, and advanced use cases explore the example apps included in this repository.
+For more implementation examples including UIKit and advanced use cases, explore the Swift example apps included in this repository. For Objective-C, use the example app in [plaid-link-ios-spm](https://github.com/plaid/plaid-link-ios-spm/tree/master/LinkDemo-ObjC).
 
 
 #### Headless Link Changes
@@ -262,7 +262,7 @@ struct PlaidLinkHeadlessSessionExampleView: View {
 }
 ```
 
-For more implementation examples including UIKit, Objective-C, and advanced use cases explore the example apps included in this repository.
+For more implementation examples including UIKit and advanced use cases, explore the Swift example apps included in this repository. For Objective-C, use the example app in [plaid-link-ios-spm](https://github.com/plaid/plaid-link-ios-spm/tree/master/LinkDemo-ObjC).
 
 #### Embedded Link Changes
 
