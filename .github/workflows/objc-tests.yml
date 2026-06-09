@@ -2,6 +2,7 @@ name: ObjC Tests
 
 on:
   pull_request:
+  push:
 
 jobs:
   linkkit-objc-tests:
@@ -9,15 +10,82 @@ jobs:
     runs-on: macos-15
 
     steps:
-      - name: Check out repository
+      - name: Check out plaid-link-ios
         uses: actions/checkout@v4
+        with:
+          path: plaid-link-ios
+
+      - name: Check out plaid-link-ios-spm
+        uses: actions/checkout@v4
+        with:
+          repository: plaid/plaid-link-ios-spm
+          ref: codex/objc-support-spm
+          path: plaid-link-ios-spm
+
+      - name: Prepare ObjC compatibility package
+        run: |
+          package_path="$RUNNER_TEMP/LinkKitObjCPackage"
+          mkdir -p "$package_path/Sources"
+          rsync -a "$GITHUB_WORKSPACE/plaid-link-ios-spm/Sources/ObjC-Support" "$package_path/Sources/"
+          rsync -a "$GITHUB_WORKSPACE/plaid-link-ios-spm/Tests" "$package_path/"
+          rsync -a "$GITHUB_WORKSPACE/plaid-link-ios/LinkKit.xcframework" "$package_path/"
+
+          cat > "$package_path/Package.swift" <<'SWIFT'
+          // swift-tools-version: 5.10
+          import PackageDescription
+
+          let package = Package(
+              name: "LinkKit",
+              platforms: [
+                  .iOS(.v15),
+                  .macCatalyst(.v15),
+              ],
+              products: [
+                  .library(
+                      name: "LinkKit",
+                      targets: ["LinkKit"]
+                  ),
+                  .library(
+                      name: "LinkKitObjC",
+                      targets: ["LinkKitObjC"]
+                  )
+              ],
+              targets: [
+                  .target(
+                      name: "LinkKitObjC",
+                      dependencies: [
+                          "LinkKitObjCInternal",
+                          "LinkKit"
+                      ],
+                      path: "Sources/ObjC-Support/Swift"
+                  ),
+                  .target(
+                      name: "LinkKitObjCInternal",
+                      dependencies: [
+                          "LinkKit"
+                      ],
+                      path: "Sources/ObjC-Support/ObjectiveC",
+                      publicHeadersPath: "include"
+                  ),
+                  .binaryTarget(
+                      name: "LinkKit",
+                      path: "LinkKit.xcframework"
+                  ),
+                  .testTarget(
+                      name: "LinkKitObjCTests",
+                      dependencies: [
+                          "LinkKit",
+                          "LinkKitObjC",
+                          "LinkKitObjCInternal"
+                      ]
+                  ),
+              ]
+          )
+          SWIFT
 
       - name: Run ObjC compatibility tests
         run: |
-          mkdir -p "$RUNNER_TEMP/LinkKitPackage"
-          rsync -a Package.swift Sources Tests LinkKit.xcframework "$RUNNER_TEMP/LinkKitPackage/"
-          cd "$RUNNER_TEMP/LinkKitPackage"
-
+          cd "$RUNNER_TEMP/LinkKitObjCPackage"
           xcodebuild test \
             -scheme LinkKit-Package \
             -destination 'platform=iOS Simulator,name=iPhone 16,OS=latest' \
