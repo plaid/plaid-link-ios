@@ -1,5 +1,18 @@
 # RELEASES
 
+## LinkKit 7.0.1 - 2026-07-01
+### Requirements
+
+| Name | Version |
+|------|---------|
+| Xcode | >= 16.1.0 |
+| iOS | >= 15.0 |
+| Swift | >= 5.10 |
+
+### Changes
+
+- Fix React Native version parsing.
+
 ## LinkKit 7.0.0 - 2026-06-09
 
 LinkKit 7.0.0 is a major release introducing a modernized, session-based architecture and native SwiftUI support. This version significantly reduces the SDK footprint while offering more granular control over Link flows.

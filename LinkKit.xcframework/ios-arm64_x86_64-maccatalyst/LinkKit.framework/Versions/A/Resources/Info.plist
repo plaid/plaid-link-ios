@@ -17,13 +17,13 @@
 	<key>CFBundlePackageType</key>
 	<string>FMWK</string>
 	<key>CFBundleShortVersionString</key>
-	<string>7.0.0</string>
+	<string>7.0.1</string>
 	<key>CFBundleSupportedPlatforms</key>
 	<array>
 		<string>MacOSX</string>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>4031.1781030446</string>
+	<string>4067.1782869826</string>
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
@@ -47,9 +47,9 @@
 	<key>SCMBuildBranch</key>
 	<string>HEAD</string>
 	<key>SCMBuildNumber</key>
-	<string>1781030446</string>
+	<string>1782869826</string>
 	<key>SCMBuildRevision</key>
-	<string>6aa367050</string>
+	<string>a7d6fb363</string>
 	<key>UIDeviceFamily</key>
 	<array>
 		<integer>2</integer>
