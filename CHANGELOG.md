@@ -20,6 +20,7 @@ LinkKit 7.0.0 is a major release introducing a modernized, session-based archite
 ### ⚠️ Breaking Changes & Deprecations
 
 * **Session-based API**: The legacy `Handler` API has been replaced by specialized `Session` objects (e.g., `PlaidLinkSession`, `PlaidLayerSession`).
+* **Resume After Termination Removed**: LinkKit 7 no longer restores an in-progress Link flow after the host app process is terminated. Sessions are not restorable across process termination; when the user returns, create a new session with a valid link token.
 * **CocoaPods Retirement**: CocoaPods is no longer a supported distribution method. Please migrate to **Swift Package Manager (SPM)** to continue receiving updates.
 * **Swift-Only Core**: The core `LinkKit` module is now Swift-only. For Objective-C support, you must explicitly import the new `LinkKitObjC` module.
 

@@ -75,6 +75,12 @@ The new architecture moves away from a single "catch-all" Handler in favor of sp
 | :--- | :--- |
 | <pre> let result = Plaid.create(configuration) <br> switch result {<br>  case .success(let handler):<br>    // Must retain handler!<br>    self.linkHandler = handler<br>    handler.open(from: .viewController(self))<br>  case .failure(let error):<br>    print(error)<br>  }<br>}</pre> | <pre>do {<br>  let session = try Plaid.createPlaidLinkSession(<br>    configuration: configuration<br>  )<br>  // Must retain session!<br>  self.linkSession = session<br>  session.open(using: .viewController(self))<br>} catch {<br>  print(error)<br>}</pre> |
 
+##### Resume After Termination
+
+Legacy LinkKit versions supported resuming an in-progress Link flow after the host app process was terminated. LinkKit 7 removes this behavior as part of the move to session-based APIs.
+
+Do not persist `PlaidLinkSession`, `PlaidLayerSession`, or `PlaidHeadlessSession` objects with the expectation that they can be restored after process termination. If the app relaunches and the user needs to continue Link, create the appropriate session again with a fresh or still-valid link token, then present or start it from your normal entry point.
+
 Full SwiftUI Example
 
 ```swift
