@@ -1,5 +1,18 @@
 # RELEASES
 
+## LinkKit 7.0.2 - 2026-07-10
+### Requirements
+
+| Name | Version |
+|------|---------|
+| Xcode | >= 16.1.0 |
+| iOS | >= 15.0 |
+| Swift | >= 5.10 |
+
+### Changes
+
+- Fix bug where onSuccess callback can fail to be called
+
 ## LinkKit 7.0.1 - 2026-07-01
 ### Requirements
 
