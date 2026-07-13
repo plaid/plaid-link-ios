@@ -1,5 +1,18 @@
 # RELEASES
 
+## LinkKit 7.0.3 - 2026-07-13
+### Requirements
+
+| Name | Version |
+|------|---------|
+| Xcode | >= 16.1.0 |
+| iOS | >= 15.0 |
+| Swift | >= 5.10 |
+
+### Changes
+
+- Fix SuccessMetadata account mask and verificationStatus fields in the onSuccess callback
+
 ## LinkKit 7.0.2 - 2026-07-10
 ### Requirements
 
