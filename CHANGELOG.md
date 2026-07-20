@@ -1,5 +1,19 @@
 # RELEASES
 
+## LinkKit 7.0.4 - 2026-07-20
+### Requirements
+
+| Name | Version |
+|------|---------|
+| Xcode | >= 16.1.0 |
+| iOS | >= 15.0 |
+| Swift | >= 5.10 |
+
+### Changes
+
+- Fix SuccessMetadata account subtype mapping
+
+
 ## LinkKit 7.0.3 - 2026-07-13
 ### Requirements
 
