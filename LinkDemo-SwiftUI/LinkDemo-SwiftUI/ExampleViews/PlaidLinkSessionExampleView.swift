@@ -49,6 +49,7 @@ struct PlaidLinkSessionExampleView: View {
         .sheet(isPresented: $isPresentingLink) {
             // Trigger Plaid Link Sheet
             if let session = linkSession {
+                // Can Also use PlaidLinkSheet(session)
                 session.sheet()
             }
         }

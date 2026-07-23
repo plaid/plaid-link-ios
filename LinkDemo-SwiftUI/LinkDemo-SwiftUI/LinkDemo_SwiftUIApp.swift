@@ -30,5 +30,5 @@ struct LinkDemoSwiftuiApp: App {
     // from your backend server which in turn retrieves it securely from Plaid, for details please refer to
     // https://plaid.com/docs/api/tokens/#linktokencreate
     #warning("Replace <#GENERATED_LINK_TOKEN#> below with your link_token")
-    private let linkToken: String = "<#GENERATED_LINK_TOKEN#>"
+    private let linkToken: String = "link-sandbox-bf7140a8-97bf-464e-ba98-a78b9b93a4f8"
 }

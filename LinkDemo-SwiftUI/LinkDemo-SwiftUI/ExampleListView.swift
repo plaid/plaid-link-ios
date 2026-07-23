@@ -41,12 +41,8 @@ struct ExampleListView: View {
             .padding(.top, 16)
             .navigationDestination(for: ExampleView.self) { screen in
                 switch screen {
-                case .plaidLink:
-                    PlaidLinkViewExample(linkToken: linkToken)
                 case .plaidLinkSession:
                     PlaidLinkSessionExampleView(linkToken: linkToken)
-                case .plaidLinkUIViewControllerRepresentable:
-                    PlaidLinkUIViewControllerRepresentableExampleView(linkToken: linkToken)
                 case .plaidLinkHeadlessSession:
                     PlaidLinkHeadlessSessionExampleView(linkToken: linkToken)
                 case .plaidLayerSession:

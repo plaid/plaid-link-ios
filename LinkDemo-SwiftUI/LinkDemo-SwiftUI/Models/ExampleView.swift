@@ -10,9 +10,7 @@ import Foundation
 /// Possible examples that can be opened.
 enum ExampleView: String, CaseIterable, Identifiable {
 
-    case plaidLink
     case plaidLinkSession
-    case plaidLinkUIViewControllerRepresentable
     case plaidLinkHeadlessSession
     case plaidLayerSession
     case plaidEmbeddedSearch
@@ -22,9 +20,7 @@ enum ExampleView: String, CaseIterable, Identifiable {
 
     var title: String {
         switch self {
-        case .plaidLink: "PlaidLinkView"
         case .plaidLinkSession: "PlaidLinkSession"
-        case .plaidLinkUIViewControllerRepresentable: "PlaidLinkUIViewControllerRepresentable"
         case .plaidLinkHeadlessSession: "PlaidLinkHeadlessSession"
         case .plaidLayerSession: "PlaidLayerSession"
         case .plaidEmbeddedSearch: "PlaidEmbeddedSearch"
@@ -34,17 +30,9 @@ enum ExampleView: String, CaseIterable, Identifiable {
 
     var description: String {
         switch self {
-        case .plaidLink:
-            return """
-                Shows how to use the PlaidLinkView view. This is the most simple integration method, but it does not provide the best UX.
-                """
         case .plaidLinkSession:
             return """
                 Shows how create a PlaidLinkSession and use the sheet() feature.
-                """
-        case .plaidLinkUIViewControllerRepresentable:
-            return """
-                Shows how to create a PlaidLinkUIViewControllerRepresentable with a PlaidLinkSession.
                 """
         case .plaidLinkHeadlessSession:
             return """

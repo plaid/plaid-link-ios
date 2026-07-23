@@ -11,14 +11,12 @@
 		7C5D16822F50F3B000018D4E /* PlaidLinkSessionExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5D16792F50F3B000018D4E /* PlaidLinkSessionExampleView.swift */; };
 		7C5D16832F50F3B000018D4E /* PlaidLayerSessionExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5D16772F50F3B000018D4E /* PlaidLayerSessionExampleView.swift */; };
 		7C5D16842F50F3B000018D4E /* LabeledTextInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5D16712F50F3B000018D4E /* LabeledTextInputView.swift */; };
-		7C5D16852F50F3B000018D4E /* PlaidLinkUIViewControllerRepresentableExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5D167A2F50F3B000018D4E /* PlaidLinkUIViewControllerRepresentableExampleView.swift */; };
 		7C5D16862F50F3B000018D4E /* PlaidErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5D16732F50F3B000018D4E /* PlaidErrorView.swift */; };
 		7C5D16872F50F3B000018D4E /* SyncFinanceKitExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5D167C2F50F3B000018D4E /* SyncFinanceKitExampleView.swift */; };
 		7C5D16882F50F3B000018D4E /* ExampleListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5D16752F50F3B000018D4E /* ExampleListView.swift */; };
 		7C5D16892F50F3B000018D4E /* PlaidEmbeddedLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5D16762F50F3B000018D4E /* PlaidEmbeddedLinkView.swift */; };
 		7C5D168A2F50F3B000018D4E /* LoadingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5D167F2F50F3B000018D4E /* LoadingState.swift */; };
 		7C5D168B2F50F3B000018D4E /* LinkKitVersionInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5D16722F50F3B000018D4E /* LinkKitVersionInfoView.swift */; };
-		7C5D168C2F50F3B000018D4E /* PlaidLinkViewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5D167B2F50F3B000018D4E /* PlaidLinkViewExample.swift */; };
 		7C5D168D2F50F3B000018D4E /* PlaidLinkHeadlessSessionExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5D16782F50F3B000018D4E /* PlaidLinkHeadlessSessionExampleView.swift */; };
 		7CE6692D2A0A9FCB00A65FD3 /* LinkDemo_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE6692C2A0A9FCB00A65FD3 /* LinkDemo_SwiftUIApp.swift */; };
 		7CE669312A0A9FCC00A65FD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CE669302A0A9FCC00A65FD3 /* Assets.xcassets */; };
@@ -50,8 +48,6 @@
 		7C5D16772F50F3B000018D4E /* PlaidLayerSessionExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaidLayerSessionExampleView.swift; sourceTree = "<group>"; };
 		7C5D16782F50F3B000018D4E /* PlaidLinkHeadlessSessionExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaidLinkHeadlessSessionExampleView.swift; sourceTree = "<group>"; };
 		7C5D16792F50F3B000018D4E /* PlaidLinkSessionExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaidLinkSessionExampleView.swift; sourceTree = "<group>"; };
-		7C5D167A2F50F3B000018D4E /* PlaidLinkUIViewControllerRepresentableExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaidLinkUIViewControllerRepresentableExampleView.swift; sourceTree = "<group>"; };
-		7C5D167B2F50F3B000018D4E /* PlaidLinkViewExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaidLinkViewExample.swift; sourceTree = "<group>"; };
 		7C5D167C2F50F3B000018D4E /* SyncFinanceKitExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyncFinanceKitExampleView.swift; sourceTree = "<group>"; };
 		7C5D167E2F50F3B000018D4E /* ExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleView.swift; sourceTree = "<group>"; };
 		7C5D167F2F50F3B000018D4E /* LoadingState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingState.swift; sourceTree = "<group>"; };
@@ -92,8 +88,6 @@
 				7C5D16772F50F3B000018D4E /* PlaidLayerSessionExampleView.swift */,
 				7C5D16782F50F3B000018D4E /* PlaidLinkHeadlessSessionExampleView.swift */,
 				7C5D16792F50F3B000018D4E /* PlaidLinkSessionExampleView.swift */,
-				7C5D167A2F50F3B000018D4E /* PlaidLinkUIViewControllerRepresentableExampleView.swift */,
-				7C5D167B2F50F3B000018D4E /* PlaidLinkViewExample.swift */,
 				7C5D167C2F50F3B000018D4E /* SyncFinanceKitExampleView.swift */,
 			);
 			path = ExampleViews;
@@ -232,14 +226,12 @@
 				7C5D16822F50F3B000018D4E /* PlaidLinkSessionExampleView.swift in Sources */,
 				7C5D16832F50F3B000018D4E /* PlaidLayerSessionExampleView.swift in Sources */,
 				7C5D16842F50F3B000018D4E /* LabeledTextInputView.swift in Sources */,
-				7C5D16852F50F3B000018D4E /* PlaidLinkUIViewControllerRepresentableExampleView.swift in Sources */,
 				7C5D16862F50F3B000018D4E /* PlaidErrorView.swift in Sources */,
 				7C5D16872F50F3B000018D4E /* SyncFinanceKitExampleView.swift in Sources */,
 				7C5D16882F50F3B000018D4E /* ExampleListView.swift in Sources */,
 				7C5D16892F50F3B000018D4E /* PlaidEmbeddedLinkView.swift in Sources */,
 				7C5D168A2F50F3B000018D4E /* LoadingState.swift in Sources */,
 				7C5D168B2F50F3B000018D4E /* LinkKitVersionInfoView.swift in Sources */,
-				7C5D168C2F50F3B000018D4E /* PlaidLinkViewExample.swift in Sources */,
 				7C5D168D2F50F3B000018D4E /* PlaidLinkHeadlessSessionExampleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
