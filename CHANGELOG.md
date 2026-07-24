@@ -1,5 +1,17 @@
 # RELEASES
 
+## LinkKit 6.5.0 - 2026-07-24
+### Requirements
+
+| Name | Version |
+|------|---------|
+| Xcode | >= 16.1.0 |
+| iOS | >= 14.0 |
+
+### Changes
+
+– Fix FinanceKit Crash
+
 ## LinkKit 6.4.7 - 2026-03-19
 ### Requirements
 
