@@ -1,5 +1,19 @@
 # RELEASES
 
+## LinkKit 7.0.5 - 2026-07-27
+### Requirements
+
+| Name | Version |
+|------|---------|
+| Xcode | >= 16.1.0 |
+| iOS | >= 15.0 |
+| Swift | >= 5.10 |
+
+### Changes
+
+- Prevent SwiftUI Link sheet interactive dismissal so Link cannot be dismissed without triggering onExit
+- Deprecate PlaidLinkView and PlaidLinkU
+
 ## LinkKit 7.0.4 - 2026-07-20
 ### Requirements
 
