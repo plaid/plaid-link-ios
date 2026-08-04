@@ -4,10 +4,6 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>.DS_Store</key>
-		<data>
-		XbHCxkmtpJakBxTGdYEJ7sQNA+Q=
-		</data>
 		<key>Headers/LinkKit-Swift.h</key>
 		<data>
 		9jY8sAjFPCyHvNo5AAqiMfhBWHI=
@@ -18,7 +14,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		x8BkfycEcvycnEDkQpKO4Uc3EXE=
+		jySfKF6V8L646L2ZIfm9UoZ3TrI=
 		</data>
 		<key>Modules/LinkKit.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
@@ -38,7 +34,7 @@
 		</data>
 		<key>Modules/LinkKit.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		KWwTDWjRZpewuHrOh478sC3bnoc=
+		oErkT7zey9FCB/EEFoQNdFGsHdQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -97,7 +93,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Dt6J04NcT79wW3XraPLus9RIdF38pytxQH2Ia3L4i9E=
+			v8AaePRyKSHfIMgeJp2LcEsv8AibCAcf8cpwZ50qx+8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
