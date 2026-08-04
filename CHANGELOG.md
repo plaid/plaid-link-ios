@@ -1,5 +1,22 @@
 # RELEASES
 
+## LinkKit 7.1.0 - 2026-08-04
+### Requirements
+
+| Name | Version |
+|------|---------|
+| Xcode | >= 16.1.0 |
+| iOS | >= 15.0 |
+| Swift | >= 5.10 |
+
+### Changes
+
+- Fix bug where Link could dismiss early during multi item Link
+- Improved logging for Headless Sessions
+- Return error if a Headless token is reused
+- Improve error message when a non link token is used to create a PlaidLinkSession
+- Fix FinanceKit crash
+
 ## LinkKit 7.0.5 - 2026-07-27
 ### Requirements
 
