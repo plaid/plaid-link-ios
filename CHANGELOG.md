@@ -1,5 +1,17 @@
 # RELEASES
 
+## LinkKit 6.5.1 - 2026-09-10
+### Requirements
+
+| Name | Version |
+|------|---------|
+| Xcode | >= 16.1.0 |
+| iOS | >= 14.0 |
+
+### Changes
+
+– Fix an invalid purpose value in the privacy manifest. The NSPrivacyCollectedDataTypeUserID declaration now uses Apple's NSPrivacyCollectedDataTypePurposeAppFunctionality instead of a non-schema value.
+
 ## LinkKit 6.5.0 - 2026-07-24
 ### Requirements
 
