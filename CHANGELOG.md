@@ -1,5 +1,18 @@
 # RELEASES
 
+## LinkKit 7.1.2 - 2026-09-15
+### Requirements
+
+| Name | Version |
+|------|---------|
+| Xcode | >= 16.1.0 |
+| iOS | >= 15.0 |
+| Swift | >= 5.10 |
+
+### Changes
+
+- Fix bug where onLoad is not called for IDV sessions.
+
 ## LinkKit 7.1.1 - 2026-09-10
 ### Requirements
 
