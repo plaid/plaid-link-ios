@@ -1,5 +1,21 @@
 # RELEASES
 
+## LinkKit 7.2.0 - 2026-09-22
+### Requirements
+
+| Name | Version |
+|------|---------|
+| Xcode | >= 16.1.0 |
+| iOS | >= 15.0 |
+| Swift | >= 5.10 |
+
+### Changes
+
+- Support automatic session handoff for Embedded Link.
+- Deliver the Embedded Link start-failure onExit callback on the main thread.
+- Limit WebView inspection to Sandbox. Production Link sessions can no longer be attached to with Safari Web Inspector.
+- Security Updates
+
 ## LinkKit 7.1.2 - 2026-09-15
 ### Requirements
 
