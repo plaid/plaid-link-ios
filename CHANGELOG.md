@@ -1,5 +1,17 @@
 # RELEASES
 
+## LinkKit 6.5.2 - 2026-09-22
+### Requirements
+
+| Name | Version |
+|------|---------|
+| Xcode | >= 16.1.0 |
+| iOS | >= 14.0 |
+
+### Changes
+
+– Security Improvements
+
 ## LinkKit 6.5.1 - 2026-09-10
 ### Requirements
 
