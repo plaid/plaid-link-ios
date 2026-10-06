@@ -6,7 +6,7 @@
 	<dict>
 		<key>Resources/Info.plist</key>
 		<data>
-		/EfA+INQlmCO6QNsG2ASFy8p5Ec=
+		l5CPh5qyt9TBhvzQJUUU4vsCfds=
 		</data>
 		<key>Resources/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -75,7 +75,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			FZ2fWw5OcKGrK1R7TSKH2HwOfOwnf64xDpJiypA4OOM=
+			DXO1e+c7c9vzP9MgfiI4/ViKmL+zolgptqjh0GzklVU=
 			</data>
 		</dict>
 		<key>Modules/LinkKit.swiftmodule/x86_64-apple-ios-macabi.abi.json</key>
@@ -110,7 +110,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Xn8iFbXONOUiOeb+omM2tEkZozgJhdZbJY5fa0IZ+6k=
+			1wPhVoiSQLyjGsY9GVz5eBauSvkLmhVtBvWUGk18yxw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -124,7 +124,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			WfSAx8Mzk/irdT5CQC8NfjR9o9cb1sfqkmKgpbvpJiM=
+			Txafv4YhHhk/5NIha2hm1dqa3edyTiMFznTD69QCMx8=
 			</data>
 		</dict>
 		<key>Resources/PrivacyInfo.xcprivacy</key>
