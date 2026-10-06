@@ -1,5 +1,17 @@
 # RELEASES
 
+## LinkKit 6.5.3 - 2026-10-06
+### Requirements
+
+| Name | Version |
+|------|---------|
+| Xcode | >= 16.1.0 |
+| iOS | >= 14.0 |
+
+### Changes
+
+– Fix a crash impacting Layer customers.
+
 ## LinkKit 6.5.2 - 2026-09-22
 ### Requirements
 
