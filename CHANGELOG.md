@@ -1,5 +1,18 @@
 # RELEASES
 
+## LinkKit 7.2.1 - 2026-10-07
+### Requirements
+
+| Name | Version |
+|------|---------|
+| Xcode | >= 16.1.0 |
+| iOS | >= 15.0 |
+| Swift | >= 5.10 |
+
+### Changes
+
+- Fix a crash impacting Layer customers.
+
 ## LinkKit 7.2.0 - 2026-09-22
 ### Requirements
 
