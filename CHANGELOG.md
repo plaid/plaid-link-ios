@@ -1,5 +1,18 @@
 # RELEASES
 
+## LinkKit 7.2.2 - 2026-10-14
+### Requirements
+
+| Name | Version |
+|------|---------|
+| Xcode | >= 16.1.0 |
+| iOS | >= 15.0 |
+| Swift | >= 5.10 |
+
+### Changes
+
+- Fix Link opening at the size the window had when the session was created, when presented with `open(using: .viewController)` or a custom presentation handler that calls `present`. Unfolding an iPhone Duo or resizing an iPad multitasking window before opening Link left it in a column at the old width. SwiftUI integrations using `sheet()` were not affected.
+
 ## LinkKit 7.2.1 - 2026-10-07
 ### Requirements
 
