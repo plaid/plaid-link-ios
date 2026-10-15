@@ -20,13 +20,13 @@ Alternatively, you can add the following dependency to your `Package.swift` file
 .package(url: "https://github.com/plaid/plaid-link-ios-spm.git", from: "7.0.0")
 ```
 
-**Recommendation**: Use the [plaid-link-spm](https://github.com/plaid/plaid-link-ios-spm) repo instead of the main [plaid-link-ios](https://github.com/plaid/plaid-link-ios) repository. The main repository with full git history is very large (~1 GB), and Swift Package Manager always downloads the full repository with all git history. This [plaid-link-ios-spm](https://github.com/plaid/plaid-link-ios-spm) repository is much smaller (less than 500kb), making the download faster.
+**Recommendation**: Use the [plaid-link-ios-spm](https://github.com/plaid/plaid-link-ios-spm) repo instead of the main [plaid-link-ios](https://github.com/plaid/plaid-link-ios) repository. The main repository with full git history is very large (~1 GB), and Swift Package Manager always downloads the full repository with all git history. This [plaid-link-ios-spm](https://github.com/plaid/plaid-link-ios-spm) repository is much smaller (less than 500kb), making the download faster.
 
-This [plaid-link-spm](https://github.com/plaid/plaid-link-ios-spm) repository just contains a pointer to the precompiled XCFramework included in the [latest plaid-link-ios release](https://github.com/plaid/plaid-link-ios/releases/latest) (typically ~15MB). Since [plaid-link-ios](https://github.com/plaid/plaid-link-ios) doesn't provide source code it's strongly recommended that users depend on [plaid-link-ios-spm](https://github.com/plaid/plaid-link-ios-spm) instead.
+This [plaid-link-ios-spm](https://github.com/plaid/plaid-link-ios-spm) repository just contains a pointer to the precompiled XCFramework included in the [latest plaid-link-ios release](https://github.com/plaid/plaid-link-ios/releases/latest) (typically ~7MB). Since [plaid-link-ios](https://github.com/plaid/plaid-link-ios) doesn't provide source code it's strongly recommended that users depend on [plaid-link-ios-spm](https://github.com/plaid/plaid-link-ios-spm) instead.
 
 Objective-C integrations should use the `LinkKitObjC` product from [plaid-link-ios-spm](https://github.com/plaid/plaid-link-ios-spm) and import the `LinkKitObjC` module.
 
-**Validation**: When using plaid-link-ios-spm, the downloaded `LinkKit.xframework` isn't visible in the project navigator. To validate the authenticity of a plaid-link-ios-spm package, you can confirm that the `Package.swift` file references a binary XCFramework from https://github.com/plaid/plaid-link-ios/releases.
+**Validation**: When using plaid-link-ios-spm, the downloaded `LinkKit.xcframework` isn't visible in the project navigator. To validate the authenticity of a plaid-link-ios-spm package, you can confirm that the `Package.swift` file references a binary XCFramework from https://github.com/plaid/plaid-link-ios/releases.
 
 ## Contents
 
