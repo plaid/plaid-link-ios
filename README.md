@@ -5,7 +5,7 @@
 
 ## Installing LinkKit
 
-LinkKit supports [Swift Package Manager](https://www.swift.org/package-manager/) and [CocoaPods](https://cocoapods.org/).
+LinkKit supports [Swift Package Manager](https://www.swift.org/package-manager/). CocoaPods is no longer supported as of 7.0.0; the last version published to [CocoaPods](https://cocoapods.org/) is 6.5.1.
 
 ### Swift Package Manager
 
@@ -30,8 +30,8 @@ Objective-C integrations should use the `LinkKitObjC` product from [plaid-link-i
 
 ## Contents
 
-📱 This repository contains multiple sample applications (requiring Xcode 14) that demonstrate integration and use of Plaid Link for iOS.
-* [Swift+UIKit](LinkDemo-Swift)
+📱 This repository contains multiple sample applications (requiring Xcode 16.1 or later) that demonstrate integration and use of Plaid Link for iOS.
+* [Swift+UIKit](LinkDemo-UIKit)
 * [Swift+SwiftUI](LinkDemo-SwiftUI)
 * [Objective-C](https://github.com/plaid/plaid-link-ios-spm/tree/master/LinkDemo-ObjC)
 
