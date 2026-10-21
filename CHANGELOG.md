@@ -1,5 +1,20 @@
 # RELEASES
 
+## 2026-10-21
+### Requirements
+
+| Name | Version |
+|------|---------|
+| Xcode | >= 16.1.0 |
+| iOS | >= 14.0 |
+
+### Changes
+
+- Fix the Layer background gradient covering only part of the screen when Link's view changes size after it loads, such as on iPhone Duo or after rotation.
+- Security Improvements
+
+
+
 ## LinkKit 6.5.4 - 2026-10-14
 ### Requirements
 
