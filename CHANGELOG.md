@@ -1,5 +1,20 @@
 # RELEASES
 
+## LinkKit 7.2.3 - 2026-10-21
+### Requirements
+
+| Name | Version |
+|------|---------|
+| Xcode | >= 16.1.0 |
+| iOS | >= 15.0 |
+| Swift | >= 5.10 |
+
+### Changes
+
+- Fix a crash (`EXC_BAD_ACCESS`) that could occur shortly after the app returned to the foreground while Link was open, such as after OAuth. [Issue](https://github.com/plaid/plaid-link-ios/issues/100)
+- Fix the Layer background gradient covering only part of the screen when Link's view changes size after it loads, such as on iPhone Duo or after rotation.
+- Security Updates
+
 ## LinkKit 7.2.2 - 2026-10-14
 ### Requirements
 
