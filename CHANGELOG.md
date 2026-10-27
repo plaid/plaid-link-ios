@@ -1,6 +1,18 @@
 # RELEASES
 
-## 2026-10-21
+## LinkKit 6.5.6 - 2026-10-27
+### Requirements
+
+| Name | Version |
+|------|---------|
+| Xcode | >= 16.1.0 |
+| iOS | >= 14.0 |
+
+### Changes
+
+– Fix a memory leak.
+
+## LinkKit 6.5.5 - 2026-10-21
 ### Requirements
 
 | Name | Version |
