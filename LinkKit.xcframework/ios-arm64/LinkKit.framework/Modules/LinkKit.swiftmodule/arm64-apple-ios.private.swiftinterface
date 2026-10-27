@@ -487,6 +487,7 @@ public enum ViewName : Swift.CustomStringConvertible, Swift.Codable, Swift.Equat
   case instantMicrodepositVerification
   case sameDayMicrodepositVerification
   case transferStatusCheck
+  case institutionLoginInstructions
   case unknown(Swift.String)
   public static var allCases: [LinkKit.ViewName] {
     get
