@@ -1,5 +1,18 @@
 # RELEASES
 
+## LinkKit 7.3.1 - 2026-10-30
+### Requirements
+
+| Name | Version |
+|------|---------|
+| Xcode | >= 16.1.0 |
+| iOS | >= 15.0 |
+| Swift | >= 5.10 |
+
+### Changes
+
+- Logging Updates.
+
 ## LinkKit 7.3.0 - 2026-10-27
 ### Requirements
 
