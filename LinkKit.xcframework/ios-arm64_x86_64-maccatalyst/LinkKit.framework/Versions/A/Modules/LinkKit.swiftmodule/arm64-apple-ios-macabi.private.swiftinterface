@@ -635,6 +635,12 @@ public enum FinanceKitError : Foundation.LocalizedError {
   case permissionError(message: Swift.String)
   case linkApiError(message: Swift.String)
   case permissionAccessError(message: Swift.String)
+  case permissionNotRequested(message: Swift.String)
+  case dataUnavailable(message: Swift.String)
+  case noAccounts(message: Swift.String)
+  case syncFailed(errorType: Swift.String, errorCode: Swift.String, message: Swift.String)
+  case channelClosed(message: Swift.String)
+  case syncTimedOut(message: Swift.String)
   case unknown(error: any Swift.Error)
   public var errorDescription: Swift.String? {
     get

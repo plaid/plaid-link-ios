@@ -1,5 +1,35 @@
 # RELEASES
 
+## LinkKit 6.5.8 - 2026-11-10
+### Requirements
+
+| Name | Version |
+|------|---------|
+| Xcode | >= 16.1.0 |
+| iOS | >= 14.0 |
+
+### Changes
+
+– FinanceKit: a host-app sync that the server ends because Apple shared no accounts with your app now fails with FinanceKitError.noAccounts instead of completing successfully.
+
+– FinanceKit: any other failure the server reports at the end of a sync is delivered as FinanceKitError.syncFailed(errorType:errorCode:message:). In Objective-C the NSError's userInfo carries the type and code under kPLKFinanceKitErrorTypeKey and kPLKFinanceKitErrorCodeKey.
+
+– FinanceKit: a host-app sync that was closed by the server, or timed out without the server finishing it, now fails with FinanceKitError.channelClosed or FinanceKitError.syncTimedOut. Previously its completion handler was never called.
+
+– FinanceKit: a host-app sync holds an iOS background task once any permission prompt is answered, so a sync the user started on screen keeps running for the roughly 30 seconds iOS grants after they leave your app. If iOS is about to suspend your app before the sync finishes, the sync fails with FinanceKitError.syncTimedOut; start a new sync when the app is active again.
+
+– FinanceKit: the SDK checks FinanceStore.isDataAvailable before any other FinanceKit call, both in Link and in syncs. A device, region or OS version that cannot provide Wallet data is reported as FinanceKitError.dataUnavailable instead of a permission error or a crash. A sync on an iPad running your iPhone app in compatibility mode also fails with dataUnavailable, instead of unknown.
+
+– FinanceKit: new PlaidFinanceKit.status() (Objective-C: +[PLKPlaidFinanceKit statusWithCompletion:]) reports whether FinanceKit is unavailable, not yet requested, denied or authorized on this device without prompting the user, so your app can decide whether to offer Apple Card, whether to request authorization, or to send the user to Settings. It needs the same FinanceKit entitlement as sync.
+
+– FinanceKit: a host-app sync started with requestAuthorizationIfNeeded: false on a device where the user was never asked now fails with FinanceKitError.permissionNotRequested instead of permissionAccessError, and permissionAccessError's message says whether the user declined or had denied access earlier. Sandbox apps can exercise permissionNotRequested with SyncBehavior.simulated.
+
+– FinanceKit: a host-app sync in which FinanceKit fails to report an authorization status now fails with FinanceKitError.permissionError instead of unknown.
+
+– FinanceKit: in Objective-C the sync error codes are declared as PLKPlaidFinanceKitError in PLKPlaid.h, so an NSError's code can be compared against named constants such as PLKPlaidFinanceKitErrorNoAccounts.
+
+– FinanceKit: when the user leaves Apple's permission sheet without choosing, Link asks once more instead of treating it as a denial.
+
 ## LinkKit 6.5.7 - 2026-10-29
 ### Requirements
 
